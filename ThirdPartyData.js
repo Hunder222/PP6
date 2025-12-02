@@ -23,7 +23,7 @@ const educationData = [
                 "percent": 17
             }
         ],
-        "unemploymentNewGraduate": 2,
+        "unemploymentNewGraduatePct": 2,
     },
 
     {
@@ -50,7 +50,7 @@ const educationData = [
                 "percent": 7
             }
         ],
-        "unemploymentNewGraduate": 5,
+        "unemploymentNewGraduatePct": 5,
     },
 
     {
@@ -59,6 +59,8 @@ const educationData = [
         "startingSalary": 45.000,
         "averageSalary": 67.000,
         "highestSalary": 70.000,
+        "reasonsForApplying": [],
+        "unemploymentNewGraduatePct": null
     },
 
     {
@@ -85,7 +87,7 @@ const educationData = [
                 "percent": 17
             }
         ],
-        "unemploymentNewGraduate": 5,
+        "unemploymentNewGraduatePct": 5,
     },
 
     {
@@ -112,17 +114,16 @@ const educationData = [
                 "percent": 15
             }
         ],
-        "unemploymentNewGraduate": 8,
+        "unemploymentNewGraduatePct": 8,
     },
 
     {
-
-        "id": "OSYB",
+        "id": "OCYB",
         "name": "Operationel_Cybersikkerhed",
         "startingSalary": null,
         "averageSalary": null,
         "highestSalary": null,
-        "reasonsForApplying": "",
+        "reasonsForApplying": [],
         "unemploymentNewGraduate": null,
     },
 
@@ -150,7 +151,7 @@ const educationData = [
                 "percent": 6
             }
         ],
-        "unemploymentNewGraduate": 6,
+        "unemploymentNewGraduatePct": 6,
     }
 
 
