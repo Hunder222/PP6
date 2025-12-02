@@ -26,6 +26,9 @@ html {
 
     
     @media (max-width: 800px) {
+        font-size: 2vh;
+        scroll-snap-type: y mandatory;
+
         scroll-padding-top: 0;
         scroll-padding-bottom: 10vh;
         margin-top: 0;
@@ -104,6 +107,7 @@ header {
     display: flex;
     flex-direction: column;
     scroll-snap-align: start;
+    scroll-snap-stop: always;
 
     h2 {
         align-self: center;
@@ -188,6 +192,8 @@ footer {
     a {
         color: white;
     }
+
+    
 }
 
 
