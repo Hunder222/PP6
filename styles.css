@@ -73,6 +73,10 @@ header {
     }
 }
 
+.recruit{
+    height: 400px;
+    width: 320px;
+}
 .subSections {
     display: flex;
     min-height: 60vh;
