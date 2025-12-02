@@ -1,18 +1,156 @@
+/*outlines elements, remove '*' to hide. */
 * {
     outline-style: dotted;
     outline-color: red;
 }
+
+
 
 * {
     padding: 0;
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+/* #region header/nav */
+
 nav {
     background-color: blue;
     height: 10vh;
+
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    
 }
 
-section {
-    min-height: 100vh;
+header {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    h1 {
+        align-self: center;
+    }
+    
+    #introText {
+        width: 70vw;
+        align-self: center;
+    }
 }
+
+/* #endregion */
+
+
+
+/* #region section general */
+
+.mainSections {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        align-self: center;
+        margin: 2vh;
+    }
+}
+
+.subSections {
+    display: flex;
+    min-height: 60vh;
+    flex-direction: row;
+    flex-grow: 1;
+
+    div, canvas {
+        align-content: center;
+    }
+
+    canvas {
+        background-color: rgba(79, 108, 255, 0.562);
+        max-width: 60vw;
+        width: 60vw;
+        flex-shrink: 0;
+    }
+
+    .sectionText {
+        width: 90%;
+        justify-self: center;
+    }
+
+    
+
+    @media (max-width: 800px) {
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 10vh;
+
+        canvas {
+            max-width: 90vw;
+            width: 80vw;
+            align-self: center;
+            flex-shrink: 0;
+
+            margin: 10vh;
+        }
+    }
+}
+.subSections.reversed {
+    flex-direction: row-reverse;
+    
+    @media (max-width: 800px) {
+        flex-direction: column;
+        
+    }
+}
+
+
+
+/* #endregion */
+
+
+
+/* #region section specific */
+
+#genderSection canvas {
+    background-color: rgba(255, 79, 217, 0.562);
+}
+
+/* #endregion */
+
+
+
+
+
+
+
+
+
+
+
+
+/* #region ___NAME___ */
+
+
+
+/* #endregion */
+/* #region ___NAME___ */
+
+
+
+/* #endregion */
+/* #region ___NAME___ */
+
+
+
+/* #endregion */

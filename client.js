@@ -1,24 +1,53 @@
-console.log(EKdataset); // dataset from EKDatasetLocal.js imported via index.html
+console.log(EKdataset); // local dataset from EKDatasetLocal.js imported via index.html
 
-// import and DOM
-
-
-
-
-
-// charts init
+////// import and DOM //////
+const subSections = document.querySelectorAll('.subSections');
 
 
 
 
 
-// misc functions
 
 
 
 
 
-// eventlisteners
+////// charts //////
+
+
+
+
+
+
+
+
+
+
+
+////// misc functions //////
+
+// function to reverse every 2nd subsection direction, for zigzag effekt
+subSections.forEach((section, i) => {
+    if (i % 2 !== 0) {
+        section.classList.add('reversed');
+    }
+});
+
+
+
+
+
+
+
+
+
+////// eventlisteners //////
+
+
+
+
+
+
 
 
 
