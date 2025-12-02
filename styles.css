@@ -5,6 +5,7 @@
 }
 
 
+/* #region general */
 
 * {
     padding: 0;
@@ -19,6 +20,8 @@ html {
 
     font-family: 'Courier New', Courier, monospace;
 }
+
+/* #endregion */
 
 
 
@@ -134,6 +137,12 @@ header {
 
 
 
+footer {
+    height: 20vh;
+    scroll-snap-align: end;
+    align-content: center;
+    justify-self: center;
+}
 
 
 
@@ -143,11 +152,6 @@ header {
 
 
 
-/* #region ___NAME___ */
-
-
-
-/* #endregion */
 /* #region ___NAME___ */
 
 
