@@ -40,6 +40,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    scroll-snap-align: start;
 
     h1 {
         align-self: center;
