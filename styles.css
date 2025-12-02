@@ -13,12 +13,39 @@
 }
 
 html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3vh;
     scroll-behavior: smooth;
     scrollbar-width: none;
-    scroll-snap-type: y mandatory;
-    scroll-padding-top: 10vh;
+    scroll-snap-type: y proximity;
 
-    font-family: 'Courier New', Courier, monospace;
+    scroll-padding-top: 10vh;
+    scroll-padding-bottom: 0;
+    margin-top: 10vh;
+    margin-bottom: 0vh;
+
+    
+    @media (max-width: 800px) {
+        scroll-padding-top: 0;
+        scroll-padding-bottom: 10vh;
+        margin-top: 0;
+        margin-bottom: 10vh;
+    }
+}
+
+body {
+    background-color: #1f2837;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: 
+        radial-gradient(circle at top right,#294554,transparent 50%),
+        radial-gradient(circle at top left, #273659, transparent 50%);
+
+    @media (max-width: 800px) {
+        background-image:
+            radial-gradient(circle at bottom right, #294554, transparent 50%),
+            radial-gradient(circle at bottom left, #273659, transparent 50%);
+    }
 }
 
 /* #endregion */
@@ -28,32 +55,43 @@ html {
 /* #region header/nav */
 
 nav {
-    background-color: blue;
+    position: fixed;
+    background-color: hsla(218, 28%, 20%, 1);
+    width: 100vw;
     height: 10vh;
-
-    position: sticky;
     top: 0;
-    z-index: 3;
+    bottom: auto;
+    z-index: 100;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     
+    @media (max-width: 800px) {
+        top: auto;
+        bottom: 0;
+    }
 }
 
 header {
-    height: 90vh;
+    min-height: 90vh;
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
     scroll-snap-align: start;
+    
+    img {
+        height: 50vh;
+        width: auto;
+        padding: 5vh;
+    }
 
-    h1 {
-        align-self: center;
+    p {
+        width: 90vw;
+        padding-bottom: 5vh;
+        color: white;
     }
     
-    #introText {
-        width: 70vw;
-        align-self: center;
-    }
 }
+
 
 /* #endregion */
 
@@ -69,14 +107,13 @@ header {
 
     h2 {
         align-self: center;
-        margin: 2vh;
+        padding: 2vh;
+        color: white;
     }
 }
 
-.recruit{
-    height: 400px;
-    width: 320px;
-}
+
+
 .subSections {
     display: flex;
     min-height: 60vh;
@@ -97,6 +134,7 @@ header {
     .sectionText {
         width: 90%;
         justify-self: center;
+        color: white;
     }
 
     
@@ -146,6 +184,10 @@ footer {
     scroll-snap-align: end;
     align-content: center;
     justify-self: center;
+    
+    a {
+        color: white;
+    }
 }
 
 
