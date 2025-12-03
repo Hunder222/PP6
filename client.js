@@ -86,6 +86,24 @@ let jobChart2 = new Chart(jobChart2Canvas, {
 
 ////// misc functions //////
 
+function getKvotient() {
+    const pipeline = [
+        {
+
+        }
+    ]
+    const queryResult = new mingo.count(pipeline).run(EKdataset);
+
+    const result = queryResult.all ? queryResult.all() : queryResult;
+
+    if (result.length > 0) {
+        const resultObj = result[0].general;
+
+        console.log(resultObj)
+    }
+}
+
+getKvotient()
 
 // function to reverse every 2nd subsection direction, for zigzag effekt
 subSections.forEach((section, i) => {
