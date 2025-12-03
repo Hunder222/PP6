@@ -5,8 +5,7 @@ const mysql = require("mysql2");
 const cors = require("cors");
 const mongoose = require("mongoose"); // MongoDB library
 const EKdataset = require('./EKDatasetLocal'); //local data
-
-
+const env = require('dotenv').config()
 // filesystem
 const path = require('path');
 const fs = require('fs').promises; // promises: for await and async function
@@ -18,15 +17,15 @@ const port = 3000;
 app.use(cors());
 app.use(express.json())
 //app.use(express.static(path.join(__dirname))); // prop not needed
-/*
+
 //SQL database setup (For "third party data")
 const mysqlConnection = mysql.createConnection({
     host: process.env.DB_HOST,
-    user: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
-    database: 'pp6_third_party_data' // TODO
+    user: process.env.DB_USERNAME,
+    password: process.env.DB_PASS,
+    database: process.env.DB_NAME // TODO
 });
-*/
+
 
 // MongoDB database setup (For "Optagelsesdata")
 // Replace 'my_mongo_db' with our actual database name
@@ -38,7 +37,7 @@ mongoose.connect(mongoURI)
     );
 //////// queries ////////
 
-
+const query1 = "SELECT * FROM educations"
 
 
 
@@ -97,6 +96,24 @@ app.get('/students/:id', async(req, res) =>{
         res.json(studentData)
     }
 
+});
+
+
+app.get('/thirdPartyData', async (req, res) => {
+    console.log("Forsøger at hente fra db");
+
+    try {
+        mysqlConnection.query(query1, (error, results) => {
+            if (error) return res.status(500).json({ error: error.message });
+
+            console.log(results)
+            res.send(results);
+
+        });
+
+    } catch (error) {
+        console.log("Kunne ikke hente fra db, henter fra lokal fil");
+    }
 });
 
 
