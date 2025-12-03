@@ -18,9 +18,15 @@ const port = 3000;
 app.use(cors());
 app.use(express.json())
 //app.use(express.static(path.join(__dirname))); // prop not needed
-
-
-
+/*
+//SQL database setup (For "third party data")
+const mysqlConnection = mysql.createConnection({
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: 'pp6_third_party_data' // TODO
+});
+*/
 
 // MongoDB database setup (For "Optagelsesdata")
 // Replace 'my_mongo_db' with our actual database name
