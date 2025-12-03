@@ -95,7 +95,6 @@ app.get('/students/:id', async(req, res) =>{
     }catch{
         const studentData = EKdataset.find(s => s.ID == studentId);
         res.json(studentData)
-        console.log("wtfffff")
     }
 
 });
