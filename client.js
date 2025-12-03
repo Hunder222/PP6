@@ -2,13 +2,12 @@ console.log(EKdataset); // local dataset from EKDatasetLocal.js imported via ind
 
 ////// import and DOM //////
 const subSections = document.querySelectorAll('.subSections');
-const lineChartCanvas = document.querySelectorAll('#genderChart1');
-const pieChartCanvas = document.querySelectorAll('#genderChart2');
-const barChartCanvas = document.querySelectorAll('#genderChart3');
-
-
-
-
+const lineChartCanvas = document.querySelector('#genderChart1');
+const pieChartCanvas = document.querySelector('#genderChart2');
+const barChartCanvas = document.querySelector('#genderChart3');
+const lønChartCanvas = document.querySelector('#salaryChart')
+const jobChart1Canvas = document.querySelector('#jobChart1')
+const jobChart2Canvas = document.querySelector('#jobChart2')
 
 
 ////// charts //////
@@ -43,19 +42,50 @@ let barChart = new Chart(barChartCanvas, {
         datasets: [{
             label: [], // uddannelsesnavn
             data: [], //updateChart
-            backgroundColor: '', //brug chart farver fra docs
+            backgroundColor: '' //brug chart farver fra docs
+        }]
+    }
+})
+
+let lønChart = new Chart(lønChartCanvas, {
+    type: '', //skal jeg høre design team omkring
+    data: {
+        labels: [], //navn på uddannelse
+        datasets: [{
+            label: [], //update chart
+            data: [], //update chart
+            backgroundColor: ''
+        }]
+    }
+})
+
+let jobChart1 = new Chart(jobChart1Canvas, {
+    type: '', //skal jeg høre design team omkring
+    data: {
+        labels: [], //uddannelse
+        datasets: [{
+            label: [], //løngrundlag (måske opdelt i køn)
+            data: [], //update chart
+            backgroundColor: ''
+        }]
+    }
+})
+
+let jobChart2 = new Chart(jobChart2Canvas, {
+    type: '', //skal jeg høre design team omkring
+    data: {
+        labels: [], //uddannelse
+        datasets: [{
+            label: [], //arbejdsløshed (måske opdelt i køn)
+            data: [], //update chart
+            backgroundColor: ''
         }]
     }
 })
 
 
-
-
-
-
-
-
 ////// misc functions //////
+
 
 // function to reverse every 2nd subsection direction, for zigzag effekt
 subSections.forEach((section, i) => {
@@ -63,13 +93,6 @@ subSections.forEach((section, i) => {
         section.classList.add('reversed');
     }
 });
-
-
-
-
-
-
-
 
 
 ////// eventlisteners //////
