@@ -48,7 +48,7 @@ let barChart = new Chart(barChartCanvas, {
 })
 
 let lønChart = new Chart(lønChartCanvas, {
-    type: '', //skal jeg høre design team omkring
+    type: 'bar', //skal jeg høre design team omkring
     data: {
         labels: [], //navn på uddannelse
         datasets: [{
@@ -60,24 +60,30 @@ let lønChart = new Chart(lønChartCanvas, {
 })
 
 let jobChart1 = new Chart(jobChart1Canvas, {
-    type: '', //skal jeg høre design team omkring
+    type: 'bar',
     data: {
         labels: [], //uddannelse
         datasets: [{
             label: [], //løngrundlag (måske opdelt i køn)
-            data: [], //update chart
+            data: [],
+            options: {
+                indexAxis: 'y'
+            }, //update chart
             backgroundColor: ''
         }]
     }
 })
 
 let jobChart2 = new Chart(jobChart2Canvas, {
-    type: '', //skal jeg høre design team omkring
+    type: 'bar',
     data: {
         labels: [], //uddannelse
         datasets: [{
             label: [], //arbejdsløshed (måske opdelt i køn)
-            data: [], //update chart
+            data: [],
+            options: {
+                indexAxis: 'y'
+            }, //update chart
             backgroundColor: ''
         }]
     }
@@ -92,7 +98,7 @@ function getKvotient() {
 
         }
     ]
-    const queryResult = new mingo.count(pipeline).run(EKdataset);
+    const queryResult = new mingo.Count(pipeline).run(EKdataset);
 
     const result = queryResult.all ? queryResult.all() : queryResult;
 
