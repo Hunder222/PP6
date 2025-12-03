@@ -1,8 +1,8 @@
 /*outlines elements, remove '*' to hide. */
-* {
+/* {
     outline-style: dotted;
     outline-color: red;
-}
+}*/
 
 
 /* #region general */
@@ -200,14 +200,56 @@ footer {
 
 
 
+#knapperne{
+
+outline: none;
+display: flex;
+    list-style-type: none;
+
+margin-left: 4vw;
+    width: 90vw;
+    align-self:center ;
+    justify-content: space-between;
+    margin-top: 3vh;
+
+}
+
+
+button{
+
+    width: 10vw;
+    height: 4vh;
+    border-radius: 10vh;
+
+background-color: rgb(191, 248, 176);
+color: rgb(8, 6, 56);
+    font-size: 60%;
+    font-weight: bold;
+    a{
+        color: rgb(8, 6, 56);
+        text-decoration: none;
+    }
 
 /* #region ___NAME___ */
 
+}
 
+#divløn{
 
 /* #endregion */
 /* #region ___NAME___ */
 
+    display: grid;
+height: 5vh;
+    width: 10vw;
+    justify-content: center;
+#lønmenu{
+  background-color:rgb(191, 248, 176) ;
+    color: rgb(8, 6, 56);
+    font-weight: bold;
+}
+
+}
 
 
 /* #endregion */

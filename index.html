@@ -8,8 +8,38 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
+    <nav id="navbar">
         <!--4 buttons: Løn, Kønsfordeling, Jobstart, Arbejdsløshed-->
+
+
+
+
+
+        <ul id="knapperne">
+
+            <li>
+                <button ID="Btmløn" > <a href="#salarySection"> Løn </a></button>
+            </li>
+
+            <li>
+                <button ID="BtmKønsfordeling">  <a href="#genderSection"> Kønsfordeling </a></button>
+            </li>
+
+
+            <li>
+                <button ID="BtmJobstart"> <a href="#jobSection"> Jobstart </a></button>
+            </li>
+
+
+            <li>
+                <button ID="BtmArbejdsløshed"><a href="#joblessSection"> Arbejdsløshed </a> </button>
+            </li>
+
+
+        </ul>
+
+
+
     </nav>
     <main>
         <header>
@@ -22,7 +52,17 @@
         
         <section id="salarySection" class="mainSections">
             <h2>Løn</h2>
-    
+            <div id="divløn">
+    <label for ="lønmenu"> </label>
+            <select name="løn" id="lønmenu">
+                <option value="gennemsnit"> Gennemsnit</option>
+                <option value="max"> max</option>
+                <option value="min"> min</option>
+            </select>
+            </div>
+
+
+
             <section class="subSections">
                 <canvas id="salaryChart"></canvas>
                 <div>
