@@ -57,7 +57,6 @@ app.get('/Students', async (req, res) => {
     }
 });
 /*
-* count hvor mange der er på hver uddannelse
 * hvor mange kvinder og mænd på hver uddannelse  TODO
 *  */
 
@@ -97,11 +96,13 @@ app.get('/uddannelses_kvotienter', async (req, res) => {
         const result = Object.values(quotients).map(edu => ({
             INSTITUTIONSAKT_BETEGNELSE: edu.INSTITUTIONSAKT_BETEGNELSE,
             averageQuotient: edu.count > 0 ? (edu.totalQuotient / edu.count).toFixed(2) : "0.00"
-        }));
+        })).sort((a, b) =>
+            a.INSTITUTIONSAKT_BETEGNELSE.localeCompare(b.INSTITUTIONSAKT_BETEGNELSE)
+        );
 
         res.json(result);
     } catch (error) {
-        res.status(500).json({ error: error.message });
+        res.status(500).json({ msg: error.message });
     }
 });
 
@@ -159,14 +160,17 @@ app.get('/uddannelses_kvotienter_opdelt', async (req, res) => {
             femaleAverageQuotient: edu.female.count > 0 ? (edu.female.totalQuotient / edu.female.count).toFixed(2) : "0.00",
             maleCount: edu.male.count,
             femaleCount: edu.female.count
-        }));
+        })).sort((a, b) =>
+            a.INSTITUTIONSAKT_BETEGNELSE.localeCompare(b.INSTITUTIONSAKT_BETEGNELSE)
+        );
 
         res.json(result);
     } catch (error) {
-        res.status(500).json({ error: error.message });
+        res.status(500).json({ msg: error.message });
     }
 });
 
+// endpoint til at få data om antal studerende på hver uddannelse
 app.get('/antal_per_uddannelse', async(req,res) =>{
     try{
         const allowedEducations = [
@@ -193,11 +197,13 @@ app.get('/antal_per_uddannelse', async(req,res) =>{
 
         });
         // har lavet det til object da jeg synes der formaterer det pænerer
-        const result = Object.values(educations);
+        const result = Object.values(educations).sort((a, b) =>
+            a.INSTITUTIONSAKT_BETEGNELSE.localeCompare(b.INSTITUTIONSAKT_BETEGNELSE)
+        );
         res.json(result);
 
     }catch(error){
-
+        res.status(500).json({ msg: error.message });
     }
 
 
