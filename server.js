@@ -4,7 +4,6 @@ const express = require("express");
 const mysql = require("mysql2");
 const cors = require("cors");
 const mongoose = require("mongoose"); // MongoDB library
-const EKdataset = require('./EKDatasetLocal'); //local data
 const Student = require('./mongoModels/student.model.js');
 const env = require('dotenv').config()
 // filesystem
@@ -49,7 +48,7 @@ app.get('/Students', async (req, res) => {
     console.log("Forsøger at hente fra db");
     try {
         // Query MongoDB
-        const students = await Student.find().select('KOEN INSTITUTIONSAKT_BETEGNELSE BETEGNELSE_A911 EKSAMENSTYPE_NAVN KVOTIENT Alder' );
+        const students = await Student.find().select('Gender INSTITUTIONSAKT_BETEGNELSE BETEGNELSE_A911 EKSAMENSTYPE_NAVN KVOTIENT Alder' );
         res.status(200).json(students);
 
     } catch (error) {
@@ -57,13 +56,11 @@ app.get('/Students', async (req, res) => {
 
     }
 });
-/* kvotienter på alle uddanelser
-kvotienter på alle uddannelser som også fordeler kvotient i mænd og kvinder
-* count hvor mange der er på hver uddannelse
-* hvor mange kvinder og mænd på hver uddannelse
+/*
+* hvor mange kvinder og mænd på hver uddannelse  TODO
 *  */
 
-// 1. Kvotienter på alle uddannelser
+// endpoint til at få data om uddannelses kvotienter op delt pr. uddannelse
 app.get('/uddannelses_kvotienter', async (req, res) => {
     try {
         const allowedEducations = [
@@ -99,14 +96,118 @@ app.get('/uddannelses_kvotienter', async (req, res) => {
         const result = Object.values(quotients).map(edu => ({
             INSTITUTIONSAKT_BETEGNELSE: edu.INSTITUTIONSAKT_BETEGNELSE,
             averageQuotient: edu.count > 0 ? (edu.totalQuotient / edu.count).toFixed(2) : "0.00"
-        }));
+        })).sort((a, b) =>
+            a.INSTITUTIONSAKT_BETEGNELSE.localeCompare(b.INSTITUTIONSAKT_BETEGNELSE)
+        );
 
         res.json(result);
     } catch (error) {
-        res.status(500).json({ error: error.message });
+        res.status(500).json({ msg: error.message });
     }
 });
 
+
+// endpoint til at få data om uddannelses kvotienter op delt pr. uddannelse og så yderligere i køn
+app.get('/uddannelses_kvotienter_opdelt', async (req, res) => {
+    try {
+        const allowedEducations = [
+            'Datamatiker',
+            'PB i IT-arkitektur',
+            'IT-teknolog',
+            'Multimediedesigner',
+            'Økonomi og it',
+        ];
+
+        const students = await Student.find({
+            INSTITUTIONSAKT_BETEGNELSE: { $in: allowedEducations }
+        });
+
+        // DEBUG: Log en enkelt student for at se alle feltnavne
+        if (students.length > 0) {
+            console.log("Første student:", students[0]);
+            console.log("Køn værdi:", students[0].Gender);
+        }
+
+        const quotients = {};
+
+        students.forEach(student => {
+            if (!quotients[student.INSTITUTIONSAKT_BETEGNELSE]) {
+                quotients[student.INSTITUTIONSAKT_BETEGNELSE] = {
+                    INSTITUTIONSAKT_BETEGNELSE: student.INSTITUTIONSAKT_BETEGNELSE,
+                    male: { totalQuotient: 0, count: 0 },
+                    female: { totalQuotient: 0, count: 0 }
+                };
+            }
+
+            const kvotient = parseFloat(student.KVOTIENT);
+            if (!isNaN(kvotient)) {
+                console.log("Tjekker køn:", student.Gender, "=== 'Mand'?", student.Gender === 'Mand');
+                console.log("Tjekker køn:", student.Gender, "=== 'Kvinde'?", student.Gender === 'Kvinde');
+                // Brug det korrekte feltnavn: Køn
+                if (student.Gender === 'Mand') {
+                    quotients[student.INSTITUTIONSAKT_BETEGNELSE].male.totalQuotient += kvotient;
+                    quotients[student.INSTITUTIONSAKT_BETEGNELSE].male.count++;
+                } else if (student.Gender === 'Kvinde') {
+                    quotients[student.INSTITUTIONSAKT_BETEGNELSE].female.totalQuotient += kvotient;
+                    quotients[student.INSTITUTIONSAKT_BETEGNELSE].female.count++;
+                }
+            }
+        });
+
+        const result = Object.values(quotients).map(edu => ({
+            INSTITUTIONSAKT_BETEGNELSE: edu.INSTITUTIONSAKT_BETEGNELSE,
+            maleAverageQuotient: edu.male.count > 0 ? (edu.male.totalQuotient / edu.male.count).toFixed(2) : "0.00",
+            femaleAverageQuotient: edu.female.count > 0 ? (edu.female.totalQuotient / edu.female.count).toFixed(2) : "0.00",
+            maleCount: edu.male.count,
+            femaleCount: edu.female.count
+        })).sort((a, b) =>
+            a.INSTITUTIONSAKT_BETEGNELSE.localeCompare(b.INSTITUTIONSAKT_BETEGNELSE)
+        );
+
+        res.json(result);
+    } catch (error) {
+        res.status(500).json({ msg: error.message });
+    }
+});
+
+// endpoint til at få data om antal studerende på hver uddannelse
+app.get('/antal_per_uddannelse', async(req,res) =>{
+    try{
+        const allowedEducations = [
+            'Datamatiker',
+            'PB i IT-arkitektur',
+            'IT-teknolog',
+            'Multimediedesigner',
+            'Økonomi og it',
+        ];
+
+        const students = await Student.find({
+            INSTITUTIONSAKT_BETEGNELSE: {$in: allowedEducations}
+        });
+
+        const educations = {};
+        students.forEach(student => {
+            if(!educations[student.INSTITUTIONSAKT_BETEGNELSE]){
+                educations[student.INSTITUTIONSAKT_BETEGNELSE] = {
+                    INSTITUTIONSAKT_BETEGNELSE: student.INSTITUTIONSAKT_BETEGNELSE,
+                    count: 0
+                };
+            }
+            educations[student.INSTITUTIONSAKT_BETEGNELSE].count ++;
+
+        });
+        // har lavet det til object da jeg synes der formaterer det pænerer
+        const result = Object.values(educations).sort((a, b) =>
+            a.INSTITUTIONSAKT_BETEGNELSE.localeCompare(b.INSTITUTIONSAKT_BETEGNELSE)
+        );
+        res.json(result);
+
+    }catch(error){
+        res.status(500).json({ msg: error.message });
+    }
+
+
+});
 
 // hent udvalgt studerende ud fra id
 app.get('/students/:id', async(req, res) =>{
