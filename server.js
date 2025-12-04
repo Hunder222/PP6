@@ -57,6 +57,56 @@ app.get('/Students', async (req, res) => {
 
     }
 });
+/* kvotienter på alle uddanelser
+kvotienter på alle uddannelser som også fordeler kvotient i mænd og kvinder
+* count hvor mange der er på hver uddannelse
+* hvor mange kvinder og mænd på hver uddannelse
+*  */
+
+// 1. Kvotienter på alle uddannelser
+app.get('/education-quotients', async (req, res) => {
+    try {
+        const allowedEducations = [
+            'Datamatiker',
+            'PB i IT-arkitektur',
+            'IT-teknolog',
+            'Multimediedesigner',
+            'Økonomi og it',
+        ];
+
+        const students = await Student.find({
+            INSTITUTIONSAKT_BETEGNELSE: { $in: allowedEducations }
+        });
+
+        const quotients = {};
+        students.forEach(student => {
+            if (!quotients[student.INSTITUTIONSAKT_BETEGNELSE]) {
+                quotients[student.INSTITUTIONSAKT_BETEGNELSE] = {
+                    INSTITUTIONSAKT_BETEGNELSE: student.INSTITUTIONSAKT_BETEGNELSE,
+                    totalQuotient: 0,
+                    count: 0
+                };
+            }
+
+            // Konverter til number og tjek om det er et gyldigt tal
+            const kvotient = parseFloat(student.KVOTIENT);
+            if (!isNaN(kvotient)) {
+                quotients[student.INSTITUTIONSAKT_BETEGNELSE].totalQuotient += kvotient;
+                quotients[student.INSTITUTIONSAKT_BETEGNELSE].count++;
+            }
+        });
+
+        const result = Object.values(quotients).map(edu => ({
+            INSTITUTIONSAKT_BETEGNELSE: edu.INSTITUTIONSAKT_BETEGNELSE,
+            averageQuotient: edu.count > 0 ? (edu.totalQuotient / edu.count).toFixed(2) : "0.00"
+        }));
+
+        res.json(result);
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+});
+
 
 // hent udvalgt studerende ud fra id
 app.get('/students/:id', async(req, res) =>{
