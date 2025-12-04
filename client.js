@@ -9,6 +9,26 @@ const lønChartCanvas = document.querySelector('#salaryChart')
 const jobChart1Canvas = document.querySelector('#jobChart1')
 const jobChart2Canvas = document.querySelector('#jobChart2')
 
+const queriedData = {
+    educations: {
+        countITArk: 0,
+        countData: 0,
+        countITTek: 0,
+        countMulti: 0,
+        countØko: 0,
+        countCyber: 0,
+        countOPcyber: 0,
+    },
+    educationsKvo: {
+        countITArkKVO: 0,
+        countDataKVO: 0,
+        countITTekKVO: 0,
+        countMultiKVO: 0,
+        countCyberKVO: 0,
+        countOPcyberKVO: 0,
+    }
+}
+
 
 ////// charts //////
 let lineChart = new Chart(lineChartCanvas, {
@@ -92,13 +112,32 @@ let jobChart2 = new Chart(jobChart2Canvas, {
 
 ////// misc functions //////
 
-function getKvotient() {
-    const pipeline = [
-        {
+const pipeline = {
+    $group: {
+        _id: "$INSTITUTIONSAKT_BETEGNELSE",
+        totalCount: {$sum: 1},
+        countITArk: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"]}, 1, 0]}},
+        countData: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]}, 1, 0]}},
+        countITTek: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"]}, 1, 0]}},
+        countMulti: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"]}, 1, 0]}},
+        countØko: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"]}, 1, 0]}},
+        countCyber: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Cybersikkerhed"]}, 1, 0]}},
+        countOPcyber: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Operationel Cybersikkerhed"]}, 1, 0]}},
 
-        }
-    ]
-    const queryResult = new mingo.Count(pipeline).run(EKdataset);
+        countITArkKVO: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"]}, "$KVOTIENT", null]}},
+        countDataKVO: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]}, "$KVOTIENT", null]}},
+        countITTekKVO: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"]}, "$KVOTIENT", null]}},
+        countMultiKVO: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"]}, "$KVOTIENT", null]}},
+        countØkoKVO: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"]}, "$KVOTIENT", null]}},
+        countCyberKVO: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Cybersikkerhed"]}, "$KVOTIENT", null]}},
+        countOPcyberKVO: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Operationel Cybersikkerhed"]}, "$KVOTIENT", null]}},
+    }
+
+}
+
+function getKvotient() {
+
+    const queryResult = new mingo.Aggregator(pipeline).run(EKdataset);
 
     const result = queryResult.all ? queryResult.all() : queryResult;
 
@@ -110,6 +149,20 @@ function getKvotient() {
 }
 
 getKvotient()
+
+function showKvotient() {
+    lineChart.data.datasets[0].data = queriedData.educationsKvo.countITArkKVO
+    lineChart.data.datasets[0].data = queriedData.educationsKvo.countDataKVO
+    lineChart.data.datasets[0].data = queriedData.educationsKvo.countITTekKVO
+    lineChart.data.datasets[0].data = queriedData.educationsKvo.countMultiKVO
+    lineChart.data.datasets[0].data = queriedData.educationsKvo.countØkoKVO
+    lineChart.data.datasets[0].data = queriedData.educationsKvo.countCyberKVO
+    lineChart.data.datasets[0].data = queriedData.educationsKvo.countOPcyberKVO
+
+    lineChart.update()
+}
+
+showKvotient()
 
 // function to reverse every 2nd subsection direction, for zigzag effekt
 subSections.forEach((section, i) => {
