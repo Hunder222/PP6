@@ -5,6 +5,7 @@ const mysql = require("mysql2");
 const cors = require("cors");
 const mongoose = require("mongoose"); // MongoDB library
 const EKdataset = require('./EKDatasetLocal'); //local data
+const Student = require('./mongoModels/student.model.js');
 const env = require('dotenv').config()
 // filesystem
 const path = require('path');
@@ -39,27 +40,7 @@ const query1 = "SELECT * FROM educations"
 
 //////// endpoints ////////
 
-const studentSchema = new mongoose.Schema({
-    ID: { type: Number, required: true },
-    KOEN: { type: String, required: true },
-    Bopæl_POSTDISTRIKT: { type: String, required: true },
-    Statsborgerskab: { type: String, required: true },
-    INSTITUTIONSAKTIVITET: { type: Number, required: true },
-    INSTITUTIONSAKT_BETEGNELSE: { type: String, required: true },
-    KOT_OPTAGELSESOMRADENR: { type: Number, required: true },
-    BETEGNELSE_A911: { type: String, required: true },
-    OPTAG: { type: String, required: true },
-    EKSAMENSTYPE_NAVN: { type: String, required: true },
-    EKSAMENSAR: { type: Number, required: true },
-    KVOTIENT: { type: Number, required: true },
-    EKS_LAND_NAVN: { type: String, required: true },
-    "Søgt som prioritet 1": { type: String, required: true },
-    Alder: { type: Number, required: true },
-    "Adgangsgivende skole navn": { type: String, required: true }
-});
 
-
-const Student = mongoose.model('student', studentSchema);
 
 
 
@@ -72,9 +53,8 @@ app.get('/Students', async (req, res) => {
         res.status(200).json(students);
 
     } catch (error) {
-        console.log("Kunne ikke hente fra db, henter fra lokal fil");
+        res.status(500).json({msg: error.message});
 
-        res.json(EKdataset);
     }
 });
 
@@ -82,11 +62,15 @@ app.get('/Students', async (req, res) => {
 app.get('/students/:id', async(req, res) =>{
     const studentId = req.params.id;
     try{
-        const studentData = await student.findOne(s => s.ID == studentId); // fx søg på MongoDB ID
+
+        const studentData = await Student.findOne({ ID: studentId }).select('KOEN INSTITUTIONSAKT_BETEGNELSE BETEGNELSE_A911 EKSAMENSTYPE_NAVN KVOTIENT Alder' );// fx søg på MongoDB ID
+        console.log(studentData)
+        if (!studentData) {
+            return res.status(404).json({ message: "Student ikke fundet" });
+        }
         res.json(studentData);
-    }catch{
-        const studentData = EKdataset.find(s => s.ID == studentId);
-        res.json(studentData)
+    }catch(error){
+        res.status(500).json({msg: error.message});
     }
 
 });
