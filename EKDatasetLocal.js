@@ -4,7 +4,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f189"
         },
         "ID": 1,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -25,7 +25,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f18a"
         },
         "ID": 2,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ballerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -46,7 +46,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f18b"
         },
         "ID": 3,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Birkerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -67,7 +67,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f18c"
         },
         "ID": 4,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hårlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -88,7 +88,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f18d"
         },
         "ID": 5,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -109,7 +109,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f18e"
         },
         "ID": 6,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ballerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -130,7 +130,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f18f"
         },
         "ID": 7,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -151,7 +151,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f190"
         },
         "ID": 8,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -172,7 +172,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f191"
         },
         "ID": 9,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -193,7 +193,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f192"
         },
         "ID": 10,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hillerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -214,7 +214,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f193"
         },
         "ID": 11,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Malmø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -235,7 +235,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f194"
         },
         "ID": 12,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederikssund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -256,7 +256,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f195"
         },
         "ID": 13,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vordingborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -277,7 +277,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f196"
         },
         "ID": 14,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -298,7 +298,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f197"
         },
         "ID": 15,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hedehusene",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -319,7 +319,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f198"
         },
         "ID": 16,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -340,7 +340,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f199"
         },
         "ID": 17,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -361,7 +361,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f19a"
         },
         "ID": 18,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -382,7 +382,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f19b"
         },
         "ID": 19,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -403,7 +403,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f19c"
         },
         "ID": 20,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -424,7 +424,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f19d"
         },
         "ID": 21,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Charlottenlund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -445,7 +445,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f19e"
         },
         "ID": 22,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Tisvildeleje",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -466,7 +466,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f19f"
         },
         "ID": 23,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Helsingør",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -487,7 +487,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1a0"
         },
         "ID": 24,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Jyllinge",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -508,7 +508,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1a1"
         },
         "ID": 25,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -529,7 +529,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1a2"
         },
         "ID": 26,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -550,7 +550,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1a3"
         },
         "ID": 27,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -571,7 +571,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1a4"
         },
         "ID": 28,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -591,7 +591,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1a5"
         },
         "ID": 29,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -612,7 +612,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1a6"
         },
         "ID": 30,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Roskilde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -633,7 +633,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1a7"
         },
         "ID": 31,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -654,7 +654,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1a8"
         },
         "ID": 32,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -675,7 +675,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1a9"
         },
         "ID": 33,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Roskilde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4065,
@@ -695,7 +695,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1aa"
         },
         "ID": 34,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -716,7 +716,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1ab"
         },
         "ID": 35,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -737,7 +737,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1ac"
         },
         "ID": 36,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -758,7 +758,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1ad"
         },
         "ID": 37,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -779,7 +779,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1ae"
         },
         "ID": 38,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -800,7 +800,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1af"
         },
         "ID": 39,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -821,7 +821,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1b0"
         },
         "ID": 40,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -842,7 +842,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1b1"
         },
         "ID": 41,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -863,7 +863,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1b2"
         },
         "ID": 42,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brøndby Strand",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -884,7 +884,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1b3"
         },
         "ID": 43,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -905,7 +905,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1b4"
         },
         "ID": 44,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -926,7 +926,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1b5"
         },
         "ID": 45,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -947,7 +947,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1b6"
         },
         "ID": 46,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -968,7 +968,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1b7"
         },
         "ID": 47,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -989,7 +989,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1b8"
         },
         "ID": 48,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1010,7 +1010,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1b9"
         },
         "ID": 49,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1031,7 +1031,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1ba"
         },
         "ID": 50,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Dyssegård ",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1052,7 +1052,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1bb"
         },
         "ID": 51,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hillerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1073,7 +1073,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1bc"
         },
         "ID": 52,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1094,7 +1094,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1bd"
         },
         "ID": 53,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vallensbæk",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1115,7 +1115,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1be"
         },
         "ID": 54,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Smørum",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1136,7 +1136,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1bf"
         },
         "ID": 55,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Roskilde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1157,7 +1157,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1c0"
         },
         "ID": 56,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Greve",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1178,7 +1178,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1c1"
         },
         "ID": 57,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Greve",
         "Statsborgerskab": "Sverige",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1199,7 +1199,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1c2"
         },
         "ID": 58,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1220,7 +1220,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1c3"
         },
         "ID": 59,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1241,7 +1241,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1c4"
         },
         "ID": 60,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1262,7 +1262,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1c5"
         },
         "ID": 61,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1283,7 +1283,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1c6"
         },
         "ID": 62,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Dragør",
         "Statsborgerskab": "Syrien",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1304,7 +1304,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1c7"
         },
         "ID": 63,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1325,7 +1325,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1c8"
         },
         "ID": 64,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1346,7 +1346,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1c9"
         },
         "ID": 65,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1367,7 +1367,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1ca"
         },
         "ID": 66,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Storbritannien",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1388,7 +1388,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1cb"
         },
         "ID": 67,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1409,7 +1409,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1cc"
         },
         "ID": 68,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1430,7 +1430,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1cd"
         },
         "ID": 69,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1451,7 +1451,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1ce"
         },
         "ID": 70,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brøndby Strand",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1472,7 +1472,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1cf"
         },
         "ID": 71,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1493,7 +1493,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1d0"
         },
         "ID": 72,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1514,7 +1514,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1d1"
         },
         "ID": 73,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Holbæk",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1535,7 +1535,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1d2"
         },
         "ID": 74,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Storbritannien",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1556,7 +1556,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1d3"
         },
         "ID": 75,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1577,7 +1577,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1d4"
         },
         "ID": 76,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1598,7 +1598,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1d5"
         },
         "ID": 77,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1619,7 +1619,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1d6"
         },
         "ID": 78,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Lyngby",
         "Statsborgerskab": "Bulgarien",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1640,7 +1640,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1d7"
         },
         "ID": 79,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Bagsværd",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1661,7 +1661,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1d8"
         },
         "ID": 80,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1682,7 +1682,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1d9"
         },
         "ID": 81,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Allerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1703,7 +1703,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1da"
         },
         "ID": 82,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Espergærde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1724,7 +1724,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1db"
         },
         "ID": 83,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederikssund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1745,7 +1745,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1dc"
         },
         "ID": 84,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1765,7 +1765,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1dd"
         },
         "ID": 85,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1786,7 +1786,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1de"
         },
         "ID": 86,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1807,7 +1807,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1df"
         },
         "ID": 87,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1828,7 +1828,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1e0"
         },
         "ID": 88,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1849,7 +1849,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1e1"
         },
         "ID": 89,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hedehusene",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1870,7 +1870,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1e2"
         },
         "ID": 90,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ballerup",
         "Statsborgerskab": "Makedonien",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1891,7 +1891,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1e3"
         },
         "ID": 91,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1911,7 +1911,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1e4"
         },
         "ID": 92,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1932,7 +1932,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1e5"
         },
         "ID": 93,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vedbæk",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -1953,7 +1953,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1e6"
         },
         "ID": 94,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -1974,7 +1974,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1e7"
         },
         "ID": 95,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -1995,7 +1995,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1e8"
         },
         "ID": 96,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Odense C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -2016,7 +2016,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1e9"
         },
         "ID": 97,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Odense C",
         "Statsborgerskab": "Afghanistan",
         "INSTITUTIONSAKTIVITET": 227,
@@ -2037,7 +2037,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1ea"
         },
         "ID": 98,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -2058,7 +2058,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1eb"
         },
         "ID": 99,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Roskilde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -2079,7 +2079,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1ec"
         },
         "ID": 100,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Helsingør",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -2100,7 +2100,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1ed"
         },
         "ID": 101,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brøndby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -2120,7 +2120,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1ee"
         },
         "ID": 102,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -2141,7 +2141,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1ef"
         },
         "ID": 103,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -2162,7 +2162,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1f0"
         },
         "ID": 104,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -2183,7 +2183,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1f1"
         },
         "ID": 105,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -2204,7 +2204,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1f2"
         },
         "ID": 106,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -2225,7 +2225,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1f3"
         },
         "ID": 107,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Holme-Olstrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -2246,7 +2246,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1f4"
         },
         "ID": 108,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Roskilde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -2267,7 +2267,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1f5"
         },
         "ID": 109,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -2288,7 +2288,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1f6"
         },
         "ID": 110,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -2309,7 +2309,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1f7"
         },
         "ID": 111,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Holstebro",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -2330,7 +2330,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1f8"
         },
         "ID": 112,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Greve",
         "Statsborgerskab": "Statsløs",
         "INSTITUTIONSAKTIVITET": 227,
@@ -2351,7 +2351,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1f9"
         },
         "ID": 113,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ølsted",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -2372,7 +2372,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1fa"
         },
         "ID": 114,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Roskilde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -2393,7 +2393,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1fb"
         },
         "ID": 115,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -2414,7 +2414,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1fc"
         },
         "ID": 116,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ballerup",
         "Statsborgerskab": "Storbritannien",
         "INSTITUTIONSAKTIVITET": 227,
@@ -2435,7 +2435,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1fd"
         },
         "ID": 117,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2456,7 +2456,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1fe"
         },
         "ID": 118,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2477,7 +2477,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f1ff"
         },
         "ID": 119,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2498,7 +2498,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f200"
         },
         "ID": 120,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2519,7 +2519,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f201"
         },
         "ID": 121,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2540,7 +2540,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f202"
         },
         "ID": 122,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Norge",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2561,7 +2561,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f203"
         },
         "ID": 123,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2582,7 +2582,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f204"
         },
         "ID": 124,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2603,7 +2603,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f205"
         },
         "ID": 125,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2624,7 +2624,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f206"
         },
         "ID": 126,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2645,7 +2645,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f207"
         },
         "ID": 127,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Greve",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2666,7 +2666,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f208"
         },
         "ID": 128,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2687,7 +2687,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f209"
         },
         "ID": 129,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2708,7 +2708,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f20a"
         },
         "ID": 130,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hørsholm",
         "Statsborgerskab": "Thailand",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2729,7 +2729,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f20b"
         },
         "ID": 131,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Gentofte",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2750,7 +2750,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f20c"
         },
         "ID": 132,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2771,7 +2771,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f20d"
         },
         "ID": 133,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2792,7 +2792,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f20e"
         },
         "ID": 134,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2813,7 +2813,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f20f"
         },
         "ID": 135,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2834,7 +2834,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f210"
         },
         "ID": 136,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Lyngby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2855,7 +2855,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f211"
         },
         "ID": 137,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Lyngby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2876,7 +2876,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f212"
         },
         "ID": 138,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2897,7 +2897,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f213"
         },
         "ID": 139,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -2918,7 +2918,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f214"
         },
         "ID": 140,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -2939,7 +2939,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f215"
         },
         "ID": 141,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -2960,7 +2960,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f216"
         },
         "ID": 142,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -2981,7 +2981,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f217"
         },
         "ID": 143,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -3002,7 +3002,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f218"
         },
         "ID": 144,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vordingborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -3023,7 +3023,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f219"
         },
         "ID": 145,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Nivå",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -3044,7 +3044,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f21a"
         },
         "ID": 146,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -3065,7 +3065,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f21b"
         },
         "ID": 147,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -3086,7 +3086,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f21c"
         },
         "ID": 148,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Næstved",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -3107,7 +3107,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f21d"
         },
         "ID": 149,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Holbæk",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -3128,7 +3128,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f21e"
         },
         "ID": 150,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -3149,7 +3149,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f21f"
         },
         "ID": 151,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -3169,7 +3169,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f220"
         },
         "ID": 152,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -3190,7 +3190,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f221"
         },
         "ID": 153,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -3211,7 +3211,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f222"
         },
         "ID": 154,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3232,7 +3232,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f223"
         },
         "ID": 155,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3253,7 +3253,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f224"
         },
         "ID": 156,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Philippinerne",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3274,7 +3274,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f225"
         },
         "ID": 157,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Værløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3295,7 +3295,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f226"
         },
         "ID": 158,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3316,7 +3316,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f227"
         },
         "ID": 159,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3337,7 +3337,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f228"
         },
         "ID": 160,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3358,7 +3358,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f229"
         },
         "ID": 161,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Nærum",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3379,7 +3379,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f22a"
         },
         "ID": 162,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3400,7 +3400,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f22b"
         },
         "ID": 163,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3421,7 +3421,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f22c"
         },
         "ID": 164,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Køge",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3442,7 +3442,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f22d"
         },
         "ID": 165,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3463,7 +3463,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f22e"
         },
         "ID": 166,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hillerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3484,7 +3484,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f22f"
         },
         "ID": 167,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3505,7 +3505,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f230"
         },
         "ID": 168,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3526,7 +3526,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f231"
         },
         "ID": 169,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3547,7 +3547,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f232"
         },
         "ID": 170,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3567,7 +3567,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f233"
         },
         "ID": 171,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3588,7 +3588,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f234"
         },
         "ID": 172,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brøndby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3609,7 +3609,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f235"
         },
         "ID": 173,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Malmø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3630,7 +3630,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f236"
         },
         "ID": 174,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Allerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3651,7 +3651,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f237"
         },
         "ID": 175,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Slagelse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3672,7 +3672,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f238"
         },
         "ID": 176,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3693,7 +3693,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f239"
         },
         "ID": 177,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Roskilde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3714,7 +3714,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f23a"
         },
         "ID": 178,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ringsted",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -3735,7 +3735,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f23b"
         },
         "ID": 179,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -3756,7 +3756,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f23c"
         },
         "ID": 180,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -3777,7 +3777,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f23d"
         },
         "ID": 181,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -3798,7 +3798,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f23e"
         },
         "ID": 182,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brøndby",
         "Statsborgerskab": "Tyrkiet",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -3819,7 +3819,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f23f"
         },
         "ID": 183,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -3840,7 +3840,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f240"
         },
         "ID": 184,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Charlottenlund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -3861,7 +3861,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f241"
         },
         "ID": 185,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ballerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -3882,7 +3882,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f242"
         },
         "ID": 186,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -3903,7 +3903,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f243"
         },
         "ID": 187,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Malmø",
         "Statsborgerskab": "Statsløs",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -3923,7 +3923,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f244"
         },
         "ID": 188,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -3944,7 +3944,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f245"
         },
         "ID": 189,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -3965,7 +3965,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f246"
         },
         "ID": 190,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Kina",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -3986,7 +3986,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f247"
         },
         "ID": 191,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4007,7 +4007,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f248"
         },
         "ID": 192,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4028,7 +4028,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f249"
         },
         "ID": 193,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Tyrkiet",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4049,7 +4049,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f24a"
         },
         "ID": 194,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4070,7 +4070,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f24b"
         },
         "ID": 195,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Nivå",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4091,7 +4091,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f24c"
         },
         "ID": 196,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4112,7 +4112,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f24d"
         },
         "ID": 197,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Norge",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4133,7 +4133,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f24e"
         },
         "ID": 198,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4154,7 +4154,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f24f"
         },
         "ID": 199,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4175,7 +4175,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f250"
         },
         "ID": 200,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4196,7 +4196,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f251"
         },
         "ID": 201,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Philippinerne",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4217,7 +4217,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f252"
         },
         "ID": 202,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4238,7 +4238,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f253"
         },
         "ID": 203,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4259,7 +4259,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f254"
         },
         "ID": 204,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Iran",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4280,7 +4280,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f255"
         },
         "ID": 205,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vedbæk",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4301,7 +4301,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f256"
         },
         "ID": 206,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4322,7 +4322,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f257"
         },
         "ID": 207,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Tyskland",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4343,7 +4343,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f258"
         },
         "ID": 208,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4364,7 +4364,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f259"
         },
         "ID": 209,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4385,7 +4385,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f25a"
         },
         "ID": 210,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4406,7 +4406,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f25b"
         },
         "ID": 211,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Dragør",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4427,7 +4427,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f25c"
         },
         "ID": 212,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brøndby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4448,7 +4448,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f25d"
         },
         "ID": 213,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4469,7 +4469,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f25e"
         },
         "ID": 214,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4490,7 +4490,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f25f"
         },
         "ID": 215,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4511,7 +4511,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f260"
         },
         "ID": 216,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4532,7 +4532,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f261"
         },
         "ID": 217,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4553,7 +4553,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f262"
         },
         "ID": 218,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4574,7 +4574,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f263"
         },
         "ID": 219,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4595,7 +4595,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f264"
         },
         "ID": 220,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4616,7 +4616,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f265"
         },
         "ID": 221,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Charlottenlund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4637,7 +4637,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f266"
         },
         "ID": 222,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4658,7 +4658,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f267"
         },
         "ID": 223,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4679,7 +4679,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f268"
         },
         "ID": 224,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brøndby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4700,7 +4700,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f269"
         },
         "ID": 225,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4721,7 +4721,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f26a"
         },
         "ID": 226,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4742,7 +4742,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f26b"
         },
         "ID": 227,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Mundelstrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4763,7 +4763,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f26c"
         },
         "ID": 228,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -4783,7 +4783,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f26d"
         },
         "ID": 229,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -4804,7 +4804,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f26e"
         },
         "ID": 230,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brøndby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -4825,7 +4825,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f26f"
         },
         "ID": 231,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -4846,7 +4846,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f270"
         },
         "ID": 232,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -4867,7 +4867,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f271"
         },
         "ID": 233,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -4888,7 +4888,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f272"
         },
         "ID": 234,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -4909,7 +4909,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f273"
         },
         "ID": 235,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -4930,7 +4930,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f274"
         },
         "ID": 236,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -4951,7 +4951,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f275"
         },
         "ID": 237,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Køge",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -4972,7 +4972,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f276"
         },
         "ID": 238,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Måløv",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -4993,7 +4993,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f277"
         },
         "ID": 239,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5014,7 +5014,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f278"
         },
         "ID": 240,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5035,7 +5035,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f279"
         },
         "ID": 241,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5056,7 +5056,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f27a"
         },
         "ID": 242,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5077,7 +5077,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f27b"
         },
         "ID": 243,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Virum",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5098,7 +5098,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f27c"
         },
         "ID": 244,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5119,7 +5119,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f27d"
         },
         "ID": 245,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5140,7 +5140,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f27e"
         },
         "ID": 246,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Gentofte",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5161,7 +5161,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f27f"
         },
         "ID": 247,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5182,7 +5182,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f280"
         },
         "ID": 248,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Roskilde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5203,7 +5203,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f281"
         },
         "ID": 249,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5224,7 +5224,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f282"
         },
         "ID": 250,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5245,7 +5245,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f283"
         },
         "ID": 251,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5266,7 +5266,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f284"
         },
         "ID": 252,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Helsingør",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5287,7 +5287,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f285"
         },
         "ID": 253,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5308,7 +5308,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f286"
         },
         "ID": 254,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5329,7 +5329,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f287"
         },
         "ID": 255,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5350,7 +5350,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f288"
         },
         "ID": 256,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5371,7 +5371,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f289"
         },
         "ID": 257,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hedehusene",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5392,7 +5392,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f28a"
         },
         "ID": 258,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Slagelse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5413,7 +5413,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f28b"
         },
         "ID": 259,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5434,7 +5434,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f28c"
         },
         "ID": 260,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5455,7 +5455,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f28d"
         },
         "ID": 261,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5476,7 +5476,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f28e"
         },
         "ID": 262,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -5497,7 +5497,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f28f"
         },
         "ID": 263,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -5518,7 +5518,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f290"
         },
         "ID": 264,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -5539,7 +5539,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f291"
         },
         "ID": 265,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -5560,7 +5560,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f292"
         },
         "ID": 266,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -5581,7 +5581,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f293"
         },
         "ID": 267,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hellerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -5602,7 +5602,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f294"
         },
         "ID": 268,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -5623,7 +5623,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f295"
         },
         "ID": 269,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -5644,7 +5644,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f296"
         },
         "ID": 270,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -5665,7 +5665,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f297"
         },
         "ID": 271,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -5686,7 +5686,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f298"
         },
         "ID": 272,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -5707,7 +5707,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f299"
         },
         "ID": 273,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Højbjerg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -5728,7 +5728,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f29a"
         },
         "ID": 274,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -5749,7 +5749,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f29b"
         },
         "ID": 275,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -5770,7 +5770,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f29c"
         },
         "ID": 276,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -5791,7 +5791,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f29d"
         },
         "ID": 277,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -5812,7 +5812,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f29e"
         },
         "ID": 278,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -5833,7 +5833,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f29f"
         },
         "ID": 279,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -5854,7 +5854,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2a0"
         },
         "ID": 280,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -5875,7 +5875,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2a1"
         },
         "ID": 281,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -5896,7 +5896,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2a2"
         },
         "ID": 282,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -5917,7 +5917,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2a3"
         },
         "ID": 283,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -5938,7 +5938,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2a4"
         },
         "ID": 284,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ringsted",
         "Statsborgerskab": "Polen",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -5959,7 +5959,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2a5"
         },
         "ID": 285,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Kastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -5980,7 +5980,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2a6"
         },
         "ID": 286,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Malmø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6000,7 +6000,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2a7"
         },
         "ID": 287,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Roskilde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6021,7 +6021,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2a8"
         },
         "ID": 288,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6042,7 +6042,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2a9"
         },
         "ID": 289,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Kastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6063,7 +6063,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2aa"
         },
         "ID": 290,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6084,7 +6084,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2ab"
         },
         "ID": 291,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ølstykke",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6105,7 +6105,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2ac"
         },
         "ID": 292,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6126,7 +6126,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2ad"
         },
         "ID": 293,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6147,7 +6147,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2ae"
         },
         "ID": 294,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6168,7 +6168,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2af"
         },
         "ID": 295,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6189,7 +6189,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2b0"
         },
         "ID": 296,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Allerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6210,7 +6210,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2b1"
         },
         "ID": 297,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Holbæk",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6231,7 +6231,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2b2"
         },
         "ID": 298,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Kastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6252,7 +6252,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2b3"
         },
         "ID": 299,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6273,7 +6273,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2b4"
         },
         "ID": 300,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Store Merløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6294,7 +6294,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2b5"
         },
         "ID": 301,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6315,7 +6315,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2b6"
         },
         "ID": 302,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6336,7 +6336,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2b7"
         },
         "ID": 303,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6357,7 +6357,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2b8"
         },
         "ID": 304,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Næstved",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6378,7 +6378,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2b9"
         },
         "ID": 305,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6399,7 +6399,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2ba"
         },
         "ID": 306,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Holbæk",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6420,7 +6420,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2bb"
         },
         "ID": 307,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Slagelse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6441,7 +6441,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2bc"
         },
         "ID": 308,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "malmø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6462,7 +6462,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2bd"
         },
         "ID": 309,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ballerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6483,7 +6483,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2be"
         },
         "ID": 310,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Kalundborg",
         "Statsborgerskab": "Norge",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6504,7 +6504,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2bf"
         },
         "ID": 311,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6525,7 +6525,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2c0"
         },
         "ID": 312,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6546,7 +6546,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2c1"
         },
         "ID": 313,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6567,7 +6567,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2c2"
         },
         "ID": 314,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6588,7 +6588,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2c3"
         },
         "ID": 315,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Køge",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6609,7 +6609,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2c4"
         },
         "ID": 316,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Næstved",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6630,7 +6630,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2c5"
         },
         "ID": 317,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -6651,7 +6651,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2c6"
         },
         "ID": 318,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederikssund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -6672,7 +6672,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2c7"
         },
         "ID": 319,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -6693,7 +6693,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2c8"
         },
         "ID": 320,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -6714,7 +6714,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2c9"
         },
         "ID": 321,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Portugal",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -6735,7 +6735,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2ca"
         },
         "ID": 322,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -6756,7 +6756,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2cb"
         },
         "ID": 323,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -6777,7 +6777,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2cc"
         },
         "ID": 324,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -6798,7 +6798,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2cd"
         },
         "ID": 325,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Glostrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -6819,7 +6819,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2ce"
         },
         "ID": 326,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -6840,7 +6840,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2cf"
         },
         "ID": 327,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -6861,7 +6861,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2d0"
         },
         "ID": 328,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -6882,7 +6882,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2d1"
         },
         "ID": 329,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -6903,7 +6903,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2d2"
         },
         "ID": 330,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -6924,7 +6924,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2d3"
         },
         "ID": 331,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -6945,7 +6945,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2d4"
         },
         "ID": 332,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -6966,7 +6966,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2d5"
         },
         "ID": 333,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Glostrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -6987,7 +6987,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2d6"
         },
         "ID": 334,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -7008,7 +7008,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2d7"
         },
         "ID": 335,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -7029,7 +7029,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2d8"
         },
         "ID": 336,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -7050,7 +7050,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2d9"
         },
         "ID": 337,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -7071,7 +7071,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2da"
         },
         "ID": 338,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Thailand",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -7092,7 +7092,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2db"
         },
         "ID": 339,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -7113,7 +7113,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2dc"
         },
         "ID": 340,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Birkerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -7134,7 +7134,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2dd"
         },
         "ID": 341,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -7155,7 +7155,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2de"
         },
         "ID": 342,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -7176,7 +7176,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2df"
         },
         "ID": 343,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hellerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -7197,7 +7197,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2e0"
         },
         "ID": 344,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -7218,7 +7218,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2e1"
         },
         "ID": 345,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -7239,7 +7239,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2e2"
         },
         "ID": 346,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -7260,7 +7260,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2e3"
         },
         "ID": 347,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -7281,7 +7281,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2e4"
         },
         "ID": 348,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -7302,7 +7302,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2e5"
         },
         "ID": 349,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -7323,7 +7323,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2e6"
         },
         "ID": 350,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -7344,7 +7344,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2e7"
         },
         "ID": 351,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Helsingør",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -7365,7 +7365,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2e8"
         },
         "ID": 352,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -7386,7 +7386,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2e9"
         },
         "ID": 353,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ringsted",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -7407,7 +7407,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2ea"
         },
         "ID": 354,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -7428,7 +7428,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2eb"
         },
         "ID": 355,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Dyssegård ",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -7449,7 +7449,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2ec"
         },
         "ID": 356,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Helsingør",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -7470,7 +7470,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2ed"
         },
         "ID": 357,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -7491,7 +7491,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2ee"
         },
         "ID": 358,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Gilleleje",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -7512,7 +7512,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2ef"
         },
         "ID": 359,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -7533,7 +7533,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2f0"
         },
         "ID": 360,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederikssund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -7554,7 +7554,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2f1"
         },
         "ID": 361,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -7575,7 +7575,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2f2"
         },
         "ID": 362,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Kastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -7596,7 +7596,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2f3"
         },
         "ID": 363,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hillerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -7617,7 +7617,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2f4"
         },
         "ID": 364,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hillerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -7638,7 +7638,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2f5"
         },
         "ID": 365,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -7659,7 +7659,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2f6"
         },
         "ID": 366,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -7680,7 +7680,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2f7"
         },
         "ID": 367,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Langebæk",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -7701,7 +7701,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2f8"
         },
         "ID": 368,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -7722,7 +7722,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2f9"
         },
         "ID": 369,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Lyngby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -7743,7 +7743,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2fa"
         },
         "ID": 370,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vallensbæk",
         "Statsborgerskab": "Iran",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -7764,7 +7764,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2fb"
         },
         "ID": 371,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Argentina",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -7785,7 +7785,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2fc"
         },
         "ID": 372,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -7806,7 +7806,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2fd"
         },
         "ID": 373,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vallensbæk Strand",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -7827,7 +7827,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2fe"
         },
         "ID": 374,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Bosnien-Hercegovina",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -7848,7 +7848,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f2ff"
         },
         "ID": 375,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -7869,7 +7869,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f300"
         },
         "ID": 376,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -7890,7 +7890,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f301"
         },
         "ID": 377,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -7911,7 +7911,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f302"
         },
         "ID": 378,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ballerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -7932,7 +7932,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f303"
         },
         "ID": 379,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -7953,7 +7953,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f304"
         },
         "ID": 380,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vallensbæk Strand",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -7974,7 +7974,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f305"
         },
         "ID": 381,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Skovlunde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -7995,7 +7995,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f306"
         },
         "ID": 382,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -8016,7 +8016,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f307"
         },
         "ID": 383,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -8037,7 +8037,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f308"
         },
         "ID": 384,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -8058,7 +8058,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f309"
         },
         "ID": 385,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -8079,7 +8079,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f30a"
         },
         "ID": 386,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -8100,7 +8100,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f30b"
         },
         "ID": 387,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -8121,7 +8121,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f30c"
         },
         "ID": 388,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -8142,7 +8142,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f30d"
         },
         "ID": 389,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Roskilde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -8163,7 +8163,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f30e"
         },
         "ID": 390,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Greve",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -8184,7 +8184,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f30f"
         },
         "ID": 391,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -8205,7 +8205,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f310"
         },
         "ID": 392,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederikssund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -8226,7 +8226,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f311"
         },
         "ID": 393,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -8247,7 +8247,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f312"
         },
         "ID": 394,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederikssund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -8268,7 +8268,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f313"
         },
         "ID": 395,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -8289,7 +8289,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f314"
         },
         "ID": 396,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Køge",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -8310,7 +8310,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f315"
         },
         "ID": 397,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Dragør",
         "Statsborgerskab": "Storbritannien",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -8331,7 +8331,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f316"
         },
         "ID": 398,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Allerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -8352,7 +8352,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f317"
         },
         "ID": 399,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -8373,7 +8373,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f318"
         },
         "ID": 400,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -8394,7 +8394,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f319"
         },
         "ID": 401,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -8415,7 +8415,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f31a"
         },
         "ID": 402,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Neksø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8436,7 +8436,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f31b"
         },
         "ID": 403,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8457,7 +8457,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f31c"
         },
         "ID": 404,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8478,7 +8478,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f31d"
         },
         "ID": 405,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8499,7 +8499,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f31e"
         },
         "ID": 406,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8520,7 +8520,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f31f"
         },
         "ID": 407,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Gislinge",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8541,7 +8541,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f320"
         },
         "ID": 408,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Mägenwil",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8562,7 +8562,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f321"
         },
         "ID": 409,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8583,7 +8583,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f322"
         },
         "ID": 410,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8604,7 +8604,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f323"
         },
         "ID": 411,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8625,7 +8625,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f324"
         },
         "ID": 412,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8646,7 +8646,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f325"
         },
         "ID": 413,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brøndby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8667,7 +8667,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f326"
         },
         "ID": 414,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8688,7 +8688,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f327"
         },
         "ID": 415,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8709,7 +8709,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f328"
         },
         "ID": 416,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brøndby Strand",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8730,7 +8730,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f329"
         },
         "ID": 417,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Bagsværd",
         "Statsborgerskab": "Pakistan",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8751,7 +8751,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f32a"
         },
         "ID": 418,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8772,7 +8772,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f32b"
         },
         "ID": 419,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8793,7 +8793,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f32c"
         },
         "ID": 420,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8814,7 +8814,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f32d"
         },
         "ID": 421,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8835,7 +8835,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f32e"
         },
         "ID": 422,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8856,7 +8856,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f32f"
         },
         "ID": 423,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brøndby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8877,7 +8877,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f330"
         },
         "ID": 424,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brøndby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8898,7 +8898,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f331"
         },
         "ID": 425,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hedehusene",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8919,7 +8919,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f332"
         },
         "ID": 426,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8940,7 +8940,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f333"
         },
         "ID": 427,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8961,7 +8961,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f334"
         },
         "ID": 428,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -8982,7 +8982,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f335"
         },
         "ID": 429,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Lyngby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -9003,7 +9003,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f336"
         },
         "ID": 430,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -9024,7 +9024,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f337"
         },
         "ID": 431,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -9045,7 +9045,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f338"
         },
         "ID": 432,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederikssund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -9066,7 +9066,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f339"
         },
         "ID": 433,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -9087,7 +9087,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f33a"
         },
         "ID": 434,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Korsør",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -9108,7 +9108,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f33b"
         },
         "ID": 435,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Århus C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -9129,7 +9129,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f33c"
         },
         "ID": 436,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -9150,7 +9150,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f33d"
         },
         "ID": 437,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -9171,7 +9171,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f33e"
         },
         "ID": 438,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -9192,7 +9192,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f33f"
         },
         "ID": 439,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -9213,7 +9213,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f340"
         },
         "ID": 440,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -9234,7 +9234,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f341"
         },
         "ID": 441,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -9255,7 +9255,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f342"
         },
         "ID": 442,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -9276,7 +9276,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f343"
         },
         "ID": 443,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -9297,7 +9297,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f344"
         },
         "ID": 444,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Slangerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -9318,7 +9318,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f345"
         },
         "ID": 445,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Solrød Strand",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -9339,7 +9339,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f346"
         },
         "ID": 446,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -9360,7 +9360,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f347"
         },
         "ID": 447,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Glostrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -9381,7 +9381,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f348"
         },
         "ID": 448,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -9402,7 +9402,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f349"
         },
         "ID": 449,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Storbritannien",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -9423,7 +9423,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f34a"
         },
         "ID": 450,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -9444,7 +9444,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f34b"
         },
         "ID": 451,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -9465,7 +9465,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f34c"
         },
         "ID": 452,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -9486,7 +9486,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f34d"
         },
         "ID": 453,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -9507,7 +9507,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f34e"
         },
         "ID": 454,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -9528,7 +9528,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f34f"
         },
         "ID": 455,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vallensbæk Strand",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -9549,7 +9549,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f350"
         },
         "ID": 456,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -9570,7 +9570,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f351"
         },
         "ID": 457,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -9591,7 +9591,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f352"
         },
         "ID": 458,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ukendt",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -9612,7 +9612,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f353"
         },
         "ID": 459,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -9633,7 +9633,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f354"
         },
         "ID": 460,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -9654,7 +9654,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f355"
         },
         "ID": 461,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -9675,7 +9675,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f356"
         },
         "ID": 462,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -9696,7 +9696,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f357"
         },
         "ID": 463,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -9717,7 +9717,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f358"
         },
         "ID": 464,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -9738,7 +9738,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f359"
         },
         "ID": 465,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -9759,7 +9759,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f35a"
         },
         "ID": 466,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Roskilde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -9780,7 +9780,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f35b"
         },
         "ID": 467,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -9801,7 +9801,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f35c"
         },
         "ID": 468,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Herfølge",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -9822,7 +9822,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f35d"
         },
         "ID": 469,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -9843,7 +9843,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f35e"
         },
         "ID": 470,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Aalborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -9864,7 +9864,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f35f"
         },
         "ID": 471,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -9885,7 +9885,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f360"
         },
         "ID": 472,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -9906,7 +9906,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f361"
         },
         "ID": 473,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -9927,7 +9927,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f362"
         },
         "ID": 474,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -9948,7 +9948,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f363"
         },
         "ID": 475,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -9969,7 +9969,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f364"
         },
         "ID": 476,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -9990,7 +9990,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f365"
         },
         "ID": 477,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10011,7 +10011,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f366"
         },
         "ID": 478,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10032,7 +10032,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f367"
         },
         "ID": 479,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10053,7 +10053,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f368"
         },
         "ID": 480,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10074,7 +10074,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f369"
         },
         "ID": 481,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10095,7 +10095,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f36a"
         },
         "ID": 482,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10116,7 +10116,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f36b"
         },
         "ID": 483,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10137,7 +10137,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f36c"
         },
         "ID": 484,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Lyngby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10158,7 +10158,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f36d"
         },
         "ID": 485,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10179,7 +10179,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f36e"
         },
         "ID": 486,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10200,7 +10200,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f36f"
         },
         "ID": 487,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10221,7 +10221,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f370"
         },
         "ID": 488,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10242,7 +10242,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f371"
         },
         "ID": 489,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10263,7 +10263,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f372"
         },
         "ID": 490,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10284,7 +10284,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f373"
         },
         "ID": 491,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10305,7 +10305,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f374"
         },
         "ID": 492,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10326,7 +10326,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f375"
         },
         "ID": 493,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10347,7 +10347,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f376"
         },
         "ID": 494,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10368,7 +10368,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f377"
         },
         "ID": 495,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Lejre",
         "Statsborgerskab": "Kenya",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10389,7 +10389,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f378"
         },
         "ID": 496,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10410,7 +10410,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f379"
         },
         "ID": 497,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10431,7 +10431,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f37a"
         },
         "ID": 498,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10452,7 +10452,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f37b"
         },
         "ID": 499,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10473,7 +10473,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f37c"
         },
         "ID": 500,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10494,7 +10494,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f37d"
         },
         "ID": 501,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Odense C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10515,7 +10515,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f37e"
         },
         "ID": 502,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10536,7 +10536,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f37f"
         },
         "ID": 503,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10557,7 +10557,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f380"
         },
         "ID": 504,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Rønnede",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10578,7 +10578,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f381"
         },
         "ID": 505,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vemmelev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10599,7 +10599,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f382"
         },
         "ID": 506,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10620,7 +10620,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f383"
         },
         "ID": 507,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10641,7 +10641,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f384"
         },
         "ID": 508,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10662,7 +10662,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f385"
         },
         "ID": 509,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "malmø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -10683,7 +10683,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f386"
         },
         "ID": 510,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -10704,7 +10704,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f387"
         },
         "ID": 511,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -10725,7 +10725,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f388"
         },
         "ID": 512,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -10746,7 +10746,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f389"
         },
         "ID": 513,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -10767,7 +10767,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f38a"
         },
         "ID": 514,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Århus N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -10788,7 +10788,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f38b"
         },
         "ID": 515,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -10809,7 +10809,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f38c"
         },
         "ID": 516,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -10830,7 +10830,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f38d"
         },
         "ID": 517,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vig",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -10851,7 +10851,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f38e"
         },
         "ID": 518,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -10872,7 +10872,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f38f"
         },
         "ID": 519,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -10893,7 +10893,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f390"
         },
         "ID": 520,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -10914,7 +10914,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f391"
         },
         "ID": 521,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -10935,7 +10935,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f392"
         },
         "ID": 522,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Slagelse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -10956,7 +10956,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f393"
         },
         "ID": 523,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Give",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -10977,7 +10977,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f394"
         },
         "ID": 524,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Karlslunde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -10998,7 +10998,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f395"
         },
         "ID": 525,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -11019,7 +11019,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f396"
         },
         "ID": 526,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Lyngby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -11040,7 +11040,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f397"
         },
         "ID": 527,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -11061,7 +11061,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f398"
         },
         "ID": 528,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -11082,7 +11082,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f399"
         },
         "ID": 529,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -11103,7 +11103,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f39a"
         },
         "ID": 530,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -11124,7 +11124,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f39b"
         },
         "ID": 531,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vallensbæk Strand",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -11145,7 +11145,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f39c"
         },
         "ID": 532,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -11166,7 +11166,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f39d"
         },
         "ID": 533,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -11187,7 +11187,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f39e"
         },
         "ID": 534,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -11208,7 +11208,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f39f"
         },
         "ID": 535,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -11229,7 +11229,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3a0"
         },
         "ID": 536,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -11250,7 +11250,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3a1"
         },
         "ID": 537,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -11271,7 +11271,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3a2"
         },
         "ID": 538,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -11292,7 +11292,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3a3"
         },
         "ID": 539,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -11313,7 +11313,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3a4"
         },
         "ID": 540,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -11334,7 +11334,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3a5"
         },
         "ID": 541,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -11355,7 +11355,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3a6"
         },
         "ID": 542,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Næstved",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -11376,7 +11376,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3a7"
         },
         "ID": 543,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -11397,7 +11397,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3a8"
         },
         "ID": 544,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -11418,7 +11418,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3a9"
         },
         "ID": 545,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -11439,7 +11439,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3aa"
         },
         "ID": 546,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -11460,7 +11460,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3ab"
         },
         "ID": 547,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Tølløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -11481,7 +11481,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3ac"
         },
         "ID": 548,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Borup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -11502,7 +11502,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3ad"
         },
         "ID": 549,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -11523,7 +11523,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3ae"
         },
         "ID": 550,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -11544,7 +11544,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3af"
         },
         "ID": 551,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -11565,7 +11565,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3b0"
         },
         "ID": 552,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Kirke Eskilstrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -11586,7 +11586,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3b1"
         },
         "ID": 553,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Lem St",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -11607,7 +11607,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3b2"
         },
         "ID": 554,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -11628,7 +11628,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3b3"
         },
         "ID": 555,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -11649,7 +11649,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3b4"
         },
         "ID": 556,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Lyngby",
         "Statsborgerskab": "Tyskland",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -11669,7 +11669,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3b5"
         },
         "ID": 557,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -11690,7 +11690,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3b6"
         },
         "ID": 558,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -11711,7 +11711,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3b7"
         },
         "ID": 559,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -11732,7 +11732,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3b8"
         },
         "ID": 560,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -11753,7 +11753,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3b9"
         },
         "ID": 561,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -11774,7 +11774,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3ba"
         },
         "ID": 562,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -11795,7 +11795,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3bb"
         },
         "ID": 563,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -11816,7 +11816,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3bc"
         },
         "ID": 564,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -11837,7 +11837,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3bd"
         },
         "ID": 565,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -11858,7 +11858,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3be"
         },
         "ID": 566,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Argir",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -11879,7 +11879,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3bf"
         },
         "ID": 567,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -11900,7 +11900,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3c0"
         },
         "ID": 568,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -11921,7 +11921,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3c1"
         },
         "ID": 569,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Kastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -11942,7 +11942,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3c2"
         },
         "ID": 570,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brøndby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -11963,7 +11963,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3c3"
         },
         "ID": 571,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -11984,7 +11984,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3c4"
         },
         "ID": 572,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12005,7 +12005,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3c5"
         },
         "ID": 573,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12026,7 +12026,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3c6"
         },
         "ID": 574,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12047,7 +12047,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3c7"
         },
         "ID": 575,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12068,7 +12068,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3c8"
         },
         "ID": 576,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12089,7 +12089,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3c9"
         },
         "ID": 577,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12110,7 +12110,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3ca"
         },
         "ID": 578,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Viby J",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12131,7 +12131,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3cb"
         },
         "ID": 579,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12152,7 +12152,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3cc"
         },
         "ID": 580,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12173,7 +12173,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3cd"
         },
         "ID": 581,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12194,7 +12194,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3ce"
         },
         "ID": 582,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12215,7 +12215,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3cf"
         },
         "ID": 583,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12236,7 +12236,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3d0"
         },
         "ID": 584,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12257,7 +12257,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3d1"
         },
         "ID": 585,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12278,7 +12278,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3d2"
         },
         "ID": 586,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12299,7 +12299,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3d3"
         },
         "ID": 587,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12320,7 +12320,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3d4"
         },
         "ID": 588,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12341,7 +12341,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3d5"
         },
         "ID": 589,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12362,7 +12362,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3d6"
         },
         "ID": 590,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12383,7 +12383,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3d7"
         },
         "ID": 591,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12404,7 +12404,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3d8"
         },
         "ID": 592,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Viby J",
         "Statsborgerskab": "Syrien",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12425,7 +12425,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3d9"
         },
         "ID": 593,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Greve",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12446,7 +12446,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3da"
         },
         "ID": 594,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12467,7 +12467,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3db"
         },
         "ID": 595,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12488,7 +12488,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3dc"
         },
         "ID": 596,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Helsinge",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12509,7 +12509,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3dd"
         },
         "ID": 597,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Helsingør",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12530,7 +12530,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3de"
         },
         "ID": 598,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Nærum",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12551,7 +12551,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3df"
         },
         "ID": 599,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12572,7 +12572,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3e0"
         },
         "ID": 600,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ballerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12593,7 +12593,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3e1"
         },
         "ID": 601,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12614,7 +12614,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3e2"
         },
         "ID": 602,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Karrebæksminde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12635,7 +12635,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3e3"
         },
         "ID": 603,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Tyrkiet",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12656,7 +12656,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3e4"
         },
         "ID": 604,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12677,7 +12677,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3e5"
         },
         "ID": 605,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hedehusene",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12698,7 +12698,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3e6"
         },
         "ID": 606,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ballerup",
         "Statsborgerskab": "Østrig",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12719,7 +12719,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3e7"
         },
         "ID": 607,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12740,7 +12740,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3e8"
         },
         "ID": 608,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12761,7 +12761,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3e9"
         },
         "ID": 609,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12782,7 +12782,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3ea"
         },
         "ID": 610,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12803,7 +12803,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3eb"
         },
         "ID": 611,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brøndby Strand",
         "Statsborgerskab": "Irak",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12824,7 +12824,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3ec"
         },
         "ID": 612,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Dyssegård ",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12845,7 +12845,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3ed"
         },
         "ID": 613,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12866,7 +12866,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3ee"
         },
         "ID": 614,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brøndby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12887,7 +12887,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3ef"
         },
         "ID": 615,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12908,7 +12908,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3f0"
         },
         "ID": 616,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12929,7 +12929,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3f1"
         },
         "ID": 617,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12950,7 +12950,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3f2"
         },
         "ID": 618,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12971,7 +12971,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3f3"
         },
         "ID": 619,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ringsted",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -12992,7 +12992,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3f4"
         },
         "ID": 620,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13013,7 +13013,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3f5"
         },
         "ID": 621,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13034,7 +13034,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3f6"
         },
         "ID": 622,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13055,7 +13055,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3f7"
         },
         "ID": 623,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13076,7 +13076,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3f8"
         },
         "ID": 624,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13097,7 +13097,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3f9"
         },
         "ID": 625,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13118,7 +13118,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3fa"
         },
         "ID": 626,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Greve",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13139,7 +13139,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3fb"
         },
         "ID": 627,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13160,7 +13160,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3fc"
         },
         "ID": 628,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Holbæk",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13181,7 +13181,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3fd"
         },
         "ID": 629,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13202,7 +13202,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3fe"
         },
         "ID": 630,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13222,7 +13222,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f3ff"
         },
         "ID": 631,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13243,7 +13243,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f400"
         },
         "ID": 632,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13264,7 +13264,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f401"
         },
         "ID": 633,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13285,7 +13285,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f402"
         },
         "ID": 634,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13306,7 +13306,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f403"
         },
         "ID": 635,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13327,7 +13327,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f404"
         },
         "ID": 636,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13348,7 +13348,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f405"
         },
         "ID": 637,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13369,7 +13369,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f406"
         },
         "ID": 638,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13390,7 +13390,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f407"
         },
         "ID": 639,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brøndby Strand",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13411,7 +13411,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f408"
         },
         "ID": 640,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13432,7 +13432,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f409"
         },
         "ID": 641,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13453,7 +13453,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f40a"
         },
         "ID": 642,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Charlottenlund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13474,7 +13474,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f40b"
         },
         "ID": 643,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13495,7 +13495,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f40c"
         },
         "ID": 644,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13516,7 +13516,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f40d"
         },
         "ID": 645,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Kastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13537,7 +13537,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f40e"
         },
         "ID": 646,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13558,7 +13558,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f40f"
         },
         "ID": 647,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13579,7 +13579,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f410"
         },
         "ID": 648,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Roskilde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13600,7 +13600,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f411"
         },
         "ID": 649,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13621,7 +13621,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f412"
         },
         "ID": 650,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13642,7 +13642,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f413"
         },
         "ID": 651,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Odense V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13663,7 +13663,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f414"
         },
         "ID": 652,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13684,7 +13684,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f415"
         },
         "ID": 653,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13705,7 +13705,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f416"
         },
         "ID": 654,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13726,7 +13726,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f417"
         },
         "ID": 655,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Århus C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13747,7 +13747,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f418"
         },
         "ID": 656,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13768,7 +13768,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f419"
         },
         "ID": 657,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Slagelse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13789,7 +13789,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f41a"
         },
         "ID": 658,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13810,7 +13810,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f41b"
         },
         "ID": 659,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Solrød Strand",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13831,7 +13831,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f41c"
         },
         "ID": 660,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13852,7 +13852,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f41d"
         },
         "ID": 661,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13873,7 +13873,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f41e"
         },
         "ID": 662,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13894,7 +13894,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f41f"
         },
         "ID": 663,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Gentofte",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13915,7 +13915,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f420"
         },
         "ID": 664,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13936,7 +13936,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f421"
         },
         "ID": 665,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13957,7 +13957,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f422"
         },
         "ID": 666,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13978,7 +13978,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f423"
         },
         "ID": 667,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Birkerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -13999,7 +13999,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f424"
         },
         "ID": 668,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14020,7 +14020,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f425"
         },
         "ID": 669,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14041,7 +14041,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f426"
         },
         "ID": 670,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14062,7 +14062,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f427"
         },
         "ID": 671,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14083,7 +14083,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f428"
         },
         "ID": 672,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14104,7 +14104,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f429"
         },
         "ID": 673,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14125,7 +14125,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f42a"
         },
         "ID": 674,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14146,7 +14146,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f42b"
         },
         "ID": 675,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14167,7 +14167,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f42c"
         },
         "ID": 676,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14188,7 +14188,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f42d"
         },
         "ID": 677,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14209,7 +14209,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f42e"
         },
         "ID": 678,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ølstykke",
         "Statsborgerskab": "Makedonien",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14230,7 +14230,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f42f"
         },
         "ID": 679,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14251,7 +14251,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f430"
         },
         "ID": 680,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ringsted",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14272,7 +14272,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f431"
         },
         "ID": 681,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Sverige",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14292,7 +14292,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f432"
         },
         "ID": 682,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Lyngby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14313,7 +14313,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f433"
         },
         "ID": 683,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hillerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14334,7 +14334,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f434"
         },
         "ID": 684,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ålsgårde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14355,7 +14355,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f435"
         },
         "ID": 685,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hillerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14376,7 +14376,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f436"
         },
         "ID": 686,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14397,7 +14397,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f437"
         },
         "ID": 687,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14418,7 +14418,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f438"
         },
         "ID": 688,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Helsinge",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14439,7 +14439,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f439"
         },
         "ID": 689,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14460,7 +14460,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f43a"
         },
         "ID": 690,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ballerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14481,7 +14481,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f43b"
         },
         "ID": 691,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14502,7 +14502,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f43c"
         },
         "ID": 692,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14523,7 +14523,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f43d"
         },
         "ID": 693,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vedbæk",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14544,7 +14544,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f43e"
         },
         "ID": 694,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Slangerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -14565,7 +14565,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f43f"
         },
         "ID": 695,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -14586,7 +14586,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f440"
         },
         "ID": 696,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -14607,7 +14607,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f441"
         },
         "ID": 697,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -14628,7 +14628,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f442"
         },
         "ID": 698,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -14649,7 +14649,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f443"
         },
         "ID": 699,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Bagsværd",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -14670,7 +14670,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f444"
         },
         "ID": 700,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Lyngby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -14691,7 +14691,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f445"
         },
         "ID": 701,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -14712,7 +14712,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f446"
         },
         "ID": 702,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -14733,7 +14733,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f447"
         },
         "ID": 703,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -14753,7 +14753,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f448"
         },
         "ID": 704,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -14774,7 +14774,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f449"
         },
         "ID": 705,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Slagelse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -14795,7 +14795,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f44a"
         },
         "ID": 706,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -14816,7 +14816,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f44b"
         },
         "ID": 707,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -14837,7 +14837,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f44c"
         },
         "ID": 708,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -14858,7 +14858,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f44d"
         },
         "ID": 709,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -14879,7 +14879,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f44e"
         },
         "ID": 710,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Lyngby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -14900,7 +14900,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f44f"
         },
         "ID": 711,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Viby Sjælland",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -14921,7 +14921,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f450"
         },
         "ID": 712,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Næstved",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -14942,7 +14942,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f451"
         },
         "ID": 713,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Odense NØ",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -14963,7 +14963,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f452"
         },
         "ID": 714,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -14984,7 +14984,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f453"
         },
         "ID": 715,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vallensbæk",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -15005,7 +15005,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f454"
         },
         "ID": 716,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Virum",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -15026,7 +15026,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f455"
         },
         "ID": 717,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -15047,7 +15047,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f456"
         },
         "ID": 718,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -15068,7 +15068,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f457"
         },
         "ID": 719,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -15089,7 +15089,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f458"
         },
         "ID": 720,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -15110,7 +15110,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f459"
         },
         "ID": 721,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -15131,7 +15131,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f45a"
         },
         "ID": 722,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Slagelse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -15152,7 +15152,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f45b"
         },
         "ID": 723,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Odense V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -15173,7 +15173,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f45c"
         },
         "ID": 724,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -15194,7 +15194,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f45d"
         },
         "ID": 725,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Statsløs",
         "INSTITUTIONSAKTIVITET": 227,
@@ -15215,7 +15215,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f45e"
         },
         "ID": 726,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Virum",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -15236,7 +15236,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f45f"
         },
         "ID": 727,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Lyngby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -15257,7 +15257,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f460"
         },
         "ID": 728,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -15278,7 +15278,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f461"
         },
         "ID": 729,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Holbæk",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -15299,7 +15299,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f462"
         },
         "ID": 730,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -15320,7 +15320,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f463"
         },
         "ID": 731,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15341,7 +15341,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f464"
         },
         "ID": 732,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederikssund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15362,7 +15362,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f465"
         },
         "ID": 733,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15383,7 +15383,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f466"
         },
         "ID": 734,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15404,7 +15404,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f467"
         },
         "ID": 735,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15425,7 +15425,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f468"
         },
         "ID": 736,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15446,7 +15446,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f469"
         },
         "ID": 737,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hillerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15467,7 +15467,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f46a"
         },
         "ID": 738,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Skævinge",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15488,7 +15488,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f46b"
         },
         "ID": 739,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Charlottenlund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15509,7 +15509,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f46c"
         },
         "ID": 740,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15530,7 +15530,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f46d"
         },
         "ID": 741,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15551,7 +15551,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f46e"
         },
         "ID": 742,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15572,7 +15572,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f46f"
         },
         "ID": 743,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15593,7 +15593,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f470"
         },
         "ID": 744,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15614,7 +15614,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f471"
         },
         "ID": 745,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15635,7 +15635,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f472"
         },
         "ID": 746,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15656,7 +15656,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f473"
         },
         "ID": 747,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15677,7 +15677,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f474"
         },
         "ID": 748,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15698,7 +15698,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f475"
         },
         "ID": 749,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15719,7 +15719,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f476"
         },
         "ID": 750,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15740,7 +15740,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f477"
         },
         "ID": 751,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15761,7 +15761,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f478"
         },
         "ID": 752,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Køge",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15782,7 +15782,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f479"
         },
         "ID": 753,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15803,7 +15803,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f47a"
         },
         "ID": 754,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brøndby Strand",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15824,7 +15824,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f47b"
         },
         "ID": 755,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15845,7 +15845,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f47c"
         },
         "ID": 756,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Malmø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15866,7 +15866,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f47d"
         },
         "ID": 757,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15887,7 +15887,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f47e"
         },
         "ID": 758,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15908,7 +15908,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f47f"
         },
         "ID": 759,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15929,7 +15929,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f480"
         },
         "ID": 760,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15950,7 +15950,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f481"
         },
         "ID": 761,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15971,7 +15971,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f482"
         },
         "ID": 762,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -15992,7 +15992,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f483"
         },
         "ID": 763,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16013,7 +16013,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f484"
         },
         "ID": 764,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16034,7 +16034,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f485"
         },
         "ID": 765,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16055,7 +16055,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f486"
         },
         "ID": 766,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16076,7 +16076,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f487"
         },
         "ID": 767,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16097,7 +16097,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f488"
         },
         "ID": 768,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16118,7 +16118,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f489"
         },
         "ID": 769,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16139,7 +16139,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f48a"
         },
         "ID": 770,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Tyrkiet",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16160,7 +16160,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f48b"
         },
         "ID": 771,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16181,7 +16181,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f48c"
         },
         "ID": 772,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16202,7 +16202,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f48d"
         },
         "ID": 773,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Lille Skensved",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16223,7 +16223,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f48e"
         },
         "ID": 774,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16244,7 +16244,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f48f"
         },
         "ID": 775,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Svendborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16265,7 +16265,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f490"
         },
         "ID": 776,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Skårup Fyn",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16286,7 +16286,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f491"
         },
         "ID": 777,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16307,7 +16307,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f492"
         },
         "ID": 778,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16328,7 +16328,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f493"
         },
         "ID": 779,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16349,7 +16349,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f494"
         },
         "ID": 780,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Lyngby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16370,7 +16370,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f495"
         },
         "ID": 781,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16391,7 +16391,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f496"
         },
         "ID": 782,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16412,7 +16412,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f497"
         },
         "ID": 783,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16433,7 +16433,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f498"
         },
         "ID": 784,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16454,7 +16454,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f499"
         },
         "ID": 785,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16475,7 +16475,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f49a"
         },
         "ID": 786,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16496,7 +16496,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f49b"
         },
         "ID": 787,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16517,7 +16517,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f49c"
         },
         "ID": 788,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -16538,7 +16538,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f49d"
         },
         "ID": 789,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -16559,7 +16559,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f49e"
         },
         "ID": 790,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -16580,7 +16580,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f49f"
         },
         "ID": 791,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -16601,7 +16601,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4a0"
         },
         "ID": 792,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -16622,7 +16622,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4a1"
         },
         "ID": 793,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -16643,7 +16643,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4a2"
         },
         "ID": 794,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -16664,7 +16664,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4a3"
         },
         "ID": 795,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -16685,7 +16685,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4a4"
         },
         "ID": 796,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -16706,7 +16706,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4a5"
         },
         "ID": 797,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -16727,7 +16727,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4a6"
         },
         "ID": 798,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -16748,7 +16748,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4a7"
         },
         "ID": 799,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -16769,7 +16769,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4a8"
         },
         "ID": 800,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -16790,7 +16790,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4a9"
         },
         "ID": 801,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -16811,7 +16811,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4aa"
         },
         "ID": 802,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -16832,7 +16832,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4ab"
         },
         "ID": 803,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -16853,7 +16853,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4ac"
         },
         "ID": 804,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -16874,7 +16874,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4ad"
         },
         "ID": 805,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -16895,7 +16895,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4ae"
         },
         "ID": 806,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -16916,7 +16916,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4af"
         },
         "ID": 807,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -16937,7 +16937,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4b0"
         },
         "ID": 808,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -16958,7 +16958,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4b1"
         },
         "ID": 809,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -16979,7 +16979,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4b2"
         },
         "ID": 810,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -17000,7 +17000,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4b3"
         },
         "ID": 811,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -17021,7 +17021,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4b4"
         },
         "ID": 812,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Næstved",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -17042,7 +17042,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4b5"
         },
         "ID": 813,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksværk",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -17063,7 +17063,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4b6"
         },
         "ID": 814,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -17084,7 +17084,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4b7"
         },
         "ID": 815,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -17105,7 +17105,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4b8"
         },
         "ID": 816,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -17126,7 +17126,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4b9"
         },
         "ID": 817,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Storbritannien",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -17147,7 +17147,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4ba"
         },
         "ID": 818,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Værløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -17168,7 +17168,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4bb"
         },
         "ID": 819,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Gentofte",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -17189,7 +17189,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4bc"
         },
         "ID": 820,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -17210,7 +17210,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4bd"
         },
         "ID": 821,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Roskilde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -17231,7 +17231,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4be"
         },
         "ID": 822,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -17252,7 +17252,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4bf"
         },
         "ID": 823,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Odense S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -17273,7 +17273,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4c0"
         },
         "ID": 824,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brøndby Strand",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -17294,7 +17294,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4c1"
         },
         "ID": 825,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -17315,7 +17315,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4c2"
         },
         "ID": 826,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -17336,7 +17336,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4c3"
         },
         "ID": 827,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -17357,7 +17357,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4c4"
         },
         "ID": 828,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -17378,7 +17378,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4c5"
         },
         "ID": 829,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Smørum",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -17399,7 +17399,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4c6"
         },
         "ID": 830,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Malmø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -17420,7 +17420,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4c7"
         },
         "ID": 831,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Værløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -17441,7 +17441,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4c8"
         },
         "ID": 832,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -17462,7 +17462,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4c9"
         },
         "ID": 833,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -17483,7 +17483,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4ca"
         },
         "ID": 834,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -17504,7 +17504,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4cb"
         },
         "ID": 835,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Kokkedal",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -17525,7 +17525,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4cc"
         },
         "ID": 836,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Glostrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -17546,7 +17546,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4cd"
         },
         "ID": 837,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -17567,7 +17567,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4ce"
         },
         "ID": 838,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -17588,7 +17588,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4cf"
         },
         "ID": 839,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -17609,7 +17609,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4d0"
         },
         "ID": 840,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -17630,7 +17630,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4d1"
         },
         "ID": 841,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -17651,7 +17651,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4d2"
         },
         "ID": 842,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -17672,7 +17672,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4d3"
         },
         "ID": 843,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -17693,7 +17693,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4d4"
         },
         "ID": 844,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -17714,7 +17714,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4d5"
         },
         "ID": 845,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -17735,7 +17735,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4d6"
         },
         "ID": 846,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -17756,7 +17756,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4d7"
         },
         "ID": 847,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -17777,7 +17777,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4d8"
         },
         "ID": 848,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -17798,7 +17798,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4d9"
         },
         "ID": 849,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -17819,7 +17819,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4da"
         },
         "ID": 850,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Helsingør",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -17840,7 +17840,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4db"
         },
         "ID": 851,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -17861,7 +17861,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4dc"
         },
         "ID": 852,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -17882,7 +17882,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4dd"
         },
         "ID": 853,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -17903,7 +17903,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4de"
         },
         "ID": 854,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -17924,7 +17924,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4df"
         },
         "ID": 855,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -17945,7 +17945,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4e0"
         },
         "ID": 856,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -17966,7 +17966,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4e1"
         },
         "ID": 857,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -17987,7 +17987,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4e2"
         },
         "ID": 858,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18008,7 +18008,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4e3"
         },
         "ID": 859,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18029,7 +18029,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4e4"
         },
         "ID": 860,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18050,7 +18050,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4e5"
         },
         "ID": 861,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18071,7 +18071,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4e6"
         },
         "ID": 862,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18092,7 +18092,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4e7"
         },
         "ID": 863,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18113,7 +18113,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4e8"
         },
         "ID": 864,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Tyrkiet",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18134,7 +18134,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4e9"
         },
         "ID": 865,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18155,7 +18155,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4ea"
         },
         "ID": 866,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18176,7 +18176,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4eb"
         },
         "ID": 867,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18197,7 +18197,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4ec"
         },
         "ID": 868,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18218,7 +18218,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4ed"
         },
         "ID": 869,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18239,7 +18239,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4ee"
         },
         "ID": 870,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18260,7 +18260,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4ef"
         },
         "ID": 871,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18281,7 +18281,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4f0"
         },
         "ID": 872,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18302,7 +18302,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4f1"
         },
         "ID": 873,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18323,7 +18323,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4f2"
         },
         "ID": 874,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18344,7 +18344,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4f3"
         },
         "ID": 875,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Glostrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18365,7 +18365,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4f4"
         },
         "ID": 876,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18386,7 +18386,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4f5"
         },
         "ID": 877,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18407,7 +18407,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4f6"
         },
         "ID": 878,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18428,7 +18428,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4f7"
         },
         "ID": 879,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hellerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18449,7 +18449,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4f8"
         },
         "ID": 880,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18470,7 +18470,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4f9"
         },
         "ID": 881,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18491,7 +18491,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4fa"
         },
         "ID": 882,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18512,7 +18512,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4fb"
         },
         "ID": 883,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18533,7 +18533,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4fc"
         },
         "ID": 884,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18554,7 +18554,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4fd"
         },
         "ID": 885,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Næstved",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18575,7 +18575,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4fe"
         },
         "ID": 886,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18596,7 +18596,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f4ff"
         },
         "ID": 887,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18617,7 +18617,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f500"
         },
         "ID": 888,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18638,7 +18638,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f501"
         },
         "ID": 889,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18659,7 +18659,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f502"
         },
         "ID": 890,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18680,7 +18680,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f503"
         },
         "ID": 891,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18701,7 +18701,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f504"
         },
         "ID": 892,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18722,7 +18722,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f505"
         },
         "ID": 893,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18743,7 +18743,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f506"
         },
         "ID": 894,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18764,7 +18764,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f507"
         },
         "ID": 895,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18785,7 +18785,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f508"
         },
         "ID": 896,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18806,7 +18806,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f509"
         },
         "ID": 897,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vallensbæk Strand",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18827,7 +18827,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f50a"
         },
         "ID": 898,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18848,7 +18848,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f50b"
         },
         "ID": 899,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Roskilde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18869,7 +18869,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f50c"
         },
         "ID": 900,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18890,7 +18890,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f50d"
         },
         "ID": 901,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18911,7 +18911,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f50e"
         },
         "ID": 902,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18932,7 +18932,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f50f"
         },
         "ID": 903,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18953,7 +18953,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f510"
         },
         "ID": 904,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Gudhjem",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18974,7 +18974,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f511"
         },
         "ID": 905,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hellerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -18995,7 +18995,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f512"
         },
         "ID": 906,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -19016,7 +19016,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f513"
         },
         "ID": 907,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -19037,7 +19037,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f514"
         },
         "ID": 908,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -19058,7 +19058,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f515"
         },
         "ID": 909,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -19079,7 +19079,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f516"
         },
         "ID": 910,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -19100,7 +19100,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f517"
         },
         "ID": 911,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -19121,7 +19121,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f518"
         },
         "ID": 912,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -19142,7 +19142,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f519"
         },
         "ID": 913,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -19163,7 +19163,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f51a"
         },
         "ID": 914,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Statsløs",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -19184,7 +19184,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f51b"
         },
         "ID": 915,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -19205,7 +19205,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f51c"
         },
         "ID": 916,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Kalundborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -19226,7 +19226,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f51d"
         },
         "ID": 917,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Kastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -19247,7 +19247,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f51e"
         },
         "ID": 918,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Skovlunde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -19268,7 +19268,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f51f"
         },
         "ID": 919,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -19289,7 +19289,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f520"
         },
         "ID": 920,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -19310,7 +19310,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f521"
         },
         "ID": 921,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -19331,7 +19331,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f522"
         },
         "ID": 922,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Gentofte",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -19352,7 +19352,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f523"
         },
         "ID": 923,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -19373,7 +19373,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f524"
         },
         "ID": 924,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vallensbæk Strand",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -19394,7 +19394,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f525"
         },
         "ID": 925,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -19415,7 +19415,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f526"
         },
         "ID": 926,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -19435,7 +19435,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f527"
         },
         "ID": 927,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19456,7 +19456,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f528"
         },
         "ID": 928,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19477,7 +19477,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f529"
         },
         "ID": 929,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19498,7 +19498,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f52a"
         },
         "ID": 930,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19519,7 +19519,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f52b"
         },
         "ID": 931,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19540,7 +19540,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f52c"
         },
         "ID": 932,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19561,7 +19561,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f52d"
         },
         "ID": 933,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19582,7 +19582,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f52e"
         },
         "ID": 934,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19603,7 +19603,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f52f"
         },
         "ID": 935,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19624,7 +19624,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f530"
         },
         "ID": 936,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19645,7 +19645,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f531"
         },
         "ID": 937,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19666,7 +19666,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f532"
         },
         "ID": 938,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ølstykke",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19687,7 +19687,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f533"
         },
         "ID": 939,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19708,7 +19708,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f534"
         },
         "ID": 940,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19729,7 +19729,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f535"
         },
         "ID": 941,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19750,7 +19750,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f536"
         },
         "ID": 942,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19771,7 +19771,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f537"
         },
         "ID": 943,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19792,7 +19792,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f538"
         },
         "ID": 944,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19813,7 +19813,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f539"
         },
         "ID": 945,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19834,7 +19834,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f53a"
         },
         "ID": 946,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19855,7 +19855,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f53b"
         },
         "ID": 947,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19876,7 +19876,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f53c"
         },
         "ID": 948,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19897,7 +19897,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f53d"
         },
         "ID": 949,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19918,7 +19918,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f53e"
         },
         "ID": 950,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19939,7 +19939,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f53f"
         },
         "ID": 951,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19960,7 +19960,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f540"
         },
         "ID": 952,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -19981,7 +19981,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f541"
         },
         "ID": 953,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20002,7 +20002,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f542"
         },
         "ID": 954,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20023,7 +20023,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f543"
         },
         "ID": 955,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20044,7 +20044,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f544"
         },
         "ID": 956,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20065,7 +20065,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f545"
         },
         "ID": 957,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20086,7 +20086,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f546"
         },
         "ID": 958,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20107,7 +20107,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f547"
         },
         "ID": 959,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20128,7 +20128,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f548"
         },
         "ID": 960,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20149,7 +20149,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f549"
         },
         "ID": 961,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Gentofte",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20170,7 +20170,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f54a"
         },
         "ID": 962,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20191,7 +20191,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f54b"
         },
         "ID": 963,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20212,7 +20212,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f54c"
         },
         "ID": 964,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20233,7 +20233,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f54d"
         },
         "ID": 965,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20254,7 +20254,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f54e"
         },
         "ID": 966,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20275,7 +20275,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f54f"
         },
         "ID": 967,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20296,7 +20296,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f550"
         },
         "ID": 968,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20317,7 +20317,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f551"
         },
         "ID": 969,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20338,7 +20338,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f552"
         },
         "ID": 970,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20359,7 +20359,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f553"
         },
         "ID": 971,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20380,7 +20380,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f554"
         },
         "ID": 972,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20401,7 +20401,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f555"
         },
         "ID": 973,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20422,7 +20422,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f556"
         },
         "ID": 974,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20443,7 +20443,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f557"
         },
         "ID": 975,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Køge",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20464,7 +20464,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f558"
         },
         "ID": 976,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20485,7 +20485,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f559"
         },
         "ID": 977,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20506,7 +20506,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f55a"
         },
         "ID": 978,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20527,7 +20527,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f55b"
         },
         "ID": 979,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Odense C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20548,7 +20548,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f55c"
         },
         "ID": 980,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20569,7 +20569,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f55d"
         },
         "ID": 981,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20590,7 +20590,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f55e"
         },
         "ID": 982,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20611,7 +20611,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f55f"
         },
         "ID": 983,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20632,7 +20632,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f560"
         },
         "ID": 984,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Fredensborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20653,7 +20653,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f561"
         },
         "ID": 985,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20674,7 +20674,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f562"
         },
         "ID": 986,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Nærum",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20695,7 +20695,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f563"
         },
         "ID": 987,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20716,7 +20716,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f564"
         },
         "ID": 988,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20737,7 +20737,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f565"
         },
         "ID": 989,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20758,7 +20758,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f566"
         },
         "ID": 990,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20779,7 +20779,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f567"
         },
         "ID": 991,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20800,7 +20800,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f568"
         },
         "ID": 992,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20821,7 +20821,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f569"
         },
         "ID": 993,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Kastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20842,7 +20842,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f56a"
         },
         "ID": 994,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20863,7 +20863,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f56b"
         },
         "ID": 995,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20884,7 +20884,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f56c"
         },
         "ID": 996,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20905,7 +20905,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f56d"
         },
         "ID": 997,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20926,7 +20926,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f56e"
         },
         "ID": 998,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20947,7 +20947,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f56f"
         },
         "ID": 999,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20968,7 +20968,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f570"
         },
         "ID": 1000,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -20989,7 +20989,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f571"
         },
         "ID": 1001,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21010,7 +21010,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f572"
         },
         "ID": 1002,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21031,7 +21031,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f573"
         },
         "ID": 1003,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21052,7 +21052,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f574"
         },
         "ID": 1004,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Roskilde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21073,7 +21073,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f575"
         },
         "ID": 1005,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ruds Vedby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21094,7 +21094,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f576"
         },
         "ID": 1006,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21115,7 +21115,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f577"
         },
         "ID": 1007,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21136,7 +21136,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f578"
         },
         "ID": 1008,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21157,7 +21157,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f579"
         },
         "ID": 1009,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21178,7 +21178,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f57a"
         },
         "ID": 1010,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21199,7 +21199,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f57b"
         },
         "ID": 1011,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21220,7 +21220,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f57c"
         },
         "ID": 1012,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21241,7 +21241,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f57d"
         },
         "ID": 1013,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21262,7 +21262,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f57e"
         },
         "ID": 1014,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Korsør",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21283,7 +21283,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f57f"
         },
         "ID": 1015,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21304,7 +21304,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f580"
         },
         "ID": 1016,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21325,7 +21325,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f581"
         },
         "ID": 1017,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21346,7 +21346,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f582"
         },
         "ID": 1018,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21367,7 +21367,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f583"
         },
         "ID": 1019,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21388,7 +21388,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f584"
         },
         "ID": 1020,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21409,7 +21409,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f585"
         },
         "ID": 1021,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21430,7 +21430,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f586"
         },
         "ID": 1022,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21451,7 +21451,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f587"
         },
         "ID": 1023,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21472,7 +21472,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f588"
         },
         "ID": 1024,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hellerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21493,7 +21493,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f589"
         },
         "ID": 1025,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21514,7 +21514,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f58a"
         },
         "ID": 1026,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21535,7 +21535,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f58b"
         },
         "ID": 1027,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21556,7 +21556,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f58c"
         },
         "ID": 1028,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Køge",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21577,7 +21577,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f58d"
         },
         "ID": 1029,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21598,7 +21598,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f58e"
         },
         "ID": 1030,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21619,7 +21619,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f58f"
         },
         "ID": 1031,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Gentofte",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21640,7 +21640,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f590"
         },
         "ID": 1032,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21661,7 +21661,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f591"
         },
         "ID": 1033,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21682,7 +21682,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f592"
         },
         "ID": 1034,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21703,7 +21703,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f593"
         },
         "ID": 1035,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21724,7 +21724,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f594"
         },
         "ID": 1036,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21745,7 +21745,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f595"
         },
         "ID": 1037,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -21766,7 +21766,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f596"
         },
         "ID": 1038,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -21787,7 +21787,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f597"
         },
         "ID": 1039,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -21808,7 +21808,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f598"
         },
         "ID": 1040,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ballerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -21829,7 +21829,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f599"
         },
         "ID": 1041,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -21850,7 +21850,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f59a"
         },
         "ID": 1042,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -21871,7 +21871,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f59b"
         },
         "ID": 1043,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -21892,7 +21892,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f59c"
         },
         "ID": 1044,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Glostrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -21913,7 +21913,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f59d"
         },
         "ID": 1045,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -21934,7 +21934,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f59e"
         },
         "ID": 1046,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -21955,7 +21955,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f59f"
         },
         "ID": 1047,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederikssund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -21976,7 +21976,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5a0"
         },
         "ID": 1048,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -21997,7 +21997,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5a1"
         },
         "ID": 1049,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22018,7 +22018,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5a2"
         },
         "ID": 1050,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22039,7 +22039,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5a3"
         },
         "ID": 1051,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22060,7 +22060,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5a4"
         },
         "ID": 1052,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Varde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22081,7 +22081,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5a5"
         },
         "ID": 1053,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22102,7 +22102,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5a6"
         },
         "ID": 1054,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22123,7 +22123,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5a7"
         },
         "ID": 1055,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22144,7 +22144,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5a8"
         },
         "ID": 1056,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22165,7 +22165,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5a9"
         },
         "ID": 1057,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22186,7 +22186,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5aa"
         },
         "ID": 1058,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22207,7 +22207,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5ab"
         },
         "ID": 1059,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22228,7 +22228,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5ac"
         },
         "ID": 1060,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22249,7 +22249,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5ad"
         },
         "ID": 1061,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22270,7 +22270,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5ae"
         },
         "ID": 1062,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22291,7 +22291,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5af"
         },
         "ID": 1063,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Køge",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22312,7 +22312,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5b0"
         },
         "ID": 1064,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22333,7 +22333,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5b1"
         },
         "ID": 1065,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22354,7 +22354,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5b2"
         },
         "ID": 1066,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22375,7 +22375,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5b3"
         },
         "ID": 1067,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22396,7 +22396,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5b4"
         },
         "ID": 1068,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22417,7 +22417,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5b5"
         },
         "ID": 1069,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hellerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22438,7 +22438,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5b6"
         },
         "ID": 1070,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Island",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22459,7 +22459,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5b7"
         },
         "ID": 1071,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22480,7 +22480,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5b8"
         },
         "ID": 1072,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22501,7 +22501,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5b9"
         },
         "ID": 1073,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22522,7 +22522,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5ba"
         },
         "ID": 1074,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22543,7 +22543,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5bb"
         },
         "ID": 1075,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22564,7 +22564,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5bc"
         },
         "ID": 1076,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ringsted",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22585,7 +22585,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5bd"
         },
         "ID": 1077,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22606,7 +22606,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5be"
         },
         "ID": 1078,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22627,7 +22627,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5bf"
         },
         "ID": 1079,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22648,7 +22648,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5c0"
         },
         "ID": 1080,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22669,7 +22669,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5c1"
         },
         "ID": 1081,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22690,7 +22690,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5c2"
         },
         "ID": 1082,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22711,7 +22711,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5c3"
         },
         "ID": 1083,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22732,7 +22732,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5c4"
         },
         "ID": 1084,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22753,7 +22753,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5c5"
         },
         "ID": 1085,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22774,7 +22774,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5c6"
         },
         "ID": 1086,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22795,7 +22795,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5c7"
         },
         "ID": 1087,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22816,7 +22816,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5c8"
         },
         "ID": 1088,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22837,7 +22837,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5c9"
         },
         "ID": 1089,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22858,7 +22858,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5ca"
         },
         "ID": 1090,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22879,7 +22879,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5cb"
         },
         "ID": 1091,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22900,7 +22900,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5cc"
         },
         "ID": 1092,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22921,7 +22921,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5cd"
         },
         "ID": 1093,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hellerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22942,7 +22942,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5ce"
         },
         "ID": 1094,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22963,7 +22963,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5cf"
         },
         "ID": 1095,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -22984,7 +22984,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5d0"
         },
         "ID": 1096,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -23005,7 +23005,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5d1"
         },
         "ID": 1097,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -23026,7 +23026,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5d2"
         },
         "ID": 1098,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -23047,7 +23047,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5d3"
         },
         "ID": 1099,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Allerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23068,7 +23068,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5d4"
         },
         "ID": 1100,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hørsholm",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23089,7 +23089,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5d5"
         },
         "ID": 1101,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Bagsværd",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23110,7 +23110,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5d6"
         },
         "ID": 1102,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ølstykke",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23131,7 +23131,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5d7"
         },
         "ID": 1103,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23152,7 +23152,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5d8"
         },
         "ID": 1104,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23173,7 +23173,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5d9"
         },
         "ID": 1105,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23194,7 +23194,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5da"
         },
         "ID": 1106,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23215,7 +23215,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5db"
         },
         "ID": 1107,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23236,7 +23236,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5dc"
         },
         "ID": 1108,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23257,7 +23257,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5dd"
         },
         "ID": 1109,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Greve",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23278,7 +23278,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5de"
         },
         "ID": 1110,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Helsinge",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23299,7 +23299,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5df"
         },
         "ID": 1111,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23320,7 +23320,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5e0"
         },
         "ID": 1112,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23341,7 +23341,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5e1"
         },
         "ID": 1113,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Slagelse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23362,7 +23362,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5e2"
         },
         "ID": 1114,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23383,7 +23383,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5e3"
         },
         "ID": 1115,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23404,7 +23404,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5e4"
         },
         "ID": 1116,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23425,7 +23425,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5e5"
         },
         "ID": 1117,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hørsholm",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23446,7 +23446,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5e6"
         },
         "ID": 1118,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Fredensborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23467,7 +23467,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5e7"
         },
         "ID": 1119,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23488,7 +23488,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5e8"
         },
         "ID": 1120,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Dyssegård ",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23509,7 +23509,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5e9"
         },
         "ID": 1121,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Holte",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23530,7 +23530,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5ea"
         },
         "ID": 1122,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Roskilde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23551,7 +23551,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5eb"
         },
         "ID": 1123,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23572,7 +23572,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5ec"
         },
         "ID": 1124,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23593,7 +23593,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5ed"
         },
         "ID": 1125,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Kokkedal",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23614,7 +23614,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5ee"
         },
         "ID": 1126,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23635,7 +23635,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5ef"
         },
         "ID": 1127,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Korsør",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23656,7 +23656,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5f0"
         },
         "ID": 1128,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23677,7 +23677,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5f1"
         },
         "ID": 1129,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23698,7 +23698,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5f2"
         },
         "ID": 1130,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23719,7 +23719,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5f3"
         },
         "ID": 1131,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Kastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23740,7 +23740,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5f4"
         },
         "ID": 1132,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Kastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23761,7 +23761,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5f5"
         },
         "ID": 1133,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23782,7 +23782,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5f6"
         },
         "ID": 1134,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -23803,7 +23803,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5f7"
         },
         "ID": 1135,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -23824,7 +23824,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5f8"
         },
         "ID": 1136,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -23845,7 +23845,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5f9"
         },
         "ID": 1137,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Jyllinge",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -23866,7 +23866,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5fa"
         },
         "ID": 1138,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -23887,7 +23887,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5fb"
         },
         "ID": 1139,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Skovlunde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -23908,7 +23908,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5fc"
         },
         "ID": 1140,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -23929,7 +23929,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5fd"
         },
         "ID": 1141,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -23950,7 +23950,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5fe"
         },
         "ID": 1142,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -23971,7 +23971,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f5ff"
         },
         "ID": 1143,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -23992,7 +23992,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f600"
         },
         "ID": 1144,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Veksø Sjælland",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24013,7 +24013,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f601"
         },
         "ID": 1145,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24034,7 +24034,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f602"
         },
         "ID": 1146,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24055,7 +24055,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f603"
         },
         "ID": 1147,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24076,7 +24076,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f604"
         },
         "ID": 1148,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24097,7 +24097,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f605"
         },
         "ID": 1149,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24118,7 +24118,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f606"
         },
         "ID": 1150,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24139,7 +24139,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f607"
         },
         "ID": 1151,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24160,7 +24160,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f608"
         },
         "ID": 1152,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24181,7 +24181,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f609"
         },
         "ID": 1153,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24202,7 +24202,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f60a"
         },
         "ID": 1154,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24223,7 +24223,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f60b"
         },
         "ID": 1155,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24244,7 +24244,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f60c"
         },
         "ID": 1156,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24265,7 +24265,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f60d"
         },
         "ID": 1157,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24286,7 +24286,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f60e"
         },
         "ID": 1158,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Lyngby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24307,7 +24307,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f60f"
         },
         "ID": 1159,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24328,7 +24328,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f610"
         },
         "ID": 1160,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24349,7 +24349,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f611"
         },
         "ID": 1161,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24370,7 +24370,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f612"
         },
         "ID": 1162,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24391,7 +24391,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f613"
         },
         "ID": 1163,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24412,7 +24412,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f614"
         },
         "ID": 1164,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Helsingør",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24433,7 +24433,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f615"
         },
         "ID": 1165,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24454,7 +24454,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f616"
         },
         "ID": 1166,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24475,7 +24475,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f617"
         },
         "ID": 1167,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Kalundborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24496,7 +24496,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f618"
         },
         "ID": 1168,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24517,7 +24517,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f619"
         },
         "ID": 1169,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24538,7 +24538,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f61a"
         },
         "ID": 1170,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Virum",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24559,7 +24559,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f61b"
         },
         "ID": 1171,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24580,7 +24580,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f61c"
         },
         "ID": 1172,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24601,7 +24601,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f61d"
         },
         "ID": 1173,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24622,7 +24622,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f61e"
         },
         "ID": 1174,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24643,7 +24643,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f61f"
         },
         "ID": 1175,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24664,7 +24664,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f620"
         },
         "ID": 1176,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24685,7 +24685,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f621"
         },
         "ID": 1177,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Aalborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24706,7 +24706,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f622"
         },
         "ID": 1178,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24727,7 +24727,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f623"
         },
         "ID": 1179,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24748,7 +24748,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f624"
         },
         "ID": 1180,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24769,7 +24769,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f625"
         },
         "ID": 1181,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Kastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24790,7 +24790,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f626"
         },
         "ID": 1182,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24811,7 +24811,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f627"
         },
         "ID": 1183,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24832,7 +24832,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f628"
         },
         "ID": 1184,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24853,7 +24853,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f629"
         },
         "ID": 1185,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hillerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24874,7 +24874,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f62a"
         },
         "ID": 1186,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24895,7 +24895,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f62b"
         },
         "ID": 1187,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24916,7 +24916,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f62c"
         },
         "ID": 1188,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24937,7 +24937,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f62d"
         },
         "ID": 1189,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24958,7 +24958,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f62e"
         },
         "ID": 1190,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -24979,7 +24979,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f62f"
         },
         "ID": 1191,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25000,7 +25000,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f630"
         },
         "ID": 1192,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25021,7 +25021,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f631"
         },
         "ID": 1193,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25042,7 +25042,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f632"
         },
         "ID": 1194,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25063,7 +25063,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f633"
         },
         "ID": 1195,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25084,7 +25084,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f634"
         },
         "ID": 1196,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25105,7 +25105,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f635"
         },
         "ID": 1197,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25126,7 +25126,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f636"
         },
         "ID": 1198,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25147,7 +25147,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f637"
         },
         "ID": 1199,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25168,7 +25168,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f638"
         },
         "ID": 1200,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25189,7 +25189,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f639"
         },
         "ID": 1201,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25210,7 +25210,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f63a"
         },
         "ID": 1202,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Roskilde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25231,7 +25231,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f63b"
         },
         "ID": 1203,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Island",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25252,7 +25252,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f63c"
         },
         "ID": 1204,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25273,7 +25273,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f63d"
         },
         "ID": 1205,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25294,7 +25294,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f63e"
         },
         "ID": 1206,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brøndby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25315,7 +25315,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f63f"
         },
         "ID": 1207,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25336,7 +25336,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f640"
         },
         "ID": 1208,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25357,7 +25357,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f641"
         },
         "ID": 1209,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25378,7 +25378,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f642"
         },
         "ID": 1210,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25399,7 +25399,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f643"
         },
         "ID": 1211,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25420,7 +25420,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f644"
         },
         "ID": 1212,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25441,7 +25441,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f645"
         },
         "ID": 1213,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25462,7 +25462,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f646"
         },
         "ID": 1214,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25483,7 +25483,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f647"
         },
         "ID": 1215,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25504,7 +25504,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f648"
         },
         "ID": 1216,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25525,7 +25525,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f649"
         },
         "ID": 1217,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25546,7 +25546,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f64a"
         },
         "ID": 1218,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25567,7 +25567,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f64b"
         },
         "ID": 1219,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hellerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25588,7 +25588,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f64c"
         },
         "ID": 1220,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25609,7 +25609,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f64d"
         },
         "ID": 1221,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25630,7 +25630,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f64e"
         },
         "ID": 1222,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25651,7 +25651,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f64f"
         },
         "ID": 1223,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25672,7 +25672,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f650"
         },
         "ID": 1224,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25693,7 +25693,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f651"
         },
         "ID": 1225,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -25714,7 +25714,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f652"
         },
         "ID": 1226,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -25735,7 +25735,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f653"
         },
         "ID": 1227,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -25756,7 +25756,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f654"
         },
         "ID": 1228,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hillerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -25777,7 +25777,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f655"
         },
         "ID": 1229,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Helsingør",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -25798,7 +25798,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f656"
         },
         "ID": 1230,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Nykøbing F",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -25819,7 +25819,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f657"
         },
         "ID": 1231,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -25840,7 +25840,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f658"
         },
         "ID": 1232,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -25861,7 +25861,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f659"
         },
         "ID": 1233,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -25882,7 +25882,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f65a"
         },
         "ID": 1234,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -25903,7 +25903,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f65b"
         },
         "ID": 1235,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -25924,7 +25924,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f65c"
         },
         "ID": 1236,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -25945,7 +25945,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f65d"
         },
         "ID": 1237,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -25966,7 +25966,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f65e"
         },
         "ID": 1238,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Skovlunde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -25987,7 +25987,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f65f"
         },
         "ID": 1239,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -26008,7 +26008,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f660"
         },
         "ID": 1240,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -26029,7 +26029,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f661"
         },
         "ID": 1241,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -26050,7 +26050,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f662"
         },
         "ID": 1242,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Værløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -26071,7 +26071,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f663"
         },
         "ID": 1243,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -26092,7 +26092,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f664"
         },
         "ID": 1244,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Tyrkiet",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -26113,7 +26113,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f665"
         },
         "ID": 1245,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -26134,7 +26134,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f666"
         },
         "ID": 1246,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -26155,7 +26155,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f667"
         },
         "ID": 1247,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Horsens",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -26176,7 +26176,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f668"
         },
         "ID": 1248,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -26197,7 +26197,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f669"
         },
         "ID": 1249,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -26218,7 +26218,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f66a"
         },
         "ID": 1250,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vejby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -26239,7 +26239,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f66b"
         },
         "ID": 1251,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -26260,7 +26260,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f66c"
         },
         "ID": 1252,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -26281,7 +26281,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f66d"
         },
         "ID": 1253,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Holbæk",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -26302,7 +26302,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f66e"
         },
         "ID": 1254,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -26323,7 +26323,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f66f"
         },
         "ID": 1255,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -26344,7 +26344,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f670"
         },
         "ID": 1256,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -26365,7 +26365,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f671"
         },
         "ID": 1257,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brøndby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -26386,7 +26386,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f672"
         },
         "ID": 1258,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brøndby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -26407,7 +26407,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f673"
         },
         "ID": 1259,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -26428,7 +26428,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f674"
         },
         "ID": 1260,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -26449,7 +26449,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f675"
         },
         "ID": 1261,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -26470,7 +26470,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f676"
         },
         "ID": 1262,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -26491,7 +26491,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f677"
         },
         "ID": 1263,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Gentofte",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -26512,7 +26512,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f678"
         },
         "ID": 1264,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -26533,7 +26533,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f679"
         },
         "ID": 1265,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Bangladesh",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -26554,7 +26554,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f67a"
         },
         "ID": 1266,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hillerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -26575,7 +26575,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f67b"
         },
         "ID": 1267,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hillerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -26596,7 +26596,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f67c"
         },
         "ID": 1268,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Slangerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -26617,7 +26617,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f67d"
         },
         "ID": 1269,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -26638,7 +26638,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f67e"
         },
         "ID": 1270,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -26659,7 +26659,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f67f"
         },
         "ID": 1271,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -26680,7 +26680,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f680"
         },
         "ID": 1272,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Korsør",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -26701,7 +26701,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f681"
         },
         "ID": 1273,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -26722,7 +26722,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f682"
         },
         "ID": 1274,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -26743,7 +26743,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f683"
         },
         "ID": 1275,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -26764,7 +26764,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f684"
         },
         "ID": 1276,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Glostrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -26785,7 +26785,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f685"
         },
         "ID": 1277,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Pakistan",
         "INSTITUTIONSAKTIVITET": 141,
@@ -26806,7 +26806,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f686"
         },
         "ID": 1278,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -26827,7 +26827,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f687"
         },
         "ID": 1279,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -26848,7 +26848,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f688"
         },
         "ID": 1280,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -26869,7 +26869,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f689"
         },
         "ID": 1281,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederikssund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -26890,7 +26890,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f68a"
         },
         "ID": 1282,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -26911,7 +26911,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f68b"
         },
         "ID": 1283,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -26932,7 +26932,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f68c"
         },
         "ID": 1284,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -26953,7 +26953,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f68d"
         },
         "ID": 1285,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -26974,7 +26974,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f68e"
         },
         "ID": 1286,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -26995,7 +26995,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f68f"
         },
         "ID": 1287,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -27016,7 +27016,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f690"
         },
         "ID": 1288,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -27037,7 +27037,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f691"
         },
         "ID": 1289,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -27058,7 +27058,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f692"
         },
         "ID": 1290,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -27079,7 +27079,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f693"
         },
         "ID": 1291,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Næstved",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -27100,7 +27100,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f694"
         },
         "ID": 1292,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -27121,7 +27121,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f695"
         },
         "ID": 1293,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -27142,7 +27142,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f696"
         },
         "ID": 1294,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -27163,7 +27163,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f697"
         },
         "ID": 1295,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hillerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -27184,7 +27184,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f698"
         },
         "ID": 1296,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -27205,7 +27205,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f699"
         },
         "ID": 1297,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -27226,7 +27226,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f69a"
         },
         "ID": 1298,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -27247,7 +27247,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f69b"
         },
         "ID": 1299,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hellerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -27268,7 +27268,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f69c"
         },
         "ID": 1300,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -27289,7 +27289,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f69d"
         },
         "ID": 1301,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -27310,7 +27310,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f69e"
         },
         "ID": 1302,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -27331,7 +27331,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f69f"
         },
         "ID": 1303,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brøndby Strand",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -27352,7 +27352,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6a0"
         },
         "ID": 1304,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Køge",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -27373,7 +27373,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6a1"
         },
         "ID": 1305,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -27394,7 +27394,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6a2"
         },
         "ID": 1306,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brøndby Strand",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -27415,7 +27415,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6a3"
         },
         "ID": 1307,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -27436,7 +27436,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6a4"
         },
         "ID": 1308,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Gentofte",
         "Statsborgerskab": "Kina",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -27457,7 +27457,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6a5"
         },
         "ID": 1309,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -27478,7 +27478,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6a6"
         },
         "ID": 1310,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ballerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -27499,7 +27499,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6a7"
         },
         "ID": 1311,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -27520,7 +27520,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6a8"
         },
         "ID": 1312,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Makedonien",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -27541,7 +27541,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6a9"
         },
         "ID": 1313,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ukendt",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -27562,7 +27562,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6aa"
         },
         "ID": 1314,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -27583,7 +27583,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6ab"
         },
         "ID": 1315,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -27604,7 +27604,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6ac"
         },
         "ID": 1316,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Lyngby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -27625,7 +27625,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6ad"
         },
         "ID": 1317,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Kastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -27646,7 +27646,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6ae"
         },
         "ID": 1318,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -27667,7 +27667,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6af"
         },
         "ID": 1319,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Bagsværd",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -27688,7 +27688,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6b0"
         },
         "ID": 1320,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -27709,7 +27709,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6b1"
         },
         "ID": 1321,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -27730,7 +27730,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6b2"
         },
         "ID": 1322,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -27751,7 +27751,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6b3"
         },
         "ID": 1323,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -27772,7 +27772,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6b4"
         },
         "ID": 1324,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -27793,7 +27793,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6b5"
         },
         "ID": 1325,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Kastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -27814,7 +27814,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6b6"
         },
         "ID": 1326,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Greve",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -27835,7 +27835,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6b7"
         },
         "ID": 1327,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -27856,7 +27856,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6b8"
         },
         "ID": 1328,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brøndby Strand",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -27877,7 +27877,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6b9"
         },
         "ID": 1329,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -27898,7 +27898,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6ba"
         },
         "ID": 1330,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Virum",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -27919,7 +27919,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6bb"
         },
         "ID": 1331,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Gentofte",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -27940,7 +27940,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6bc"
         },
         "ID": 1332,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -27961,7 +27961,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6bd"
         },
         "ID": 1333,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -27982,7 +27982,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6be"
         },
         "ID": 1334,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -28003,7 +28003,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6bf"
         },
         "ID": 1335,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -28024,7 +28024,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6c0"
         },
         "ID": 1336,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -28045,7 +28045,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6c1"
         },
         "ID": 1337,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Kastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -28066,7 +28066,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6c2"
         },
         "ID": 1338,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Roskilde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -28087,7 +28087,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6c3"
         },
         "ID": 1339,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -28108,7 +28108,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6c4"
         },
         "ID": 1340,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Glostrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -28129,7 +28129,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6c5"
         },
         "ID": 1341,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -28150,7 +28150,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6c6"
         },
         "ID": 1342,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ølstykke",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -28171,7 +28171,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6c7"
         },
         "ID": 1343,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -28192,7 +28192,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6c8"
         },
         "ID": 1344,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -28213,7 +28213,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6c9"
         },
         "ID": 1345,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -28234,7 +28234,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6ca"
         },
         "ID": 1346,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -28255,7 +28255,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6cb"
         },
         "ID": 1347,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -28276,7 +28276,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6cc"
         },
         "ID": 1348,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -28297,7 +28297,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6cd"
         },
         "ID": 1349,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -28318,7 +28318,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6ce"
         },
         "ID": 1350,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hillerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -28339,7 +28339,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6cf"
         },
         "ID": 1351,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -28360,7 +28360,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6d0"
         },
         "ID": 1352,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hedehusene",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -28381,7 +28381,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6d1"
         },
         "ID": 1353,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -28402,7 +28402,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6d2"
         },
         "ID": 1354,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Tyskland",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28421,7 +28421,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6d3"
         },
         "ID": 1355,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28440,7 +28440,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6d4"
         },
         "ID": 1356,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28459,7 +28459,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6d5"
         },
         "ID": 1357,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Frankrig",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28478,7 +28478,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6d6"
         },
         "ID": 1358,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Serbien",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28497,7 +28497,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6d7"
         },
         "ID": 1359,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28516,7 +28516,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6d8"
         },
         "ID": 1360,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28535,7 +28535,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6d9"
         },
         "ID": 1361,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28554,7 +28554,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6da"
         },
         "ID": 1362,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Jægerspris",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28573,7 +28573,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6db"
         },
         "ID": 1363,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28592,7 +28592,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6dc"
         },
         "ID": 1364,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Allerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28611,7 +28611,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6dd"
         },
         "ID": 1365,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Uganda",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28630,7 +28630,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6de"
         },
         "ID": 1366,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Køge",
         "Statsborgerskab": "Sverige",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28649,7 +28649,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6df"
         },
         "ID": 1367,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Stenløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28668,7 +28668,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6e0"
         },
         "ID": 1368,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28687,7 +28687,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6e1"
         },
         "ID": 1369,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28706,7 +28706,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6e2"
         },
         "ID": 1370,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28725,7 +28725,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6e3"
         },
         "ID": 1371,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Greve",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28744,7 +28744,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6e4"
         },
         "ID": 1372,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28763,7 +28763,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6e5"
         },
         "ID": 1373,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28782,7 +28782,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6e6"
         },
         "ID": 1374,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Bagsværd",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28801,7 +28801,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6e7"
         },
         "ID": 1375,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28820,7 +28820,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6e8"
         },
         "ID": 1376,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28839,7 +28839,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6e9"
         },
         "ID": 1377,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28858,7 +28858,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6ea"
         },
         "ID": 1378,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vallensbæk Strand",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28877,7 +28877,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6eb"
         },
         "ID": 1379,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Island",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28896,7 +28896,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6ec"
         },
         "ID": 1380,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28915,7 +28915,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6ed"
         },
         "ID": 1381,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Virum",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28934,7 +28934,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6ee"
         },
         "ID": 1382,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Tyrkiet",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28953,7 +28953,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6ef"
         },
         "ID": 1383,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28972,7 +28972,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6f0"
         },
         "ID": 1384,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Allerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -28991,7 +28991,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6f1"
         },
         "ID": 1385,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Jyllinge",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29010,7 +29010,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6f2"
         },
         "ID": 1386,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Kastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29029,7 +29029,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6f3"
         },
         "ID": 1387,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29048,7 +29048,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6f4"
         },
         "ID": 1388,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Island",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29067,7 +29067,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6f5"
         },
         "ID": 1389,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Helsingør",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29086,7 +29086,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6f6"
         },
         "ID": 1390,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29105,7 +29105,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6f7"
         },
         "ID": 1391,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "oslo",
         "Statsborgerskab": "Norge",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29124,7 +29124,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6f8"
         },
         "ID": 1392,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Nordhavn",
         "Statsborgerskab": "Island",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29143,7 +29143,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6f9"
         },
         "ID": 1393,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29162,7 +29162,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6fa"
         },
         "ID": 1394,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29181,7 +29181,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6fb"
         },
         "ID": 1395,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29200,7 +29200,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6fc"
         },
         "ID": 1396,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29219,7 +29219,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6fd"
         },
         "ID": 1397,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Island",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29238,7 +29238,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6fe"
         },
         "ID": 1398,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29257,7 +29257,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f6ff"
         },
         "ID": 1399,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Oslo",
         "Statsborgerskab": "Norge",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29276,7 +29276,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f700"
         },
         "ID": 1400,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29295,7 +29295,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f701"
         },
         "ID": 1401,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29314,7 +29314,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f702"
         },
         "ID": 1402,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Espergærde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29333,7 +29333,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f703"
         },
         "ID": 1403,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederikssund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29352,7 +29352,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f704"
         },
         "ID": 1404,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Stenløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29371,7 +29371,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f705"
         },
         "ID": 1405,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hillerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29390,7 +29390,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f706"
         },
         "ID": 1406,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hillerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29409,7 +29409,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f707"
         },
         "ID": 1407,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Esbjerg",
         "Statsborgerskab": "Tyskland",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29428,7 +29428,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f708"
         },
         "ID": 1408,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ølsted",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4070,
@@ -29447,7 +29447,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f709"
         },
         "ID": 1409,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -29466,7 +29466,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f70a"
         },
         "ID": 1410,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Skovlunde",
         "Statsborgerskab": "Sverige",
         "INSTITUTIONSAKTIVITET": 227,
@@ -29485,7 +29485,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f70b"
         },
         "ID": 1411,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -29504,7 +29504,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f70c"
         },
         "ID": 1412,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -29523,7 +29523,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f70d"
         },
         "ID": 1413,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 227,
@@ -29542,7 +29542,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f70e"
         },
         "ID": 1414,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Norge",
         "INSTITUTIONSAKTIVITET": 227,
@@ -29561,7 +29561,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f70f"
         },
         "ID": 1415,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Helsingborg",
         "Statsborgerskab": "Sverige",
         "INSTITUTIONSAKTIVITET": 227,
@@ -29580,7 +29580,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f710"
         },
         "ID": 1416,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Helsingborg",
         "Statsborgerskab": "Sverige",
         "INSTITUTIONSAKTIVITET": 227,
@@ -29599,7 +29599,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f711"
         },
         "ID": 1417,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Umeå",
         "Statsborgerskab": "Sverige",
         "INSTITUTIONSAKTIVITET": 227,
@@ -29618,7 +29618,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f712"
         },
         "ID": 1418,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "falsterbo",
         "Statsborgerskab": "Sverige",
         "INSTITUTIONSAKTIVITET": 227,
@@ -29637,7 +29637,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f713"
         },
         "ID": 1419,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Norge",
         "INSTITUTIONSAKTIVITET": 227,
@@ -29656,7 +29656,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f714"
         },
         "ID": 1420,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Norge",
         "INSTITUTIONSAKTIVITET": 227,
@@ -29675,7 +29675,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f715"
         },
         "ID": 1421,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Birkerød",
         "Statsborgerskab": "Norge",
         "INSTITUTIONSAKTIVITET": 227,
@@ -29694,7 +29694,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f716"
         },
         "ID": 1422,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Göteborg",
         "Statsborgerskab": "Sverige",
         "INSTITUTIONSAKTIVITET": 227,
@@ -29713,7 +29713,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f717"
         },
         "ID": 1423,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Belarus",
         "INSTITUTIONSAKTIVITET": 227,
@@ -29732,7 +29732,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f718"
         },
         "ID": 1424,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Erdal",
         "Statsborgerskab": "Norge",
         "INSTITUTIONSAKTIVITET": 227,
@@ -29751,7 +29751,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f719"
         },
         "ID": 1425,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ås",
         "Statsborgerskab": "Norge",
         "INSTITUTIONSAKTIVITET": 227,
@@ -29770,7 +29770,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f71a"
         },
         "ID": 1426,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Viet Nam",
         "INSTITUTIONSAKTIVITET": 141,
@@ -29789,7 +29789,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f71b"
         },
         "ID": 1427,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 141,
@@ -29808,7 +29808,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f71c"
         },
         "ID": 1428,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Island",
         "INSTITUTIONSAKTIVITET": 141,
@@ -29827,7 +29827,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f71d"
         },
         "ID": 1429,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Reykjavik",
         "Statsborgerskab": "Island",
         "INSTITUTIONSAKTIVITET": 141,
@@ -29847,7 +29847,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f71e"
         },
         "ID": 1430,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Nøtterøy",
         "Statsborgerskab": "Norge",
         "INSTITUTIONSAKTIVITET": 140,
@@ -29866,7 +29866,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f71f"
         },
         "ID": 1431,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Sverige",
         "INSTITUTIONSAKTIVITET": 140,
@@ -29885,7 +29885,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f720"
         },
         "ID": 1432,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 140,
@@ -29904,7 +29904,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f721"
         },
         "ID": 1433,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Norge",
         "INSTITUTIONSAKTIVITET": 140,
@@ -29923,7 +29923,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f722"
         },
         "ID": 1434,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4111,
@@ -29942,7 +29942,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f723"
         },
         "ID": 1435,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -29961,7 +29961,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f724"
         },
         "ID": 1436,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Holbæk",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -29980,7 +29980,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f725"
         },
         "ID": 1437,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hørsholm",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -29999,7 +29999,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f726"
         },
         "ID": 1438,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Lyngby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -30018,7 +30018,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f727"
         },
         "ID": 1439,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Helsingør",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -30037,7 +30037,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f728"
         },
         "ID": 1440,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Malmø",
         "Statsborgerskab": "Sverige",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -30056,7 +30056,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f729"
         },
         "ID": 1441,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Kina",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -30075,7 +30075,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f72a"
         },
         "ID": 1442,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -30094,7 +30094,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f72b"
         },
         "ID": 1443,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -30113,7 +30113,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f72c"
         },
         "ID": 1444,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Odense C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -30132,7 +30132,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f72d"
         },
         "ID": 1445,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ringsted",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4504,
@@ -30151,7 +30151,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f72e"
         },
         "ID": 1446,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Virum",
         "Statsborgerskab": "Kina",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -30170,7 +30170,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f72f"
         },
         "ID": 1447,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Island",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -30189,7 +30189,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f730"
         },
         "ID": 1448,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -30208,7 +30208,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f731"
         },
         "ID": 1449,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3050,
@@ -30227,7 +30227,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f732"
         },
         "ID": 1450,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -30246,7 +30246,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f733"
         },
         "ID": 1451,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Kastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -30265,7 +30265,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f734"
         },
         "ID": 1452,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -30284,7 +30284,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f735"
         },
         "ID": 1453,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3267,
@@ -30303,7 +30303,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f736"
         },
         "ID": 1454,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -30322,7 +30322,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f737"
         },
         "ID": 1455,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -30341,7 +30341,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f738"
         },
         "ID": 1456,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Finland",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -30360,7 +30360,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f739"
         },
         "ID": 1457,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -30379,7 +30379,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f73a"
         },
         "ID": 1458,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -30398,7 +30398,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f73b"
         },
         "ID": 1459,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Island",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -30417,7 +30417,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f73c"
         },
         "ID": 1460,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Frankrig",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -30436,7 +30436,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f73d"
         },
         "ID": 1461,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Island",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -30455,7 +30455,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f73e"
         },
         "ID": 1462,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3276,
@@ -30474,7 +30474,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f73f"
         },
         "ID": 1463,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Viby J",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -30493,7 +30493,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f740"
         },
         "ID": 1464,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -30512,7 +30512,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f741"
         },
         "ID": 1465,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brøndby Strand",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -30531,7 +30531,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f742"
         },
         "ID": 1466,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ballerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -30550,7 +30550,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f743"
         },
         "ID": 1467,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -30569,7 +30569,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f744"
         },
         "ID": 1468,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -30588,7 +30588,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f745"
         },
         "ID": 1469,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Næstved",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -30607,7 +30607,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f746"
         },
         "ID": 1470,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Glostrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -30626,7 +30626,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f747"
         },
         "ID": 1471,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -30645,7 +30645,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f748"
         },
         "ID": 1472,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Lyngby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -30664,7 +30664,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f749"
         },
         "ID": 1473,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -30683,7 +30683,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f74a"
         },
         "ID": 1474,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Værløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -30702,7 +30702,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f74b"
         },
         "ID": 1475,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Veksø Sjælland",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -30721,7 +30721,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f74c"
         },
         "ID": 1476,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Norge",
         "INSTITUTIONSAKTIVITET": 4503,
@@ -30741,7 +30741,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f74d"
         },
         "ID": 1477,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -30760,7 +30760,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f74e"
         },
         "ID": 1478,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -30779,7 +30779,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f74f"
         },
         "ID": 1479,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Sverige",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -30798,7 +30798,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f750"
         },
         "ID": 1480,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -30817,7 +30817,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f751"
         },
         "ID": 1481,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Utansjö",
         "Statsborgerskab": "Sverige",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -30837,7 +30837,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f752"
         },
         "ID": 1482,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3207,
@@ -30856,7 +30856,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f753"
         },
         "ID": 1483,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -30875,7 +30875,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f754"
         },
         "ID": 1484,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Afghanistan",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -30894,7 +30894,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f755"
         },
         "ID": 1485,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -30913,7 +30913,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f756"
         },
         "ID": 1486,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Nuuk",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -30932,7 +30932,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f757"
         },
         "ID": 1487,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -30951,7 +30951,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f758"
         },
         "ID": 1488,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Makedonien",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -30970,7 +30970,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f759"
         },
         "ID": 1489,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Bagsværd",
         "Statsborgerskab": "Ukendt Nationalitet",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -30989,7 +30989,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f75a"
         },
         "ID": 1490,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ballerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -31008,7 +31008,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f75b"
         },
         "ID": 1491,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -31027,7 +31027,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f75c"
         },
         "ID": 1492,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -31046,7 +31046,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f75d"
         },
         "ID": 1493,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksværk",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -31065,7 +31065,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f75e"
         },
         "ID": 1494,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -31084,7 +31084,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f75f"
         },
         "ID": 1495,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Dragør",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -31103,7 +31103,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f760"
         },
         "ID": 1496,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -31122,7 +31122,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f761"
         },
         "ID": 1497,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -31141,7 +31141,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f762"
         },
         "ID": 1498,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -31160,7 +31160,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f763"
         },
         "ID": 1499,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -31179,7 +31179,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f764"
         },
         "ID": 1500,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ukendt",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -31198,7 +31198,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f765"
         },
         "ID": 1501,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederikssund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -31217,7 +31217,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f766"
         },
         "ID": 1502,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Bagsværd",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -31236,7 +31236,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f767"
         },
         "ID": 1503,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -31255,7 +31255,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f768"
         },
         "ID": 1504,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -31274,7 +31274,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f769"
         },
         "ID": 1505,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -31293,7 +31293,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f76a"
         },
         "ID": 1506,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4064,
@@ -31312,7 +31312,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f76b"
         },
         "ID": 1507,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ukendt",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4065,
@@ -31331,7 +31331,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f76c"
         },
         "ID": 1508,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4065,
@@ -31350,7 +31350,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f76d"
         },
         "ID": 1509,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4065,
@@ -31369,7 +31369,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f76e"
         },
         "ID": 1510,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Kastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4065,
@@ -31388,7 +31388,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f76f"
         },
         "ID": 1511,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4065,
@@ -31407,7 +31407,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f770"
         },
         "ID": 1512,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Kokkedal",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4065,
@@ -31426,7 +31426,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f771"
         },
         "ID": 1513,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Helsingør",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4065,
@@ -31445,7 +31445,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f772"
         },
         "ID": 1514,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4065,
@@ -31464,7 +31464,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f773"
         },
         "ID": 1515,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Næstved",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4065,
@@ -31483,7 +31483,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f774"
         },
         "ID": 1516,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4065,
@@ -31502,7 +31502,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f775"
         },
         "ID": 1517,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Glostrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4065,
@@ -31521,7 +31521,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f776"
         },
         "ID": 1518,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hedehusene",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4065,
@@ -31540,7 +31540,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f777"
         },
         "ID": 1519,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Helsingør",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4065,
@@ -31559,7 +31559,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f778"
         },
         "ID": 1520,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Nykøbing F",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4065,
@@ -31578,7 +31578,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f779"
         },
         "ID": 1521,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4065,
@@ -31597,7 +31597,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f77a"
         },
         "ID": 1522,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Solrød Strand",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4065,
@@ -31616,7 +31616,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f77b"
         },
         "ID": 1523,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Virum",
         "Statsborgerskab": "Tyrkiet",
         "INSTITUTIONSAKTIVITET": 4065,
@@ -31635,7 +31635,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f77c"
         },
         "ID": 1524,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4065,
@@ -31654,7 +31654,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f77d"
         },
         "ID": 1525,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -31673,7 +31673,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f77e"
         },
         "ID": 1526,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -31692,7 +31692,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f77f"
         },
         "ID": 1527,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Syrien",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -31711,7 +31711,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f780"
         },
         "ID": 1528,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -31730,7 +31730,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f781"
         },
         "ID": 1529,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -31749,7 +31749,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f782"
         },
         "ID": 1530,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Måløv",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -31768,7 +31768,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f783"
         },
         "ID": 1531,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Norge",
         "INSTITUTIONSAKTIVITET": 3274,
@@ -31787,7 +31787,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f784"
         },
         "ID": 1532,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -31806,7 +31806,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f785"
         },
         "ID": 1533,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Mexico",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -31825,7 +31825,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f786"
         },
         "ID": 1534,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brøndby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -31844,7 +31844,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f787"
         },
         "ID": 1535,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Malmø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -31863,7 +31863,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f788"
         },
         "ID": 1536,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hellerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -31882,7 +31882,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f789"
         },
         "ID": 1537,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brøndby",
         "Statsborgerskab": "Norge",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -31901,7 +31901,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f78a"
         },
         "ID": 1538,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -31920,7 +31920,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f78b"
         },
         "ID": 1539,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Kaldbak",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -31939,7 +31939,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f78c"
         },
         "ID": 1540,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Oslo",
         "Statsborgerskab": "Litauen",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -31958,7 +31958,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f78d"
         },
         "ID": 1541,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -31977,7 +31977,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f78e"
         },
         "ID": 1542,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -31996,7 +31996,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f78f"
         },
         "ID": 1543,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3273,
@@ -32015,7 +32015,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f790"
         },
         "ID": 1544,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Allerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -32034,7 +32034,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f791"
         },
         "ID": 1545,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ballerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -32053,7 +32053,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f792"
         },
         "ID": 1546,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -32072,7 +32072,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f793"
         },
         "ID": 1547,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Norge",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -32091,7 +32091,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f794"
         },
         "ID": 1548,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Gentofte",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -32110,7 +32110,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f795"
         },
         "ID": 1549,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Norge",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -32129,7 +32129,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f796"
         },
         "ID": 1550,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -32148,7 +32148,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f797"
         },
         "ID": 1551,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -32167,7 +32167,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f798"
         },
         "ID": 1552,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Asker",
         "Statsborgerskab": "Norge",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -32186,7 +32186,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f799"
         },
         "ID": 1553,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Kolding",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -32205,7 +32205,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f79a"
         },
         "ID": 1554,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Mørkøv",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -32224,7 +32224,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f79b"
         },
         "ID": 1555,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 3277,
@@ -32243,7 +32243,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f79c"
         },
         "ID": 1556,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -32262,7 +32262,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f79d"
         },
         "ID": 1557,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ballerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -32281,7 +32281,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f79e"
         },
         "ID": 1558,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4073,
@@ -32301,7 +32301,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f79f"
         },
         "ID": 1559,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 42,
@@ -32320,7 +32320,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7a0"
         },
         "ID": 1560,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Kastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 42,
@@ -32340,7 +32340,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7a1"
         },
         "ID": 1561,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Lyngby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 42,
@@ -32360,7 +32360,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7a2"
         },
         "ID": 1562,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 42,
@@ -32380,7 +32380,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7a3"
         },
         "ID": 1563,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Storbritannien",
         "INSTITUTIONSAKTIVITET": 42,
@@ -32399,7 +32399,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7a4"
         },
         "ID": 1564,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 42,
@@ -32419,7 +32419,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7a5"
         },
         "ID": 1565,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 42,
@@ -32439,7 +32439,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7a6"
         },
         "ID": 1566,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 42,
@@ -32459,7 +32459,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7a7"
         },
         "ID": 1567,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 42,
@@ -32479,7 +32479,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7a8"
         },
         "ID": 1568,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 42,
@@ -32499,7 +32499,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7a9"
         },
         "ID": 1569,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Fårevejle",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 42,
@@ -32519,7 +32519,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7aa"
         },
         "ID": 1570,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Sorø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 42,
@@ -32539,7 +32539,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7ab"
         },
         "ID": 1571,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 42,
@@ -32559,7 +32559,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7ac"
         },
         "ID": 1572,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Slagelse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 42,
@@ -32579,7 +32579,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7ad"
         },
         "ID": 1573,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 42,
@@ -32599,7 +32599,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7ae"
         },
         "ID": 1574,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ballerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 42,
@@ -32619,7 +32619,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7af"
         },
         "ID": 1575,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 42,
@@ -32638,7 +32638,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7b0"
         },
         "ID": 1576,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 42,
@@ -32658,7 +32658,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7b1"
         },
         "ID": 1577,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 42,
@@ -32678,7 +32678,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7b2"
         },
         "ID": 1578,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Jyllinge",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 42,
@@ -32698,7 +32698,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7b3"
         },
         "ID": 1579,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ballerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 42,
@@ -32718,7 +32718,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7b4"
         },
         "ID": 1580,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 42,
@@ -32737,7 +32737,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7b5"
         },
         "ID": 1581,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -32757,7 +32757,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7b6"
         },
         "ID": 1582,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -32776,7 +32776,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7b7"
         },
         "ID": 1583,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Kastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -32796,7 +32796,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7b8"
         },
         "ID": 1584,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -32816,7 +32816,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7b9"
         },
         "ID": 1585,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -32835,7 +32835,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7ba"
         },
         "ID": 1586,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -32855,7 +32855,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7bb"
         },
         "ID": 1587,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -32875,7 +32875,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7bc"
         },
         "ID": 1588,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Dyssegård ",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -32895,7 +32895,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7bd"
         },
         "ID": 1589,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -32915,7 +32915,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7be"
         },
         "ID": 1590,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Dyssegård ",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -32935,7 +32935,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7bf"
         },
         "ID": 1591,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederikssund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -32955,7 +32955,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7c0"
         },
         "ID": 1592,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Lyngby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -32975,7 +32975,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7c1"
         },
         "ID": 1593,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -32994,7 +32994,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7c2"
         },
         "ID": 1594,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ølstykke",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33014,7 +33014,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7c3"
         },
         "ID": 1595,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Bagsværd",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33033,7 +33033,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7c4"
         },
         "ID": 1596,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33053,7 +33053,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7c5"
         },
         "ID": 1597,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33073,7 +33073,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7c6"
         },
         "ID": 1598,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hillerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33093,7 +33093,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7c7"
         },
         "ID": 1599,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33113,7 +33113,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7c8"
         },
         "ID": 1600,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Tranbjerg J",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33133,7 +33133,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7c9"
         },
         "ID": 1601,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33152,7 +33152,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7ca"
         },
         "ID": 1602,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33172,7 +33172,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7cb"
         },
         "ID": 1603,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ballerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33191,7 +33191,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7cc"
         },
         "ID": 1604,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33211,7 +33211,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7cd"
         },
         "ID": 1605,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33230,7 +33230,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7ce"
         },
         "ID": 1606,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Regstrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33250,7 +33250,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7cf"
         },
         "ID": 1607,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Holbæk",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33269,7 +33269,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7d0"
         },
         "ID": 1608,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33288,7 +33288,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7d1"
         },
         "ID": 1609,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33308,7 +33308,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7d2"
         },
         "ID": 1610,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33327,7 +33327,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7d3"
         },
         "ID": 1611,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33347,7 +33347,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7d4"
         },
         "ID": 1612,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33367,7 +33367,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7d5"
         },
         "ID": 1613,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33387,7 +33387,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7d6"
         },
         "ID": 1614,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33407,7 +33407,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7d7"
         },
         "ID": 1615,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Melby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33427,7 +33427,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7d8"
         },
         "ID": 1616,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33447,7 +33447,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7d9"
         },
         "ID": 1617,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33467,7 +33467,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7da"
         },
         "ID": 1618,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Finland",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33487,7 +33487,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7db"
         },
         "ID": 1619,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33506,7 +33506,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7dc"
         },
         "ID": 1620,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33525,7 +33525,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7dd"
         },
         "ID": 1621,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33545,7 +33545,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7de"
         },
         "ID": 1622,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33565,7 +33565,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7df"
         },
         "ID": 1623,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Silkeborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33585,7 +33585,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7e0"
         },
         "ID": 1624,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33605,7 +33605,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7e1"
         },
         "ID": 1625,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Makedonien",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33625,7 +33625,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7e2"
         },
         "ID": 1626,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Næstved",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33645,7 +33645,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7e3"
         },
         "ID": 1627,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Lyngby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33665,7 +33665,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7e4"
         },
         "ID": 1628,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33684,7 +33684,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7e5"
         },
         "ID": 1629,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 41,
@@ -33704,7 +33704,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7e6"
         },
         "ID": 1630,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -33723,7 +33723,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7e7"
         },
         "ID": 1631,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -33742,7 +33742,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7e8"
         },
         "ID": 1632,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -33761,7 +33761,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7e9"
         },
         "ID": 1633,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -33780,7 +33780,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7ea"
         },
         "ID": 1634,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -33799,7 +33799,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7eb"
         },
         "ID": 1635,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -33818,7 +33818,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7ec"
         },
         "ID": 1636,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -33837,7 +33837,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7ed"
         },
         "ID": 1637,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -33856,7 +33856,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7ee"
         },
         "ID": 1638,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -33875,7 +33875,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7ef"
         },
         "ID": 1639,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hellerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -33894,7 +33894,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7f0"
         },
         "ID": 1640,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -33913,7 +33913,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7f1"
         },
         "ID": 1641,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hellerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -33932,7 +33932,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7f2"
         },
         "ID": 1642,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -33951,7 +33951,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7f3"
         },
         "ID": 1643,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -33970,7 +33970,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7f4"
         },
         "ID": 1644,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -33989,7 +33989,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7f5"
         },
         "ID": 1645,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34008,7 +34008,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7f6"
         },
         "ID": 1646,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34027,7 +34027,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7f7"
         },
         "ID": 1647,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34047,7 +34047,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7f8"
         },
         "ID": 1648,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34066,7 +34066,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7f9"
         },
         "ID": 1649,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34085,7 +34085,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7fa"
         },
         "ID": 1650,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34104,7 +34104,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7fb"
         },
         "ID": 1651,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34123,7 +34123,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7fc"
         },
         "ID": 1652,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34142,7 +34142,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7fd"
         },
         "ID": 1653,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34161,7 +34161,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7fe"
         },
         "ID": 1654,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34180,7 +34180,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f7ff"
         },
         "ID": 1655,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34199,7 +34199,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f800"
         },
         "ID": 1656,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34218,7 +34218,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f801"
         },
         "ID": 1657,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34237,7 +34237,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f802"
         },
         "ID": 1658,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34256,7 +34256,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f803"
         },
         "ID": 1659,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34275,7 +34275,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f804"
         },
         "ID": 1660,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34294,7 +34294,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f805"
         },
         "ID": 1661,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34313,7 +34313,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f806"
         },
         "ID": 1662,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34332,7 +34332,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f807"
         },
         "ID": 1663,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34351,7 +34351,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f808"
         },
         "ID": 1664,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Norge",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34370,7 +34370,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f809"
         },
         "ID": 1665,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34389,7 +34389,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f80a"
         },
         "ID": 1666,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34408,7 +34408,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f80b"
         },
         "ID": 1667,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Birkerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34427,7 +34427,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f80c"
         },
         "ID": 1668,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34446,7 +34446,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f80d"
         },
         "ID": 1669,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34465,7 +34465,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f80e"
         },
         "ID": 1670,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34484,7 +34484,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f80f"
         },
         "ID": 1671,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34503,7 +34503,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f810"
         },
         "ID": 1672,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34523,7 +34523,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f811"
         },
         "ID": 1673,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Skovlunde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34542,7 +34542,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f812"
         },
         "ID": 1674,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34561,7 +34561,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f813"
         },
         "ID": 1675,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34580,7 +34580,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f814"
         },
         "ID": 1676,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34599,7 +34599,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f815"
         },
         "ID": 1677,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34618,7 +34618,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f816"
         },
         "ID": 1678,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34637,7 +34637,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f817"
         },
         "ID": 1679,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34656,7 +34656,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f818"
         },
         "ID": 1680,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34675,7 +34675,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f819"
         },
         "ID": 1681,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34694,7 +34694,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f81a"
         },
         "ID": 1682,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34713,7 +34713,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f81b"
         },
         "ID": 1683,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34732,7 +34732,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f81c"
         },
         "ID": 1684,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34751,7 +34751,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f81d"
         },
         "ID": 1685,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Island",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34770,7 +34770,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f81e"
         },
         "ID": 1686,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34789,7 +34789,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f81f"
         },
         "ID": 1687,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34808,7 +34808,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f820"
         },
         "ID": 1688,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34827,7 +34827,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f821"
         },
         "ID": 1689,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34846,7 +34846,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f822"
         },
         "ID": 1690,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34865,7 +34865,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f823"
         },
         "ID": 1691,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Køge",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34884,7 +34884,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f824"
         },
         "ID": 1692,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34903,7 +34903,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f825"
         },
         "ID": 1693,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34922,7 +34922,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f826"
         },
         "ID": 1694,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34941,7 +34941,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f827"
         },
         "ID": 1695,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34960,7 +34960,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f828"
         },
         "ID": 1696,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34979,7 +34979,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f829"
         },
         "ID": 1697,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -34998,7 +34998,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f82a"
         },
         "ID": 1698,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35017,7 +35017,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f82b"
         },
         "ID": 1699,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35036,7 +35036,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f82c"
         },
         "ID": 1700,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35056,7 +35056,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f82d"
         },
         "ID": 1701,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35075,7 +35075,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f82e"
         },
         "ID": 1702,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35094,7 +35094,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f82f"
         },
         "ID": 1703,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35113,7 +35113,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f830"
         },
         "ID": 1704,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35132,7 +35132,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f831"
         },
         "ID": 1705,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35151,7 +35151,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f832"
         },
         "ID": 1706,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Norge",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35170,7 +35170,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f833"
         },
         "ID": 1707,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35189,7 +35189,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f834"
         },
         "ID": 1708,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35208,7 +35208,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f835"
         },
         "ID": 1709,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ukendt",
         "Statsborgerskab": "Island",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35227,7 +35227,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f836"
         },
         "ID": 1710,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Island",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35246,7 +35246,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f837"
         },
         "ID": 1711,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35265,7 +35265,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f838"
         },
         "ID": 1712,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35284,7 +35284,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f839"
         },
         "ID": 1713,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35303,7 +35303,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f83a"
         },
         "ID": 1714,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35322,7 +35322,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f83b"
         },
         "ID": 1715,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35341,7 +35341,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f83c"
         },
         "ID": 1716,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35360,7 +35360,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f83d"
         },
         "ID": 1717,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Charlottenlund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35379,7 +35379,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f83e"
         },
         "ID": 1718,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35398,7 +35398,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f83f"
         },
         "ID": 1719,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35417,7 +35417,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f840"
         },
         "ID": 1720,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35436,7 +35436,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f841"
         },
         "ID": 1721,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35455,7 +35455,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f842"
         },
         "ID": 1722,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35475,7 +35475,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f843"
         },
         "ID": 1723,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35495,7 +35495,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f844"
         },
         "ID": 1724,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35514,7 +35514,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f845"
         },
         "ID": 1725,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35533,7 +35533,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f846"
         },
         "ID": 1726,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35552,7 +35552,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f847"
         },
         "ID": 1727,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Nordhavn",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35571,7 +35571,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f848"
         },
         "ID": 1728,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35590,7 +35590,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f849"
         },
         "ID": 1729,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35609,7 +35609,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f84a"
         },
         "ID": 1730,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Nordhavn",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35628,7 +35628,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f84b"
         },
         "ID": 1731,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35647,7 +35647,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f84c"
         },
         "ID": 1732,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35666,7 +35666,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f84d"
         },
         "ID": 1733,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35685,7 +35685,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f84e"
         },
         "ID": 1734,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Belarus",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35704,7 +35704,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f84f"
         },
         "ID": 1735,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35723,7 +35723,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f850"
         },
         "ID": 1736,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35742,7 +35742,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f851"
         },
         "ID": 1737,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35761,7 +35761,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f852"
         },
         "ID": 1738,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35780,7 +35780,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f853"
         },
         "ID": 1739,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35799,7 +35799,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f854"
         },
         "ID": 1740,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35818,7 +35818,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f855"
         },
         "ID": 1741,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Sverige",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35837,7 +35837,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f856"
         },
         "ID": 1742,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35856,7 +35856,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f857"
         },
         "ID": 1743,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35876,7 +35876,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f858"
         },
         "ID": 1744,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35896,7 +35896,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f859"
         },
         "ID": 1745,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35915,7 +35915,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f85a"
         },
         "ID": 1746,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35934,7 +35934,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f85b"
         },
         "ID": 1747,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Holstebro",
         "Statsborgerskab": "Den Demokratiske Republik Congo",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35953,7 +35953,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f85c"
         },
         "ID": 1748,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hellerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35972,7 +35972,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f85d"
         },
         "ID": 1749,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Trelleborg",
         "Statsborgerskab": "Sverige",
         "INSTITUTIONSAKTIVITET": 44,
@@ -35991,7 +35991,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f85e"
         },
         "ID": 1750,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -36010,7 +36010,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f85f"
         },
         "ID": 1751,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -36029,7 +36029,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f860"
         },
         "ID": 1752,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -36048,7 +36048,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f861"
         },
         "ID": 1753,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -36067,7 +36067,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f862"
         },
         "ID": 1754,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -36086,7 +36086,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f863"
         },
         "ID": 1755,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -36105,7 +36105,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f864"
         },
         "ID": 1756,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -36124,7 +36124,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f865"
         },
         "ID": 1757,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -36143,7 +36143,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f866"
         },
         "ID": 1758,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Sverige",
         "INSTITUTIONSAKTIVITET": 44,
@@ -36162,7 +36162,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f867"
         },
         "ID": 1759,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Island",
         "INSTITUTIONSAKTIVITET": 44,
@@ -36181,7 +36181,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f868"
         },
         "ID": 1760,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 44,
@@ -36200,7 +36200,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f869"
         },
         "ID": 1761,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36220,7 +36220,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f86a"
         },
         "ID": 1762,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Holland",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36239,7 +36239,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f86b"
         },
         "ID": 1763,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36259,7 +36259,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f86c"
         },
         "ID": 1764,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Albertslund",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36278,7 +36278,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f86d"
         },
         "ID": 1765,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Island",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36297,7 +36297,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f86e"
         },
         "ID": 1766,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36317,7 +36317,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f86f"
         },
         "ID": 1767,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36337,7 +36337,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f870"
         },
         "ID": 1768,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Helsingør",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36357,7 +36357,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f871"
         },
         "ID": 1769,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Stenløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36377,7 +36377,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f872"
         },
         "ID": 1770,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36397,7 +36397,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f873"
         },
         "ID": 1771,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ukendt",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36416,7 +36416,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f874"
         },
         "ID": 1772,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Nivå",
         "Statsborgerskab": "Tyrkiet",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36436,7 +36436,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f875"
         },
         "ID": 1773,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36456,7 +36456,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f876"
         },
         "ID": 1774,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36476,7 +36476,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f877"
         },
         "ID": 1775,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Roskilde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36496,7 +36496,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f878"
         },
         "ID": 1776,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ukendt",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36515,7 +36515,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f879"
         },
         "ID": 1777,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36535,7 +36535,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f87a"
         },
         "ID": 1778,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36555,7 +36555,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f87b"
         },
         "ID": 1779,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36575,7 +36575,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f87c"
         },
         "ID": 1780,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Irak",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36595,7 +36595,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f87d"
         },
         "ID": 1781,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36615,7 +36615,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f87e"
         },
         "ID": 1782,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36635,7 +36635,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f87f"
         },
         "ID": 1783,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36655,7 +36655,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f880"
         },
         "ID": 1784,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hvidovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36675,7 +36675,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f881"
         },
         "ID": 1785,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36694,7 +36694,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f882"
         },
         "ID": 1786,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36713,7 +36713,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f883"
         },
         "ID": 1787,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36733,7 +36733,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f884"
         },
         "ID": 1788,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Malmø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36753,7 +36753,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f885"
         },
         "ID": 1789,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ålsgårde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36773,7 +36773,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f886"
         },
         "ID": 1790,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Tyskland",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36793,7 +36793,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f887"
         },
         "ID": 1791,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 89,
@@ -36813,7 +36813,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f888"
         },
         "ID": 1792,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -36833,7 +36833,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f889"
         },
         "ID": 1793,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -36853,7 +36853,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f88a"
         },
         "ID": 1794,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -36873,7 +36873,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f88b"
         },
         "ID": 1795,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -36893,7 +36893,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f88c"
         },
         "ID": 1796,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Gentofte",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -36913,7 +36913,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f88d"
         },
         "ID": 1797,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -36933,7 +36933,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f88e"
         },
         "ID": 1798,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -36953,7 +36953,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f88f"
         },
         "ID": 1799,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -36973,7 +36973,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f890"
         },
         "ID": 1800,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -36993,7 +36993,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f891"
         },
         "ID": 1801,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37013,7 +37013,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f892"
         },
         "ID": 1802,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37033,7 +37033,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f893"
         },
         "ID": 1803,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ballerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37053,7 +37053,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f894"
         },
         "ID": 1804,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37073,7 +37073,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f895"
         },
         "ID": 1805,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37093,7 +37093,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f896"
         },
         "ID": 1806,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Vejby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37113,7 +37113,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f897"
         },
         "ID": 1807,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37133,7 +37133,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f898"
         },
         "ID": 1808,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37153,7 +37153,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f899"
         },
         "ID": 1809,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37173,7 +37173,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f89a"
         },
         "ID": 1810,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37193,7 +37193,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f89b"
         },
         "ID": 1811,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37213,7 +37213,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f89c"
         },
         "ID": 1812,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37233,7 +37233,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f89d"
         },
         "ID": 1813,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37253,7 +37253,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f89e"
         },
         "ID": 1814,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37273,7 +37273,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f89f"
         },
         "ID": 1815,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37293,7 +37293,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8a0"
         },
         "ID": 1816,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37313,7 +37313,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8a1"
         },
         "ID": 1817,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Norge",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37333,7 +37333,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8a2"
         },
         "ID": 1818,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37353,7 +37353,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8a3"
         },
         "ID": 1819,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37373,7 +37373,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8a4"
         },
         "ID": 1820,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37393,7 +37393,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8a5"
         },
         "ID": 1821,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37413,7 +37413,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8a6"
         },
         "ID": 1822,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37433,7 +37433,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8a7"
         },
         "ID": 1823,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Taastrup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37453,7 +37453,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8a8"
         },
         "ID": 1824,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37473,7 +37473,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8a9"
         },
         "ID": 1825,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37493,7 +37493,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8aa"
         },
         "ID": 1826,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37513,7 +37513,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8ab"
         },
         "ID": 1827,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37533,7 +37533,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8ac"
         },
         "ID": 1828,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37553,7 +37553,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8ad"
         },
         "ID": 1829,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37573,7 +37573,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8ae"
         },
         "ID": 1830,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Gentofte",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37593,7 +37593,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8af"
         },
         "ID": 1831,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37613,7 +37613,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8b0"
         },
         "ID": 1832,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Sverige",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37633,7 +37633,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8b1"
         },
         "ID": 1833,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37652,7 +37652,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8b2"
         },
         "ID": 1834,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37671,7 +37671,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8b3"
         },
         "ID": 1835,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Polen",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37691,7 +37691,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8b4"
         },
         "ID": 1836,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Præstø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37711,7 +37711,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8b5"
         },
         "ID": 1837,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37731,7 +37731,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8b6"
         },
         "ID": 1838,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37751,7 +37751,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8b7"
         },
         "ID": 1839,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37771,7 +37771,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8b8"
         },
         "ID": 1840,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Malmø",
         "Statsborgerskab": "Sverige",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37791,7 +37791,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8b9"
         },
         "ID": 1841,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Hellerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37811,7 +37811,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8ba"
         },
         "ID": 1842,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København K",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37831,7 +37831,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8bb"
         },
         "ID": 1843,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37851,7 +37851,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8bc"
         },
         "ID": 1844,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ballerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37871,7 +37871,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8bd"
         },
         "ID": 1845,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37891,7 +37891,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8be"
         },
         "ID": 1846,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Carrickfergus",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37911,7 +37911,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8bf"
         },
         "ID": 1847,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 81,
@@ -37931,7 +37931,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8c0"
         },
         "ID": 1848,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hornbæk",
         "Statsborgerskab": "Bulgarien",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -37951,7 +37951,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8c1"
         },
         "ID": 1849,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -37971,7 +37971,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8c2"
         },
         "ID": 1850,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Roskilde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -37991,7 +37991,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8c3"
         },
         "ID": 1851,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ølstykke",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38011,7 +38011,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8c4"
         },
         "ID": 1852,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Hedehusene",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38030,7 +38030,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8c5"
         },
         "ID": 1853,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38050,7 +38050,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8c6"
         },
         "ID": 1854,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38070,7 +38070,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8c7"
         },
         "ID": 1855,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Herlev",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38089,7 +38089,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8c8"
         },
         "ID": 1856,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38109,7 +38109,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8c9"
         },
         "ID": 1857,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Søborg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38129,7 +38129,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8ca"
         },
         "ID": 1858,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38149,7 +38149,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8cb"
         },
         "ID": 1859,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38169,7 +38169,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8cc"
         },
         "ID": 1860,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38189,7 +38189,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8cd"
         },
         "ID": 1861,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38209,7 +38209,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8ce"
         },
         "ID": 1862,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Farum",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38229,7 +38229,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8cf"
         },
         "ID": 1863,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38248,7 +38248,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8d0"
         },
         "ID": 1864,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København N",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38268,7 +38268,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8d1"
         },
         "ID": 1865,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38288,7 +38288,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8d2"
         },
         "ID": 1866,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg C",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38308,7 +38308,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8d3"
         },
         "ID": 1867,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Kina",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38327,7 +38327,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8d4"
         },
         "ID": 1868,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Roskilde",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38346,7 +38346,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8d5"
         },
         "ID": 1869,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København Ø",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38365,7 +38365,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8d6"
         },
         "ID": 1870,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38385,7 +38385,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8d7"
         },
         "ID": 1871,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38404,7 +38404,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8d8"
         },
         "ID": 1872,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Rødovre",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38424,7 +38424,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8d9"
         },
         "ID": 1873,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Vanløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38444,7 +38444,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8da"
         },
         "ID": 1874,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København S",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38464,7 +38464,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8db"
         },
         "ID": 1875,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København SV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38484,7 +38484,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8dc"
         },
         "ID": 1876,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38504,7 +38504,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8dd"
         },
         "ID": 1877,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brøndby Strand",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38524,7 +38524,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8de"
         },
         "ID": 1878,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38544,7 +38544,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8df"
         },
         "ID": 1879,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København NV",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38564,7 +38564,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8e0"
         },
         "ID": 1880,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 4118,
@@ -38583,7 +38583,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8e1"
         },
         "ID": 1881,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "København V",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 161,
@@ -38603,7 +38603,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8e2"
         },
         "ID": 1882,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ballerup",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 161,
@@ -38623,7 +38623,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8e3"
         },
         "ID": 1883,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Valby",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 161,
@@ -38643,7 +38643,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8e4"
         },
         "ID": 1884,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Frederiksberg",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 161,
@@ -38663,7 +38663,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8e5"
         },
         "ID": 1885,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Kolding",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 161,
@@ -38683,7 +38683,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8e6"
         },
         "ID": 1886,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Køge",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 161,
@@ -38703,7 +38703,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8e7"
         },
         "ID": 1887,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Birkerød",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 161,
@@ -38723,7 +38723,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8e8"
         },
         "ID": 1888,
-        "Køn": "Kvinde",
+        "Gender": "Kvinde",
         "Bopæl_POSTDISTRIKT": "Stenløse",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 161,
@@ -38743,7 +38743,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8e9"
         },
         "ID": 1889,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 161,
@@ -38763,7 +38763,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8ea"
         },
         "ID": 1890,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 161,
@@ -38783,7 +38783,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8eb"
         },
         "ID": 1891,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Brønshøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 161,
@@ -38803,7 +38803,7 @@ const EKdataset = [
             "$oid": "69206e10213a6e2f2aa1f8ec"
         },
         "ID": 1892,
-        "Køn": "Mand",
+        "Gender": "Mand",
         "Bopæl_POSTDISTRIKT": "Ishøj",
         "Statsborgerskab": "Danmark",
         "INSTITUTIONSAKTIVITET": 161,

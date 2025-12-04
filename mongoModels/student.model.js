@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const studentSchema = new mongoose.Schema({
     ID: { type: Number, required: true },
-    KOEN: { type: String, required: true },
+    Gender: { type: String, required: true },
     Bopæl_POSTDISTRIKT: { type: String, required: true },
     Statsborgerskab: { type: String, required: true },
     INSTITUTIONSAKTIVITET: { type: Number, required: true },

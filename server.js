@@ -49,7 +49,7 @@ app.get('/Students', async (req, res) => {
     console.log("Forsøger at hente fra db");
     try {
         // Query MongoDB
-        const students = await Student.find().select('KOEN INSTITUTIONSAKT_BETEGNELSE BETEGNELSE_A911 EKSAMENSTYPE_NAVN KVOTIENT Alder' );
+        const students = await Student.find().select('Gender INSTITUTIONSAKT_BETEGNELSE BETEGNELSE_A911 EKSAMENSTYPE_NAVN KVOTIENT Alder' );
         res.status(200).json(students);
 
     } catch (error) {
@@ -99,6 +99,66 @@ app.get('/uddannelses_kvotienter', async (req, res) => {
         const result = Object.values(quotients).map(edu => ({
             INSTITUTIONSAKT_BETEGNELSE: edu.INSTITUTIONSAKT_BETEGNELSE,
             averageQuotient: edu.count > 0 ? (edu.totalQuotient / edu.count).toFixed(2) : "0.00"
+        }));
+
+        res.json(result);
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+});
+
+app.get('/uddannelses_kvotienter_opdelt', async (req, res) => {
+    try {
+        const allowedEducations = [
+            'Datamatiker',
+            'PB i IT-arkitektur',
+            'IT-teknolog',
+            'Multimediedesigner',
+            'Økonomi og it',
+        ];
+
+        const students = await Student.find({
+            INSTITUTIONSAKT_BETEGNELSE: { $in: allowedEducations }
+        });
+
+        // DEBUG: Log en enkelt student for at se alle feltnavne
+        if (students.length > 0) {
+            console.log("Første student:", students[0]);
+            console.log("Køn værdi:", students[0].Gender);
+        }
+
+        const quotients = {};
+
+        students.forEach(student => {
+            if (!quotients[student.INSTITUTIONSAKT_BETEGNELSE]) {
+                quotients[student.INSTITUTIONSAKT_BETEGNELSE] = {
+                    INSTITUTIONSAKT_BETEGNELSE: student.INSTITUTIONSAKT_BETEGNELSE,
+                    male: { totalQuotient: 0, count: 0 },
+                    female: { totalQuotient: 0, count: 0 }
+                };
+            }
+
+            const kvotient = parseFloat(student.KVOTIENT);
+            if (!isNaN(kvotient)) {
+                console.log("Tjekker køn:", student.Gender, "=== 'Mand'?", student.Gender === 'Mand');
+                console.log("Tjekker køn:", student.Gender, "=== 'Kvinde'?", student.Gender === 'Kvinde');
+                // Brug det korrekte feltnavn: Køn
+                if (student.Gender === 'Mand') {
+                    quotients[student.INSTITUTIONSAKT_BETEGNELSE].male.totalQuotient += kvotient;
+                    quotients[student.INSTITUTIONSAKT_BETEGNELSE].male.count++;
+                } else if (student.Gender === 'Kvinde') {
+                    quotients[student.INSTITUTIONSAKT_BETEGNELSE].female.totalQuotient += kvotient;
+                    quotients[student.INSTITUTIONSAKT_BETEGNELSE].female.count++;
+                }
+            }
+        });
+
+        const result = Object.values(quotients).map(edu => ({
+            INSTITUTIONSAKT_BETEGNELSE: edu.INSTITUTIONSAKT_BETEGNELSE,
+            maleAverageQuotient: edu.male.count > 0 ? (edu.male.totalQuotient / edu.male.count).toFixed(2) : "0.00",
+            femaleAverageQuotient: edu.female.count > 0 ? (edu.female.totalQuotient / edu.female.count).toFixed(2) : "0.00",
+            maleCount: edu.male.count,
+            femaleCount: edu.female.count
         }));
 
         res.json(result);
