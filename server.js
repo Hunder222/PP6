@@ -57,13 +57,12 @@ app.get('/Students', async (req, res) => {
 
     }
 });
-/* kvotienter på alle uddanelser
-kvotienter på alle uddannelser som også fordeler kvotient i mænd og kvinder
+/*
 * count hvor mange der er på hver uddannelse
-* hvor mange kvinder og mænd på hver uddannelse
+* hvor mange kvinder og mænd på hver uddannelse  TODO
 *  */
 
-// 1. Kvotienter på alle uddannelser
+// endpoint til at få data om uddannelses kvotienter op delt pr. uddannelse
 app.get('/uddannelses_kvotienter', async (req, res) => {
     try {
         const allowedEducations = [
@@ -107,6 +106,8 @@ app.get('/uddannelses_kvotienter', async (req, res) => {
     }
 });
 
+
+// endpoint til at få data om uddannelses kvotienter op delt pr. uddannelse og så yderligere i køn
 app.get('/uddannelses_kvotienter_opdelt', async (req, res) => {
     try {
         const allowedEducations = [
