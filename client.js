@@ -92,9 +92,9 @@ let jobChart2 = new Chart(jobChart2Canvas, {
 
 ////// misc functions //////
 
-const EKdatasetFiltered = {
+const pipeline = {
     $group: {
-        _id: null,
+        _id: "$INSTITUTIONSAKT_BETEGNELSE",
         totalCount: {$sum: 1},
         countITArk: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"]}, 1, 0]}},
         countData: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]}, 1, 0]}},
@@ -116,11 +116,7 @@ const EKdatasetFiltered = {
 }
 
 function getKvotient() {
-    const pipeline = [
-        {
 
-        }
-    ]
     const queryResult = new mingo.Aggregator(pipeline).run(EKdataset);
 
     const result = queryResult.all ? queryResult.all() : queryResult;
