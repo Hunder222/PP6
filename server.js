@@ -64,7 +64,7 @@ kvotienter på alle uddannelser som også fordeler kvotient i mænd og kvinder
 *  */
 
 // 1. Kvotienter på alle uddannelser
-app.get('/education-quotients', async (req, res) => {
+app.get('/uddannelses_kvotienter', async (req, res) => {
     try {
         const allowedEducations = [
             'Datamatiker',
