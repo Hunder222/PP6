@@ -4,7 +4,6 @@ const express = require("express");
 const mysql = require("mysql2");
 const cors = require("cors");
 const mongoose = require("mongoose"); // MongoDB library
-const EKdataset = require('./EKDatasetLocal'); //local data
 const Student = require('./mongoModels/student.model.js');
 const env = require('dotenv').config()
 // filesystem
@@ -168,6 +167,41 @@ app.get('/uddannelses_kvotienter_opdelt', async (req, res) => {
     }
 });
 
+app.get('/antal_per_uddannelse', async(req,res) =>{
+    try{
+        const allowedEducations = [
+            'Datamatiker',
+            'PB i IT-arkitektur',
+            'IT-teknolog',
+            'Multimediedesigner',
+            'Økonomi og it',
+        ];
+
+        const students = await Student.find({
+            INSTITUTIONSAKT_BETEGNELSE: {$in: allowedEducations}
+        });
+
+        const educations = {};
+        students.forEach(student => {
+            if(!educations[student.INSTITUTIONSAKT_BETEGNELSE]){
+                educations[student.INSTITUTIONSAKT_BETEGNELSE] = {
+                    INSTITUTIONSAKT_BETEGNELSE: student.INSTITUTIONSAKT_BETEGNELSE,
+                    count: 0
+                };
+            }
+            educations[student.INSTITUTIONSAKT_BETEGNELSE].count ++;
+
+        });
+        // har lavet det til object da jeg synes der formaterer det pænerer
+        const result = Object.values(educations);
+        res.json(result);
+
+    }catch(error){
+
+    }
+
+
+});
 
 // hent udvalgt studerende ud fra id
 app.get('/students/:id', async(req, res) =>{
