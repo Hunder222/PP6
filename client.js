@@ -11,6 +11,13 @@ const jobChart2Canvas = document.querySelector('#jobChart2')
 
 
 ////// charts //////
+
+
+const borderColor = 'rgba(255, 255, 255, 1)'
+const gridColor = 'rgba(255, 255, 255, 1)'
+const gridTextColor = 'rgba(255, 255, 255, 1)'
+
+
 let lineChart = new Chart(lineChartCanvas, {
     type: 'line',
     data: {
@@ -20,6 +27,32 @@ let lineChart = new Chart(lineChartCanvas, {
             data: [], //kvotient
             backgroundColor: '', //brug chart farver fra docs
         }]
+    },
+    options: { 
+        scales: {
+            x: { 
+                border: {
+                    color: borderColor
+                },
+                grid: {
+                    color: gridColor
+                },
+                ticks: {
+                    color: gridTextColor
+                }
+            },
+            y: {
+                border: {
+                    color: borderColor
+                },
+                grid: {
+                    color: gridColor
+                },
+                ticks: {
+                    color: gridTextColor
+                }
+            }
+        }
     }
 })
 
@@ -32,6 +65,32 @@ let pieChart = new Chart(pieChartCanvas, {
             data: [], //updateChart
             backgroundColor: '', //brug chart farver fra docs
         }]
+    },
+    options: {
+        scales: {
+            x: {
+                border: {
+                    color: borderColor
+                },
+                grid: {
+                    color: gridColor
+                },
+                ticks: {
+                    color: gridTextColor
+                }
+            },
+            y: {
+                border: {
+                    color: borderColor
+                },
+                grid: {
+                    color: gridColor
+                },
+                ticks: {
+                    color: gridTextColor
+                }
+            }
+        }
     }
 })
 
@@ -44,6 +103,32 @@ let barChart = new Chart(barChartCanvas, {
             data: [], //updateChart
             backgroundColor: '' //brug chart farver fra docs
         }]
+    },
+    options: {
+        scales: {
+            x: {
+                border: {
+                    color: borderColor
+                },
+                grid: {
+                    color: gridColor
+                },
+                ticks: {
+                    color: gridTextColor
+                }
+            },
+            y: {
+                border: {
+                    color: borderColor
+                },
+                grid: {
+                    color: gridColor
+                },
+                ticks: {
+                    color: gridTextColor
+                }
+            }
+        }
     }
 })
 
@@ -56,6 +141,32 @@ let lønChart = new Chart(lønChartCanvas, {
             data: [], //update chart
             backgroundColor: ''
         }]
+    },
+    options: {
+        scales: {
+            x: {
+                border: {
+                    color: borderColor
+                },
+                grid: {
+                    color: gridColor
+                },
+                ticks: {
+                    color: gridTextColor
+                }
+            },
+            y: {
+                border: {
+                    color: borderColor
+                },
+                grid: {
+                    color: gridColor
+                },
+                ticks: {
+                    color: gridTextColor
+                }
+            }
+        }
     }
 })
 
@@ -71,6 +182,32 @@ let jobChart1 = new Chart(jobChart1Canvas, {
             }, //update chart
             backgroundColor: ''
         }]
+    },
+    options: {
+        scales: {
+            x: {
+                border: {
+                    color: borderColor
+                },
+                grid: {
+                    color: gridColor
+                },
+                ticks: {
+                    color: gridTextColor
+                }
+            },
+            y: {
+                border: {
+                    color: borderColor
+                },
+                grid: {
+                    color: gridColor
+                },
+                ticks: {
+                    color: gridTextColor
+                }
+            }
+        }
     }
 })
 
@@ -86,6 +223,32 @@ let jobChart2 = new Chart(jobChart2Canvas, {
             }, //update chart
             backgroundColor: ''
         }]
+    },
+    options: {
+        scales: {
+            x: {
+                border: {
+                    color: borderColor
+                },
+                grid: {
+                    color: gridColor
+                },
+                ticks: {
+                    color: gridTextColor
+                }
+            },
+            y: {
+                border: {
+                    color: borderColor
+                },
+                grid: {
+                    color: gridColor
+                },
+                ticks: {
+                    color: gridTextColor
+                }
+            }
+        }
     }
 })
 
