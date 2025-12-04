@@ -27,37 +27,37 @@ const educationData = [
         "socialEnvironment": [
             {
                 "answer": "Der er et godt socialt miljø",
-                "percent": 3.46
+                "percent": 69.2
             },
             {
                 "answer": "Jeg føler mig generelt rigtig godt tilpas på min uddannelse",
-                "percent": 3.91
+                "percent": 78.2
             },
             {
                 "answer": "Har du oplevet at føle dig ensom på studiet?",
-                "percent": 4.05
+                "percent": 81
             },
             {
                 "answer": "Har du oplevet stærke stress-symptomer i forbindelse med dit studie i dagligdagen?",
-                "percent": 3.52
+                "percent": 70.4
             }
         ],
         "professionalEnvironment": [
             {
                 "answer": "Der er et godt fagligt miljø",
-                "percent": 3.95
+                "percent": 79
             },
             {
                 "answer": "Jeg har det generelt godt med at arbejde sammen med andre studerende",
-                "percent": 4.29
+                "percent": 85.8
             },
             {
                 "answer": "Jeg forstår tingene bedre, når jeg har talt med mine medstuderende om dem",
-                "percent": 4.21
+                "percent": 84.2
             },
             {
                 "answer": "Mit udbytte af undervisningen er højt",
-                "percent": 3.95
+                "percent": 79
             }
         ],
         "dropOutFirstYearPct": 17
@@ -91,37 +91,37 @@ const educationData = [
         "socialEnvironment": [
             {
                 "answer": "Der er et godt socialt miljø",
-                "percent": 3.80
+                "percent": 76
             },
             {
                 "answer": "Jeg føler mig generelt rigtig godt tilpas på min uddannelse",
-                "percent": 4.07
+                "percent": 81.4
             },
             {
                 "answer": "Har du oplevet at føle dig ensom på studiet?",
-                "percent": 3.89
+                "percent": 77.8
             },
             {
                 "answer": "Har du oplevet stærke stress-symptomer i forbindelse med dit studie i dagligdagen?",
-                "percent": 3.78
+                "percent": 75.6
             }
         ],
         "professionalEnvironment": [
             {
                 "answer": "Der er et godt fagligt miljø",
-                "percent": 3.96
+                "percent": 79.2
             },
             {
                 "answer": "Jeg har det generelt godt med at arbejde sammen med andre studerende",
-                "percent": 4.10
+                "percent": 82
             },
             {
                 "answer": "Jeg forstår tingene bedre, når jeg har talt med mine medstuderende om dem",
-                "percent": 4.16
+                "percent": 83.2
             },
             {
                 "answer": "Mit udbytte af undervisningen er højt",
-                "percent": 3.86
+                "percent": 77.2
             }
         ],
         "dropOutFirstYearPct": 19
@@ -138,37 +138,37 @@ const educationData = [
         "socialEnvironment": [
             {
                 "answer": "Der er et godt socialt miljø",
-                "percent": 3.95
+                "percent": 79
             },
             {
                 "answer": "Jeg føler mig generelt rigtig godt tilpas på min uddannelse",
-                "percent": 4.05
+                "percent": 81
             },
             {
                 "answer": "Har du oplevet at føle dig ensom på studiet?",
-                "percent": 4.08
+                "percent": 81.6
             },
             {
                 "answer": "Har du oplevet stærke stress-symptomer i forbindelse med dit studie i dagligdagen?",
-                "percent": 3.87
+                "percent": 77.4
             }
         ],
         "professionalEnvironment": [
             {
                 "answer": "Der er et godt fagligt miljø",
-                "percent": 4.07
+                "percent": 81.4
             },
             {
                 "answer": "Jeg har det generelt godt med at arbejde sammen med andre studerende",
-                "percent": 4.26
+                "percent": 85.2
             },
             {
                 "answer": "Jeg forstår tingene bedre, når jeg har talt med mine medstuderende om dem",
-                "percent": 4.23
+                "percent": 84.6
             },
             {
                 "answer": "Mit udbytte af undervisningen er højt",
-                "percent": 3.79
+                "percent": 75.8
             }
         ],
         "dropOutFirstYearPct": 21
@@ -202,37 +202,37 @@ const educationData = [
         "socialEnvironment": [
             {
                 "answer": "Der er et godt socialt miljø",
-                "percent": 3.95
+                "percent": 79
             },
             {
                 "answer": "Jeg føler mig generelt rigtig godt tilpas på min uddannelse",
-                "percent": 3.89
+                "percent": 77.8
             },
             {
                 "answer": "Har du oplevet at føle dig ensom på studiet?",
-                "percent": 4.06
+                "percent": 81.2
             },
             {
                 "answer": "Har du oplevet stærke stress-symptomer i forbindelse med dit studie i dagligdagen?",
-                "percent": 3.57
+                "percent": 71.4
             }
         ],
         "professionalEnvironment": [
             {
                 "answer": "Der er et godt fagligt miljø",
-                "percent": 3.89
+                "percent": 77.8
             },
             {
                 "answer": "Jeg har det generelt godt med at arbejde sammen med andre studerende",
-                "percent": 4.17
+                "percent": 83.4
             },
             {
                 "answer": "Jeg forstår tingene bedre, når jeg har talt med mine medstuderende om dem",
-                "percent": 4.20
+                "percent": 84
             },
             {
                 "answer": "Mit udbytte af undervisningen er højt",
-                "percent": 3.56
+                "percent": 71.2
             }
         ],
         "dropOutFirstYearPct": 24
@@ -266,37 +266,37 @@ const educationData = [
         "socialEnvironment": [
             {
                 "answer": "Der er et godt socialt miljø",
-                "percent": 3.89
+                "percent": 77.8
             },
             {
                 "answer": "Jeg føler mig generelt rigtig godt tilpas på min uddannelse",
-                "percent": 4.19
+                "percent": 83.8
             },
             {
                 "answer": "Har du oplevet at føle dig ensom på studiet?",
-                "percent": 3.80
+                "percent": 76
             },
             {
                 "answer": "Har du oplevet stærke stress-symptomer i forbindelse med dit studie i dagligdagen?",
-                "percent": 3.43
+                "percent": 68.6
             }
         ],
         "professionalEnvironment": [
             {
                 "answer": "Der er et godt fagligt miljø",
-                "percent": 4.11
+                "percent": 82.2
             },
             {
                 "answer": "Jeg har det generelt godt med at arbejde sammen med andre studerende",
-                "percent": 4.20
+                "percent": 84
             },
             {
                 "answer": "Jeg forstår tingene bedre, når jeg har talt med mine medstuderende om dem",
-                "percent": 4.27
+                "percent": 85.4
             },
             {
                 "answer": "Mit udbytte af undervisningen er højt",
-                "percent": 4.02
+                "percent": 80.4
             }
         ],
         "dropOutFirstYearPct": 15
@@ -330,37 +330,37 @@ const educationData = [
         "socialEnvironment": [
             {
                 "answer": "Der er et godt socialt miljø",
-                "percent": 3.87
+                "percent": 77.4
             },
             {
                 "answer": "Jeg føler mig generelt rigtig godt tilpas på min uddannelse",
-                "percent": 3.96
+                "percent": 79.2
             },
             {
                 "answer": "Har du oplevet at føle dig ensom på studiet?",
-                "percent": 3.92
+                "percent": 78.4
             },
             {
                 "answer": "Har du oplevet stærke stress-symptomer i forbindelse med dit studie i dagligdagen?",
-                "percent": 3.69
+                "percent": 73.8
             }
         ],
         "professionalEnvironment": [
             {
                 "answer": "Der er et godt fagligt miljø",
-                "percent": 3.81
+                "percent": 76.2
             },
             {
                 "answer": "Jeg har det generelt godt med at arbejde sammen med andre studerende",
-                "percent": 4.22
+                "percent": 84.4
             },
             {
                 "answer": "Jeg forstår tingene bedre, når jeg har talt med mine medstuderende om dem",
-                "percent": 4.13
+                "percent": 82.6
             },
             {
                 "answer": "Mit udbytte af undervisningen er højt",
-                "percent": 3.71
+                "percent": 74.2
             }
         ],
         "dropOutFirstYearPct": 27

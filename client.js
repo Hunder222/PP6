@@ -297,6 +297,17 @@ subSections.forEach((section, i) => {
     }
 });
 
+
+
+
+
+
+
+
+
+
+
+
 const pipeline = {
     $group: {
         _id: "$INSTITUTIONSAKT_BETEGNELSE",
@@ -383,7 +394,6 @@ subSections.forEach((section, i) => {
 
 
 ////// eventlisteners //////
-
 
 
 
