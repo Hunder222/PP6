@@ -15,7 +15,7 @@ const app = express();
 const port = 3000;
 
 app.use(cors());
-app.use(express.json())
+app.use(express.json());
 //app.use(express.static(path.join(__dirname))); // prop not needed
 
 //SQL database setup (For "third party data")
@@ -23,15 +23,11 @@ const mysqlConnection = mysql.createConnection({
     host: process.env.DB_HOST,
     user: process.env.DB_USERNAME,
     password: process.env.DB_PASS,
-    database: process.env.DB_NAME // TODO
+    database: process.env.DB_NAME
 });
 
 
-// MongoDB database setup (For "Optagelsesdata")
-// Replace 'my_mongo_db' with our actual database name
-const mongoURI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/my_mongo_db';
-
-mongoose.connect(mongoURI)
+mongoose.connect('mongodb://127.0.0.1:27017/EKData')
     .then(() => console.log('Connected to MongoDB successfully'))
     .catch((err) => console.error('Error connecting to MongoDB:', err)
     );
@@ -45,7 +41,7 @@ const query1 = "SELECT * FROM educations"
 
 const studentSchema = new mongoose.Schema({
     ID: { type: Number, required: true },
-    Køn: { type: String, required: true },
+    KOEN: { type: String, required: true },
     Bopæl_POSTDISTRIKT: { type: String, required: true },
     Statsborgerskab: { type: String, required: true },
     INSTITUTIONSAKTIVITET: { type: Number, required: true },
@@ -60,10 +56,10 @@ const studentSchema = new mongoose.Schema({
     "Søgt som prioritet 1": { type: String, required: true },
     Alder: { type: Number, required: true },
     "Adgangsgivende skole navn": { type: String, required: true }
-}, { collection: 'Students' });
+});
 
 
-const student = mongoose.model('Student', studentSchema, 'Students');
+const Student = mongoose.model('student', studentSchema);
 
 
 
@@ -72,11 +68,8 @@ app.get('/Students', async (req, res) => {
     console.log("Forsøger at hente fra db");
     try {
         // Query MongoDB
-        const myStudentsMongoResponse = await student.find();
-        res.json({
-            message: "Data retrieved from both databases",
-            mongoData: myStudentsMongoResponse,
-        });
+        const students = await Student.find().select('KOEN INSTITUTIONSAKT_BETEGNELSE BETEGNELSE_A911 EKSAMENSTYPE_NAVN KVOTIENT Alder' );
+        res.status(200).json(students);
 
     } catch (error) {
         console.log("Kunne ikke hente fra db, henter fra lokal fil");

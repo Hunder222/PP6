@@ -24,6 +24,43 @@ const educationData = [
             }
         ],
         "unemploymentNewGraduatePct": 2,
+        "socialEnvironment": [
+            {
+                "answer": "Der er et godt socialt miljø",
+                "percent": 3.46
+            },
+            {
+                "answer": "Jeg føler mig generelt rigtig godt tilpas på min uddannelse",
+                "percent": 3.91
+            },
+            {
+                "answer": "Har du oplevet at føle dig ensom på studiet?",
+                "percent": 4.05
+            },
+            {
+                "answer": "Har du oplevet stærke stress-symptomer i forbindelse med dit studie i dagligdagen?",
+                "percent": 3.52
+            }
+        ],
+        "professionalEnvironment": [
+            {
+                "answer": "Der er et godt fagligt miljø",
+                "percent": 3.95
+            },
+            {
+                "answer": "Jeg har det generelt godt med at arbejde sammen med andre studerende",
+                "percent": 4.29
+            },
+            {
+                "answer": "Jeg forstår tingene bedre, når jeg har talt med mine medstuderende om dem",
+                "percent": 4.21
+            },
+            {
+                "answer": "Mit udbytte af undervisningen er højt",
+                "percent": 3.95
+            }
+        ],
+        "dropOutFirstYearPct": 17
     },
 
     {
@@ -51,6 +88,43 @@ const educationData = [
             }
         ],
         "unemploymentNewGraduatePct": 5,
+        "socialEnvironment": [
+            {
+                "answer": "Der er et godt socialt miljø",
+                "percent": 3.80
+            },
+            {
+                "answer": "Jeg føler mig generelt rigtig godt tilpas på min uddannelse",
+                "percent": 4.07
+            },
+            {
+                "answer": "Har du oplevet at føle dig ensom på studiet?",
+                "percent": 3.89
+            },
+            {
+                "answer": "Har du oplevet stærke stress-symptomer i forbindelse med dit studie i dagligdagen?",
+                "percent": 3.78
+            }
+        ],
+        "professionalEnvironment": [
+            {
+                "answer": "Der er et godt fagligt miljø",
+                "percent": 3.96
+            },
+            {
+                "answer": "Jeg har det generelt godt med at arbejde sammen med andre studerende",
+                "percent": 4.10
+            },
+            {
+                "answer": "Jeg forstår tingene bedre, når jeg har talt med mine medstuderende om dem",
+                "percent": 4.16
+            },
+            {
+                "answer": "Mit udbytte af undervisningen er højt",
+                "percent": 3.86
+            }
+        ],
+        "dropOutFirstYearPct": 19
     },
 
     {
@@ -60,7 +134,44 @@ const educationData = [
         "averageSalary": 67.000,
         "highestSalary": 70.000,
         "reasonsForApplying": [],
-        "unemploymentNewGraduatePct": null
+        "unemploymentNewGraduatePct": null,
+        "socialEnvironment": [
+            {
+                "answer": "Der er et godt socialt miljø",
+                "percent": 3.95
+            },
+            {
+                "answer": "Jeg føler mig generelt rigtig godt tilpas på min uddannelse",
+                "percent": 4.05
+            },
+            {
+                "answer": "Har du oplevet at føle dig ensom på studiet?",
+                "percent": 4.08
+            },
+            {
+                "answer": "Har du oplevet stærke stress-symptomer i forbindelse med dit studie i dagligdagen?",
+                "percent": 3.87
+            }
+        ],
+        "professionalEnvironment": [
+            {
+                "answer": "Der er et godt fagligt miljø",
+                "percent": 4.07
+            },
+            {
+                "answer": "Jeg har det generelt godt med at arbejde sammen med andre studerende",
+                "percent": 4.26
+            },
+            {
+                "answer": "Jeg forstår tingene bedre, når jeg har talt med mine medstuderende om dem",
+                "percent": 4.23
+            },
+            {
+                "answer": "Mit udbytte af undervisningen er højt",
+                "percent": 3.79
+            }
+        ],
+        "dropOutFirstYearPct": 21
     },
 
     {
@@ -88,6 +199,43 @@ const educationData = [
             }
         ],
         "unemploymentNewGraduatePct": 5,
+        "socialEnvironment": [
+            {
+                "answer": "Der er et godt socialt miljø",
+                "percent": 3.95
+            },
+            {
+                "answer": "Jeg føler mig generelt rigtig godt tilpas på min uddannelse",
+                "percent": 3.89
+            },
+            {
+                "answer": "Har du oplevet at føle dig ensom på studiet?",
+                "percent": 4.06
+            },
+            {
+                "answer": "Har du oplevet stærke stress-symptomer i forbindelse med dit studie i dagligdagen?",
+                "percent": 3.57
+            }
+        ],
+        "professionalEnvironment": [
+            {
+                "answer": "Der er et godt fagligt miljø",
+                "percent": 3.89
+            },
+            {
+                "answer": "Jeg har det generelt godt med at arbejde sammen med andre studerende",
+                "percent": 4.17
+            },
+            {
+                "answer": "Jeg forstår tingene bedre, når jeg har talt med mine medstuderende om dem",
+                "percent": 4.20
+            },
+            {
+                "answer": "Mit udbytte af undervisningen er højt",
+                "percent": 3.56
+            }
+        ],
+        "dropOutFirstYearPct": 24
     },
 
     {
@@ -115,16 +263,43 @@ const educationData = [
             }
         ],
         "unemploymentNewGraduatePct": 8,
-    },
-
-    {
-        "id": "OCYB",
-        "name": "Operationel_Cybersikkerhed",
-        "startingSalary": null,
-        "averageSalary": null,
-        "highestSalary": null,
-        "reasonsForApplying": [],
-        "unemploymentNewGraduate": null,
+        "socialEnvironment": [
+            {
+                "answer": "Der er et godt socialt miljø",
+                "percent": 3.89
+            },
+            {
+                "answer": "Jeg føler mig generelt rigtig godt tilpas på min uddannelse",
+                "percent": 4.19
+            },
+            {
+                "answer": "Har du oplevet at føle dig ensom på studiet?",
+                "percent": 3.80
+            },
+            {
+                "answer": "Har du oplevet stærke stress-symptomer i forbindelse med dit studie i dagligdagen?",
+                "percent": 3.43
+            }
+        ],
+        "professionalEnvironment": [
+            {
+                "answer": "Der er et godt fagligt miljø",
+                "percent": 4.11
+            },
+            {
+                "answer": "Jeg har det generelt godt med at arbejde sammen med andre studerende",
+                "percent": 4.20
+            },
+            {
+                "answer": "Jeg forstår tingene bedre, når jeg har talt med mine medstuderende om dem",
+                "percent": 4.27
+            },
+            {
+                "answer": "Mit udbytte af undervisningen er højt",
+                "percent": 4.02
+            }
+        ],
+        "dropOutFirstYearPct": 15
     },
 
     {
@@ -152,6 +327,43 @@ const educationData = [
             }
         ],
         "unemploymentNewGraduatePct": 6,
+        "socialEnvironment": [
+            {
+                "answer": "Der er et godt socialt miljø",
+                "percent": 3.87
+            },
+            {
+                "answer": "Jeg føler mig generelt rigtig godt tilpas på min uddannelse",
+                "percent": 3.96
+            },
+            {
+                "answer": "Har du oplevet at føle dig ensom på studiet?",
+                "percent": 3.92
+            },
+            {
+                "answer": "Har du oplevet stærke stress-symptomer i forbindelse med dit studie i dagligdagen?",
+                "percent": 3.69
+            }
+        ],
+        "professionalEnvironment": [
+            {
+                "answer": "Der er et godt fagligt miljø",
+                "percent": 3.81
+            },
+            {
+                "answer": "Jeg har det generelt godt med at arbejde sammen med andre studerende",
+                "percent": 4.22
+            },
+            {
+                "answer": "Jeg forstår tingene bedre, når jeg har talt med mine medstuderende om dem",
+                "percent": 4.13
+            },
+            {
+                "answer": "Mit udbytte af undervisningen er højt",
+                "percent": 3.71
+            }
+        ],
+        "dropOutFirstYearPct": 27
     }
 
 
