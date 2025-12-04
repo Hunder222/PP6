@@ -290,6 +290,13 @@ let jobChart2 = new Chart(jobChart2Canvas, {
 
 ////// misc functions //////
 
+// function to reverse every 2nd subsection direction, for zigzag effekt
+subSections.forEach((section, i) => {
+    if (i % 2 !== 0) {
+        section.classList.add('reversed');
+    }
+});
+
 const pipeline = {
     $group: {
         _id: "$INSTITUTIONSAKT_BETEGNELSE",
@@ -365,6 +372,7 @@ function showGender() {
     pieChart.data.datasets[10].data = queriedData.educationsGender.countØkoGenderF
 }
 
+showGender()
 
 // function to reverse every 2nd subsection direction, for zigzag effekt
 subSections.forEach((section, i) => {
