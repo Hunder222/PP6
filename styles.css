@@ -103,6 +103,7 @@ header {
 
 .mainSections {
     min-height: 90vh;
+
     display: flex;
     flex-direction: column;
     scroll-snap-align: start;
@@ -283,6 +284,8 @@ height: 5vh;
 }
 
 }
+.maincharts{
 
-
+    max-height: 60vh;
+}
 /* #endregion */
