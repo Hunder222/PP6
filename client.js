@@ -6,6 +6,11 @@ const lineChartCanvas = document.querySelector('#genderChart1');
 const pieChartCanvas = document.querySelector('#genderChart2');
 const barChartCanvas = document.querySelector('#genderChart3');
 const lønChartCanvas = document.querySelector('#salaryChart')
+const welbeingChart1Canvas = document.querySelector('#wellbeingChart1')
+const welbeingChart2Canvas = document.querySelector('#wellbeingChart2')
+const welbeingChart3Canvas = document.querySelector('#wellbeingChart3')
+const welbeingChart4Canvas = document.querySelector('#wellbeingChart4')
+const welbeingChart5Canvas = document.querySelector('#wellbeingChart5')
 const jobChart1Canvas = document.querySelector('#jobChart1')
 const jobChart2Canvas = document.querySelector('#jobChart2')
 const chartLabels = ["Cybersikkerhed", "Datamatiker", "IT-sikkerhed", "Multimediedesigner", "PB i IT-arkitektur", "Økonomi og it"]
@@ -51,7 +56,15 @@ const queriedData = {
 const borderColor = 'rgba(255, 255, 255, 1)'
 const gridColor = 'rgba(255, 255, 255, 1)'
 const gridTextColor = 'rgba(255, 255, 255, 1)'
-
+const chartAllEduLabels = ['CYB', 'DATA', 'ITAR', 'IITE', 'MEKO', 'ØKIT']
+const chartAllEduNames = [
+    'Cybersikkerhed',
+    'Datamatiker',
+    'IT-Arkitektur',
+    'IT-Teknolog',
+    'Multimediedesigner',
+    'Økonomi og IT'
+]
 
 let lineChart = new Chart(lineChartCanvas, {
     type: 'line',
@@ -204,6 +217,97 @@ let lønChart = new Chart(lønChartCanvas, {
         }
     }
 })
+
+
+// wellbeingSection
+
+let welbeingChart1 = new Chart(welbeingChart2Canvas, {
+    type: 'bar',
+    data: {
+        labels: chartAllEduLabels,
+        datasets: [{
+            label: [], 
+            data: [33, 66, 99],
+            backgroundColor: ''
+        }]
+    },
+    options: {
+        indexAxis: 'y',
+        label: {display: false},
+        plugins: {
+            legend: {display: false},
+            title: {
+                display: true, 
+                text: 'Der er et godt socialt miljø', 
+                font: {size: 18},
+                color: 'white'
+            },
+            tooltip: {
+                callbacks: {
+                    label: function (context) {
+                        const value = context.parsed.x
+                        let valueToUse
+                        if (value < 13) {
+                            valueToUse = 'Meget uenig'
+                        } else if (value < 38) {
+                            valueToUse = 'Uenig'
+                        } else if (value < 68) {
+                            valueToUse = 'Hverken eller'
+                        } else if (value < 88) {
+                            valueToUse = 'Enig'
+                        } else {
+                            valueToUse = 'Helt Enig'
+                        }
+                        return valueToUse
+                    },
+                    title: function (context) {
+                        const dataIndex = context[0].dataIndex;
+                        const textToUse = chartAllEduNames[dataIndex]
+                        // For example, display the category label only
+                        return textToUse;
+                    }
+                }
+            }
+        },
+        scales: {
+            x: {
+                min: 0,
+                max: 100,
+                grid: {color: gridColor},
+                ticks: {
+                    color: gridTextColor,
+                    stepSize: 25,
+                    callback: function (value, index, ticks) {
+                        if (value === 0) return 'Helt uenig';
+                        if (value === 25) return 'uenig';
+                        if (value === 50) return 'Hverken eller';
+                        if (value === 75) return 'Enig';
+                        if (value === 100) return 'Helt enig';
+                        return value;
+                    }
+                },
+                border: {
+                    color: borderColor
+                },
+            },
+            y: {
+                border: {color: borderColor},
+                ticks: {color: gridTextColor},
+                grid: {
+                    color: gridColor,
+                    display: false
+                },
+            }
+        }
+    }
+})
+
+
+
+
+
+
+
 
 let jobChart1 = new Chart(jobChart1Canvas, {
     type: 'bar',
