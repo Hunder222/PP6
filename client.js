@@ -76,28 +76,38 @@ let lineChart = new Chart(lineChartCanvas, {
             backgroundColor: '', //brug chart farver fra docs
         }]
     },
-    options: { 
+    options: {
+        plugins: {
+            legend: {display: false},
+            title: {
+                display: true,
+                text: 'Kvotienter opdelt i køn ud fra uddannelse',
+                font: {size: 18},
+                color: 'white'
+            }
+        },
         scales: {
-            x: { 
+            x: {
+                min: 0,
+                max: 100,
+                grid: {color: gridColor},
+                ticks: {
+                    color: gridTextColor,
+                    stepSize: 25,
+                    maxRotation: 0,
+                    minRotation: 0,
+                    align: 'center'
+                },
                 border: {
                     color: borderColor
                 },
-                grid: {
-                    color: gridColor
-                },
-                ticks: {
-                    color: gridTextColor
-                }
             },
             y: {
-                border: {
-                    color: borderColor
-                },
+                border: {color: borderColor},
+                ticks: {color: gridTextColor},
                 grid: {
-                    color: gridColor
-                },
-                ticks: {
-                    color: gridTextColor
+                    color: gridColor,
+                    display: false
                 }
             }
         }
@@ -107,36 +117,46 @@ let lineChart = new Chart(lineChartCanvas, {
 let pieChart = new Chart(pieChartCanvas, {
     type: 'pie',
     data: {
-        labels: ["Kønsfordeling på uddannelser"],
+        labels: ["Mand", "Kvinde"],
         datasets: [{
-            label: ["Mand", "Kvinde"], //procentvis kønsfordeling
-            data: [], //updateChart
+            label: [], //procentvis kønsfordeling
+            data: [60, 40], //updateChart
             backgroundColor: '', //brug chart farver fra docs
         }]
     },
     options: {
+        plugins: {
+            legend: {display: false},
+            title: {
+                display: true,
+                text: 'Procentvis kønsfordeling',
+                font: {size: 18},
+                color: 'white'
+            }
+        },
         scales: {
             x: {
+                min: 0,
+                max: 100,
+                grid: {color: gridColor},
+                ticks: {
+                    color: gridTextColor,
+                    stepSize: 25,
+                    maxRotation: 0,
+                    minRotation: 0,
+                    align: 'center'
+                },
                 border: {
                     color: borderColor
                 },
-                grid: {
-                    color: gridColor
-                },
-                ticks: {
-                    color: gridTextColor
-                }
             },
             y: {
-                border: {
-                    color: borderColor
-                },
+                border: {color: borderColor},
+                ticks: {color: gridTextColor},
                 grid: {
-                    color: gridColor
+                    color: gridColor,
+                    display: false
                 },
-                ticks: {
-                    color: gridTextColor
-                }
             }
         }
     }
@@ -145,36 +165,46 @@ let pieChart = new Chart(pieChartCanvas, {
 let barChart = new Chart(barChartCanvas, {
     type: 'bar',
     data: {
-        labels: [], //uddannelser
+        labels: ['din', 'mor'], //uddannelser
         datasets: [{
             label: [], // uddannelsesnavn
-            data: [], //updateChart
+            data: [20, 40, 60], //updateChart
             backgroundColor: '' //brug chart farver fra docs
         }]
     },
     options: {
+        plugins: {
+            legend: {display: false},
+            title: {
+                display: true,
+                text: 'Der er et godt socialt miljø',
+                font: {size: 18},
+                color: 'white'
+            }
+        },
         scales: {
             x: {
+                min: 0,
+                max: 100,
+                grid: {color: gridColor},
+                ticks: {
+                    color: gridTextColor,
+                    stepSize: 25,
+                    maxRotation: 0,
+                    minRotation: 0,
+                    align: 'center'
+                },
                 border: {
                     color: borderColor
                 },
-                grid: {
-                    color: gridColor
-                },
-                ticks: {
-                    color: gridTextColor
-                }
             },
             y: {
-                border: {
-                    color: borderColor
-                },
+                border: {color: borderColor},
+                ticks: {color: gridTextColor},
                 grid: {
-                    color: gridColor
+                    color: gridColor,
+                    display: false
                 },
-                ticks: {
-                    color: gridTextColor
-                }
             }
         }
     }
@@ -226,7 +256,7 @@ let welbeingChart1 = new Chart(welbeingChart1Canvas, {
     data: {
         labels: chartAllEduLabels,
         datasets: [{
-            label: [], 
+            label: [],
             data: [33, 66, 99],
             backgroundColor: ''
         }]
@@ -237,8 +267,8 @@ let welbeingChart1 = new Chart(welbeingChart1Canvas, {
         plugins: {
             legend: {display: false},
             title: {
-                display: true, 
-                text: 'Der er et godt socialt miljø', 
+                display: true,
+                text: 'Der er et godt socialt miljø',
                 font: {size: 18},
                 color: 'white'
             },
@@ -723,16 +753,6 @@ subSections.forEach((section, i) => {
 });
 
 
-
-
-
-
-
-
-
-
-
-
 const pipeline = {
     $group: {
         _id: "$INSTITUTIONSAKT_BETEGNELSE",
@@ -753,8 +773,8 @@ const pipeline = {
 
         countCyberGenderM: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Cybersikkerhed"]}, {$eq: ["$Køn", "Mand"]}, 1, 0]}},
         countCyberGenderF: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Cybersikkerhed"]}, {$eq: ["$Køn", "Kvinde"]}, 1, 0]}},
-        countDataGenderM : {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]}, {$eq: ["$Køn", "Mand"]}, 1, 0]}},
-        countDataGenderF : {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]}, {$eq: ["$Køn", "Kvinde"]}, 1, 0]}},
+        countDataGenderM: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]}, {$eq: ["$Køn", "Mand"]}, 1, 0]}},
+        countDataGenderF: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]}, {$eq: ["$Køn", "Kvinde"]}, 1, 0]}},
         countITTekGenderM: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-Teknolog"]}, {$eq: ["$Køn", "Mand"]}, 1, 0]}},
         countITTekGenderF: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"]}, {$eq: ["$Køn", "Kvinde"]}, 1, 0]}},
         countMultiGenderM: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"]}, {$eq: ["$Køn", "Mand"]}, 1, 0]}},
