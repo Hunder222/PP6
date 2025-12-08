@@ -6,6 +6,7 @@
     <title>PP6</title>
 
     <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <nav id="navbar">
@@ -36,9 +37,20 @@
             </li>
 
 
+            <li>
+                <button ID="Btmtrivsel"><a href="#joblessSection"> Trivsel </a> </button>
+            </li>
+
         </ul>
 
-
+        <select id="mobil-menu" onchange="window.location.href=this.value">
+            <option value="" disabled selected>Vælg et emne...</option>
+            <option value="#salarySection">Løn</option>
+            <option value="#genderSection">Kønsfordeling</option>
+            <option value="#jobSection">Jobstart</option>
+            <option value="#joblessSection">Arbejdsløshed</option>
+            <option value="#trivselSection">Trivsel</option>
+        </select>
 
     </nav>
     <main>
