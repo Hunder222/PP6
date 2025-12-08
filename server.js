@@ -33,7 +33,9 @@ mongoose.connect('mongodb://127.0.0.1:27017/EKData')
     );
 //////// queries ////////
 
-const query1 = "SELECT * FROM educations"
+const query1 = "SELECT * from educations\n" +
+    "inner join survey_answers\n" +
+    "using(id)"
 
 
 
@@ -225,6 +227,8 @@ app.get('/students/:id', async(req, res) =>{
     }
 
 });
+
+
 
 
 app.get('/thirdPartyData', async (req, res) => {
