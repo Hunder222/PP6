@@ -174,7 +174,7 @@ header {
 /* #region section specific */
 
 #genderSection canvas {
-    background-color: rgba(255, 79, 217, 0.562);
+
 }
 
 /* #endregion */
@@ -285,7 +285,88 @@ height: 5vh;
 
 }
 .maincharts{
+   background-color:hsla(218, 28%, 17%, 51);
 
     max-height: 60vh;
 }
-/* #endregion */
+#genderChart1{
+        background-color:hsla(218, 28%, 17%, 90);
+    border-radius: 2vw;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+#salaryChart{
+    background-color:hsla(218, 28%, 17%, 90);
+    border-radius: 2vw;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+#genderChart2{
+    background-color:hsla(218, 28%, 17%, 90);
+border-radius: 2vw;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+#genderChart3{
+    background-color:hsla(218, 28%, 17%, 90);
+    border-radius: 2vw;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+#jobChart1{
+    background-color:hsla(218, 28%, 17%, 90);
+    border-radius: 2vw;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+#jobChart2{
+    background-color:hsla(218, 28%, 17%, 90);
+    border-radius: 2vw;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+
+ #mobil-menu{
+     display: none;
+ }
+
+
+
+
+@media (max-width: 1000px) {
+    button{
+        display:none ;
+    }
+    #mobil-menu{
+        display: block;
+        margin-left: 35vw;
+        
+    }
+      #knapperne {
+          display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+          margin-top: 1vh;
+
+             }
+     button{
+         width: 20vw;
+
+     }
+
+                 #mobil-menu {
+                     /* Gør teksten stor nok til at læse (og stopper iPhone-zoom) */
+                     font-size: 16px; 
+                     
+                     /* Gør boksen højere og bredere så den er nem at ramme */
+                     padding: 15px;
+                     width: 100%;
+                     
+                     /* Gør den pænere (fjerner standard-grå kant) */
+                     border: 1px solid #ccc;
+}                    border-radius: 8px; /* Runde hjørner */
+                     background-color: white;
+                     color: black;
+}
+/*                   

@@ -33,7 +33,14 @@ mongoose.connect('mongodb://127.0.0.1:27017/EKData')
     );
 //////// queries ////////
 
-const query1 = "SELECT * FROM educations"
+const query1 = "SELECT * from educations\n" +
+    " inner join survey_answers\n" +
+    " using(id)\n" +
+    " inner join survey_questions\n" +
+    " using(question_id)\n" +
+    " inner join survey\n" +
+    " using(survey_id)\n" +
+    "order by id"
 
 
 
@@ -227,6 +234,8 @@ app.get('/students/:id', async(req, res) =>{
 });
 
 
+
+
 app.get('/thirdPartyData', async (req, res) => {
     console.log("Forsøger at hente fra db");
 
@@ -234,9 +243,9 @@ app.get('/thirdPartyData', async (req, res) => {
         mysqlConnection.query(query1, (error, results) => {
             if (error) return res.status(500).json({ error: error.message });
 
-            console.log(results)
-            res.send(results);
 
+            res.send(formatSurveyData(results));
+            console.log("succes");
         });
 
     } catch (error) {
@@ -244,8 +253,85 @@ app.get('/thirdPartyData', async (req, res) => {
     }
 });
 
+/*start of new*/
+
+function formatSurveyData(data) {
+    const result = {
+        allSalaryStart: [],
+        allSalaryAvg: [],
+        allSalaryHighest: [],
+        allUnemployedNewGradPct: [],
+        allDropoutFirstYearPct: [],
+        survey1: {
+            survey1Questions: [],
+            allQuestion1Answers: [],
+            allQuestion2Answers: [],
+            allQuestion3Answers: [],
+            allQuestion4Answers: [],
+        },
+        survey2: {
+            survey2Questions: [],
+            allQuestion5Answers: [],
+            allQuestion6Answers: [],
+            allQuestion7Answers: [],
+            allQuestion8Answers: [],
+        },
+        survey3: {
+            survey3Questions: [],
+            allQuestion9Answers: [],
+            allQuestion10Answers: [],
+            allQuestion11Answers: [],
+            allQuestion12Answers: [],
+        }
+    };
+
+    // Group by survey_id
+    const surveyGroups = {};
+    const addedPrograms = new Set(); // Track which programs we've added salary data for
+
+    data.forEach(item => {
+        // Add salary and stats data for each unique program (by id)
+        if (!addedPrograms.has(item.id)) {
+            result.allSalaryStart.push(item.starting_salary);
+            result.allSalaryAvg.push(item.average_salary);
+            result.allSalaryHighest.push(item.highest_salary);
+            result.allUnemployedNewGradPct.push(item.unemployment_new_grad_pct);
+            result.allDropoutFirstYearPct.push(item.dropout_first_year_pct);
+            addedPrograms.add(item.id);
+        }
+
+        // Group questions by survey
+        if (!surveyGroups[item.survey_id]) {
+            surveyGroups[item.survey_id] = [];
+        }
+        surveyGroups[item.survey_id].push(item);
+    });
+
+    Object.keys(surveyGroups).forEach(surveyId => {
+        const surveyKey = `survey${surveyId}`;
+        const questions = surveyGroups[surveyId].sort((a, b) => a.question_id - b.question_id);
+
+        const addedQuestions = new Set(); // Track which questions we've already added
+
+        questions.forEach((item, index) => {
+            const questionKey = `allQuestion${item.question_id}Answers`;
+            const questionsArrayKey = `survey${surveyId}Questions`;
+
+            // Only add question text once per question_id
+            if (!addedQuestions.has(item.question_id)) {
+                result[surveyKey][questionsArrayKey].push(item.question_text);
+                addedQuestions.add(item.question_id);
+            }
+
+            result[surveyKey][questionKey].push(item.answer_pct);
+        });
+    });
+
+    return result;
+}
 
 
+/* end of new*/
 //////// server listener ////////
 app.listen(port, () => {
     console.log(`Application is now running on port ${port}`);
