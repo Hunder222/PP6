@@ -220,29 +220,38 @@ let lønChart = new Chart(lønChartCanvas, {
             backgroundColor: ''
         }]
     },
-    options: {
+    options: {plugins: {
+            legend: {display: false},
+            title: {
+                display: true,
+                text: 'Der er et godt socialt miljø',
+                font: {size: 18},
+                color: 'white'
+            }
+        },
         scales: {
             x: {
+                min: 0,
+                max: 100,
+                grid: {color: gridColor},
+                ticks: {
+                    color: gridTextColor,
+                    stepSize: 25,
+                    maxRotation: 0,
+                    minRotation: 0,
+                    align: 'center'
+                },
                 border: {
                     color: borderColor
                 },
-                grid: {
-                    color: gridColor
-                },
-                ticks: {
-                    color: gridTextColor
-                }
             },
             y: {
-                border: {
-                    color: borderColor
-                },
+                border: {color: borderColor},
+                ticks: {color: gridTextColor},
                 grid: {
-                    color: gridColor
+                    color: gridColor,
+                    display: false
                 },
-                ticks: {
-                    color: gridTextColor
-                }
             }
         }
     }
@@ -674,28 +683,38 @@ let jobChart1 = new Chart(jobChart1Canvas, {
         }]
     },
     options: {
+        plugins: {
+            legend: {display: false},
+            title: {
+                display: true,
+                text: 'Der er et godt socialt miljø',
+                font: {size: 18},
+                color: 'white'
+            }
+        },
         scales: {
             x: {
+                min: 0,
+                max: 100,
+                grid: {color: gridColor},
+                ticks: {
+                    color: gridTextColor,
+                    stepSize: 25,
+                    maxRotation: 0,
+                    minRotation: 0,
+                    align: 'center'
+                },
                 border: {
                     color: borderColor
                 },
-                grid: {
-                    color: gridColor
-                },
-                ticks: {
-                    color: gridTextColor
-                }
             },
             y: {
-                border: {
-                    color: borderColor
-                },
+                border: {color: borderColor},
+                ticks: {color: gridTextColor},
                 grid: {
-                    color: gridColor
+                    color: gridColor,
+                    display: false
                 },
-                ticks: {
-                    color: gridTextColor
-                }
             }
         }
     }
@@ -715,28 +734,38 @@ let jobChart2 = new Chart(jobChart2Canvas, {
         }]
     },
     options: {
+        plugins: {
+            legend: {display: false},
+            title: {
+                display: true,
+                text: 'Der er et godt socialt miljø',
+                font: {size: 18},
+                color: 'white'
+            }
+        },
         scales: {
             x: {
+                min: 0,
+                max: 100,
+                grid: {color: gridColor},
+                ticks: {
+                    color: gridTextColor,
+                    stepSize: 25,
+                    maxRotation: 0,
+                    minRotation: 0,
+                    align: 'center'
+                },
                 border: {
                     color: borderColor
                 },
-                grid: {
-                    color: gridColor
-                },
-                ticks: {
-                    color: gridTextColor
-                }
             },
             y: {
-                border: {
-                    color: borderColor
-                },
+                border: {color: borderColor},
+                ticks: {color: gridTextColor},
                 grid: {
-                    color: gridColor
+                    color: gridColor,
+                    display: false
                 },
-                ticks: {
-                    color: gridTextColor
-                }
             }
         }
     }
@@ -828,7 +857,6 @@ function showGender() {
     pieChart.data.datasets[10].data = queriedData.educationsGender.countØkoGenderF
 }
 
-showGender()
 
 // function to reverse every 2nd subsection direction, for zigzag effekt
 subSections.forEach((section, i) => {
