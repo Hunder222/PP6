@@ -857,6 +857,8 @@ function showGender() {
     pieChart.data.datasets[10].data = queriedData.educationsGender.countØkoGenderF
 }
 
+showGender()
+
 
 // function to reverse every 2nd subsection direction, for zigzag effekt
 subSections.forEach((section, i) => {
