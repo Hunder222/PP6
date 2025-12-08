@@ -33,9 +33,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/EKData')
     );
 //////// queries ////////
 
-const query1 = "SELECT * from educations\n" +
-    "inner join survey_answers\n" +
-    "using(id)"
+const query1 = "SELECT * from educations inner join survey_answers using(id)"
 
 
 
