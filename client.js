@@ -258,7 +258,7 @@ let welbeingChart1 = new Chart(welbeingChart2Canvas, {
                         } else {
                             valueToUse = 'Helt Enig'
                         }
-                        return valueToUse
+                        return `${value}: ${valueToUse}`
                     },
                     title: function (context) {
                         const dataIndex = context[0].dataIndex;
@@ -277,10 +277,13 @@ let welbeingChart1 = new Chart(welbeingChart2Canvas, {
                 ticks: {
                     color: gridTextColor,
                     stepSize: 25,
+                    maxRotation: 0,
+                    minRotation: 0,
+                    align: 'center',
                     callback: function (value, index, ticks) {
                         if (value === 0) return 'Helt uenig';
-                        if (value === 25) return 'uenig';
-                        if (value === 50) return 'Hverken eller';
+                        if (value === 25) return 'Uenig';
+                        if (value === 50) return 'Middel';
                         if (value === 75) return 'Enig';
                         if (value === 100) return 'Helt enig';
                         return value;
