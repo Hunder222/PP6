@@ -2,9 +2,9 @@ console.log(EKdataset); // local dataset from EKDatasetLocal.js imported via ind
 
 ////// import and DOM //////
 const subSections = document.querySelectorAll('.subSections');
-const lineChartCanvas = document.querySelector('#genderChart1');
-const pieChartCanvas = document.querySelector('#genderChart2');
-const barChartCanvas = document.querySelector('#genderChart3');
+const genderChart1Canvas = document.querySelector('#genderChart1');
+const genderChart2Canvas = document.querySelector('#genderChart2');
+const genderChart3Canvas = document.querySelector('#genderChart3');
 const lønChartCanvas = document.querySelector('#salaryChart')
 const welbeingChart1Canvas = document.querySelector('#wellbeingChart1')
 const welbeingChart2Canvas = document.querySelector('#wellbeingChart2')
@@ -13,40 +13,43 @@ const welbeingChart4Canvas = document.querySelector('#wellbeingChart4')
 const welbeingChart5Canvas = document.querySelector('#wellbeingChart5')
 const jobChart1Canvas = document.querySelector('#jobChart1')
 const jobChart2Canvas = document.querySelector('#jobChart2')
-const chartLabels = ["Cybersikkerhed", "Datamatiker", "IT-sikkerhed", "Multimediedesigner", "PB i IT-arkitektur", "Økonomi og it"]
 
 const queriedData = {
     educations: {
-        countITArk: 0,
-        countData: 0,
-        countITTek: 0,
-        countMulti: 0,
-        countØko: 0,
-        countCyber: 0,
+        countITAR: 0,
+        countDATA: 0,
+        countITTEkvo: 0,
+        countMEKO: 0,
+        countØKIT: 0,
+        countCYBS: 0,
         countOPcyber: 0,
     },
     educationsKvo: {
-        countITArkKVO: 0,
-        countDataKVO: 0,
-        countITTekKVO: 0,
-        countMultiKVO: 0,
-        countCyberKVO: 0,
+        countITARKVO: 0,
+        countDATAKVO: 0,
+        countITTEkvoKVO: 0,
+        countMEKOKVO: 0,
+        countCYBSKVO: 0,
         countOPcyberKVO: 0,
     },
     educationsGender: {
-        countCyberGenderM: 0,
-        countCyberGenderF: 0,
-        countDataGenderM: 0,
-        countDataGenderF: 0,
-        countITTekGenderM: 0,
-        countITTekGenderF: 0,
-        countMultiGenderM: 0,
-        countMultiGenderF: 0,
-        countITArkGenderM: 0,
-        countITArkGenderF: 0,
-        countØkoGenderM: 0,
-        countØkoGenderF: 0
-    }
+        countCYBSM: 0,
+        countCYBSF: 0,
+        countDATAM: 0,
+        countDATAF: 0,
+        countITTEkvoM: 0,
+        countITTEkvoF: 0,
+        countMEKOM: 0,
+        countMEKOF: 0,
+        countITARM: 0,
+        countITARF: 0,
+        countØKITM: 0,
+        countØKITF: 0
+    },
+    allKvoM: [],
+    allKvoF: [],
+    allPctM: [],
+    allPctF: [],
 }
 
 
@@ -66,15 +69,20 @@ const chartAllEduNames = [
     'Økonomi og IT'
 ]
 
-let lineChart = new Chart(lineChartCanvas, {
+let genderLineChart = new Chart(genderChart1Canvas, {
     type: 'line',
     data: {
-        labels: chartLabels, //navn på uddannelse
-        datasets: [{
-            label: [],
-            data: [], //kvotient
-            backgroundColor: '', //brug chart farver fra docs
-        }]
+        labels: chartAllEduNames, //navn på uddannelse
+        datasets: [
+            {
+                label: "Avg Kvotient Mænd",
+                data: [], 
+            },
+            {
+                label: "Avg Kvotient Kvinder",
+                data: [],
+            }
+        ]
     },
     options: { 
         scales: {
@@ -104,7 +112,7 @@ let lineChart = new Chart(lineChartCanvas, {
     }
 })
 
-let pieChart = new Chart(pieChartCanvas, {
+let genderPieChart = new Chart(genderChart2Canvas, {
     type: 'pie',
     data: {
         labels: ["Kønsfordeling på uddannelser"],
@@ -142,7 +150,7 @@ let pieChart = new Chart(pieChartCanvas, {
     }
 })
 
-let barChart = new Chart(barChartCanvas, {
+let genderBarChart = new Chart(genderChart3Canvas, {
     type: 'bar',
     data: {
         labels: [], //uddannelser
@@ -283,7 +291,7 @@ let welbeingChart1 = new Chart(welbeingChart1Canvas, {
                     callback: function (value, index, ticks) {
                         if (value === 0) return 'Helt uenig';
                         if (value === 25) return 'Uenig';
-                        if (value === 50) return 'Middel';
+                        if (value === 50) return 'Hverken eller';
                         if (value === 75) return 'Enig';
                         if (value === 100) return 'Helt enig';
                         return value;
@@ -363,7 +371,7 @@ let welbeingChart2 = new Chart(welbeingChart2Canvas, {
                     stepSize: 25,
                     callback: function (value, index, ticks) {
                         if (value === 0) return 'Helt uenig';
-                        if (value === 25) return 'uenig';
+                        if (value === 25) return 'Uenig';
                         if (value === 50) return 'Hverken eller';
                         if (value === 75) return 'Enig';
                         if (value === 100) return 'Helt enig';
@@ -444,7 +452,7 @@ let welbeingChart3 = new Chart(welbeingChart3Canvas, {
                     stepSize: 25,
                     callback: function (value, index, ticks) {
                         if (value === 0) return 'Helt uenig';
-                        if (value === 25) return 'uenig';
+                        if (value === 25) return 'Uenig';
                         if (value === 50) return 'Hverken eller';
                         if (value === 75) return 'Enig';
                         if (value === 100) return 'Helt enig';
@@ -525,7 +533,7 @@ let welbeingChart4 = new Chart(welbeingChart4Canvas, {
                     stepSize: 25,
                     callback: function (value, index, ticks) {
                         if (value === 0) return 'Helt uenig';
-                        if (value === 25) return 'uenig';
+                        if (value === 25) return 'Uenig';
                         if (value === 50) return 'Hverken eller';
                         if (value === 75) return 'Enig';
                         if (value === 100) return 'Helt enig';
@@ -606,7 +614,7 @@ let welbeingChart5 = new Chart(welbeingChart5Canvas, {
                     stepSize: 25,
                     callback: function (value, index, ticks) {
                         if (value === 0) return 'Helt uenig';
-                        if (value === 25) return 'uenig';
+                        if (value === 25) return 'Uenig';
                         if (value === 50) return 'Hverken eller';
                         if (value === 75) return 'Enig';
                         if (value === 100) return 'Helt enig';
@@ -733,79 +741,351 @@ subSections.forEach((section, i) => {
 
 
 
-const pipeline = {
-    $group: {
-        _id: "$INSTITUTIONSAKT_BETEGNELSE",
-        totalCount: {$sum: 1},
-        countCyber: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Cybersikkerhed"]}, 1, 0]}},
-        countData: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]}, 1, 0]}},
-        countITTek: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"]}, 1, 0]}},
-        countMulti: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"]}, 1, 0]}},
-        countITArk: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"]}, 1, 0]}},
-        countØko: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"]}, 1, 0]}},
+const pipeline = [
+    {
+        // STAGE 1: Sum everything up
+        $group: {
+            _id: null,
+            totalCount: { $sum: 1 },
 
-        countCyberKVO: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Cybersikkerhed"]}, "$KVOTIENT", null]}},
-        countDataKVO: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]}, "$KVOTIENT", null]}},
-        countMultiKVO: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"]}, "$KVOTIENT", null]}},
-        countITTekKVO: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"]}, "$KVOTIENT", null]}},
-        countITArkKVO: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"]}, "$KVOTIENT", null]}},
-        countØkoKVO: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"]}, "$KVOTIENT", null]}},
+            // sum gender kvotient
+            avgCYBSkvoM: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"] },
+                                { $eq: ["$Gender", "Mand"] }
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+            avgCYBSkvoF: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"] },
+                                { $eq: ["$Gender", "Kvinde"] }
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+            avgDATAkvoM: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"] },
+                                { $eq: ["$Gender", "Mand"] }
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+            avgDATAkvoF: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"] },
+                                { $eq: ["$Gender", "Kvinde"] }
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+            avgMEKOkvoM: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"] },
+                                { $eq: ["$Gender", "Mand"] }
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+            avgMEKOkvoF: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"] },
+                                { $eq: ["$Gender", "Kvinde"] }
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+            avgITTEkvoM: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"] },
+                                { $eq: ["$Gender", "Mand"] }
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+            avgITTEkvoF: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"] },
+                                { $eq: ["$Gender", "Kvinde"] }
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+            avgITARkvoM: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"] },
+                                { $eq: ["$Gender", "Mand"] }
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+            avgITARkvoF: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"] },
+                                { $eq: ["$Gender", "Kvinde"] }
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+            avgØKITkvoM: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"] },
+                                { $eq: ["$Gender", "Mand"] }
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+            avgØKITkvoF: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"] },
+                                { $eq: ["$Gender", "Kvinde"] }
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
 
-        countCyberGenderM: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Cybersikkerhed"]}, {$eq: ["$Køn", "Mand"]}, 1, 0]}},
-        countCyberGenderF: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Cybersikkerhed"]}, {$eq: ["$Køn", "Kvinde"]}, 1, 0]}},
-        countDataGenderM : {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]}, {$eq: ["$Køn", "Mand"]}, 1, 0]}},
-        countDataGenderF : {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]}, {$eq: ["$Køn", "Kvinde"]}, 1, 0]}},
-        countITTekGenderM: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-Teknolog"]}, {$eq: ["$Køn", "Mand"]}, 1, 0]}},
-        countITTekGenderF: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"]}, {$eq: ["$Køn", "Kvinde"]}, 1, 0]}},
-        countMultiGenderM: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"]}, {$eq: ["$Køn", "Mand"]}, 1, 0]}},
-        countMultiGenderF: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"]}, {$eq: ["$Køn", "Kvinde"]}, 1, 0]}},
-        countITArkGenderM: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"]}, {$eq: ["$Køn", "Mand"]}, 1, 0]}},
-        countITArkGenderF: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"]}, {$eq: ["$Køn", "Kvinde"]}, 1, 0]}},
-        countØkoGenderM: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"]}, {$eq: ["$Køn", "Mand"]}, 1, 0]}},
-        countØkoGenderF: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"]}, {$eq: ["$Køn", "Kvinde"]}, 1, 0]}},
+            // the followwing is collapsed for better overview
+            // count edu used to project pct in next stage
+            countCYBS: { $sum: { $cond: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"] }, 1, 0] } },
+            countDATA: { $sum: { $cond: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"] }, 1, 0] } },
+            countITTE: { $sum: { $cond: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"] }, 1, 0] } },
+            countMEKO: { $sum: { $cond: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"] }, 1, 0] } },
+            countITAR: { $sum: { $cond: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"] }, 1, 0] } },
+            countØKIT: { $sum: { $cond: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"] }, 1, 0] } },
+            
 
+            // count gender edu
+            countCYBSM: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"] }, { $eq: ["$Gender", "Mand"] }] }, 1, 0] } },
+            countCYBSF: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"] }, { $eq: ["$Gender", "Kvinde"] }] }, 1, 0] } },
+            countDATAM: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"] }, { $eq: ["$Gender", "Mand"] }] }, 1, 0] } },
+            countDATAF: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"] }, { $eq: ["$Gender", "Kvinde"] }] }, 1, 0] } },
+            countMEKOM: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"] }, { $eq: ["$Gender", "Mand"] }] }, 1, 0] } },
+            countMEKOF: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"] }, { $eq: ["$Gender", "Kvinde"] }] }, 1, 0] } },
+            countITTEM: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"] }, { $eq: ["$Gender", "Mand"] }] }, 1, 0] } },
+            countITTEF: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"] }, { $eq: ["$Gender", "Kvinde"] }] }, 1, 0] } },
+            countITARM: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"] }, { $eq: ["$Gender", "Mand"] }] }, 1, 0] } },
+            countITARF: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"] }, { $eq: ["$Gender", "Kvinde"] }] }, 1, 0] } },
+            countØKITM: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"] }, { $eq: ["$Gender", "Mand"] }] }, 1, 0] } },
+            countØKITF: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"] }, { $eq: ["$Gender", "Kvinde"] }] }, 1, 0] } },
+        }
+    },
+    {
+        $project: {
+            _id: 0,
+
+            // avg kvotient, rounded to 1 decimal
+            avgCYBSkvoM: {
+                $round: ["$avgCYBSkvoM", 1]
+            },
+            avgCYBSkvoF: {
+                $round: ["$avgCYBSkvoF", 1]
+            },
+            avgDATAkvoM: {
+                $round: ["$avgDATAkvoM", 1]
+            },
+            avgDATAkvoF: {
+                $round: ["$avgDATAkvoF", 1]
+            },
+            avgMEKOkvoM: {
+                $round: ["$avgMEKOkvoM", 1]
+            },
+            avgMEKOkvoF: {
+                $round: ["$avgMEKOkvoF", 1]
+            },
+            avgITTEkvoM: {
+                $round: ["$avgITTEkvoM", 1]
+            },
+            avgITTEkvoF: {
+                $round: ["$avgITTEkvoF", 1]
+            },
+            avgITARkvoM: {
+                $round: ["$avgITARkvoM", 1]
+            },
+            avgITARkvoF: {
+                $round: ["$avgITARkvoF", 1]
+            },
+            avgØKITkvoM: {
+                $round: ["$avgØKITkvoM", 1]
+            },
+            avgØKITkvoF: {
+                $round: ["$avgØKITkvoF", 1]
+            },
+
+            // gender percent for each edu, rounded to 1 decimal
+            pctCYBSM: { 
+                $round: [
+                    { $multiply: [{ $divide: ["$countCYBSM", "$countCYBS"] }, 100] }, 1
+                ] 
+            },
+            pctCYBSF: { 
+                $round: [
+                    { $multiply: [{ $divide: ["$countCYBSF", "$countCYBS"] }, 100] }, 1
+                ] 
+            },
+            pctDATAM: { 
+                $round: [
+                    { $multiply: [{ $divide: ["$countDATAM", "$countDATA"] }, 100] }, 1
+                ] 
+            },
+            pctDATAF: { 
+                $round: [
+                    { $multiply: [{ $divide: ["$countDATAF", "$countDATA"] }, 100] }, 1
+                ] 
+            },
+            pctMEKOM: { 
+                $round: [
+                    { $multiply: [{ $divide: ["$countMEKOM", "$countMEKO"] }, 100] }, 1
+                ] 
+            },
+            pctMEKOF: {
+                $round: [
+                    { $multiply: [{ $divide: ["$countMEKOF", "$countMEKO"] }, 100] }, 1
+                ] 
+            },
+            pctITTEM: { 
+                $round: [
+                    { $multiply: [{ $divide: ["$countITTEM", "$countITTE"] }, 100] }, 1
+                ] 
+            },
+            pctITTEF: {
+                $round: [
+                    { $multiply: [{ $divide: ["$countITTEF", "$countITTE"] }, 100] }, 1
+                ] 
+            },
+            pctITARM: { 
+                $round: [
+                    { $multiply: [{ $divide: ["$countITARM", "$countITAR"] }, 100] }, 1
+                ] 
+            },
+            pctITARF: {
+                $round: [
+                    { $multiply: [{ $divide: ["$countITARF", "$countITAR"] }, 100] }, 1
+                ] 
+            },
+            
+        }
+    },
+    {
+        // 3rd stage to make result arrays, ordered by our specific order of educations
+        $project: {
+            _id: 0,
+            allKvoM: ["$avgCYBSkvoM", "$avgDATAkvoM", "$avgITARkvoM", "$avgITTEkvoM", "$avgMEKOkvoM", "$avgØKITkvoM"],
+            allKvoF: ["$avgCYBSkvoF", "$avgDATAkvoF", "$avgITARkvoF", "$avgITTEkvoF", "$avgMEKOkvoF", "$avgØKITkvoF"],
+            allPctM: ["$pctCYBSM", "$pctDATAM", "$pctMEKOM", "$pctITTEM", "$pctITARM", "$pctØKITM"],
+            allPctF: ["$pctCYBSF", "$pctDATAF", "$pctMEKOF", "$pctITTEF", "$pctITARF", "$pctØKITF"]
+        }
     }
+];
 
-}
 
-function getKvotient() {
 
-    const queryResult = new mingo.Aggregator(pipeline).run(EKdataset);
-
-    const result = queryResult.all ? queryResult.all() : queryResult;
+async function getChartData() {
+    const aggregator = new mingo.Aggregator(pipeline);
+    const result = aggregator.run(EKdataset);
 
     if (result.length > 0) {
-        const resultObj = result[0].general;
-
-        console.log(resultObj)
+        const stats = result[0];
+        console.log("Calculation successful:", stats);
+        console.log("allKvoM:", stats.allKvoM);
+        queriedData.allKvoM = stats.allKvoM
+        queriedData.allKvoF = stats.allKvoF
+        queriedData.allPctM = stats.allPctM
+        queriedData.allPctF = stats.allPctF
+    } else {
+        console.warn("No results returned");
     }
 }
 
-getKvotient()
+// kvotient fordeling af køn alle udannelser - line chart
+// generel kønsfordeling
+// udannelses baggrund
+
+getChartData()
 
 function showKvotient() {
-    lineChart.data.datasets[0].data = queriedData.educationsKvo.countCyberKVO
-    lineChart.data.datasets[1].data = queriedData.educationsKvo.countDataKVO
-    lineChart.data.datasets[2].data = queriedData.educationsKvo.countITTekKVO
-    lineChart.data.datasets[3].data = queriedData.educationsKvo.countMultiKVO
-    lineChart.data.datasets[4].data = queriedData.educationsKvo.countITArkKVO
-    lineChart.data.datasets[5].data = queriedData.educationsKvo.countØkoKVO
+    console.log(queriedData.allKvoF);
+    genderLineChart.data.datasets[0].data = queriedData.allKvoM 
+    genderLineChart.data.datasets[1].data = queriedData.allKvoF 
+    genderLineChart.update()
+    
 }
 
 showKvotient()
 
 function showGender() {
-    pieChart.data.datasets[0].data = queriedData.educationsGender.countCyberGenderM
-    pieChart.data.datasets[1].data = queriedData.educationsGender.countCyberGenderF
-    pieChart.data.datasets[2].data = queriedData.educationsGender.countDataGenderM
-    pieChart.data.datasets[3].data = queriedData.educationsGender.countDataGenderF
-    pieChart.data.datasets[4].data = queriedData.educationsGender.countITTekGenderM
-    pieChart.data.datasets[5].data = queriedData.educationsGender.countITTekGenderF
-    pieChart.data.datasets[6].data = queriedData.educationsGender.countMultiGenderM
-    pieChart.data.datasets[7].data = queriedData.educationsGender.countMultiGenderF
-    pieChart.data.datasets[8].data = queriedData.educationsGender.countITArkGenderM
-    pieChart.data.datasets[9].data = queriedData.educationsGender.countØkoGenderM
-    pieChart.data.datasets[10].data = queriedData.educationsGender.countØkoGenderF
+    genderPieChart.data.datasets[0].data = queriedData.educationsGender.countCYBSM
+    genderPieChart.data.datasets[1].data = queriedData.educationsGender.countCYBSF
+    genderPieChart.data.datasets[2].data = queriedData.educationsGender.countDATAM
+    genderPieChart.data.datasets[3].data = queriedData.educationsGender.countDATAF
+    genderPieChart.data.datasets[4].data = queriedData.educationsGender.countITTEkvoM
+    genderPieChart.data.datasets[5].data = queriedData.educationsGender.countITTEkvoF
+    genderPieChart.data.datasets[6].data = queriedData.educationsGender.countMEKOM
+    genderPieChart.data.datasets[7].data = queriedData.educationsGender.countMEKOF
+    genderPieChart.data.datasets[8].data = queriedData.educationsGender.countITARM
+    genderPieChart.data.datasets[9].data = queriedData.educationsGender.countØKITM
+    genderPieChart.data.datasets[10].data = queriedData.educationsGender.countØKITF
 }
 
 showGender()
