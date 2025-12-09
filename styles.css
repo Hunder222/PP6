@@ -79,6 +79,10 @@ header {
     justify-content: space-evenly;
     scroll-snap-align: start;
 
+    h1 {
+        color: white
+    }
+
     img {
         height: 50vh;
         width: auto;

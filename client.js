@@ -17,6 +17,7 @@ const jobChart3Canvas = document.querySelector('#jobChart3')
 const jobChart4Canvas = document.querySelector('#jobChart4')
 const jobChart5Canvas = document.querySelector('#jobChart5')
 
+// object to store data for charts, from server db or local db
 const queriedData = {
     totalPctM: 0,
     totalPctF: 0,
@@ -55,12 +56,13 @@ const queriedData = {
 
 ////// charts //////
 
-// color variables
-const borderColor = 'rgba(255, 255, 255, 1)'
-const gridColor = 'rgba(255, 255, 255, 1)'
-const gridTextColor = 'rgba(255, 255, 255, 1)'
+// chart color
+const borderColor = 'rgba(255, 255, 255, 0.8)'
+const gridColor = 'rgba(255, 255, 255, 0.8)'
+const gridTextColor = 'rgba(255, 255, 255, 0.8)'
 const genderChartColorM = 'rgba(54, 162, 235, 0.8)'
 const genderChartColorF = 'rgba(255, 99, 132, 0.8)'
+const chartPrimaryColor = 'rgba(255, 0, 195, 0.8)'
 
 // other chart variables
 const chartAllEduLabels = ['CYB', 'DATA', 'ITAR', 'ITTE', 'MEKO', 'ØKIT']
@@ -82,10 +84,13 @@ let salaryChart = new Chart(salaryChartCanvas, {
         datasets: [{
             label: [], //update chart
             data: [], //update chart
-            backgroundColor: ''
+            backgroundColor: chartPrimaryColor
         }]
     },
     options: {
+        plugins: {
+            legend: { display: false }
+        },
         scales: {
             x: {
                 border: { color: borderColor },
@@ -100,7 +105,6 @@ let salaryChart = new Chart(salaryChartCanvas, {
         }
     }
 })
-
 
 
 // gender section
@@ -173,6 +177,14 @@ let genderPieChart = new Chart(genderChart2Canvas, {
                     },
                     padding: 20
                 }
+            },
+            tooltip: {
+                callbacks: {
+                    label: function (context) {
+                        const value = context.parsed
+                        return value + '%'
+                    }
+                }
             }
         }
     }
@@ -220,6 +232,14 @@ let genderBarChart = new Chart(genderChart3Canvas, {
                     },
                     padding: 20
                 }
+            },
+            tooltip: {
+                callbacks: {
+                    label: function (context) {
+                        const value = context.parsed.y
+                        return value + '%'
+                    }
+                }
             }
         }
     }
@@ -234,7 +254,7 @@ let wellbeingDropoutChart = new Chart(wellbeingChart1Canvas, {
         datasets: [{
             label: [], 
             data: [33, 66, 99],
-            backgroundColor: ''
+            backgroundColor: chartPrimaryColor
         }]
     },
     options: {
@@ -247,6 +267,14 @@ let wellbeingDropoutChart = new Chart(wellbeingChart1Canvas, {
                 font: {size: 18},
                 color: 'white'
             },
+            tooltip: {
+                callbacks: {
+                    label: function (context) {
+                        const value = context.parsed.x
+                        return value + '%'
+                    }
+                }
+            }
         },
         scales: {
             x: {
@@ -272,7 +300,7 @@ let wellbeingSurveryQ1 = new Chart(wellbeingChart2Canvas, {
         datasets: [{
             label: [],
             data: [33, 66, 99],
-            backgroundColor: ''
+            backgroundColor: chartPrimaryColor
         }]
     },
     options: {
@@ -282,8 +310,8 @@ let wellbeingSurveryQ1 = new Chart(wellbeingChart2Canvas, {
             legend: {display: false},
             title: {
                 display: true,
-                text: 'Der er et godt socialt miljø',
-                font: {size: 18},
+                text: [' ', 'Der er et godt socialt miljø', ' '],
+                font: {size: 14},
                 color: 'white'
             },
             tooltip: {
@@ -352,7 +380,7 @@ let wellbeingSurveryQ2 = new Chart(wellbeingChart3Canvas, {
         datasets: [{
             label: [],
             data: [33, 66, 99],
-            backgroundColor: ''
+            backgroundColor: chartPrimaryColor
         }]
     },
     options: {
@@ -362,8 +390,8 @@ let wellbeingSurveryQ2 = new Chart(wellbeingChart3Canvas, {
             legend: {display: false},
             title: {
                 display: true,
-                text: 'Jeg føler mig generelt rigtig godt tilpas på min uddannelse',
-                font: {size: 18},
+                text: [' ', 'Jeg føler mig generelt rigtig godt tilpas', 'på min uddannelse'],
+                font: {size: 14},
                 color: 'white'
             },
             tooltip: {
@@ -432,7 +460,7 @@ let wellbeingSurveryQ3 = new Chart(wellbeingChart4Canvas, {
         datasets: [{
             label: [],
             data: [33, 66, 99],
-            backgroundColor: ''
+            backgroundColor: chartPrimaryColor
         }]
     },
     options: {
@@ -442,8 +470,8 @@ let wellbeingSurveryQ3 = new Chart(wellbeingChart4Canvas, {
             legend: {display: false},
             title: {
                 display: true,
-                text: 'Har du oplevet at føle dig ensom på studiet?',
-                font: {size: 18},
+                text: [' ', 'Har du oplevet at føle dig ensom på studiet?', ' '],
+                font: {size: 14},
                 color: 'white'
             },
             tooltip: {
@@ -512,7 +540,7 @@ let wellbeingSurveryQ4 = new Chart(wellbeingChart5Canvas, {
         datasets: [{
             label: [],
             data: [33, 66, 99],
-            backgroundColor: ''
+            backgroundColor: chartPrimaryColor
         }]
     },
     options: {
@@ -522,7 +550,7 @@ let wellbeingSurveryQ4 = new Chart(wellbeingChart5Canvas, {
             legend: {display: false},
             title: {
                 display: true,
-                text: 'Har du oplevet stærke stress-symptomer i forbindelse med dit studie i dagligdagen?',
+                text: [' ', 'Har du oplevet stærke stress-symptomer', 'i forbindelse med dit studie i dagligdagen?'],
                 font: {size: 14},
                 color: 'white'
             },
@@ -594,10 +622,7 @@ let jobUnemployChart = new Chart(jobUnemployChartCanvas, {
         datasets: [{
             label: [], //løngrundlag (måske opdelt i køn)
             data: [1,3,2],
-            options: {
-                indexAxis: 'y'
-            }, //update chart
-            backgroundColor: ''
+            backgroundColor: chartPrimaryColor
         }]
     },
     options: {
@@ -610,6 +635,14 @@ let jobUnemployChart = new Chart(jobUnemployChartCanvas, {
                 font: { size: 18 },
                 color: 'white'
             },
+            tooltip: {
+                callbacks: {
+                    label: function (context) {
+                        const value = context.parsed.y
+                        return value + '%'
+                    }
+                }
+            }
         },
         scales: {
             x: {
@@ -618,6 +651,8 @@ let jobUnemployChart = new Chart(jobUnemployChartCanvas, {
                 border: { color: borderColor },
             },
             y: {
+                min: 0,
+                max: 100,
                 grid: { color: gridColor },
                 ticks: { color: gridTextColor },
                 border: { color: borderColor },
@@ -633,7 +668,7 @@ let jobChart2 = new Chart(jobChart2Canvas, {
         datasets: [{
             label: [],
             data: [33, 66, 99],
-            backgroundColor: ''
+            backgroundColor: chartPrimaryColor
         }]
     },
     options: {
@@ -643,8 +678,8 @@ let jobChart2 = new Chart(jobChart2Canvas, {
             legend: { display: false },
             title: {
                 display: true,
-                text: 'Jeg søgte og blev ansat efter et stillingsopslag',
-                font: { size: 18 },
+                text: [' ', 'Jeg søgte og blev ansat efter et stillingsopslag', ' '],
+                font: { size: 14 },
                 color: 'white'
             },
             tooltip: {
@@ -653,6 +688,10 @@ let jobChart2 = new Chart(jobChart2Canvas, {
                         const dataIndex = context[0].dataIndex;
                         const textToUse = chartAllEduNames[dataIndex]
                         return textToUse;
+                    },
+                    label: function (context) {
+                        const value = context.parsed.x
+                        return value + '%'
                     }
                 }
             }
@@ -682,7 +721,7 @@ let jobChart3 = new Chart(jobChart3Canvas, {
         datasets: [{
             label: [],
             data: [33, 66, 99],
-            backgroundColor: ''
+            backgroundColor: chartPrimaryColor
         }]
     },
     options: {
@@ -692,8 +731,8 @@ let jobChart3 = new Chart(jobChart3Canvas, {
             legend: { display: false },
             title: {
                 display: true,
-                text: 'Jeg søgte og blev ansat efter et stillingsopslag',
-                font: { size: 18 },
+                text: [' ', 'Jeg søgte og blev ansat efter et stillingsopslag', ' '],
+                font: { size: 14 },
                 color: 'white'
             },
             tooltip: {
@@ -702,6 +741,10 @@ let jobChart3 = new Chart(jobChart3Canvas, {
                         const dataIndex = context[0].dataIndex;
                         const textToUse = chartAllEduNames[dataIndex]
                         return textToUse;
+                    },
+                    label: function (context) {
+                        const value = context.parsed.x
+                        return value + '%'
                     }
                 }
             }
@@ -731,7 +774,7 @@ let jobChart4 = new Chart(jobChart4Canvas, {
         datasets: [{
             label: [],
             data: [33, 66, 99],
-            backgroundColor: ''
+            backgroundColor: chartPrimaryColor
         }]
     },
     options: {
@@ -741,8 +784,8 @@ let jobChart4 = new Chart(jobChart4Canvas, {
             legend: { display: false },
             title: {
                 display: true,
-                text: ['Jeg fortsatte i job på den arbejdsplads,', 'hvor jeg skrev opgave / projekt / speciale eller var i praktik'],
-                font: { size: 18 },
+                text: ['Jeg fortsatte i job på den arbejdsplads,', 'hvor jeg skrev opgave / projekt / speciale,', 'eller var i praktik'],
+                font: { size: 14 },
                 color: 'white'
             },
             tooltip: {
@@ -751,6 +794,10 @@ let jobChart4 = new Chart(jobChart4Canvas, {
                         const dataIndex = context[0].dataIndex;
                         const textToUse = chartAllEduNames[dataIndex]
                         return textToUse;
+                    },
+                    label: function (context) {
+                        const value = context.parsed.x
+                        return value + '%'
                     }
                 }
             }
@@ -780,7 +827,7 @@ let jobChart5 = new Chart(jobChart5Canvas, {
         datasets: [{
             label: [],
             data: [33, 66, 99],
-            backgroundColor: ''
+            backgroundColor: chartPrimaryColor
         }]
     },
     options: {
@@ -790,8 +837,8 @@ let jobChart5 = new Chart(jobChart5Canvas, {
             legend: { display: false },
             title: {
                 display: true,
-                text: 'Jeg fortsatte i job på den arbejdsplads, hvor jeg havde studiejob',
-                font: { size: 18 },
+                text: [' ', 'Jeg fortsatte i job på den arbejdsplads', 'hvor jeg havde studiejob'],
+                font: { size: 14 },
                 color: 'white'
             },
             tooltip: {
@@ -800,6 +847,10 @@ let jobChart5 = new Chart(jobChart5Canvas, {
                         const dataIndex = context[0].dataIndex;
                         const textToUse = chartAllEduNames[dataIndex]
                         return textToUse;
+                    },
+                    label: function (context) {
+                        const value = context.parsed.x
+                        return value + '%'
                     }
                 }
             }
