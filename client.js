@@ -741,7 +741,7 @@ let jobChart4 = new Chart(jobChart4Canvas, {
             legend: { display: false },
             title: {
                 display: true,
-                text: 'Jeg fortsatte i job på den arbejdsplads, hvor jeg skrev opgave / projekt / speciale eller var i praktik',
+                text: ['Jeg fortsatte i job på den arbejdsplads,', 'hvor jeg skrev opgave / projekt / speciale eller var i praktik'],
                 font: { size: 18 },
                 color: 'white'
             },

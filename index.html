@@ -9,185 +9,199 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <nav id="navbar">
-        <!--4 buttons: Løn, Kønsfordeling, Jobstart, Arbejdsløshed-->
+<nav id="navbar">
+    <!--4 buttons: Løn, Kønsfordeling, Jobstart, Arbejdsløshed-->
 
 
+    <ul class="knapperne">
+
+        <li>
+            <button ID="Btmløn"><a href="#salarySection"> Løn </a></button>
+        </li>
+
+        <li>
+            <button ID="BtmKønsfordeling"><a href="#genderSection"> Kønsfordeling </a></button>
+        </li>
 
 
-
-        <ul id="knapperne">
-
-            <li>
-                <button ID="Btmløn" > <a href="#salarySection"> Løn </a></button>
-            </li>
-
-            <li>
-                <button ID="BtmKønsfordeling">  <a href="#genderSection"> Kønsfordeling </a></button>
-            </li>
+        <li>
+            <button ID="BtmJobstart"><a href="#jobSection"> Jobstart </a></button>
+        </li>
 
 
-            <li>
-                <button ID="BtmJobstart"> <a href="#jobSection"> Jobstart </a></button>
-            </li>
+        <li>
+            <button ID="BtmArbejdsløshed"><a href="#joblessSection"> Arbejdsløshed </a></button>
+        </li>
 
 
-            <li>
-                <button ID="BtmArbejdsløshed"><a href="#joblessSection"> Arbejdsløshed </a> </button>
-            </li>
+        <li>
+            <button ID="Btmtrivsel"><a href="#joblessSection"> Trivsel </a></button>
+        </li>
 
+    </ul>
 
-            <li>
-                <button ID="Btmtrivsel"><a href="#joblessSection"> Trivsel </a> </button>
-            </li>
+    <select id="mobil-menu" onchange="window.location.href=this.value">
+        <option value="" disabled selected>Vælg et emne...</option>
+        <option value="#salarySection">Løn</option>
+        <option value="#genderSection">Kønsfordeling</option>
+        <option value="#jobSection">Jobstart</option>
+        <option value="#joblessSection">Arbejdsløshed</option>
+        <option value="#trivselSection">Trivsel</option>
+    </select>
 
-        </ul>
+</nav>
+<main>
+    <header>
+        <h1 style="display: none;">Kvinder på IT-uddannelser</h1> <!--SEO fokuseret h1-->
+        <img src="we_need_you.jpg"
+             alt="A picture of a techy woman in a hoodie and smart glasses. Pointing at the user. Text on picture reads: We need you, to code the future">
+        <p id="introText">
+            Overvejer du at uddanne dig inden for it? Så er du det helt rette sted! På denne hjemmeside gennemgår vi
+            nogle af de ting der kan være super fedt at vide om It-uddannelser inden studiestart. Vi håber at du med
+            hjælp fra os, kan få lidt ro i maven og virkelig overveje at tilmelde dig til en af vores uddannelser.
+        </p>
+    </header>
 
-        <select id="mobil-menu" onchange="window.location.href=this.value">
-            <option value="" disabled selected>Vælg et emne...</option>
-            <option value="#salarySection">Løn</option>
-            <option value="#genderSection">Kønsfordeling</option>
-            <option value="#jobSection">Jobstart</option>
-            <option value="#joblessSection">Arbejdsløshed</option>
-            <option value="#trivselSection">Trivsel</option>
-        </select>
-
-    </nav>
-    <main>
-        <header>
-            <h1 style="display: none;">Kvinder på IT-uddannelser</h1> <!--SEO fokuseret h1-->
-            <img src="we_need_you.jpg" alt="A picture of a techy woman in a hoodie and smart glasses. Pointing at the user. Text on picture reads: We need you, to code the future">
-            <p id="introText">
-                Overvejer du at uddanne dig inden for it? Så er du det helt rette sted! På denne hjemmeside gennemgår vi nogle af de ting der kan være super fedt at vide om It-uddannelser inden studiestart. Vi håber at du med hjælp fra os, kan få lidt ro i maven og virkelig overveje at tilmelde dig til en af vores uddannelser.
-            </p>
-        </header>
-        
-        <section id="salarySection" class="mainSections">
-            <h2>Løn</h2>
-            <div id="divløn">
-            <label for ="lønmenu"> </label>
+    <section id="salarySection" class="mainSections">
+        <h2>Løn</h2>
+        <div class="dropdown">
+            <label for="lønmenu"> </label>
             <select name="løn" id="lønmenu">
                 <option value="gennemsnit"> Gennemsnit</option>
                 <option value="max"> max</option>
                 <option value="min"> min</option>
             </select>
+        </div>
+
+
+        <section class="subSections">
+            <canvas id="salaryChart" class="mainCharts"></canvas>
+            <div>
+                <p class="sectionText">
+                    Et af de helt store spørgsmål nå man overvejer hvad man gerne vil ift uddannelse er løn.
+                    På diagrammet kan du se hvad de forskellige uddannelser ca. udbetaler som minimum, maksimum og
+                    gennemsnitlig løn.
+                </p>
             </div>
 
 
-
-            <section class="subSections">
-                <canvas id="salaryChart" class="maincharts"></canvas>
-                <div>
-                    <p class="sectionText">
-                        Et af de helt store spørgsmål nå man overvejer hvad man gerne vil ift uddannelse er løn.
-                        På diagrammet kan du se hvad de forskellige uddannelser ca. udbetaler som minimum, maksimum og gennemsnitlig løn.
-                    </p>
-                </div>
+        </section>
+        <div class="infotext">
+            <p> info</p>
+        </div>
+    </section>
 
 
-            </section>
-            <div id="infortekst1">
-                <p> info</p>
+    <section id="genderSection" class="mainSections">
+        <h2>Kønsfordeling</h2>
+
+        <section class="subSections">
+            <canvas id="genderChart1" class="mainCharts"></canvas>
+            <div>
+                <p class="sectionText">
+                    Det kommer ikke som en stor overraskelse at de fleste it-uddannelser er mandsdommineret,
+                    me der er ikke så "slemt" som du måske går og tror. Målet er selvfølgelig at komme så tæt på en
+                    50/50
+                    kønsfordeling som muligt, og med din hjælp kan vi komme tættere på målet!
+                </p>
             </div>
         </section>
-
-
-
-    
-        <section id="genderSection" class="mainSections">
-            <h2>Kønsfordeling</h2>
-    
-            <section class="subSections">
-                <canvas id="genderChart1" class="maincharts"></canvas>
-                <div>
-                    <p class="sectionText">
-                        Det kommer ikke som en stor overraskelse at de fleste it-uddannelser er mandsdommineret,
-                        me der er ikke så "slemt" som du måske går og tror. Målet er selvfølgelig at komme så tæt på en 50/50
-                        kønsfordeling som muligt, og med din hjælp kan vi komme tættere på målet!
-                    </p>
-                </div>
-            </section>
-            <div id="infortekst2">
-                <p> info</p>
-
-            </div>
-            <section class="subSections">
-                <canvas id="genderChart2" class="maincharts"></canvas>
-                <div>
-                    <p class="sectionText">
-                        Lorem ipsum
-                    </p>
-                </div>
-            </section>
-            <div id="infortekst3">
-                <p> info</p>
-
-            </div>
-            <section class="subSections">
-                <canvas id="genderChart3" class="maincharts"></canvas>
-                <div>
-                    <p class="sectionText">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptas cumque cupiditate aliquid enim et! Qui
-                        totam
-                        dicta ipsum ad, blanditiis debitis quia maiores earum quos neque voluptatum, laudantium enim.
-                    </p>
-                </div>
-            </section>
-        </section>
-        <div id="infortekst4">
+        <div class="infotext">
             <p> info</p>
 
         </div>
-        <section id="wellbeingSection" class="mainSections">
-            <h2>Trivsel</h2>
-        
-            <section class="subSections">
-                <canvas id="wellbeingChart1"></canvas>
-                <div>
-                    <p class="sectionText">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita itaque ipsam tenetur deleniti provident? Aliquid eos illo facilis laudantium nobis assumenda id sapiente exercitationem reprehenderit? Vel obcaecati soluta perspiciatis dolorum.
-                    </p>
-                </div>
-            </section>
-            <section id="wellbeingMultisection" class="subSections">
-                <canvas id="wellbeingChart2"></canvas>
-                <canvas id="wellbeingChart3"></canvas>
-                <canvas id="wellbeingChart4"></canvas>
-                <canvas id="wellbeingChart5"></canvas>
-            </section>
-        </section>
-        <section id="jobSection" class="mainSections">
-            <h2>Jobstart</h2>
-    
-            <section class="subSections">
-                <canvas id="jobChart1" class="maincharts"></canvas>
-                <div>
-                    <p class="sectionText">
-                        En af de ting vi ved godt kan nage en smule er tanken "hvad nu hvis jeg ikke finder et job?". Men du behøver ikke at
-                        være så bekymret! Arbejdsløsheden inde for disse uddannelser ligger helt nede mellem 1-5% for uddannselserne.
-                        <br><br> 
-                        En af de helt store skridt efter du har færdiggjordt din uddannelse, er at komme ud på arbejdsmarkedet.
-                        Her kan du se hvordan nyuddannede inde for branchen typisk finder deres første job.
-                    </p>
-                </div>
-            </section>
-            <section id="wellbeingMultisection" class="subSections">
-                <canvas id="jobChart2"></canvas>
-                <canvas id="jobChart3"></canvas>
-                <canvas id="jobChart4"></canvas>
-                <canvas id="jobChart5"></canvas>
-            </section>
-            <div id="infortekst5">
-                <p> info</p>
+        <section class="subSections">
+            <canvas id="genderChart2" class="mainCharts"></canvas>
+            <div>
+                <p class="sectionText">
+                    Lorem ipsum
+                </p>
             </div>
         </section>
-    </main>
+        <div class="infotext">
+            <p> info</p>
+        </div>
+        <section class="subSections">
+            <canvas id="genderChart3" class="mainCharts"></canvas>
+            <div>
+                <p class="sectionText">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptas cumque cupiditate aliquid
+                    enim et! Qui
+                    totam
+                    dicta ipsum ad, blanditiis debitis quia maiores earum quos neque voluptatum, laudantium enim.
+                </p>
+            </div>
+        </section>
+        <div class="infotext">
+            <p> info</p>
+        </div>
+    </section>
 
-    <footer>
-        <a href="https://www.ek.dk/videregaaende-uddannelser/it-og-multimedie" target="_blank" rel="noopener noreferrer">
-            Se IT-faglige uddannelser på EK.DK
-        </a>
-    </footer>
+
+    <section id="wellbeingSection" class="mainSections">
+        <h2>Trivsel</h2>
+
+        <section class="subSections">
+            <canvas id="wellbeingChart1" class="mainCharts"></canvas>
+            <div>
+                <p class="sectionText">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita itaque ipsam tenetur deleniti
+                    provident? Aliquid eos illo facilis laudantium nobis assumenda id sapiente exercitationem
+                    reprehenderit? Vel obcaecati soluta perspiciatis dolorum.
+                </p>
+            </div>
+        </section>
+        <div class="infotext">
+            <p> info</p>
+        </div>
+        <section id="wellbeingMultisection1" class="subSections">
+            <canvas id="wellbeingChart2" class="surveyCharts"></canvas>
+            <canvas id="wellbeingChart3" class="surveyCharts"></canvas>
+            <canvas id="wellbeingChart4" class="surveyCharts"></canvas>
+            <canvas id="wellbeingChart5" class="surveyCharts"></canvas>
+        </section>
+        <div class="infotext">
+            <p> info</p>
+        </div>
+    </section>
+    <section id="jobSection" class="mainSections">
+        <h2>Jobstart</h2>
+
+        <section class="subSections">
+            <canvas id="jobChart1" class="mainCharts"></canvas>
+            <div>
+                <p class="sectionText">
+                    En af de ting vi ved godt kan nage en smule er tanken "hvad nu hvis jeg ikke finder et job?". Men du
+                    behøver ikke at
+                    være så bekymret! Arbejdsløsheden inde for disse uddannelser ligger helt nede mellem 1-5% for
+                    uddannselserne.
+                    <br><br>
+                    En af de helt store skridt efter du har færdiggjordt din uddannelse, er at komme ud på
+                    arbejdsmarkedet.
+                    Her kan du se hvordan nyuddannede inde for branchen typisk finder deres første job.
+                </p>
+            </div>
+        </section>
+        <div class="infotext">
+            <p> info</p>
+        </div>
+        <section id="wellbeingMultisection2" class="subSections">
+            <canvas id="jobChart2" class="surveyCharts"></canvas>
+            <canvas id="jobChart3" class="surveyCharts"></canvas>
+            <canvas id="jobChart4" class="surveyCharts"></canvas>
+            <canvas id="jobChart5" class="surveyCharts"></canvas>
+        </section>
+        <div class="infotext">
+            <p> info</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <a href="https://www.ek.dk/videregaaende-uddannelser/it-og-multimedie" target="_blank" rel="noopener noreferrer">
+        Se IT-faglige uddannelser på EK.DK
+    </a>
+</footer>
 </body>
 <!--Chart JS-->
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>

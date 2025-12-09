@@ -22,9 +22,9 @@ html {
     scroll-padding-top: 10vh;
     scroll-padding-bottom: 0;
     margin-top: 10vh;
-    margin-bottom: 0vh;
+    margin-bottom: 0;
 
-    
+
     @media (max-width: 800px) {
         font-size: 2vh;
         scroll-snap-type: y mandatory;
@@ -40,19 +40,16 @@ body {
     background-color: #1f2837;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: 
-        radial-gradient(circle at top right,#294554,transparent 50%),
-        radial-gradient(circle at top left, #273659, transparent 50%);
+    background-image: radial-gradient(circle at top right, #294554, transparent 50%),
+    radial-gradient(circle at top left, #273659, transparent 50%);
 
     @media (max-width: 800px) {
-        background-image:
-            radial-gradient(circle at bottom right, #294554, transparent 50%),
-            radial-gradient(circle at bottom left, #273659, transparent 50%);
+        background-image: radial-gradient(circle at bottom right, #294554, transparent 50%),
+        radial-gradient(circle at bottom left, #273659, transparent 50%);
     }
 }
 
 /* #endregion */
-
 
 
 /* #region header/nav */
@@ -66,11 +63,11 @@ nav {
     z-index: 100;
     background-color: hsla(218, 28%, 20%, 1);
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
-    
+
     @media (max-width: 800px) {
         top: auto;
         bottom: 0;
-        box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 -10px 15px rgba(0, 0, 0, 0.3);
     }
 }
 
@@ -81,7 +78,7 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     scroll-snap-align: start;
-    
+
     img {
         height: 50vh;
         width: auto;
@@ -96,7 +93,6 @@ header {
 }
 
 /* #endregion */
-
 
 
 /* #region section general */
@@ -117,21 +113,14 @@ header {
 }
 
 
-
 .subSections {
     display: flex;
     min-height: 60vh;
     flex-direction: row;
     flex-grow: 1;
 
-    div, canvas {
-        align-content: center;
-    }
-
     canvas {
         background-color: rgba(79, 108, 255, 0.562);
-        max-width: 60vw;
-        width: 60vw;
         flex-shrink: 0;
     }
 
@@ -156,29 +145,22 @@ header {
         }
     }
 }
+
 .subSections.reversed {
     flex-direction: row-reverse;
-    
+
     @media (max-width: 800px) {
         flex-direction: column;
-        
+
     }
 }
 
 
-
 /* #endregion */
-
-
 
 /* #region section specific */
 
-#genderSection canvas {
-
-}
-
 /* #endregion */
-
 
 
 footer {
@@ -186,187 +168,128 @@ footer {
     scroll-snap-align: end;
     align-content: center;
     justify-self: center;
-    
+
     a {
         color: white;
     }
 
-    
-}
-#infortekst1{
- color: white;
-    font-size: 70%;
-
 
 }
 
-
-#infortekst2{
+.infotext {
     color: white;
     font-size: 70%;
-
-
-}
-#infortekst3{
-    color: white;
-    font-size: 70%;
-
-
 }
 
+.knapperne {
 
-#infortekst4{
-    color: white;
-    font-size: 70%;
-
-
-}
-#infortekst5{
-    color: white;
-    font-size: 70%;
-
-
-}
-
-#infortekst6{
-    color: white;
-    font-size: 70%;
-
-
-}
-#knapperne{
-
-outline: none;
-display: flex;
+    outline: none;
+    display: flex;
     list-style-type: none;
 
-margin-left: 4vw;
+    margin-left: 4vw;
     width: 90vw;
-    align-self:center ;
+    align-self: center;
     justify-content: space-between;
     margin-top: 3vh;
 
 }
 
 
-button{
+button {
 
     width: 10vw;
     height: 4vh;
     border-radius: 10vh;
 
-background-color: rgb(191, 248, 176);
-color: rgb(8, 6, 56);
+    background-color: rgb(191, 248, 176);
+    color: rgb(8, 6, 56);
     font-size: 60%;
     font-weight: bold;
-    a{
+
+    a {
         color: rgb(8, 6, 56);
         text-decoration: none;
     }
 
-/* #region ___NAME___ */
+    /* #region ___NAME___ */
 
 }
 
-#divløn{
+.dropdown {
 
-/* #endregion */
-/* #region ___NAME___ */
+    /* #endregion */
+    /* #region ___NAME___ */
 
     display: grid;
-height: 5vh;
+    height: 5vh;
     width: 10vw;
     justify-content: center;
-#lønmenu{
-  background-color:rgb(191, 248, 176) ;
-    color: rgb(8, 6, 56);
-    font-weight: bold;
-}
 
-}
-.maincharts{
-   background-color:hsla(218, 28%, 17%, 51);
-
-    max-height: 60vh;
-}
-#genderChart1{
-        background-color:hsla(218, 28%, 17%, 90);
-    border-radius: 2vw;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
-}
-#salaryChart{
-    background-color:hsla(218, 28%, 17%, 90);
-    border-radius: 2vw;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
-}
-#genderChart2{
-    background-color:hsla(218, 28%, 17%, 90);
-border-radius: 2vw;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
-
-}
-
-#genderChart3{
-    background-color:hsla(218, 28%, 17%, 90);
-    border-radius: 2vw;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
-
-}
-
-#jobChart1{
-    background-color:hsla(218, 28%, 17%, 90);
-    border-radius: 2vw;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
-
-}
-
-#jobChart2{
-    background-color:hsla(218, 28%, 17%, 90);
-    border-radius: 2vw;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
-
-}
-
-
- #mobil-menu{
-     display: none;
- }
-
-
-
-
-@media (max-width: 1000px) {
-    button{
-        display:none ;
+    #lønmenu {
+        background-color: rgb(191, 248, 176);
+        color: rgb(8, 6, 56);
+        font-weight: bold;
     }
-    #mobil-menu{
+
+}
+
+.mainCharts {
+    background-color: hsla(218, 28%, 17%, 90);
+    border-radius: 2vw;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    max-height: 60vh;
+    max-width: 60vw;
+}
+
+.surveyCharts {
+    background-color: hsla(218, 28%, 17%, 90);
+    border-radius: 2vw;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    max-width: 23vw;
+    max-height: 60vh;
+    margin: 5vh 1vw 0 1vw;
+}
+
+
+
+#mobil-menu {
+    display: none;
+}
+
+
+@media (max-width: 800px) {
+    button {
+        display: none;
+        width: 20vw;
+    }
+
+    #mobil-menu {
         display: block;
         margin-left: 35vw;
-        
+
     }
-      #knapperne {
-          display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-          margin-top: 1vh;
 
-             }
-     button{
-         width: 20vw;
+    #knapperne {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 1vh;
 
-     }
+    }
 
-                 #mobil-menu {
-                     /* Gør teksten stor nok til at læse (og stopper iPhone-zoom) */
-                     font-size: 16px; 
-                     
-                     /* Gør boksen højere og bredere så den er nem at ramme */
-                     padding: 15px;
-                     width: 100%;
-                     
-                     /* Gør den pænere (fjerner standard-grå kant) */
-                     border: 1px solid #ccc;
-}                    border-radius: 8px; /* Runde hjørner */
-                     background-color: white;
-                     color: black;
+    #mobil-menu {
+        /* Gør teksten stor nok til at læse (og stopper iPhone-zoom) */
+        font-size: 16px;
+
+        /* Gør boksen højere og bredere så den er nem at ramme */
+        padding: 15px;
+        width: 100%;
+
+        /* Gør den pænere (fjerner standard-grå kant) */
+        border: 1px solid #ccc;
+    }
+
+    border-radius: 8px; /* Runde hjørner */
+    background-color: white;
+    color: black;
 }
-/*                   
