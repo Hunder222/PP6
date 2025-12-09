@@ -89,7 +89,22 @@ let salaryChart = new Chart(salaryChartCanvas, {
     },
     options: {
         plugins: {
-            legend: { display: false }
+            legend: { display: false },
+            tooltip: {
+                callbacks: {
+                    label: function (context) {
+                        const value = context.parsed.y
+                        let valueSplitted = value.toString().split('')
+                        
+                        const indexToSlice = valueSplitted.length - 3;
+                        const part1 = valueSplitted.slice(0, indexToSlice);
+                        const part2 = valueSplitted.slice(indexToSlice);
+
+                        const newValue = part1.join('') + '.' + part2.join('');                        
+                        return newValue + 'kr'
+                    }
+                }
+            }
         },
         scales: {
             x: {
