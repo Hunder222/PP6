@@ -891,9 +891,43 @@ let jobChart5 = new Chart(jobChart5Canvas, {
 })
 
 
+
+////// leaflet //////
+
+// map init
+let map = L.map('leafletMap').setView([55.695, 12.56], 12);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OpenStreetMap &copy; CARTO',
+    subdomains: 'abcd',
+    maxZoom: 20
+}).addTo(map);
+
+// add markers to EK IT schools
+function mapEkSchools() {
+    const EKschools = [
+        { name: "EK Guldbergsgade", latlng: [55.69149690984243, 12.555008402914718] },
+        { name: "EK Landemærket", latlng: [55.68202742413432, 12.576277748303877] },
+        { name: "EK Lygten", latlng: [55.706369426829156, 12.539137981532795] },
+        { name: "EK Nansensgade", latlng: [55.68192028780662, 12.562680082210507] },
+        { name: "EK Prinsesse Charlottes Gade", latlng: [55.6944551895993, 12.550846762451158] }
+    ];
+
+    EKschools.forEach(school => {
+        L.marker(school.latlng, {
+            color: "white", opacity: 0.5,
+            fillColor: 'blue', fillOpacity: 0.5, radius: 250,
+            pane: 'markerPane'
+        }).bindTooltip(`<b>${school.name}</b>`).addTo(map);
+    });
+}
+mapEkSchools()
+
+
+
+
 ////// misc functions //////
 
-// function to reverse every 2nd subsection direction, for zigzag effekt
+// modulo function to reverse every 2nd subsection direction, for zigzag effekt
 subSections.forEach((section, i) => {
     if (i % 2 !== 0) {
         section.classList.add('reversed');
@@ -910,7 +944,7 @@ subSections.forEach((section, i) => {
 
 
 
-
+// pipeline for local mingo query
 const pipeline = [
     {
         // STAGE 1: Sum everything up

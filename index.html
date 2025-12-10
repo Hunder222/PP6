@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PP6</title>
-
-    <link rel="stylesheet" href="styles.css">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 </head>
 <body>
 <nav id="navbar">
@@ -112,7 +112,7 @@
             </div>
         </section>
         <div class="infotext">
-            <p> </p>
+            <p>info</p>
 
         </div>
         <section class="subSections">
@@ -120,7 +120,7 @@
             <canvas id="genderChart3" class="duoCharts"></canvas>
         </section>
         <div class="infotext">
-            <p> </p>
+            <p>info</p>
         </div>
     </section>
 
@@ -190,6 +190,8 @@
 </main>
 
 <footer>
+    <p>EK's IT-instutitioner:</p>
+    <div id="leafletMap"></div>
     <a href="https://www.ek.dk/videregaaende-uddannelser/it-og-multimedie" target="_blank" rel="noopener noreferrer">
         Se IT-faglige uddannelser på EK.DK
     </a>
@@ -201,6 +203,8 @@
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
 <!--Chart JS Boxplot-->
 <script src="https://unpkg.com/@sgratzl/chartjs-chart-boxplot@4"></script>
+<!--Leaflet-->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <!--Mingo-->
 <script src="https://unpkg.com/mingo/dist/mingo.min.js"></script>
 <!--Local EKDataset-->
