@@ -151,7 +151,7 @@ const educationData = [
                 "percent": null
             }
         ],
-        "unemploymentNewGraduatePct": null,
+        "unemploymentNewGraduatePct": 5,
         "socialEnvironment": [
             {
                 "question": "Der er et godt socialt miljø",

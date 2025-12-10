@@ -80,7 +80,8 @@ header {
     scroll-snap-align: start;
 
     h1 {
-        color: white
+        color: white;
+        display: none;
     }
 
     img {
@@ -123,8 +124,11 @@ header {
     flex-direction: row;
     flex-grow: 1;
 
+    div {
+        align-content: center;
+    }
+
     canvas {
-        background-color: rgba(79, 108, 255, 0.562);
         flex-shrink: 0;
     }
 
@@ -245,6 +249,7 @@ button {
     max-height: 60vh;
     max-width: 60vw;
     margin: 0 1vw 0 1vw;
+    padding: 2vh
 }
 
 .duoCharts {
@@ -257,6 +262,7 @@ button {
     max-width: 45vw;
     max-height: 60vh;
     margin: 5vh 7vw 0 1vw;
+    padding: 2vh
 }
 
 .surveyCharts {
@@ -266,6 +272,7 @@ button {
     max-width: 23vw;
     max-height: 60vh;
     margin: 5vh 1vw 0 1vw;
+    padding: 2vh
 }
 
 

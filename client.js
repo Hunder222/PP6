@@ -60,9 +60,9 @@ const queriedData = {
 const borderColor = 'rgba(255, 255, 255, 0.8)'
 const gridColor = 'rgba(255, 255, 255, 0.8)'
 const gridTextColor = 'rgba(255, 255, 255, 0.8)'
-const genderChartColorM = 'rgba(54, 162, 235, 0.8)'
-const genderChartColorF = 'rgba(255, 99, 132, 0.8)'
-const chartPrimaryColor = 'rgba(255, 0, 195, 0.8)'
+const genderChartColorM = 'rgba(73, 141, 186, 0.9)'
+const genderChartColorF = 'rgba(253, 62, 103, 0.9)'
+const chartPrimaryColor = 'rgba(191, 248, 176, 0.9)'
 
 // other chart variables
 const chartAllEduLabels = ['CYB', 'DATA', 'ITAR', 'ITTE', 'MEKO', 'ØKIT']
@@ -131,12 +131,14 @@ let genderLineChart = new Chart(genderChart1Canvas, {
             {
                 label: "Avg Kvotient Mænd",
                 data: [], 
-                borderColor: genderChartColorM
+                borderColor: genderChartColorM,
+                borderWidth: 3
             },
             {
                 label: "Avg Kvotient Kvinder",
                 data: [],
-                borderColor: genderChartColorF
+                borderColor: genderChartColorF,
+                borderWidth: 4
             }
         ]
     },
@@ -213,12 +215,12 @@ let genderBarChart = new Chart(genderChart3Canvas, {
             {
                 label: ["Mænd"],
                 data: [], //updateChart
-                backgroundColor: '' //brug chart farver fra docs
+                backgroundColor: genderChartColorM
             }, 
             {
                 label: ["Kvinder"],
                 data: [], //updateChart
-                backgroundColor: '' //brug chart farver fra docs
+                backgroundColor: genderChartColorF
             }
         ]
     },
@@ -285,7 +287,7 @@ let wellbeingDropoutChart = new Chart(wellbeingChart1Canvas, {
             tooltip: {
                 callbacks: {
                     label: function (context) {
-                        const value = context.parsed.x
+                        const value = context.parsed.y
                         return value + '%'
                     }
                 }
