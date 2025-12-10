@@ -79,6 +79,10 @@ header {
     justify-content: space-evenly;
     scroll-snap-align: start;
 
+    h1 {
+        color: white
+    }
+
     img {
         height: 50vh;
         width: auto;
@@ -240,6 +244,19 @@ button {
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
     max-height: 60vh;
     max-width: 60vw;
+    margin: 0 1vw 0 1vw;
+}
+
+.duoCharts {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    background-color: hsla(218, 28%, 17%, 90);
+    border-radius: 2vw;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    max-width: 45vw;
+    max-height: 60vh;
+    margin: 5vh 7vw 0 1vw;
 }
 
 .surveyCharts {
