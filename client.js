@@ -16,7 +16,7 @@ const jobChart2Canvas = document.querySelector('#jobChart2')
 const jobChart3Canvas = document.querySelector('#jobChart3')
 const jobChart4Canvas = document.querySelector('#jobChart4')
 const jobChart5Canvas = document.querySelector('#jobChart5')
-const button = document.querySelector('.infoButton')
+let button = document.querySelector('.infoButton')
 
 // object to store data for charts, from server db or local db
 const queriedData = {
@@ -1447,12 +1447,13 @@ function updateSurveryCharts(surveyType) {
 ////// eventlisteners //////
 
 //onclick function for infotext
-button.onclick = function () {
+
+button.addEventListener("click", function() {
     if (button.id === 'salaryChartInfo') {
         alert("Da ITAR er en ny uddannelse er der ikke tal på løn endnu. Vi har baseret vores tal på en af de mulige stillinger man kan få som færdiguddannet, navnligt IT-projektleder") //alert with textpopup
         console.log('it works')
     } else if (button.id === 'genderChart1Info') {
-        alert("MISSING INPUT")
+        alert("Da ITAR er en ny uddannelse er der ikke tal på løn endnu. Vi har baseret vores tal på en af de mulige stillinger man kan få som færdiguddannet, navnligt IT-projektleder")
         console.log('it works')
     } else if (button.id === 'duoChartInfo') {
         alert('MISSING INPUT')
@@ -1467,7 +1468,7 @@ button.onclick = function () {
     } else {
         console.log('Error')
     }
-}
+})
 
 
 
