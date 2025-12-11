@@ -300,9 +300,9 @@ button {
     background-color: rgb(191, 248, 176);
     margin-left: 2vw;
     border-radius: 3vh;
-    width: 7vw;
+    width: 10vw;
     text-align: center;
-    font-size: 0.8vw;
+    font-size: 1.5vw;
     margin-bottom: 3vh;
 
 
@@ -325,6 +325,7 @@ button {
 
 
     }
+
 
     #lønmenu {
         margin-left: 3vw;
@@ -358,7 +359,23 @@ button {
     border-radius: 8px;
     background-color: white;
     color: black;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
 
 
 #beggeknapepr {
@@ -381,7 +398,7 @@ button {
 }
 
 
-#beggeknapepr {
+#beggeknapepr{
     position: relative;
     display: inline-flex;
     width: var(--sw-width);

@@ -1489,17 +1489,21 @@ btmFaglig.addEventListener("click", function () {
 
 ////
 
-dropdowngen.addEventListener("click", function () {
-    updateSalaryChart(1)
-
-})
 
 
-dropdownmax.addEventListener("click", function () {
-    updateSalaryChart(2)
+const menu = document.querySelector("#lønmenu");
 
-})
-dropdownmin.addEventListener("click", function () {
-    updateSalaryChart(3)
 
-})
+menu.addEventListener("change", function () {
+
+
+    if (menu.value === "gennemsnit") {
+        updateSalaryChart(1);
+    }
+    else if (menu.value === "max") {
+        updateSalaryChart(2);
+    }
+    else if (menu.value === "min") {
+        updateSalaryChart(3);
+    }
+});
