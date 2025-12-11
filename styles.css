@@ -131,7 +131,7 @@ header {
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
 
     h4 {
-        justify-self: center; 
+        justify-self: center;
         padding: 0;
         margin: 1vh;
         color: white;
@@ -243,7 +243,7 @@ button {
     font-size: 60%;
     font-weight: bold;
 
-        cursor: pointer;
+    cursor: pointer;
 
 
     a {
@@ -254,7 +254,6 @@ button {
     /* #region ___NAME___ */
 
 }
-
 
 
 .mainCharts {
@@ -294,10 +293,11 @@ button {
 #mobil-menu {
     display: none;
 }
-#lønmenu{
+
+#lønmenu {
 
     height: 4vh;
-    background-color:rgb(191, 248, 176);
+    background-color: rgb(191, 248, 176);
     margin-left: 2vw;
     border-radius: 3vh;
     width: 7vw;
@@ -307,7 +307,6 @@ button {
 
 
 }
-
 
 
 @media (max-width: 800px) {
@@ -327,16 +326,16 @@ button {
 
     }
 
-     #lønmenu{
-        margin-left: 3vw ;
-         background-color:rgb(191, 248, 176) ;
-         height:4vh;
-         width: 50vw;
-         font-size: 5vw;
+    #lønmenu {
+        margin-left: 3vw;
+        background-color: rgb(191, 248, 176);
+        height: 4vh;
+        width: 50vw;
+        font-size: 5vw;
 
 
+    }
 
-     }
     #knapperne {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -364,7 +363,7 @@ button {
 
 #beggeknapepr {
     display: flex;
-     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);   
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -392,11 +391,9 @@ button {
     padding: var(--sw-padding);
     box-sizing: border-box;
     overflow: hidden;
-     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
-    margin-left: 3vw;
-    ;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    margin-left: 3vw;;
 }
-
 
 
 #beggeknapepr::before {
@@ -410,14 +407,14 @@ button {
     border-radius: 50px;
     transition: transform var(--sw-anim);
     z-index: 0; /* Ligger bagerst */
-     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);   
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
 
 
 #beggeknapepr:has(#alder:checked)::before {
     transform: translateX(100%);
     margin: 0;
-     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);   
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
 
 #knap1, #knap2 {
@@ -427,14 +424,14 @@ button {
     align-items: center;
     position: relative;
     z-index: 1; /* Ligger foran den glidende baggrund */
-    
+
 
 }
 
 
 input[type="radio"] {
     display: none;
-    
+
 }
 
 
@@ -449,7 +446,7 @@ label {
     align-items: center;
     justify-content: center;
     transition: color var(--sw-anim);
-    
+
 }
 
 
@@ -461,14 +458,14 @@ label {
     color: black;
 }
 
-   .infotext{
+.infotext {
 
-       display: flex;
-       justify-content: space-between;
-       padding-right: 4vw;
-       margin-bottom: 0vh;
-      
-   }
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4vw;
+    margin-bottom: 0vh;
+
+}
 
 
 
