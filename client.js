@@ -1522,7 +1522,7 @@ dropdownmax.addEventListener("click", function (){
     updateSalaryChart(2)
 
 })
-dropdownmin("click", function (){
+dropdownmin.addEventListener("click", function (){
     updateSalaryChart(3)
 
 })

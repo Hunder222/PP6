@@ -370,9 +370,9 @@ button {
 
 :root {
     /* Variabler for nem justering */
-    --sw-width: 200px;
-    --sw-height: 50px;
-    --sw-padding: 4px;
+    --sw-width: 15vw;
+    --sw-height: 7vh;
+    --sw-padding: 0.7vh;
     --sw-anim: 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
     --col-bg: hsla(218, 28%, 17%, 90);
     --col-active: rgb(191, 248, 176);
@@ -393,6 +393,8 @@ button {
     box-sizing: border-box;
     overflow: hidden;
      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    margin-left: 3vw;
+    ;
 }
 
 
