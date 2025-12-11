@@ -16,7 +16,7 @@ const jobChart2Canvas = document.querySelector('#jobChart2')
 const jobChart3Canvas = document.querySelector('#jobChart3')
 const jobChart4Canvas = document.querySelector('#jobChart4')
 const jobChart5Canvas = document.querySelector('#jobChart5')
-let button = document.querySelector('.infoButton')
+const button = document.querySelector('.infoButton')
 
 // object to store data for charts, from server db or local db
 const queriedData = {
@@ -90,7 +90,7 @@ let salaryChart = new Chart(salaryChartCanvas, {
     },
     options: {
         plugins: {
-            legend: {display: false},
+            legend: { display: false },
             tooltip: {
                 callbacks: {
                     label: function (context) {
@@ -109,14 +109,14 @@ let salaryChart = new Chart(salaryChartCanvas, {
         },
         scales: {
             x: {
-                border: {color: borderColor},
-                grid: {color: gridColor},
-                ticks: {color: gridTextColor}
+                border: { color: borderColor },
+                grid: { color: gridColor },
+                ticks: { color: gridTextColor }
             },
             y: {
-                border: {color: borderColor},
-                grid: {color: gridColor},
-                ticks: {color: gridTextColor}
+                border: { color: borderColor },
+                grid: { color: gridColor },
+                ticks: { color: gridTextColor }
             }
         }
     }
@@ -158,14 +158,14 @@ let genderLineChart = new Chart(genderChart1Canvas, {
         },
         scales: {
             x: {
-                border: {color: borderColor},
-                grid: {color: gridColor},
-                ticks: {color: gridTextColor}
+                border: { color: borderColor },
+                grid: { color: gridColor },
+                ticks: { color: gridTextColor }
             },
             y: {
-                border: {color: borderColor},
-                grid: {color: gridColor},
-                ticks: {color: gridTextColor}
+                border: { color: borderColor },
+                grid: { color: gridColor },
+                ticks: { color: gridTextColor }
             }
         }
     }
@@ -177,7 +177,7 @@ let genderPieChart = new Chart(genderChart2Canvas, {
         labels: ["Mænd", "Kvinder"],
         datasets: [{
             label: [], //procentvis kønsfordeling
-            data: [45, 60], //updateChart
+            data: [45,60], //updateChart
             backgroundColor: [
                 genderChartColorM,
                 genderChartColorF
@@ -229,15 +229,15 @@ let genderBarChart = new Chart(genderChart3Canvas, {
         scales: {
             x: {
                 stacked: true,
-                border: {color: borderColor},
-                grid: {color: gridColor},
-                ticks: {color: gridTextColor}
+                border: { color: borderColor },
+                grid: { color: gridColor },
+                ticks: { color: gridTextColor }
             },
             y: {
                 stacked: true,
-                border: {color: borderColor},
-                grid: {color: gridColor},
-                ticks: {color: gridTextColor}
+                border: { color: borderColor },
+                grid: { color: gridColor },
+                ticks: { color: gridTextColor }
             }
         },
         plugins: {
@@ -639,18 +639,18 @@ let jobUnemployChart = new Chart(jobUnemployChartCanvas, {
         labels: chartAllEduNames,
         datasets: [{
             label: [], //løngrundlag (måske opdelt i køn)
-            data: [1, 3, 2],
+            data: [1,3,2],
             backgroundColor: chartPrimaryColor
         }]
     },
     options: {
-        label: {display: false},
+        label: { display: false },
         plugins: {
-            legend: {display: false},
+            legend: { display: false },
             title: {
                 display: true,
                 text: 'Arbejdsløshed blandt nyuddannede',
-                font: {size: 18},
+                font: { size: 18 },
                 color: 'white'
             },
             tooltip: {
@@ -664,16 +664,16 @@ let jobUnemployChart = new Chart(jobUnemployChartCanvas, {
         },
         scales: {
             x: {
-                grid: {color: gridColor},
-                ticks: {color: gridTextColor},
-                border: {color: borderColor},
+                grid: { color: gridColor },
+                ticks: { color: gridTextColor },
+                border: { color: borderColor },
             },
             y: {
                 min: 0,
                 max: 100,
-                grid: {color: gridColor},
-                ticks: {color: gridTextColor},
-                border: {color: borderColor},
+                grid: { color: gridColor },
+                ticks: { color: gridTextColor },
+                border: { color: borderColor },
             }
         }
     }
@@ -691,13 +691,13 @@ let jobChart2 = new Chart(jobChart2Canvas, {
     },
     options: {
         indexAxis: 'y',
-        label: {display: false},
+        label: { display: false },
         plugins: {
-            legend: {display: false},
+            legend: { display: false },
             title: {
                 display: true,
                 text: [' ', 'Jeg søgte og blev ansat efter et stillingsopslag', ' '],
-                font: {size: 14},
+                font: { size: 14 },
                 color: 'white'
             },
             tooltip: {
@@ -716,13 +716,13 @@ let jobChart2 = new Chart(jobChart2Canvas, {
         },
         scales: {
             x: {
-                grid: {color: gridColor},
+                grid: { color: gridColor },
                 ticks: {color: gridTextColor},
                 border: {color: borderColor},
             },
             y: {
-                border: {color: borderColor},
-                ticks: {color: gridTextColor},
+                border: { color: borderColor },
+                ticks: { color: gridTextColor },
                 grid: {
                     color: gridColor,
                     display: false
@@ -744,13 +744,13 @@ let jobChart3 = new Chart(jobChart3Canvas, {
     },
     options: {
         indexAxis: 'y',
-        label: {display: false},
+        label: { display: false },
         plugins: {
-            legend: {display: false},
+            legend: { display: false },
             title: {
                 display: true,
                 text: [' ', 'Jeg søgte og blev ansat efter et stillingsopslag', ' '],
-                font: {size: 14},
+                font: { size: 14 },
                 color: 'white'
             },
             tooltip: {
@@ -769,13 +769,13 @@ let jobChart3 = new Chart(jobChart3Canvas, {
         },
         scales: {
             x: {
-                grid: {color: gridColor},
-                ticks: {color: gridTextColor},
-                border: {color: borderColor},
+                grid: { color: gridColor },
+                ticks: { color: gridTextColor },
+                border: { color: borderColor },
             },
             y: {
-                border: {color: borderColor},
-                ticks: {color: gridTextColor},
+                border: { color: borderColor },
+                ticks: { color: gridTextColor },
                 grid: {
                     color: gridColor,
                     display: false
@@ -797,13 +797,13 @@ let jobChart4 = new Chart(jobChart4Canvas, {
     },
     options: {
         indexAxis: 'y',
-        label: {display: false},
+        label: { display: false },
         plugins: {
-            legend: {display: false},
+            legend: { display: false },
             title: {
                 display: true,
                 text: ['Jeg fortsatte i job på den arbejdsplads,', 'hvor jeg skrev opgave / projekt / speciale,', 'eller var i praktik'],
-                font: {size: 14},
+                font: { size: 14 },
                 color: 'white'
             },
             tooltip: {
@@ -822,13 +822,13 @@ let jobChart4 = new Chart(jobChart4Canvas, {
         },
         scales: {
             x: {
-                grid: {color: gridColor},
-                ticks: {color: gridTextColor},
-                border: {color: borderColor},
+                grid: { color: gridColor },
+                ticks: { color: gridTextColor },
+                border: { color: borderColor },
             },
             y: {
-                border: {color: borderColor},
-                ticks: {color: gridTextColor},
+                border: { color: borderColor },
+                ticks: { color: gridTextColor },
                 grid: {
                     color: gridColor,
                     display: false
@@ -850,13 +850,13 @@ let jobChart5 = new Chart(jobChart5Canvas, {
     },
     options: {
         indexAxis: 'y',
-        label: {display: false},
+        label: { display: false },
         plugins: {
-            legend: {display: false},
+            legend: { display: false },
             title: {
                 display: true,
                 text: [' ', 'Jeg fortsatte i job på den arbejdsplads', 'hvor jeg havde studiejob'],
-                font: {size: 14},
+                font: { size: 14 },
                 color: 'white'
             },
             tooltip: {
@@ -875,13 +875,13 @@ let jobChart5 = new Chart(jobChart5Canvas, {
         },
         scales: {
             x: {
-                grid: {color: gridColor},
-                ticks: {color: gridTextColor},
-                border: {color: borderColor},
+                grid: { color: gridColor },
+                ticks: { color: gridTextColor },
+                border: { color: borderColor },
             },
             y: {
-                border: {color: borderColor},
-                ticks: {color: gridTextColor},
+                border: { color: borderColor },
+                ticks: { color: gridTextColor },
                 grid: {
                     color: gridColor,
                     display: false
@@ -890,6 +890,7 @@ let jobChart5 = new Chart(jobChart5Canvas, {
         }
     }
 })
+
 
 
 ////// leaflet //////
@@ -905,11 +906,11 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r
 // add markers to EK IT schools
 function mapEkSchools() {
     const EKschools = [
-        {name: "EK Guldbergsgade", latlng: [55.69149690984243, 12.555008402914718]},
-        {name: "EK Landemærket", latlng: [55.68202742413432, 12.576277748303877]},
-        {name: "EK Lygten", latlng: [55.706369426829156, 12.539137981532795]},
-        {name: "EK Nansensgade", latlng: [55.68192028780662, 12.562680082210507]},
-        {name: "EK Prinsesse Charlottes Gade", latlng: [55.6944551895993, 12.550846762451158]}
+        { name: "EK Guldbergsgade", latlng: [55.69149690984243, 12.555008402914718] },
+        { name: "EK Landemærket", latlng: [55.68202742413432, 12.576277748303877] },
+        { name: "EK Lygten", latlng: [55.706369426829156, 12.539137981532795] },
+        { name: "EK Nansensgade", latlng: [55.68192028780662, 12.562680082210507] },
+        { name: "EK Prinsesse Charlottes Gade", latlng: [55.6944551895993, 12.550846762451158] }
     ];
 
     EKschools.forEach(school => {
@@ -920,8 +921,9 @@ function mapEkSchools() {
         }).bindTooltip(`<b>${school.name}</b>`).addTo(map);
     });
 }
-
 mapEkSchools()
+
+
 
 
 ////// misc functions //////
@@ -932,6 +934,15 @@ subSections.forEach((section, i) => {
         section.classList.add('reversed');
     }
 });
+
+
+
+
+
+
+
+
+
 
 
 // pipeline for local mingo query
@@ -945,7 +956,7 @@ const pipeline = [
             totalCount: {
                 $sum: {
                     $cond: [
-                        {$in: ["$INSTITUTIONSAKT_BETEGNELSE", ["Cybersikkerhed", "Datamatiker", "IT-Arkitektur", "IT-Teknolog", "Multimediedesigner", "Økonomi og IT"]]},
+                        { $in: ["$INSTITUTIONSAKT_BETEGNELSE", ["Cybersikkerhed", "Datamatiker", "IT-Arkitektur", "IT-Teknolog", "Multimediedesigner", "Økonomi og IT"]] },
                         1,
                         0
                     ]
@@ -957,8 +968,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$Gender", "Mand"]},
-                                {$in: ["$INSTITUTIONSAKT_BETEGNELSE", ["Cybersikkerhed", "Datamatiker", "IT-Arkitektur", "IT-Teknolog", "Multimediedesigner", "Økonomi og IT"]]}
+                                { $eq: ["$Gender", "Mand"] },
+                                { $in: ["$INSTITUTIONSAKT_BETEGNELSE", ["Cybersikkerhed", "Datamatiker", "IT-Arkitektur", "IT-Teknolog", "Multimediedesigner", "Økonomi og IT"]] }
                             ]
                         },
                         1,
@@ -972,8 +983,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$Gender", "Kvinde"]},
-                                {$in: ["$INSTITUTIONSAKT_BETEGNELSE", ["Cybersikkerhed", "Datamatiker", "IT-Arkitektur", "IT-Teknolog", "Multimediedesigner", "Økonomi og IT"]]}
+                                { $eq: ["$Gender", "Kvinde"] },
+                                { $in: ["$INSTITUTIONSAKT_BETEGNELSE", ["Cybersikkerhed", "Datamatiker", "IT-Arkitektur", "IT-Teknolog", "Multimediedesigner", "Økonomi og IT"]] }
                             ]
                         },
                         1, 0
@@ -987,8 +998,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"]},
-                                {$eq: ["$Gender", "Mand"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"] },
+                                { $eq: ["$Gender", "Mand"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1000,8 +1011,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"]},
-                                {$eq: ["$Gender", "Kvinde"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"] },
+                                { $eq: ["$Gender", "Kvinde"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1013,8 +1024,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]},
-                                {$eq: ["$Gender", "Mand"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"] },
+                                { $eq: ["$Gender", "Mand"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1026,8 +1037,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]},
-                                {$eq: ["$Gender", "Kvinde"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"] },
+                                { $eq: ["$Gender", "Kvinde"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1039,8 +1050,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"]},
-                                {$eq: ["$Gender", "Mand"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"] },
+                                { $eq: ["$Gender", "Mand"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1052,8 +1063,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"]},
-                                {$eq: ["$Gender", "Kvinde"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"] },
+                                { $eq: ["$Gender", "Kvinde"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1065,8 +1076,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"]},
-                                {$eq: ["$Gender", "Mand"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"] },
+                                { $eq: ["$Gender", "Mand"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1078,8 +1089,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"]},
-                                {$eq: ["$Gender", "Kvinde"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"] },
+                                { $eq: ["$Gender", "Kvinde"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1091,8 +1102,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"]},
-                                {$eq: ["$Gender", "Mand"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"] },
+                                { $eq: ["$Gender", "Mand"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1104,8 +1115,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"]},
-                                {$eq: ["$Gender", "Kvinde"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"] },
+                                { $eq: ["$Gender", "Kvinde"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1117,8 +1128,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"]},
-                                {$eq: ["$Gender", "Mand"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"] },
+                                { $eq: ["$Gender", "Mand"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1130,8 +1141,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"]},
-                                {$eq: ["$Gender", "Kvinde"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"] },
+                                { $eq: ["$Gender", "Kvinde"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1141,27 +1152,27 @@ const pipeline = [
 
             // the followwing is collapsed for better overview
             // count edu used to project pct in next stage
-            countCYBS: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"]}, 1, 0]}},
-            countDATA: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]}, 1, 0]}},
-            countITTE: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"]}, 1, 0]}},
-            countMEKO: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"]}, 1, 0]}},
-            countITAR: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"]}, 1, 0]}},
-            countØKIT: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"]}, 1, 0]}},
+            countCYBS: { $sum: { $cond: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"] }, 1, 0] } },
+            countDATA: { $sum: { $cond: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"] }, 1, 0] } },
+            countITTE: { $sum: { $cond: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"] }, 1, 0] } },
+            countMEKO: { $sum: { $cond: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"] }, 1, 0] } },
+            countITAR: { $sum: { $cond: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"] }, 1, 0] } },
+            countØKIT: { $sum: { $cond: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"] }, 1, 0] } },
 
 
             // count gender edu
-            countCYBSM: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"]}, {$eq: ["$Gender", "Mand"]}]}, 1, 0]}},
-            countCYBSF: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"]}, {$eq: ["$Gender", "Kvinde"]}]}, 1, 0]}},
-            countDATAM: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]}, {$eq: ["$Gender", "Mand"]}]}, 1, 0]}},
-            countDATAF: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]}, {$eq: ["$Gender", "Kvinde"]}]}, 1, 0]}},
-            countMEKOM: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"]}, {$eq: ["$Gender", "Mand"]}]}, 1, 0]}},
-            countMEKOF: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"]}, {$eq: ["$Gender", "Kvinde"]}]}, 1, 0]}},
-            countITTEM: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"]}, {$eq: ["$Gender", "Mand"]}]}, 1, 0]}},
-            countITTEF: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"]}, {$eq: ["$Gender", "Kvinde"]}]}, 1, 0]}},
-            countITARM: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"]}, {$eq: ["$Gender", "Mand"]}]}, 1, 0]}},
-            countITARF: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"]}, {$eq: ["$Gender", "Kvinde"]}]}, 1, 0]}},
-            countØKITM: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"]}, {$eq: ["$Gender", "Mand"]}]}, 1, 0]}},
-            countØKITF: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"]}, {$eq: ["$Gender", "Kvinde"]}]}, 1, 0]}},
+            countCYBSM: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"] }, { $eq: ["$Gender", "Mand"] }] }, 1, 0] } },
+            countCYBSF: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"] }, { $eq: ["$Gender", "Kvinde"] }] }, 1, 0] } },
+            countDATAM: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"] }, { $eq: ["$Gender", "Mand"] }] }, 1, 0] } },
+            countDATAF: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"] }, { $eq: ["$Gender", "Kvinde"] }] }, 1, 0] } },
+            countMEKOM: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"] }, { $eq: ["$Gender", "Mand"] }] }, 1, 0] } },
+            countMEKOF: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"] }, { $eq: ["$Gender", "Kvinde"] }] }, 1, 0] } },
+            countITTEM: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"] }, { $eq: ["$Gender", "Mand"] }] }, 1, 0] } },
+            countITTEF: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"] }, { $eq: ["$Gender", "Kvinde"] }] }, 1, 0] } },
+            countITARM: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"] }, { $eq: ["$Gender", "Mand"] }] }, 1, 0] } },
+            countITARF: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"] }, { $eq: ["$Gender", "Kvinde"] }] }, 1, 0] } },
+            countØKITM: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"] }, { $eq: ["$Gender", "Mand"] }] }, 1, 0] } },
+            countØKITF: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"] }, { $eq: ["$Gender", "Kvinde"] }] }, 1, 0] } },
         }
     },
     {
@@ -1212,62 +1223,62 @@ const pipeline = [
             // gender percent for each edu, rounded to 1 decimal
             pctCYBSM: {
                 $round: [
-                    {$multiply: [{$divide: ["$countCYBSM", "$countCYBS"]}, 100]}, 1
+                    { $multiply: [{ $divide: ["$countCYBSM", "$countCYBS"] }, 100] }, 1
                 ]
             },
             pctCYBSF: {
                 $round: [
-                    {$multiply: [{$divide: ["$countCYBSF", "$countCYBS"]}, 100]}, 1
+                    { $multiply: [{ $divide: ["$countCYBSF", "$countCYBS"] }, 100] }, 1
                 ]
             },
             pctDATAM: {
                 $round: [
-                    {$multiply: [{$divide: ["$countDATAM", "$countDATA"]}, 100]}, 1
+                    { $multiply: [{ $divide: ["$countDATAM", "$countDATA"] }, 100] }, 1
                 ]
             },
             pctDATAF: {
                 $round: [
-                    {$multiply: [{$divide: ["$countDATAF", "$countDATA"]}, 100]}, 1
+                    { $multiply: [{ $divide: ["$countDATAF", "$countDATA"] }, 100] }, 1
                 ]
             },
             pctMEKOM: {
                 $round: [
-                    {$multiply: [{$divide: ["$countMEKOM", "$countMEKO"]}, 100]}, 1
+                    { $multiply: [{ $divide: ["$countMEKOM", "$countMEKO"] }, 100] }, 1
                 ]
             },
             pctMEKOF: {
                 $round: [
-                    {$multiply: [{$divide: ["$countMEKOF", "$countMEKO"]}, 100]}, 1
+                    { $multiply: [{ $divide: ["$countMEKOF", "$countMEKO"] }, 100] }, 1
                 ]
             },
             pctITTEM: {
                 $round: [
-                    {$multiply: [{$divide: ["$countITTEM", "$countITTE"]}, 100]}, 1
+                    { $multiply: [{ $divide: ["$countITTEM", "$countITTE"] }, 100] }, 1
                 ]
             },
             pctITTEF: {
                 $round: [
-                    {$multiply: [{$divide: ["$countITTEF", "$countITTE"]}, 100]}, 1
+                    { $multiply: [{ $divide: ["$countITTEF", "$countITTE"] }, 100] }, 1
                 ]
             },
             pctITARM: {
                 $round: [
-                    {$multiply: [{$divide: ["$countITARM", "$countITAR"]}, 100]}, 1
+                    { $multiply: [{ $divide: ["$countITARM", "$countITAR"] }, 100] }, 1
                 ]
             },
             pctITARF: {
                 $round: [
-                    {$multiply: [{$divide: ["$countITARF", "$countITAR"]}, 100]}, 1
+                    { $multiply: [{ $divide: ["$countITARF", "$countITAR"] }, 100] }, 1
                 ]
             },
             pctØKITM: {
                 $round: [
-                    {$multiply: [{$divide: ["$countØKITM", "$countØKIT"]}, 100]}, 1
+                    { $multiply: [{ $divide: ["$countØKITM", "$countØKIT"] }, 100] }, 1
                 ]
             },
             pctØKITF: {
                 $round: [
-                    {$multiply: [{$divide: ["$countØKITF", "$countØKIT"]}, 100]}, 1
+                    { $multiply: [{ $divide: ["$countØKITF", "$countØKIT"] }, 100] }, 1
                 ]
             },
         }
@@ -1280,11 +1291,12 @@ const pipeline = [
             allKvoF: ["$avgCYBSkvoF", "$avgDATAkvoF", "$avgITARkvoF", "$avgITTEkvoF", "$avgMEKOkvoF", "$avgØKITkvoF"],
             allPctM: ["$pctCYBSM", "$pctDATAM", "$pctITARM", "$pctITTEM", "$pctMEKOM", "$pctØKITM"],
             allPctF: ["$pctCYBSF", "$pctDATAF", "$pctITARF", "$pctITTEF", "$pctMEKOF", "$pctØKITF"],
-            totalPctM: {$round: [{$multiply: [{$divide: ["$totalM", "$totalCount"]}, 100]}, 1]},
-            totalPctF: {$round: [{$multiply: [{$divide: ["$totalF", "$totalCount"]}, 100]}, 1]}
+            totalPctM: {$round: [{ $multiply: [{ $divide: ["$totalM", "$totalCount"]}, 100]}, 1]},
+            totalPctF: {$round: [{ $multiply: [{ $divide: ["$totalF", "$totalCount"]}, 100]}, 1]}
         }
     }
 ];
+
 
 
 async function getChartData() {
@@ -1292,6 +1304,8 @@ async function getChartData() {
 
 
     // TODO try fetch "/getEKchartData"
+
+
 
 
     // TODO catch (use local EKdataset)
@@ -1304,13 +1318,15 @@ async function getChartData() {
         queriedData.allPctM = localResult.allPctM
         queriedData.allPctF = localResult.allPctF
         queriedData.totalPctM = localResult.totalPctM
-        queriedData.totalPctF = localResult.totalPctF
+        queriedData.totalPctF = localResult. totalPctF
     } else {
         console.warn("No results returned");
     }
 
 
+
     // TODO  try fetch "/thirdPartyData"
+
 
 
     // TODO catch (use local ThirdPartyData)
@@ -1412,10 +1428,10 @@ function updateSalaryChart(chartType) {
     }
     salaryChart.update()
 }
-
 // updateSalaryChart(1)  // show avg
 // updateSalaryChart(2)  // show start
 // updateSalaryChart(3)  // show highest
+
 
 
 function updateSurveryCharts(surveyType) {
@@ -1439,9 +1455,10 @@ function updateSurveryCharts(surveyType) {
         wellbeingSurveryQ4.update()
     }
 }
-
 // updateSurveryCharts(1)  // show social survey
 // updateSurveryCharts(2)  // show professional survey
+
+
 
 
 ////// eventlisteners //////
