@@ -252,23 +252,7 @@ button {
 
 }
 
-.dropdown {
 
-    /* #endregion */
-    /* #region ___NAME___ */
-
-    display: grid;
-    height: 5vh;
-    width: 10vw;
-    justify-content: center;
-
-    #lønmenu {
-        background-color: rgb(191, 248, 176);
-        color: rgb(8, 6, 56);
-        font-weight: bold;
-    }
-
-}
 
 .mainCharts {
     background-color: hsla(218, 28%, 17%, 90);
@@ -304,10 +288,21 @@ button {
 }
 
 
-
 #mobil-menu {
     display: none;
 }
+#lønmenu{
+
+    height: 4vh;
+    background-color:rgb(191, 248, 176);
+    margin-left: 2vw;
+    border-radius: 3vh;
+    width: 6vw;
+    text-align: center;
+    font-size: 0.7vw;
+
+}
+
 
 
 @media (max-width: 800px) {
@@ -318,10 +313,25 @@ button {
 
     #mobil-menu {
         display: block;
-        margin-left: 35vw;
+        max-width: 50vw;
+        justify-self: center;
+        border-radius: 3vh;
+        background-color: rgb(191, 248, 176);
+        text-align: center;
+
 
     }
 
+     #lønmenu{
+        margin-left: 3vw ;
+         background-color:rgb(191, 248, 176) ;
+         height:4vh;
+         width: 50vw;
+         font-size: 5vw;
+
+
+
+     }
     #knapperne {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -330,18 +340,145 @@ button {
     }
 
     #mobil-menu {
-        /* Gør teksten stor nok til at læse (og stopper iPhone-zoom) */
+
         font-size: 16px;
 
-        /* Gør boksen højere og bredere så den er nem at ramme */
-        padding: 15px;
+
+        padding: 10px;
         width: 100%;
 
-        /* Gør den pænere (fjerner standard-grå kant) */
+        margin-bottom: 2vh;
         border: 1px solid #ccc;
     }
 
-    border-radius: 8px; /* Runde hjørner */
+    border-radius: 8px;
     background-color: white;
     color: black;
 }
+
+
+#beggeknapepr {
+    display: flex;
+     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);   
+}
+
+
+:root {
+    /* Variabler for nem justering */
+    --sw-width: 200px;
+    --sw-height: 50px;
+    --sw-padding: 4px;
+    --sw-anim: 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+    --col-bg: hsla(218, 28%, 17%, 90);
+    --col-active: rgb(191, 248, 176);
+    --col-text-on: #0b1a30;
+    --col-text-off: #FAFAFA;
+
+}
+
+
+#beggeknapepr {
+    position: relative;
+    display: inline-flex;
+    width: var(--sw-width);
+    height: var(--sw-height);
+    background-color: var(--col-bg);
+    border-radius: 50px;
+    padding: var(--sw-padding);
+    box-sizing: border-box;
+    overflow: hidden;
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+
+
+#beggeknapepr::before {
+    content: '';
+    position: absolute;
+    top: var(--sw-padding);
+    left: var(--sw-padding);
+    width: calc(50% - var(--sw-padding)); /* Fylder halvdelen minus padding */
+    height: calc(100% - (var(--sw-padding) * 2));
+    background-color: var(--col-active);
+    border-radius: 50px;
+    transition: transform var(--sw-anim);
+    z-index: 0; /* Ligger bagerst */
+     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);   
+}
+
+
+#beggeknapepr:has(#alder:checked)::before {
+    transform: translateX(100%);
+    margin: 0;
+     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);   
+}
+
+#knap1, #knap2 {
+    flex: 1; /* De skal fylde lige meget hver */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1; /* Ligger foran den glidende baggrund */
+    
+
+}
+
+
+input[type="radio"] {
+    display: none;
+    
+}
+
+
+label {
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: var(--col-text-off); /* Standard hvid */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color var(--sw-anim);
+    
+}
+
+
+#knap1:has(input:checked) label {
+    color: var(--col-text-on);
+}
+
+#knap2:has(input:checked) label {
+    color: black;
+}
+
+   .infotext{
+
+       display: flex;
+       justify-content: space-between;
+       padding-right: 4vw;
+       margin-bottom: 0vh;
+      
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

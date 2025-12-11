@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>PP6</title>
-
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 </head>
 <body>
 <nav id="navbar">
@@ -29,9 +29,7 @@
         </li>
 
 
-        <li>
-            <button ID="BtmArbejdsløshed"><a href="#joblessSection"> Arbejdsløshed </a></button>
-        </li>
+
 
 
         <li>
@@ -45,7 +43,7 @@
         <option value="#salarySection">Løn</option>
         <option value="#genderSection">Kønsfordeling</option>
         <option value="#jobSection">Jobstart</option>
-        <option value="#joblessSection">Arbejdsløshed</option>
+
         <option value="#wellbeingSection">Trivsel</option>
     </select>
 
@@ -78,13 +76,19 @@
             <canvas id="salaryChart" class="mainCharts"></canvas>
             <div>
                 <p class="sectionText">
-                    Et typisk stillet spørgsmål er "hvad får vi i løn?" Brug selectoren til at vise min, maks eller
-                    average!
+                    Et typisk stillet spørgsmål er "hvad får vi i løn?" Brug selectoren til at vise min, maks eller average!
                 </p>
             </div>
+
+
         </section>
         <div class="infotext">
-            <button type="button" class="infoButton" id="salaryChartInfo">info</button>
+            <p> Da ITAR er en ny uddannelse er der ikke tal på løn endnu.
+                <br>
+                Vi har baseret vores tal på en af de mulige stillinger man kan få som færdiguddannet,
+                <br>
+                navnligt IT-projektleder
+            </p>
         </div>
     </section>
 
@@ -103,14 +107,15 @@
             </div>
         </section>
         <div class="infotext">
-            <button type="button" class="infoButton" id="genderChart1Info">info</button>
+            <p>info</p>
+
         </div>
         <section class="subSections">
             <canvas id="genderChart2" class="duoCharts"></canvas>
             <canvas id="genderChart3" class="duoCharts"></canvas>
         </section>
         <div class="infotext">
-            <button type="button" class="infoButton" id="duoChartInfo">info</button>
+            <p>info</p>
         </div>
     </section>
 
@@ -122,13 +127,12 @@
             <canvas id="wellbeingChart1" class="mainCharts"></canvas>
             <div>
                 <p class="sectionText">
-                    Vi har en lav frafaldsrate på alle studier, og folk trives generelt super godt hen over alle vores
-                    IT-uddannelser.
+                  Vi har en lav frafaldsrate på alle studier, og folk trives generelt super godt hen over alle vores IT-uddannelser.
                 </p>
             </div>
         </section>
         <div class="infotext">
-            <button class="infoButton" id="wellbeingChart1Info">info</button>
+            <p> </p>
         </div>
         <section id="wellbeingMultisection1" class="subSections">
             <canvas id="wellbeingChart2" class="surveyCharts"></canvas>
@@ -137,7 +141,7 @@
             <canvas id="wellbeingChart5" class="surveyCharts"></canvas>
         </section>
         <div class="infotext">
-            <button type="button" class="infoButton" id="wellbeingMultisection1Info">info</button>
+            <p> info</p>
         </div>
     </section>
     <section id="jobSection" class="mainSections">
@@ -159,20 +163,21 @@
             </div>
         </section>
         <div class="infotext">
-            <button type="button" class="infoButton" id="jobChart1Info">info</button>
+            <p> </p>
         </div>
-        <div class="secondaryTitle">
-            <h4>Du står stærkt på arbejdsmarkedet uanset hvilken vej du vælger.</h4>
-            <h4>Sådan fik færdiguddannede deres første job:</h4>
-        </div>
-        <section id="jobMultisection1" class="subSections">
-            <canvas id="jobSurveyQ1" class="surveyCharts"></canvas>
-            <canvas id="jobSurveyQ2" class="surveyCharts"></canvas>
-            <canvas id="jobSurveyQ3" class="surveyCharts"></canvas>
-            <canvas id="jobSurveyQ4" class="surveyCharts"></canvas>
+        <section id="wellbeingMultisection2" class="subSections">
+            <canvas id="jobChart2" class="surveyCharts"></canvas>
+            <canvas id="jobChart3" class="surveyCharts"></canvas>
+            <canvas id="jobChart4" class="surveyCharts"></canvas>
+            <canvas id="jobChart5" class="surveyCharts"></canvas>
         </section>
         <div class="infotext">
-            <button type="button" class="infoButton" id="jobMultisection1Info">info</button>
+            <p> Da Itar er for ny en uddannelse til at vi har data på den,
+                <br>
+                har vi antaget at jobløseheden ligger på niveau med de andre
+                <br>
+                uddannelser. Det er også derfor "jobstart" er tom for Itar.
+            </p>
         </div>
     </section>
 </main>

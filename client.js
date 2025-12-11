@@ -12,11 +12,10 @@ const wellbeingChart3Canvas = document.querySelector('#wellbeingChart3')
 const wellbeingChart4Canvas = document.querySelector('#wellbeingChart4')
 const wellbeingChart5Canvas = document.querySelector('#wellbeingChart5')
 const jobUnemployChartCanvas = document.querySelector('#jobChart1')
-const jobSurveyQ1Canvas = document.querySelector('#jobSurveyQ1')
-const jobSurveyQ2Canvas = document.querySelector('#jobSurveyQ2')
-const jobSurveyQ3Canvas = document.querySelector('#jobSurveyQ3')
-const jobSurveyQ4Canvas = document.querySelector('#jobSurveyQ4')
-const button = document.querySelector('.infoButton')
+const jobChart2Canvas = document.querySelector('#jobChart2')
+const jobChart3Canvas = document.querySelector('#jobChart3')
+const jobChart4Canvas = document.querySelector('#jobChart4')
+const jobChart5Canvas = document.querySelector('#jobChart5')
 
 // object to store data for charts, from server db or local db
 const queriedData = {
@@ -61,7 +60,7 @@ const queriedData = {
 const borderColor = 'rgba(255, 255, 255, 0.8)'
 const gridColor = 'rgba(255, 255, 255, 0.8)'
 const gridTextColor = 'rgba(255, 255, 255, 0.8)'
-const genderChartColorM = 'rgba(92, 122, 143, 0.9)'
+const genderChartColorM = 'rgba(73, 141, 186, 0.9)'
 const genderChartColorF = 'rgba(253, 62, 103, 0.9)'
 const chartPrimaryColor = 'rgba(191, 248, 176, 0.9)'
 
@@ -75,18 +74,13 @@ const chartAllEduNames = [
     'Multimediedesigner',
     'Økonomi og IT'
 ]
-const chartAllEduNamesITARstar = chartAllEduNames.with(2, 'IT-Arkitektur*')
-const chartAllEduLabelsITARstar = chartAllEduLabels.with(2, 'ITAR*')
-
-
-
 
 // salary section
 
 let salaryChart = new Chart(salaryChartCanvas, {
-    type: 'bar',
+    type: 'bar', //skal jeg høre design team omkring
     data: {
-        labels: chartAllEduNamesITARstar,
+        labels: chartAllEduNames,
         datasets: [{
             label: [], //update chart
             data: [], //update chart
@@ -95,24 +89,18 @@ let salaryChart = new Chart(salaryChartCanvas, {
     },
     options: {
         plugins: {
-            title: {
-                display: true,
-                text: ['Lønnen er høj for nye IT-uddannede'],
-                font: { size: 18 },
-                color: 'white'
-            },
-            legend: {display: false},
+            legend: { display: false },
             tooltip: {
                 callbacks: {
                     label: function (context) {
                         const value = context.parsed.y
                         let valueSplitted = value.toString().split('')
-
+                        
                         const indexToSlice = valueSplitted.length - 3;
                         const part1 = valueSplitted.slice(0, indexToSlice);
                         const part2 = valueSplitted.slice(indexToSlice);
 
-                        const newValue = part1.join('') + '.' + part2.join('');
+                        const newValue = part1.join('') + '.' + part2.join('');                        
                         return newValue + 'kr'
                     }
                 }
@@ -120,46 +108,42 @@ let salaryChart = new Chart(salaryChartCanvas, {
         },
         scales: {
             x: {
-                border: {color: borderColor},
-                grid: {color: gridColor},
-                ticks: {color: gridTextColor}
+                border: { color: borderColor },
+                grid: { color: gridColor },
+                ticks: { color: gridTextColor }
             },
             y: {
-                border: {color: borderColor},
-                grid: {color: gridColor},
-                ticks: {color: gridTextColor}
+                border: { color: borderColor },
+                grid: { color: gridColor },
+                ticks: { color: gridTextColor }
             }
         }
     }
 })
- 
+
 
 // gender section
 let genderLineChart = new Chart(genderChart1Canvas, {
-    type: 'bar',
+    type: 'line',
     data: {
         labels: chartAllEduNames, //navn på uddannelse
         datasets: [
             {
-                label: "Adgangskvotient Mænd",
-                data: [],
-                backgroundColor: genderChartColorM,
+                label: "Avg Kvotient Mænd",
+                data: [], 
+                borderColor: genderChartColorM,
+                borderWidth: 3
             },
             {
-                label: "Adgangskvotient Kvinder",
+                label: "Avg Kvotient Kvinder",
                 data: [],
-                backgroundColor: genderChartColorF,
+                borderColor: genderChartColorF,
+                borderWidth: 4
             }
         ]
     },
-    options: {
+    options: { 
         plugins: {
-            title: {
-                display: true,
-                text: ['Kvinderne hæver barren med højt fagligt niveau på IT-uddannelserne:','Se niveauet for de optagne på IT-uddannelserne'],
-                font: { size: 18 },
-                color: 'white'
-            },
             legend: {
                 labels: {
                     color: '#FFFFFF',
@@ -173,14 +157,14 @@ let genderLineChart = new Chart(genderChart1Canvas, {
         },
         scales: {
             x: {
-                border: {color: borderColor},
-                grid: {color: gridColor},
-                ticks: {color: gridTextColor}
+                border: { color: borderColor },
+                grid: { color: gridColor },
+                ticks: { color: gridTextColor }
             },
             y: {
-                border: {color: borderColor},
-                grid: {color: gridColor},
-                ticks: {color: gridTextColor}
+                border: { color: borderColor },
+                grid: { color: gridColor },
+                ticks: { color: gridTextColor }
             }
         }
     }
@@ -192,7 +176,7 @@ let genderPieChart = new Chart(genderChart2Canvas, {
         labels: ["Mænd", "Kvinder"],
         datasets: [{
             label: [], //procentvis kønsfordeling
-            data: [45, 60], //updateChart
+            data: [45,60], //updateChart
             backgroundColor: [
                 genderChartColorM,
                 genderChartColorF
@@ -201,12 +185,6 @@ let genderPieChart = new Chart(genderChart2Canvas, {
     },
     options: {
         plugins: {
-            title: {
-                display: true,
-                text: ['Glem myten om herreklubben:', 'Kvinder er stærkt repræsenteret på IT-uddannelserne!'],
-                font: { size: 18 },
-                color: 'white'
-            },
             legend: {
                 labels: {
                     color: '#FFFFFF',
@@ -238,7 +216,7 @@ let genderBarChart = new Chart(genderChart3Canvas, {
                 label: ["Mænd"],
                 data: [], //updateChart
                 backgroundColor: genderChartColorM
-            },
+            }, 
             {
                 label: ["Kvinder"],
                 data: [], //updateChart
@@ -250,24 +228,18 @@ let genderBarChart = new Chart(genderChart3Canvas, {
         scales: {
             x: {
                 stacked: true,
-                border: {color: borderColor},
-                grid: {color: gridColor},
-                ticks: {color: gridTextColor}
+                border: { color: borderColor },
+                grid: { color: gridColor },
+                ticks: { color: gridTextColor }
             },
             y: {
-                stacked: true,
-                border: {color: borderColor},
-                grid: {color: gridColor},
-                ticks: {color: gridTextColor}
+                stacked: true, 
+                border: { color: borderColor },
+                grid: { color: gridColor },
+                ticks: { color: gridTextColor }
             }
         },
         plugins: {
-            title: {
-                display: true,
-                text: ['Har du modet? Vi har uddannelsen:', 'Vær med til at tegne fremtidens kønsfordeling'],
-                font: { size: 18 },
-                color: 'white'
-            },
             legend: {
                 labels: {
                     color: '#FFFFFF',
@@ -297,7 +269,7 @@ let wellbeingDropoutChart = new Chart(wellbeingChart1Canvas, {
     data: {
         labels: chartAllEduLabels,
         datasets: [{
-            label: [],
+            label: [], 
             data: [33, 66, 99],
             backgroundColor: chartPrimaryColor
         }]
@@ -307,8 +279,8 @@ let wellbeingDropoutChart = new Chart(wellbeingChart1Canvas, {
         plugins: {
             legend: {display: false},
             title: {
-                display: true,
-                text: 'Procentvis frafald første år',
+                display: true, 
+                text: 'Procentvis frafald første år', 
                 font: {size: 18},
                 color: 'white'
             },
@@ -338,21 +310,13 @@ let wellbeingDropoutChart = new Chart(wellbeingChart1Canvas, {
     }
 })
 
-// Q3 and Q4 scales are updated by updateSurveyCharts()
-let wellbeingSurveyScales = {
-    Q1scale: ['Helt uenig', 'Uenig', 'Hverken eller', 'Enig', 'Helt enig'],
-    Q2scale: ['Helt uenig', 'Uenig', 'Hverken eller', 'Enig', 'Helt enig'],
-    Q3scale: ['Altid', 'Næsten altid', 'Hverken eller', 'Næsten aldrig', 'Aldrig'],
-    Q4scale: ['Altid', 'Næsten altid', 'Hverken eller', 'Næsten aldrig', 'Aldrig'],
-}
-
 let wellbeingSurveryQ1 = new Chart(wellbeingChart2Canvas, {
     type: 'bar',
     data: {
         labels: chartAllEduLabels,
         datasets: [{
             label: [],
-            data: [], // updated by updateSurveyCharts()
+            data: [33, 66, 99],
             backgroundColor: chartPrimaryColor
         }]
     },
@@ -363,16 +327,9 @@ let wellbeingSurveryQ1 = new Chart(wellbeingChart2Canvas, {
             legend: {display: false},
             title: {
                 display: true,
-                text: '', // updated by updateSurveyCharts()
-                font: {size: 16},
+                text: [' ', 'Der er et godt socialt miljø', ' '],
+                font: {size: 14},
                 color: 'white'
-            },
-            subtitle: {
-                display: true,
-                text: ['', ''], 
-                color: '#aaa', 
-                font: {size: 12},
-                padding: {bottom: 10}
             },
             tooltip: {
                 callbacks: {
@@ -380,15 +337,15 @@ let wellbeingSurveryQ1 = new Chart(wellbeingChart2Canvas, {
                         const value = context.parsed.x
                         let valueToUse
                         if (value < 13) {
-                            valueToUse = wellbeingSurveyScales.Q1scale[0]
+                            valueToUse = 'Meget uenig'
                         } else if (value < 38) {
-                            valueToUse = wellbeingSurveyScales.Q1scale[1]
+                            valueToUse = 'Uenig'
                         } else if (value < 68) {
-                            valueToUse = wellbeingSurveyScales.Q1scale[2]
+                            valueToUse = 'Hverken eller'
                         } else if (value < 88) {
-                            valueToUse = wellbeingSurveyScales.Q1scale[3]
+                            valueToUse = 'Enig'
                         } else {
-                            valueToUse = wellbeingSurveyScales.Q1scale[4]
+                            valueToUse = 'Helt Enig'
                         }
                         return valueToUse
                     },
@@ -409,11 +366,11 @@ let wellbeingSurveryQ1 = new Chart(wellbeingChart2Canvas, {
                     color: gridTextColor,
                     stepSize: 25,
                     callback: function (value, index, ticks) {
-                        if (value === 0) return wellbeingSurveyScales.Q1scale[0]
-                        else if (value === 25) return wellbeingSurveyScales.Q1scale[1]
-                        else if (value === 50) return wellbeingSurveyScales.Q1scale[2]
-                        else if (value === 75) return wellbeingSurveyScales.Q1scale[3]
-                        else if (value === 100) return wellbeingSurveyScales.Q1scale[4]
+                        if (value === 0) return 'Helt uenig';
+                        if (value === 25) return 'Uenig';
+                        if (value === 50) return 'Hverken eller';
+                        if (value === 75) return 'Enig';
+                        if (value === 100) return 'Helt enig';
                         return value;
                     }
                 },
@@ -439,7 +396,7 @@ let wellbeingSurveryQ2 = new Chart(wellbeingChart3Canvas, {
         labels: chartAllEduLabels,
         datasets: [{
             label: [],
-            data: [], // updated by updateSurveyCharts()
+            data: [33, 66, 99],
             backgroundColor: chartPrimaryColor
         }]
     },
@@ -450,16 +407,9 @@ let wellbeingSurveryQ2 = new Chart(wellbeingChart3Canvas, {
             legend: {display: false},
             title: {
                 display: true,
-                text: '', // updated by updateSurveyCharts()
-                font: {size: 16},
+                text: [' ', 'Jeg føler mig generelt rigtig godt tilpas', 'på min uddannelse'],
+                font: {size: 14},
                 color: 'white'
-            },
-            subtitle: {
-                display: true,
-                text: ['', 'Jeg føler mig generelt rigtig godt tilpas på min uddannelse'], 
-                color: '#aaa', 
-                font: { size: 12 },
-                padding: { bottom: 10 }
             },
             tooltip: {
                 callbacks: {
@@ -467,15 +417,15 @@ let wellbeingSurveryQ2 = new Chart(wellbeingChart3Canvas, {
                         const value = context.parsed.x
                         let valueToUse
                         if (value < 13) {
-                            valueToUse = wellbeingSurveyScales.Q2scale[0]
+                            valueToUse = 'Meget uenig'
                         } else if (value < 38) {
-                            valueToUse = wellbeingSurveyScales.Q2scale[1]
+                            valueToUse = 'Uenig'
                         } else if (value < 68) {
-                            valueToUse = wellbeingSurveyScales.Q2scale[2]
+                            valueToUse = 'Hverken eller'
                         } else if (value < 88) {
-                            valueToUse = wellbeingSurveyScales.Q2scale[3]
+                            valueToUse = 'Enig'
                         } else {
-                            valueToUse = wellbeingSurveyScales.Q2scale[4]
+                            valueToUse = 'Helt Enig'
                         }
                         return valueToUse
                     },
@@ -496,11 +446,11 @@ let wellbeingSurveryQ2 = new Chart(wellbeingChart3Canvas, {
                     color: gridTextColor,
                     stepSize: 25,
                     callback: function (value, index, ticks) {
-                        if (value === 0) return wellbeingSurveyScales.Q2scale[0]
-                        else if (value === 25) return wellbeingSurveyScales.Q2scale[1]
-                        else if (value === 50) return wellbeingSurveyScales.Q2scale[2]
-                        else if (value === 75) return wellbeingSurveyScales.Q2scale[3]
-                        else if (value === 100) return wellbeingSurveyScales.Q2scale[4]
+                        if (value === 0) return 'Helt uenig';
+                        if (value === 25) return 'Uenig';
+                        if (value === 50) return 'Hverken eller';
+                        if (value === 75) return 'Enig';
+                        if (value === 100) return 'Helt enig';
                         return value;
                     }
                 },
@@ -526,7 +476,7 @@ let wellbeingSurveryQ3 = new Chart(wellbeingChart4Canvas, {
         labels: chartAllEduLabels,
         datasets: [{
             label: [],
-            data: [], // updated by updateSurveyCharts()
+            data: [33, 66, 99],
             backgroundColor: chartPrimaryColor
         }]
     },
@@ -537,16 +487,9 @@ let wellbeingSurveryQ3 = new Chart(wellbeingChart4Canvas, {
             legend: {display: false},
             title: {
                 display: true,
-                text: '',  // updated by updateSurveyCharts()
-                font: {size: 16},
+                text: [' ', 'Har du oplevet at føle dig ensom på studiet?', ' '],
+                font: {size: 14},
                 color: 'white'
-            },
-            subtitle: {
-                display: true,
-                text: ['','Har du oplevet at føle dig ensom på studiet?'], 
-                color: '#aaa', 
-                font: { size: 12 },
-                padding: { bottom: 10 }
             },
             tooltip: {
                 callbacks: {
@@ -554,15 +497,15 @@ let wellbeingSurveryQ3 = new Chart(wellbeingChart4Canvas, {
                         const value = context.parsed.x
                         let valueToUse
                         if (value < 13) {
-                            valueToUse = wellbeingSurveyScales.Q3scale[0]
+                            valueToUse = 'Altid'
                         } else if (value < 38) {
-                            valueToUse = wellbeingSurveyScales.Q3scale[1]
+                            valueToUse = 'Næsten altid'
                         } else if (value < 68) {
-                            valueToUse = wellbeingSurveyScales.Q3scale[2]
+                            valueToUse = 'Hverken eller'
                         } else if (value < 88) {
-                            valueToUse = wellbeingSurveyScales.Q3scale[3]
+                            valueToUse = 'Næsten aldrig'
                         } else {
-                            valueToUse = wellbeingSurveyScales.Q3scale[4]
+                            valueToUse = 'Aldrig'
                         }
                         return valueToUse
                     },
@@ -583,11 +526,11 @@ let wellbeingSurveryQ3 = new Chart(wellbeingChart4Canvas, {
                     color: gridTextColor,
                     stepSize: 25,
                     callback: function (value, index, ticks) {
-                        if (value === 0) return wellbeingSurveyScales.Q3scale[0]
-                        else if (value === 25) return wellbeingSurveyScales.Q3scale[1]
-                        else if (value === 50) return wellbeingSurveyScales.Q3scale[2]
-                        else if (value === 75) return wellbeingSurveyScales.Q3scale[3]
-                        else if (value === 100) return wellbeingSurveyScales.Q3scale[4]
+                        if (value === 0) return 'Altid';
+                        if (value === 25) return 'Næsten altid';
+                        if (value === 50) return 'Hverken eller';
+                        if (value === 75) return 'Næsten aldrig';
+                        if (value === 100) return 'Aldrig';
                         return value;
                     }
                 },
@@ -613,7 +556,7 @@ let wellbeingSurveryQ4 = new Chart(wellbeingChart5Canvas, {
         labels: chartAllEduLabels,
         datasets: [{
             label: [],
-            data: [], // updated by updateSurveyCharts()
+            data: [33, 66, 99],
             backgroundColor: chartPrimaryColor
         }]
     },
@@ -624,16 +567,9 @@ let wellbeingSurveryQ4 = new Chart(wellbeingChart5Canvas, {
             legend: {display: false},
             title: {
                 display: true,
-                text: '', // updated by updateSurveyCharts()
-                font: {size: 16},
+                text: [' ', 'Har du oplevet stærke stress-symptomer', 'i forbindelse med dit studie i dagligdagen?'],
+                font: {size: 14},
                 color: 'white'
-            },
-            subtitle: {
-                display: true,
-                text: ['Har du oplevet stærke stress-symptomer','i forbindelse med dit studie i dagligdagen?'], 
-                color: '#aaa', 
-                font: { size: 12 },
-                padding: { bottom: 10 }
             },
             tooltip: {
                 callbacks: {
@@ -641,15 +577,15 @@ let wellbeingSurveryQ4 = new Chart(wellbeingChart5Canvas, {
                         const value = context.parsed.x
                         let valueToUse
                         if (value < 13) {
-                            valueToUse = wellbeingSurveyScales.Q4scale[0]
+                            valueToUse = 'Altid'
                         } else if (value < 38) {
-                            valueToUse = wellbeingSurveyScales.Q4scale[1]
+                            valueToUse = 'Næsten altid'
                         } else if (value < 68) {
-                            valueToUse = wellbeingSurveyScales.Q4scale[2]
+                            valueToUse = 'Hverken eller'
                         } else if (value < 88) {
-                            valueToUse = wellbeingSurveyScales.Q4scale[3]
+                            valueToUse = 'Næsten aldrig'
                         } else {
-                            valueToUse = wellbeingSurveyScales.Q4scale[4]
+                            valueToUse = 'Aldrig'
                         }
                         return valueToUse
                     },
@@ -670,11 +606,11 @@ let wellbeingSurveryQ4 = new Chart(wellbeingChart5Canvas, {
                     color: gridTextColor,
                     stepSize: 25,
                     callback: function (value, index, ticks) {
-                        if (value === 0) return wellbeingSurveyScales.Q4scale[0]
-                        else if (value === 25) return wellbeingSurveyScales.Q4scale[1]
-                        else if (value === 50) return wellbeingSurveyScales.Q4scale[2]
-                        else if (value === 75) return wellbeingSurveyScales.Q4scale[3]
-                        else if (value === 100) return wellbeingSurveyScales.Q4scale[4]
+                        if (value === 0) return 'Altid';
+                        if (value === 25) return 'Næsten altid';
+                        if (value === 50) return 'Hverken eller';
+                        if (value === 75) return 'Næsten aldrig';
+                        if (value === 100) return 'Aldrig';
                         return value;
                     }
                 },
@@ -699,21 +635,21 @@ let wellbeingSurveryQ4 = new Chart(wellbeingChart5Canvas, {
 let jobUnemployChart = new Chart(jobUnemployChartCanvas, {
     type: 'bar',
     data: {
-        labels: chartAllEduNamesITARstar,
+        labels: chartAllEduNames,
         datasets: [{
-            label: [],
-            data: [], 
+            label: [], //løngrundlag (måske opdelt i køn)
+            data: [1,3,2],
             backgroundColor: chartPrimaryColor
         }]
     },
     options: {
-        label: {display: false},
+        label: { display: false },
         plugins: {
-            legend: {display: false},
+            legend: { display: false },
             title: {
                 display: true,
                 text: 'Arbejdsløshed blandt nyuddannede',
-                font: {size: 18},
+                font: { size: 18 },
                 color: 'white'
             },
             tooltip: {
@@ -727,25 +663,25 @@ let jobUnemployChart = new Chart(jobUnemployChartCanvas, {
         },
         scales: {
             x: {
-                grid: {color: gridColor},
-                ticks: {color: gridTextColor},
-                border: {color: borderColor},
+                grid: { color: gridColor },
+                ticks: { color: gridTextColor },
+                border: { color: borderColor },
             },
             y: {
                 min: 0,
                 max: 100,
-                grid: {color: gridColor},
-                ticks: {color: gridTextColor},
-                border: {color: borderColor},
+                grid: { color: gridColor },
+                ticks: { color: gridTextColor },
+                border: { color: borderColor },
             }
         }
     }
 })
 
-let jobSurveyQ1 = new Chart(jobSurveyQ1Canvas, {
+let jobChart2 = new Chart(jobChart2Canvas, {
     type: 'bar',
     data: {
-        labels: chartAllEduLabelsITARstar,
+        labels: chartAllEduLabels,
         datasets: [{
             label: [],
             data: [33, 66, 99],
@@ -754,13 +690,13 @@ let jobSurveyQ1 = new Chart(jobSurveyQ1Canvas, {
     },
     options: {
         indexAxis: 'y',
-        label: {display: false},
+        label: { display: false },
         plugins: {
-            legend: {display: false},
+            legend: { display: false },
             title: {
                 display: true,
                 text: [' ', 'Jeg søgte og blev ansat efter et stillingsopslag', ' '],
-                font: {size: 16},
+                font: { size: 14 },
                 color: 'white'
             },
             tooltip: {
@@ -779,13 +715,13 @@ let jobSurveyQ1 = new Chart(jobSurveyQ1Canvas, {
         },
         scales: {
             x: {
-                grid: {color: gridColor},
+                grid: { color: gridColor },
                 ticks: {color: gridTextColor},
                 border: {color: borderColor},
             },
             y: {
-                border: {color: borderColor},
-                ticks: {color: gridTextColor},
+                border: { color: borderColor },
+                ticks: { color: gridTextColor },
                 grid: {
                     color: gridColor,
                     display: false
@@ -795,10 +731,10 @@ let jobSurveyQ1 = new Chart(jobSurveyQ1Canvas, {
     }
 })
 
-let jobSurveyQ2 = new Chart(jobSurveyQ2Canvas, {
+let jobChart3 = new Chart(jobChart3Canvas, {
     type: 'bar',
     data: {
-        labels: chartAllEduLabelsITARstar,
+        labels: chartAllEduLabels,
         datasets: [{
             label: [],
             data: [33, 66, 99],
@@ -807,13 +743,13 @@ let jobSurveyQ2 = new Chart(jobSurveyQ2Canvas, {
     },
     options: {
         indexAxis: 'y',
-        label: {display: false},
+        label: { display: false },
         plugins: {
-            legend: {display: false},
+            legend: { display: false },
             title: {
                 display: true,
-                text: [' ', 'Jeg fik job gennem mit netværk', ' '],
-                font: {size: 16},
+                text: [' ', 'Jeg søgte og blev ansat efter et stillingsopslag', ' '],
+                font: { size: 14 },
                 color: 'white'
             },
             tooltip: {
@@ -832,13 +768,13 @@ let jobSurveyQ2 = new Chart(jobSurveyQ2Canvas, {
         },
         scales: {
             x: {
-                grid: {color: gridColor},
-                ticks: {color: gridTextColor},
-                border: {color: borderColor},
+                grid: { color: gridColor },
+                ticks: { color: gridTextColor },
+                border: { color: borderColor },
             },
             y: {
-                border: {color: borderColor},
-                ticks: {color: gridTextColor},
+                border: { color: borderColor },
+                ticks: { color: gridTextColor },
                 grid: {
                     color: gridColor,
                     display: false
@@ -848,10 +784,10 @@ let jobSurveyQ2 = new Chart(jobSurveyQ2Canvas, {
     }
 })
 
-let jobSurveyQ3 = new Chart(jobSurveyQ3Canvas, {
+let jobChart4 = new Chart(jobChart4Canvas, {
     type: 'bar',
     data: {
-        labels: chartAllEduLabelsITARstar,
+        labels: chartAllEduLabels,
         datasets: [{
             label: [],
             data: [33, 66, 99],
@@ -860,13 +796,13 @@ let jobSurveyQ3 = new Chart(jobSurveyQ3Canvas, {
     },
     options: {
         indexAxis: 'y',
-        label: {display: false},
+        label: { display: false },
         plugins: {
-            legend: {display: false},
+            legend: { display: false },
             title: {
                 display: true,
                 text: ['Jeg fortsatte i job på den arbejdsplads,', 'hvor jeg skrev opgave / projekt / speciale,', 'eller var i praktik'],
-                font: {size: 16},
+                font: { size: 14 },
                 color: 'white'
             },
             tooltip: {
@@ -885,13 +821,13 @@ let jobSurveyQ3 = new Chart(jobSurveyQ3Canvas, {
         },
         scales: {
             x: {
-                grid: {color: gridColor},
-                ticks: {color: gridTextColor},
-                border: {color: borderColor},
+                grid: { color: gridColor },
+                ticks: { color: gridTextColor },
+                border: { color: borderColor },
             },
             y: {
-                border: {color: borderColor},
-                ticks: {color: gridTextColor},
+                border: { color: borderColor },
+                ticks: { color: gridTextColor },
                 grid: {
                     color: gridColor,
                     display: false
@@ -901,10 +837,10 @@ let jobSurveyQ3 = new Chart(jobSurveyQ3Canvas, {
     }
 })
 
-let jobSurveyQ4 = new Chart(jobSurveyQ4Canvas, {
+let jobChart5 = new Chart(jobChart5Canvas, {
     type: 'bar',
     data: {
-        labels: chartAllEduLabelsITARstar,
+        labels: chartAllEduLabels,
         datasets: [{
             label: [],
             data: [33, 66, 99],
@@ -913,13 +849,13 @@ let jobSurveyQ4 = new Chart(jobSurveyQ4Canvas, {
     },
     options: {
         indexAxis: 'y',
-        label: {display: false},
+        label: { display: false },
         plugins: {
-            legend: {display: false},
+            legend: { display: false },
             title: {
                 display: true,
-                text: ['Jeg fortsatte i job på den arbejdsplads', 'hvor jeg havde studiejob', ''],
-                font: {size: 16},
+                text: [' ', 'Jeg fortsatte i job på den arbejdsplads', 'hvor jeg havde studiejob'],
+                font: { size: 14 },
                 color: 'white'
             },
             tooltip: {
@@ -938,13 +874,13 @@ let jobSurveyQ4 = new Chart(jobSurveyQ4Canvas, {
         },
         scales: {
             x: {
-                grid: {color: gridColor},
-                ticks: {color: gridTextColor},
-                border: {color: borderColor},
+                grid: { color: gridColor },
+                ticks: { color: gridTextColor },
+                border: { color: borderColor },
             },
             y: {
-                border: {color: borderColor},
-                ticks: {color: gridTextColor},
+                border: { color: borderColor },
+                ticks: { color: gridTextColor },
                 grid: {
                     color: gridColor,
                     display: false
@@ -953,6 +889,7 @@ let jobSurveyQ4 = new Chart(jobSurveyQ4Canvas, {
         }
     }
 })
+
 
 
 ////// leaflet //////
@@ -968,11 +905,11 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r
 // add markers to EK IT schools
 function mapEkSchools() {
     const EKschools = [
-        {name: "EK Guldbergsgade", latlng: [55.69149690984243, 12.555008402914718]},
-        {name: "EK Landemærket", latlng: [55.68202742413432, 12.576277748303877]},
-        {name: "EK Lygten", latlng: [55.706369426829156, 12.539137981532795]},
-        {name: "EK Nansensgade", latlng: [55.68192028780662, 12.562680082210507]},
-        {name: "EK Prinsesse Charlottes Gade", latlng: [55.6944551895993, 12.550846762451158]}
+        { name: "EK Guldbergsgade", latlng: [55.69149690984243, 12.555008402914718] },
+        { name: "EK Landemærket", latlng: [55.68202742413432, 12.576277748303877] },
+        { name: "EK Lygten", latlng: [55.706369426829156, 12.539137981532795] },
+        { name: "EK Nansensgade", latlng: [55.68192028780662, 12.562680082210507] },
+        { name: "EK Prinsesse Charlottes Gade", latlng: [55.6944551895993, 12.550846762451158] }
     ];
 
     EKschools.forEach(school => {
@@ -983,8 +920,9 @@ function mapEkSchools() {
         }).bindTooltip(`<b>${school.name}</b>`).addTo(map);
     });
 }
-
 mapEkSchools()
+
+
 
 
 ////// misc functions //////
@@ -997,18 +935,27 @@ subSections.forEach((section, i) => {
 });
 
 
+
+
+
+
+
+
+
+
+
 // pipeline for local mingo query
 const pipeline = [
     {
         // STAGE 1: Sum everything up
         $group: {
             _id: null,
-
+            
             // Total count of IT educations
             totalCount: {
                 $sum: {
                     $cond: [
-                        {$in: ["$INSTITUTIONSAKT_BETEGNELSE", ["Cybersikkerhed", "Datamatiker", "IT-Arkitektur", "IT-Teknolog", "Multimediedesigner", "Økonomi og IT"]]},
+                        { $in: ["$INSTITUTIONSAKT_BETEGNELSE", ["Cybersikkerhed", "Datamatiker", "IT-Arkitektur", "IT-Teknolog", "Multimediedesigner", "Økonomi og IT"]] },
                         1,
                         0
                     ]
@@ -1020,8 +967,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$Gender", "Mand"]},
-                                {$in: ["$INSTITUTIONSAKT_BETEGNELSE", ["Cybersikkerhed", "Datamatiker", "IT-Arkitektur", "IT-Teknolog", "Multimediedesigner", "Økonomi og IT"]]}
+                                { $eq: ["$Gender", "Mand"] },
+                                { $in: ["$INSTITUTIONSAKT_BETEGNELSE", ["Cybersikkerhed", "Datamatiker", "IT-Arkitektur", "IT-Teknolog", "Multimediedesigner", "Økonomi og IT"]] }
                             ]
                         },
                         1,
@@ -1035,8 +982,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$Gender", "Kvinde"]},
-                                {$in: ["$INSTITUTIONSAKT_BETEGNELSE", ["Cybersikkerhed", "Datamatiker", "IT-Arkitektur", "IT-Teknolog", "Multimediedesigner", "Økonomi og IT"]]}
+                                { $eq: ["$Gender", "Kvinde"] },
+                                { $in: ["$INSTITUTIONSAKT_BETEGNELSE", ["Cybersikkerhed", "Datamatiker", "IT-Arkitektur", "IT-Teknolog", "Multimediedesigner", "Økonomi og IT"]] }
                             ]
                         },
                         1, 0
@@ -1050,8 +997,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"]},
-                                {$eq: ["$Gender", "Mand"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"] },
+                                { $eq: ["$Gender", "Mand"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1063,8 +1010,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"]},
-                                {$eq: ["$Gender", "Kvinde"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"] },
+                                { $eq: ["$Gender", "Kvinde"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1076,8 +1023,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]},
-                                {$eq: ["$Gender", "Mand"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"] },
+                                { $eq: ["$Gender", "Mand"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1089,8 +1036,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]},
-                                {$eq: ["$Gender", "Kvinde"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"] },
+                                { $eq: ["$Gender", "Kvinde"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1102,8 +1049,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"]},
-                                {$eq: ["$Gender", "Mand"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"] },
+                                { $eq: ["$Gender", "Mand"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1115,8 +1062,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"]},
-                                {$eq: ["$Gender", "Kvinde"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"] },
+                                { $eq: ["$Gender", "Kvinde"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1128,8 +1075,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"]},
-                                {$eq: ["$Gender", "Mand"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"] },
+                                { $eq: ["$Gender", "Mand"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1141,8 +1088,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"]},
-                                {$eq: ["$Gender", "Kvinde"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"] },
+                                { $eq: ["$Gender", "Kvinde"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1154,8 +1101,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"]},
-                                {$eq: ["$Gender", "Mand"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"] },
+                                { $eq: ["$Gender", "Mand"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1167,8 +1114,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"]},
-                                {$eq: ["$Gender", "Kvinde"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"] },
+                                { $eq: ["$Gender", "Kvinde"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1180,8 +1127,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"]},
-                                {$eq: ["$Gender", "Mand"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"] },
+                                { $eq: ["$Gender", "Mand"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1193,8 +1140,8 @@ const pipeline = [
                     $cond: [
                         {
                             $and: [
-                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"]},
-                                {$eq: ["$Gender", "Kvinde"]}
+                                { $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"] },
+                                { $eq: ["$Gender", "Kvinde"] }
                             ]
                         },
                         "$KVOTIENT", null
@@ -1204,27 +1151,27 @@ const pipeline = [
 
             // the followwing is collapsed for better overview
             // count edu used to project pct in next stage
-            countCYBS: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"]}, 1, 0]}},
-            countDATA: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]}, 1, 0]}},
-            countITTE: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"]}, 1, 0]}},
-            countMEKO: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"]}, 1, 0]}},
-            countITAR: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"]}, 1, 0]}},
-            countØKIT: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"]}, 1, 0]}},
-
+            countCYBS: { $sum: { $cond: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"] }, 1, 0] } },
+            countDATA: { $sum: { $cond: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"] }, 1, 0] } },
+            countITTE: { $sum: { $cond: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"] }, 1, 0] } },
+            countMEKO: { $sum: { $cond: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"] }, 1, 0] } },
+            countITAR: { $sum: { $cond: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"] }, 1, 0] } },
+            countØKIT: { $sum: { $cond: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"] }, 1, 0] } },
+            
 
             // count gender edu
-            countCYBSM: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"]}, {$eq: ["$Gender", "Mand"]}]}, 1, 0]}},
-            countCYBSF: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"]}, {$eq: ["$Gender", "Kvinde"]}]}, 1, 0]}},
-            countDATAM: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]}, {$eq: ["$Gender", "Mand"]}]}, 1, 0]}},
-            countDATAF: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]}, {$eq: ["$Gender", "Kvinde"]}]}, 1, 0]}},
-            countMEKOM: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"]}, {$eq: ["$Gender", "Mand"]}]}, 1, 0]}},
-            countMEKOF: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"]}, {$eq: ["$Gender", "Kvinde"]}]}, 1, 0]}},
-            countITTEM: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"]}, {$eq: ["$Gender", "Mand"]}]}, 1, 0]}},
-            countITTEF: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"]}, {$eq: ["$Gender", "Kvinde"]}]}, 1, 0]}},
-            countITARM: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"]}, {$eq: ["$Gender", "Mand"]}]}, 1, 0]}},
-            countITARF: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"]}, {$eq: ["$Gender", "Kvinde"]}]}, 1, 0]}},
-            countØKITM: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"]}, {$eq: ["$Gender", "Mand"]}]}, 1, 0]}},
-            countØKITF: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"]}, {$eq: ["$Gender", "Kvinde"]}]}, 1, 0]}},
+            countCYBSM: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"] }, { $eq: ["$Gender", "Mand"] }] }, 1, 0] } },
+            countCYBSF: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"] }, { $eq: ["$Gender", "Kvinde"] }] }, 1, 0] } },
+            countDATAM: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"] }, { $eq: ["$Gender", "Mand"] }] }, 1, 0] } },
+            countDATAF: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"] }, { $eq: ["$Gender", "Kvinde"] }] }, 1, 0] } },
+            countMEKOM: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"] }, { $eq: ["$Gender", "Mand"] }] }, 1, 0] } },
+            countMEKOF: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"] }, { $eq: ["$Gender", "Kvinde"] }] }, 1, 0] } },
+            countITTEM: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"] }, { $eq: ["$Gender", "Mand"] }] }, 1, 0] } },
+            countITTEF: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"] }, { $eq: ["$Gender", "Kvinde"] }] }, 1, 0] } },
+            countITARM: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"] }, { $eq: ["$Gender", "Mand"] }] }, 1, 0] } },
+            countITARF: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"] }, { $eq: ["$Gender", "Kvinde"] }] }, 1, 0] } },
+            countØKITM: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"] }, { $eq: ["$Gender", "Mand"] }] }, 1, 0] } },
+            countØKITF: { $sum: { $cond: [{ $and: [{ $eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"] }, { $eq: ["$Gender", "Kvinde"] }] }, 1, 0] } },
         }
     },
     {
@@ -1273,65 +1220,65 @@ const pipeline = [
             },
 
             // gender percent for each edu, rounded to 1 decimal
-            pctCYBSM: {
+            pctCYBSM: { 
                 $round: [
-                    {$multiply: [{$divide: ["$countCYBSM", "$countCYBS"]}, 100]}, 1
-                ]
+                    { $multiply: [{ $divide: ["$countCYBSM", "$countCYBS"] }, 100] }, 1
+                ] 
             },
-            pctCYBSF: {
+            pctCYBSF: { 
                 $round: [
-                    {$multiply: [{$divide: ["$countCYBSF", "$countCYBS"]}, 100]}, 1
-                ]
+                    { $multiply: [{ $divide: ["$countCYBSF", "$countCYBS"] }, 100] }, 1
+                ] 
             },
-            pctDATAM: {
+            pctDATAM: { 
                 $round: [
-                    {$multiply: [{$divide: ["$countDATAM", "$countDATA"]}, 100]}, 1
-                ]
+                    { $multiply: [{ $divide: ["$countDATAM", "$countDATA"] }, 100] }, 1
+                ] 
             },
-            pctDATAF: {
+            pctDATAF: { 
                 $round: [
-                    {$multiply: [{$divide: ["$countDATAF", "$countDATA"]}, 100]}, 1
-                ]
+                    { $multiply: [{ $divide: ["$countDATAF", "$countDATA"] }, 100] }, 1
+                ] 
             },
-            pctMEKOM: {
+            pctMEKOM: { 
                 $round: [
-                    {$multiply: [{$divide: ["$countMEKOM", "$countMEKO"]}, 100]}, 1
-                ]
+                    { $multiply: [{ $divide: ["$countMEKOM", "$countMEKO"] }, 100] }, 1
+                ] 
             },
             pctMEKOF: {
                 $round: [
-                    {$multiply: [{$divide: ["$countMEKOF", "$countMEKO"]}, 100]}, 1
-                ]
+                    { $multiply: [{ $divide: ["$countMEKOF", "$countMEKO"] }, 100] }, 1
+                ] 
             },
-            pctITTEM: {
+            pctITTEM: { 
                 $round: [
-                    {$multiply: [{$divide: ["$countITTEM", "$countITTE"]}, 100]}, 1
-                ]
+                    { $multiply: [{ $divide: ["$countITTEM", "$countITTE"] }, 100] }, 1
+                ] 
             },
             pctITTEF: {
                 $round: [
-                    {$multiply: [{$divide: ["$countITTEF", "$countITTE"]}, 100]}, 1
-                ]
+                    { $multiply: [{ $divide: ["$countITTEF", "$countITTE"] }, 100] }, 1
+                ] 
             },
-            pctITARM: {
+            pctITARM: { 
                 $round: [
-                    {$multiply: [{$divide: ["$countITARM", "$countITAR"]}, 100]}, 1
-                ]
+                    { $multiply: [{ $divide: ["$countITARM", "$countITAR"] }, 100] }, 1
+                ] 
             },
             pctITARF: {
                 $round: [
-                    {$multiply: [{$divide: ["$countITARF", "$countITAR"]}, 100]}, 1
-                ]
+                    { $multiply: [{ $divide: ["$countITARF", "$countITAR"] }, 100] }, 1
+                ] 
             },
-            pctØKITM: {
+            pctØKITM: { 
                 $round: [
-                    {$multiply: [{$divide: ["$countØKITM", "$countØKIT"]}, 100]}, 1
-                ]
+                    { $multiply: [{ $divide: ["$countØKITM", "$countØKIT"] }, 100] }, 1
+                ] 
             },
             pctØKITF: {
                 $round: [
-                    {$multiply: [{$divide: ["$countØKITF", "$countØKIT"]}, 100]}, 1
-                ]
+                    { $multiply: [{ $divide: ["$countØKITF", "$countØKIT"] }, 100] }, 1
+                ] 
             },
         }
     },
@@ -1343,11 +1290,12 @@ const pipeline = [
             allKvoF: ["$avgCYBSkvoF", "$avgDATAkvoF", "$avgITARkvoF", "$avgITTEkvoF", "$avgMEKOkvoF", "$avgØKITkvoF"],
             allPctM: ["$pctCYBSM", "$pctDATAM", "$pctITARM", "$pctITTEM", "$pctMEKOM", "$pctØKITM"],
             allPctF: ["$pctCYBSF", "$pctDATAF", "$pctITARF", "$pctITTEF", "$pctMEKOF", "$pctØKITF"],
-            totalPctM: {$round: [{$multiply: [{$divide: ["$totalM", "$totalCount"]}, 100]}, 1]},
-            totalPctF: {$round: [{$multiply: [{$divide: ["$totalF", "$totalCount"]}, 100]}, 1]}
+            totalPctM: {$round: [{ $multiply: [{ $divide: ["$totalM", "$totalCount"]}, 100]}, 1]},
+            totalPctF: {$round: [{ $multiply: [{ $divide: ["$totalF", "$totalCount"]}, 100]}, 1]}
         }
     }
 ];
+
 
 
 async function getChartData() {
@@ -1355,6 +1303,8 @@ async function getChartData() {
 
 
     // TODO try fetch "/getEKchartData"
+
+
 
 
     // TODO catch (use local EKdataset)
@@ -1367,18 +1317,20 @@ async function getChartData() {
         queriedData.allPctM = localResult.allPctM
         queriedData.allPctF = localResult.allPctF
         queriedData.totalPctM = localResult.totalPctM
-        queriedData.totalPctF = localResult.totalPctF
+        queriedData.totalPctF = localResult. totalPctF
     } else {
         console.warn("No results returned");
     }
 
 
+
     // TODO  try fetch "/thirdPartyData"
+
 
 
     // TODO catch (use local ThirdPartyData)
     console.log(educationData[0]);
-
+    
     for (const edu of educationData) {
         console.log(edu.startingSalary);
 
@@ -1388,29 +1340,29 @@ async function getChartData() {
 
         queriedData.allUnemployedNewGradPct.push(edu.unemploymentNewGraduatePct)
         queriedData.allDropoutFirstYearPct.push(edu.dropOutFirstYearPct)
-
+        
         queriedData.jobSurvey.allQuestion1Answers.push(edu.reasonsForApplying[0].percent)
         queriedData.jobSurvey.allQuestion2Answers.push(edu.reasonsForApplying[1].percent)
         queriedData.jobSurvey.allQuestion3Answers.push(edu.reasonsForApplying[2].percent)
         queriedData.jobSurvey.allQuestion4Answers.push(edu.reasonsForApplying[3].percent)
-
+        
         queriedData.socialSurvey.allQuestion5Answers.push(edu.socialEnvironment[0].percent)
         queriedData.socialSurvey.allQuestion6Answers.push(edu.socialEnvironment[1].percent)
         queriedData.socialSurvey.allQuestion7Answers.push(edu.socialEnvironment[2].percent)
         queriedData.socialSurvey.allQuestion8Answers.push(edu.socialEnvironment[3].percent)
-
+        
         queriedData.professionalSurvey.allQuestion9Answers.push(edu.professionalEnvironment[0].percent)
         queriedData.professionalSurvey.allQuestion10Answers.push(edu.professionalEnvironment[1].percent)
         queriedData.professionalSurvey.allQuestion11Answers.push(edu.professionalEnvironment[2].percent)
         queriedData.professionalSurvey.allQuestion12Answers.push(edu.professionalEnvironment[3].percent)
     }
     for (let i = 0; i < 4; i++) {
-        queriedData.jobSurvey.jobSurveyQuestions.push(educationData[0].reasonsForApplying[i].question)
-        queriedData.socialSurvey.socialSurveyQuestions.push(educationData[0].socialEnvironment[i].question)
-        queriedData.professionalSurvey.professionalSurveyQuestions.push(educationData[0].professionalEnvironment[i].question)
+        queriedData.jobSurvey.jobSurveyQuestions.push(educationData[0].reasonsForApplying[i])
+        queriedData.socialSurvey.socialSurveyQuestions.push(educationData[0].socialEnvironment[i])
+        queriedData.professionalSurvey.professionalSurveyQuestions.push(educationData[0].professionalEnvironment[i])
     }
-    console.log(educationData[0].socialEnvironment[3].question);
     
+    console.log(queriedData.allDropoutFirstYearPct);
 }
 
 // kvotient fordeling af køn alle udannelser - line chart
@@ -1425,10 +1377,10 @@ function showCharts() {
     salaryChart.update()
 
     // gender charts
-    genderLineChart.data.datasets[0].data = queriedData.allKvoM
-    genderLineChart.data.datasets[1].data = queriedData.allKvoF
+    genderLineChart.data.datasets[0].data = queriedData.allKvoM 
+    genderLineChart.data.datasets[1].data = queriedData.allKvoF 
     genderLineChart.update()
-
+    
     genderPieChart.data.datasets[0].data = [queriedData.totalPctM, queriedData.totalPctF]
     genderPieChart.update()
 
@@ -1453,14 +1405,14 @@ function showCharts() {
     jobUnemployChart.data.datasets[0].data = queriedData.allUnemployedNewGradPct
     jobUnemployChart.update()
 
-    jobSurveyQ1.data.datasets[0].data = queriedData.jobSurvey.allQuestion1Answers
-    jobSurveyQ1.update()
-    jobSurveyQ2.data.datasets[0].data = queriedData.jobSurvey.allQuestion2Answers
-    jobSurveyQ2.update()
-    jobSurveyQ3.data.datasets[0].data = queriedData.jobSurvey.allQuestion3Answers
-    jobSurveyQ3.update()
-    jobSurveyQ4.data.datasets[0].data = queriedData.jobSurvey.allQuestion4Answers
-    jobSurveyQ4.update()
+    jobChart2.data.datasets[0].data = queriedData.jobSurvey.allQuestion1Answers
+    jobChart2.update()
+    jobChart3.data.datasets[0].data = queriedData.jobSurvey.allQuestion2Answers
+    jobChart3.update()
+    jobChart4.data.datasets[0].data = queriedData.jobSurvey.allQuestion3Answers
+    jobChart4.update()
+    jobChart5.data.datasets[0].data = queriedData.jobSurvey.allQuestion4Answers
+    jobChart5.update()
 }
 
 showCharts()
@@ -1475,95 +1427,45 @@ function updateSalaryChart(chartType) {
     }
     salaryChart.update()
 }
-
 // updateSalaryChart(1)  // show avg
 // updateSalaryChart(2)  // show start
 // updateSalaryChart(3)  // show highest
 
 
+
 function updateSurveryCharts(surveyType) {
     if (surveyType === 1) {
-        wellbeingSurveyScales.Q3scale = ['Altid', 'Næsten altid', 'Hverken eller', 'Næsten aldrig', 'Aldrig']
-        wellbeingSurveyScales.Q4scale = ['Altid', 'Næsten altid', 'Hverken eller', 'Næsten aldrig', 'Aldrig']
-        
-        wellbeingSurveryQ1.options.plugins.title.text = ['De studerende er enige: ', 'Et socialt studiemiljø i topklasse']
-        wellbeingSurveryQ1.options.plugins.subtitle.text[0] = ''
-        wellbeingSurveryQ1.options.plugins.subtitle.text[1] = queriedData.socialSurvey.socialSurveyQuestions[0]
         wellbeingSurveryQ1.data.datasets[0].data = queriedData.socialSurvey.allQuestion5Answers
         wellbeingSurveryQ1.update()
-
-        wellbeingSurveryQ2.options.plugins.title.text = ['Mere end bare en skole:', 'Langt de fleste føler sig godt tilpas på studiet']
-        wellbeingSurveryQ2.options.plugins.subtitle.text[0] = ''
-        wellbeingSurveryQ2.options.plugins.subtitle.text[1] = queriedData.socialSurvey.socialSurveyQuestions[1]
         wellbeingSurveryQ2.data.datasets[0].data = queriedData.socialSurvey.allQuestion6Answers
         wellbeingSurveryQ2.update()
-        
-        wellbeingSurveryQ3.options.plugins.title.text = ['Ingen elever står alene:', 'Størstedelen oplever sjældent ensomhed']
-        wellbeingSurveryQ3.options.plugins.subtitle.text[0] = ''
-        wellbeingSurveryQ3.options.plugins.subtitle.text[1] = queriedData.socialSurvey.socialSurveyQuestions[2]
         wellbeingSurveryQ3.data.datasets[0].data = queriedData.socialSurvey.allQuestion7Answers
         wellbeingSurveryQ3.update()
-        
-        wellbeingSurveryQ4.options.plugins.title.text = ['Plads til at være menneske:', 'Balance med lav grad af stress i hverdagen']
-        wellbeingSurveryQ4.options.plugins.subtitle.text = queriedData.socialSurvey.socialSurveyQuestions[3]
         wellbeingSurveryQ4.data.datasets[0].data = queriedData.socialSurvey.allQuestion8Answers
         wellbeingSurveryQ4.update()
     } else {
-        wellbeingSurveyScales.Q3scale = ['Helt uenig', 'Uenig', 'Hverken eller', 'Enig', 'Helt enig']
-        wellbeingSurveyScales.Q4scale = ['Helt uenig', 'Uenig', 'Hverken eller', 'Enig', 'Helt enig']
-        
-        wellbeingSurveryQ1.options.plugins.title.text = ['Faglighed der løfter dig:', 'Studerende vurderer fagmiljøet helt i top']
-        wellbeingSurveryQ1.options.plugins.subtitle.text[0] = ''
-        wellbeingSurveryQ1.options.plugins.subtitle.text[1] = queriedData.professionalSurvey.professionalSurveyQuestions[0]
         wellbeingSurveryQ1.data.datasets[0].data = queriedData.professionalSurvey.allQuestion9Answers
         wellbeingSurveryQ1.update()
-
-        wellbeingSurveryQ2.options.plugins.title.text = ['Samarbejde er en hjørnesten på studiet:', 'Vi skaber succesen sammen']
-        wellbeingSurveryQ2.options.plugins.subtitle.text = queriedData.professionalSurvey.professionalSurveyQuestions[1]
         wellbeingSurveryQ2.data.datasets[0].data = queriedData.professionalSurvey.allQuestion10Answers
         wellbeingSurveryQ2.update()
-
-        wellbeingSurveryQ3.options.plugins.title.text = ['Her står du aldrig alene med en svær opgave:', 'Vi lærer bedst, når vi vender med hinanden']
-        wellbeingSurveryQ3.options.plugins.subtitle.text = queriedData.professionalSurvey.professionalSurveyQuestions[2]
         wellbeingSurveryQ3.data.datasets[0].data = queriedData.professionalSurvey.allQuestion11Answers
         wellbeingSurveryQ3.update()
-
-        wellbeingSurveryQ4.options.plugins.title.text = ['Undervisning der virker:', 'det faglige udbytte af undervisningen er højt']
-        wellbeingSurveryQ4.options.plugins.subtitle.text[0] = ''
-        wellbeingSurveryQ4.options.plugins.subtitle.text[1] = queriedData.professionalSurvey.professionalSurveyQuestions[3]
         wellbeingSurveryQ4.data.datasets[0].data = queriedData.professionalSurvey.allQuestion12Answers
         wellbeingSurveryQ4.update()
     }
 }
-
-updateSurveryCharts(1)  // show social survey
+// updateSurveryCharts(1)  // show social survey
 // updateSurveryCharts(2)  // show professional survey
+
+
 
 
 ////// eventlisteners //////
 
-//onclick function for infotext
-button.onclick = function () {
-    if (button.id === 'salaryChartInfo') {
-        alert("Da ITAR er en ny uddannelse er der ikke tal på løn endnu. Vi har baseret vores tal på en af de mulige stillinger man kan få som færdiguddannet, navnligt IT-projektleder") //alert with textpopup
-        console.log('it works')
-    } else if (button.id === 'genderChart1Info') {
-        alert("MISSING INPUT")
-        console.log('it works')
-    } else if (button.id === 'duoChartInfo') {
-        alert('MISSING INPUT')
-    } else if (button.id === 'wellbeingChart1Info') {
-        alert('MISSING INPUT')
-    } else if (button.id === 'wellbeingMultisection1Info') {
-        alert('MISSING INPUT')
-    } else if (button.id === 'jobChart1Info') {
-        alert('MISSING INPUT')
-    } else if (button.id === 'jobMultisection1Info') {
-        alert('Da Itar er for ny en uddannelse til at vi har data på den, har vi antaget at jobløseheden ligger på niveau med de andre uddannelser. Det er også derfor "jobstart" er tom for Itar.')
-    } else {
-        console.log('Error')
-    }
-}
+
+
+
+
 
 
 
