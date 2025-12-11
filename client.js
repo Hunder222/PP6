@@ -16,6 +16,12 @@ const jobChart2Canvas = document.querySelector('#jobChart2')
 const jobChart3Canvas = document.querySelector('#jobChart3')
 const jobChart4Canvas = document.querySelector('#jobChart4')
 const jobChart5Canvas = document.querySelector('#jobChart5')
+const btmSocial=document.querySelector("#kvotient")
+const btmFaglig=document.querySelector("#alder")
+const BtmJobstart=document.querySelector("#BtmJobstart")
+const Btmløn=document.querySelector("#Btmløn")
+const BtmKønsfordeling=document.querySelector("#BtmKønsfordeling")
+const Btmtrivsel = document.querySelector("#Btmtrivsel")
 
 // object to store data for charts, from server db or local db
 const queriedData = {
@@ -1469,3 +1475,25 @@ function updateSurveryCharts(surveyType) {
 
 
 
+//// nav buttons/////
+
+
+BtmJobstart.addEventListener("click",function (){
+ const section =document.querySelector("#jobSection")
+    section.scrollIntoView({ behavior: "smooth" });
+})
+
+Btmløn.addEventListener("click",function (){
+    const section =document.querySelector("#salarySection")
+    section.scrollIntoView({ behavior: "smooth" });
+})
+
+BtmKønsfordeling.addEventListener("click",function (){
+    const section =document.querySelector("#genderSection")
+    section.scrollIntoView({ behavior: "smooth" });
+})
+
+Btmtrivsel.addEventListener("click",function (){
+    const section =document.querySelector("#wellbeingSection")
+    section.scrollIntoView({ behavior: "smooth" });
+})

@@ -243,6 +243,9 @@ button {
     font-size: 60%;
     font-weight: bold;
 
+        cursor: pointer;
+
+
     a {
         color: rgb(8, 6, 56);
         text-decoration: none;
