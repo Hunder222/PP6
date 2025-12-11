@@ -22,6 +22,9 @@ const BtmJobstart=document.querySelector("#BtmJobstart")
 const Btmløn=document.querySelector("#Btmløn")
 const BtmKønsfordeling=document.querySelector("#BtmKønsfordeling")
 const Btmtrivsel = document.querySelector("#Btmtrivsel")
+const dropdowngen= document.querySelector("#dropdowngen")
+const dropdownmax= document.querySelector("#dropdownmax")
+const dropdownmin= document.querySelector("#dropdownmin")
 
 // object to store data for charts, from server db or local db
 const queriedData = {
@@ -1496,4 +1499,30 @@ BtmKønsfordeling.addEventListener("click",function (){
 Btmtrivsel.addEventListener("click",function (){
     const section =document.querySelector("#wellbeingSection")
     section.scrollIntoView({ behavior: "smooth" });
+})
+///////
+btmSocial.addEventListener("click", function (){
+    updateSurveryCharts(1)
+
+})
+btmFaglig.addEventListener("click", function (){
+    updateSurveryCharts(2)
+
+})
+
+////
+
+dropdowngen.addEventListener("click", function (){
+    updateSalaryChart(1)
+
+})
+
+
+dropdownmax.addEventListener("click", function (){
+    updateSalaryChart(2)
+
+})
+dropdownmin("click", function (){
+    updateSalaryChart(3)
+
 })
