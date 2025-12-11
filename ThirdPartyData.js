@@ -38,7 +38,7 @@ const educationData = [
                 "percent": 81
             },
             {
-                "question": "Har du oplevet stærke stress-symptomer i forbindelse med dit studie i dagligdagen?",
+                "question": ["Har du oplevet stærke stress-symptomer i forbindelse", "med dit studie i dagligdagen?"],
                 "percent": 70.4
             }
         ],
@@ -48,11 +48,11 @@ const educationData = [
                 "percent": 79
             },
             {
-                "question": "Jeg har det generelt godt med at arbejde sammen med andre studerende",
+                "question": ["Jeg har det generelt godt med at arbejde", "sammen med andre studerende"],
                 "percent": 85.8
             },
             {
-                "question": "Jeg forstår tingene bedre, når jeg har talt med mine medstuderende om dem",
+                "question": ["Jeg forstår tingene bedre, når jeg har talt", "med mine medstuderende om dem"],
                 "percent": 84.2
             },
             {

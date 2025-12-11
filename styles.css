@@ -118,6 +118,26 @@ header {
     }
 }
 
+.secondaryTitle {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    align-self: center;
+    align-items: center;
+    margin-top: 5vh;
+    padding: 1vh;
+    background-color: hsla(218, 28%, 17%, 90);
+    border-radius: 2vw;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+    h4 {
+        justify-self: center; 
+        padding: 0;
+        margin: 1vh;
+        color: white;
+    }
+}
+
 
 .subSections {
     display: flex;
