@@ -1507,3 +1507,28 @@ menu.addEventListener("change", function () {
         updateSalaryChart(3);
     }
 });
+
+
+const mobilemenu = document.querySelector("#mobil-menu")
+mobilemenu.addEventListener("change", function (){
+     if (mobilemenu.value === "#salarySection"){
+         const section = document.querySelector("#salarySection")
+
+         section.scrollIntoView({behavior: "smooth"})
+     }
+     else if (mobilemenu.value === "#genderSection"){
+         const section = document.querySelector("#genderSection")
+
+         section.scrollIntoView({behavior: "smooth"})
+     }
+     else if (mobilemenu.value === "#jobSection"){
+         const section = document.querySelector("#jobSection")
+
+         section.scrollIntoView({behavior: "smooth"})
+     }
+     else if (mobilemenu.value === "#wellbeingSection"){
+         const section = document.querySelector("#wellbeingSection")
+
+         section.scrollIntoView({behavior: "smooth"})
+     }
+})
