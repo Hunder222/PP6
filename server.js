@@ -42,7 +42,357 @@ const query1 = "SELECT * from educations\n" +
     " using(survey_id)\n" +
     "order by id"
 
+// pipeline mongo
+const pipeline = [
+    {
+        // STAGE 1: Sum everything up
+        $group: {
+            _id: null,
 
+            // Total count of IT educations
+            totalCount: {
+                $sum: {
+                    $cond: [
+                        {$in: ["$INSTITUTIONSAKT_BETEGNELSE", ["Cybersikkerhed", "Datamatiker", "IT-Arkitektur", "IT-Teknolog", "Multimediedesigner", "Økonomi og IT"]]},
+                        1,
+                        0
+                    ]
+                }
+            },
+            // Total men of IT educations
+            totalM: {
+                $sum: {
+                    $cond: [
+                        {
+                            $and: [
+                                {$eq: ["$Gender", "Mand"]},
+                                {$in: ["$INSTITUTIONSAKT_BETEGNELSE", ["Cybersikkerhed", "Datamatiker", "IT-Arkitektur", "IT-Teknolog", "Multimediedesigner", "Økonomi og IT"]]}
+                            ]
+                        },
+                        1,
+                        0
+                    ]
+                }
+            },
+            // Total women of IT educations
+            totalF: {
+                $sum: {
+                    $cond: [
+                        {
+                            $and: [
+                                {$eq: ["$Gender", "Kvinde"]},
+                                {$in: ["$INSTITUTIONSAKT_BETEGNELSE", ["Cybersikkerhed", "Datamatiker", "IT-Arkitektur", "IT-Teknolog", "Multimediedesigner", "Økonomi og IT"]]}
+                            ]
+                        },
+                        1, 0
+                    ]
+                }
+            },
+
+            // sum gender kvotient
+            avgCYBSkvoM: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"]},
+                                {$eq: ["$Gender", "Mand"]}
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+            avgCYBSkvoF: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"]},
+                                {$eq: ["$Gender", "Kvinde"]}
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+            avgDATAkvoM: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]},
+                                {$eq: ["$Gender", "Mand"]}
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+            avgDATAkvoF: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]},
+                                {$eq: ["$Gender", "Kvinde"]}
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+            avgMEKOkvoM: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"]},
+                                {$eq: ["$Gender", "Mand"]}
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+            avgMEKOkvoF: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"]},
+                                {$eq: ["$Gender", "Kvinde"]}
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+            avgITTEkvoM: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"]},
+                                {$eq: ["$Gender", "Mand"]}
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+            avgITTEkvoF: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"]},
+                                {$eq: ["$Gender", "Kvinde"]}
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+            avgITARkvoM: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"]},
+                                {$eq: ["$Gender", "Mand"]}
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+            avgITARkvoF: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"]},
+                                {$eq: ["$Gender", "Kvinde"]}
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+            avgØKITkvoM: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"]},
+                                {$eq: ["$Gender", "Mand"]}
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+            avgØKITkvoF: {
+                $avg: {
+                    $cond: [
+                        {
+                            $and: [
+                                {$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"]},
+                                {$eq: ["$Gender", "Kvinde"]}
+                            ]
+                        },
+                        "$KVOTIENT", null
+                    ]
+                }
+            },
+
+            // the followwing is collapsed for better overview
+            // count edu used to project pct in next stage
+            countCYBS: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"]}, 1, 0]}},
+            countDATA: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]}, 1, 0]}},
+            countITTE: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"]}, 1, 0]}},
+            countMEKO: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"]}, 1, 0]}},
+            countITAR: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"]}, 1, 0]}},
+            countØKIT: {$sum: {$cond: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"]}, 1, 0]}},
+
+
+            // count gender edu
+            countCYBSM: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"]}, {$eq: ["$Gender", "Mand"]}]}, 1, 0]}},
+            countCYBSF: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-sikkerhed"]}, {$eq: ["$Gender", "Kvinde"]}]}, 1, 0]}},
+            countDATAM: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]}, {$eq: ["$Gender", "Mand"]}]}, 1, 0]}},
+            countDATAF: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Datamatiker"]}, {$eq: ["$Gender", "Kvinde"]}]}, 1, 0]}},
+            countMEKOM: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"]}, {$eq: ["$Gender", "Mand"]}]}, 1, 0]}},
+            countMEKOF: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Multimediedesigner"]}, {$eq: ["$Gender", "Kvinde"]}]}, 1, 0]}},
+            countITTEM: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"]}, {$eq: ["$Gender", "Mand"]}]}, 1, 0]}},
+            countITTEF: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "IT-teknolog"]}, {$eq: ["$Gender", "Kvinde"]}]}, 1, 0]}},
+            countITARM: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"]}, {$eq: ["$Gender", "Mand"]}]}, 1, 0]}},
+            countITARF: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "PB i IT-arkitektur"]}, {$eq: ["$Gender", "Kvinde"]}]}, 1, 0]}},
+            countØKITM: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"]}, {$eq: ["$Gender", "Mand"]}]}, 1, 0]}},
+            countØKITF: {$sum: {$cond: [{$and: [{$eq: ["$INSTITUTIONSAKT_BETEGNELSE", "Økonomi og it"]}, {$eq: ["$Gender", "Kvinde"]}]}, 1, 0]}},
+        }
+    },
+    {
+        $project: {
+            _id: 0,
+            totalM: 1,
+            totalF: 1,
+            totalCount: 1,
+
+            // avg kvotient, rounded to 1 decimal
+            avgCYBSkvoM: {
+                $round: ["$avgCYBSkvoM", 1]
+            },
+            avgCYBSkvoF: {
+                $round: ["$avgCYBSkvoF", 1]
+            },
+            avgDATAkvoM: {
+                $round: ["$avgDATAkvoM", 1]
+            },
+            avgDATAkvoF: {
+                $round: ["$avgDATAkvoF", 1]
+            },
+            avgMEKOkvoM: {
+                $round: ["$avgMEKOkvoM", 1]
+            },
+            avgMEKOkvoF: {
+                $round: ["$avgMEKOkvoF", 1]
+            },
+            avgITTEkvoM: {
+                $round: ["$avgITTEkvoM", 1]
+            },
+            avgITTEkvoF: {
+                $round: ["$avgITTEkvoF", 1]
+            },
+            avgITARkvoM: {
+                $round: ["$avgITARkvoM", 1]
+            },
+            avgITARkvoF: {
+                $round: ["$avgITARkvoF", 1]
+            },
+            avgØKITkvoM: {
+                $round: ["$avgØKITkvoM", 1]
+            },
+            avgØKITkvoF: {
+                $round: ["$avgØKITkvoF", 1]
+            },
+
+            // gender percent for each edu, rounded to 1 decimal
+            pctCYBSM: {
+                $round: [
+                    {$multiply: [{$divide: ["$countCYBSM", "$countCYBS"]}, 100]}, 1
+                ]
+            },
+            pctCYBSF: {
+                $round: [
+                    {$multiply: [{$divide: ["$countCYBSF", "$countCYBS"]}, 100]}, 1
+                ]
+            },
+            pctDATAM: {
+                $round: [
+                    {$multiply: [{$divide: ["$countDATAM", "$countDATA"]}, 100]}, 1
+                ]
+            },
+            pctDATAF: {
+                $round: [
+                    {$multiply: [{$divide: ["$countDATAF", "$countDATA"]}, 100]}, 1
+                ]
+            },
+            pctMEKOM: {
+                $round: [
+                    {$multiply: [{$divide: ["$countMEKOM", "$countMEKO"]}, 100]}, 1
+                ]
+            },
+            pctMEKOF: {
+                $round: [
+                    {$multiply: [{$divide: ["$countMEKOF", "$countMEKO"]}, 100]}, 1
+                ]
+            },
+            pctITTEM: {
+                $round: [
+                    {$multiply: [{$divide: ["$countITTEM", "$countITTE"]}, 100]}, 1
+                ]
+            },
+            pctITTEF: {
+                $round: [
+                    {$multiply: [{$divide: ["$countITTEF", "$countITTE"]}, 100]}, 1
+                ]
+            },
+            pctITARM: {
+                $round: [
+                    {$multiply: [{$divide: ["$countITARM", "$countITAR"]}, 100]}, 1
+                ]
+            },
+            pctITARF: {
+                $round: [
+                    {$multiply: [{$divide: ["$countITARF", "$countITAR"]}, 100]}, 1
+                ]
+            },
+            pctØKITM: {
+                $round: [
+                    {$multiply: [{$divide: ["$countØKITM", "$countØKIT"]}, 100]}, 1
+                ]
+            },
+            pctØKITF: {
+                $round: [
+                    {$multiply: [{$divide: ["$countØKITF", "$countØKIT"]}, 100]}, 1
+                ]
+            },
+        }
+    },
+    {
+        // 3rd stage to make result arrays, ordered by our specific order of educations
+        $project: {
+            _id: 0,
+            allKvoM: ["$avgCYBSkvoM", "$avgDATAkvoM", "$avgITARkvoM", "$avgITTEkvoM", "$avgMEKOkvoM", "$avgØKITkvoM"],
+            allKvoF: ["$avgCYBSkvoF", "$avgDATAkvoF", "$avgITARkvoF", "$avgITTEkvoF", "$avgMEKOkvoF", "$avgØKITkvoF"],
+            allPctM: ["$pctCYBSM", "$pctDATAM", "$pctITARM", "$pctITTEM", "$pctMEKOM", "$pctØKITM"],
+            allPctF: ["$pctCYBSF", "$pctDATAF", "$pctITARF", "$pctITTEF", "$pctMEKOF", "$pctØKITF"],
+            totalPctM: {$round: [{$multiply: [{$divide: ["$totalM", "$totalCount"]}, 100]}, 1]},
+            totalPctF: {$round: [{$multiply: [{$divide: ["$totalF", "$totalCount"]}, 100]}, 1]}
+        }
+    }
+];
 
 //////// endpoints ////////
 
@@ -51,11 +401,11 @@ const query1 = "SELECT * from educations\n" +
 
 
 // henter alle studerende i EKDatasetLocal
-app.get('/Students', async (req, res) => {
+app.get('/Ekdata', async (req, res) => {
     console.log("Forsøger at hente fra db");
     try {
         // Query MongoDB
-        const students = await Student.find().select('Gender INSTITUTIONSAKT_BETEGNELSE BETEGNELSE_A911 EKSAMENSTYPE_NAVN KVOTIENT Alder' );
+        const students = await Student.aggregate(pipeline);
         res.status(200).json(students);
 
     } catch (error) {
@@ -129,11 +479,7 @@ app.get('/uddannelses_kvotienter_opdelt', async (req, res) => {
             INSTITUTIONSAKT_BETEGNELSE: { $in: allowedEducations }
         });
 
-        // DEBUG: Log en enkelt student for at se alle feltnavne
-        if (students.length > 0) {
-            console.log("Første student:", students[0]);
-            console.log("Køn værdi:", students[0].Gender);
-        }
+
 
         const quotients = {};
 
@@ -262,22 +608,22 @@ function formatSurveyData(data) {
         allSalaryHighest: [],
         allUnemployedNewGradPct: [],
         allDropoutFirstYearPct: [],
-        survey1: {
-            survey1Questions: [],
+        jobSurvey: {
+            jobSurveyQuestions: [],
             allQuestion1Answers: [],
             allQuestion2Answers: [],
             allQuestion3Answers: [],
             allQuestion4Answers: [],
         },
-        survey2: {
-            survey2Questions: [],
+        socialSurvey: {
+            socialSurveyQuestions: [],
             allQuestion5Answers: [],
             allQuestion6Answers: [],
             allQuestion7Answers: [],
             allQuestion8Answers: [],
         },
-        survey3: {
-            survey3Questions: [],
+        professionalSurvey: {
+            professionalSurveyQuestions: [],
             allQuestion9Answers: [],
             allQuestion10Answers: [],
             allQuestion11Answers: [],
@@ -301,24 +647,24 @@ function formatSurveyData(data) {
         }
 
         // Group questions by survey
-        if (!surveyGroups[item.survey_id]) {
-            surveyGroups[item.survey_id] = [];
+        if (!surveyGroups[item.survey_name]) {
+            surveyGroups[item.survey_name] = [];
         }
-        surveyGroups[item.survey_id].push(item);
+        surveyGroups[item.survey_name].push(item);
     });
 
     Object.keys(surveyGroups).forEach(surveyId => {
-        const surveyKey = `survey${surveyId}`;
+        const surveyKey = surveyId;
         const questions = surveyGroups[surveyId].sort((a, b) => a.question_id - b.question_id);
-
         const addedQuestions = new Set(); // Track which questions we've already added
 
         questions.forEach((item, index) => {
             const questionKey = `allQuestion${item.question_id}Answers`;
-            const questionsArrayKey = `survey${surveyId}Questions`;
+            const questionsArrayKey = `${surveyId}Questions`;
 
             // Only add question text once per question_id
             if (!addedQuestions.has(item.question_id)) {
+
                 result[surveyKey][questionsArrayKey].push(item.question_text);
                 addedQuestions.add(item.question_id);
             }
@@ -326,9 +672,9 @@ function formatSurveyData(data) {
             result[surveyKey][questionKey].push(item.answer_pct);
         });
     });
-
     return result;
 }
+
 
 
 /* end of new*/

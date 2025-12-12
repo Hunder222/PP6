@@ -1295,76 +1295,8 @@ const pipeline = [
 ];
 
 
-async function getChartData() {
-    const aggregator = new mingo.Aggregator(pipeline);
-
-
-    // TODO try fetch "/getEKchartData"
-
-
-    // TODO catch (use local EKdataset)
-    const result = aggregator.run(EKdataset);
-    if (result.length > 0) {
-        const localResult = result[0];
-        console.log("Calculation successful:", localResult);
-        queriedData.allKvoM = localResult.allKvoM
-        queriedData.allKvoF = localResult.allKvoF
-        queriedData.allPctM = localResult.allPctM
-        queriedData.allPctF = localResult.allPctF
-        queriedData.totalPctM = localResult.totalPctM
-        queriedData.totalPctF = localResult.totalPctF
-    } else {
-        console.warn("No results returned");
-    }
-
-
-    // TODO  try fetch "/thirdPartyData"
-
-
-    // TODO catch (use local ThirdPartyData)
-    console.log(educationData[0]);
-
-    for (const edu of educationData) {
-        console.log(edu.startingSalary);
-
-        queriedData.allSalaryStart.push(edu.startingSalary)
-        queriedData.allSalaryAvg.push(edu.averageSalary)
-        queriedData.allSalaryHighest.push(edu.highestSalary)
-
-        queriedData.allUnemployedNewGradPct.push(edu.unemploymentNewGraduatePct)
-        queriedData.allDropoutFirstYearPct.push(edu.dropOutFirstYearPct)
-
-        queriedData.jobSurvey.allQuestion1Answers.push(edu.reasonsForApplying[0].percent)
-        queriedData.jobSurvey.allQuestion2Answers.push(edu.reasonsForApplying[1].percent)
-        queriedData.jobSurvey.allQuestion3Answers.push(edu.reasonsForApplying[2].percent)
-        queriedData.jobSurvey.allQuestion4Answers.push(edu.reasonsForApplying[3].percent)
-
-        queriedData.socialSurvey.allQuestion5Answers.push(edu.socialEnvironment[0].percent)
-        queriedData.socialSurvey.allQuestion6Answers.push(edu.socialEnvironment[1].percent)
-        queriedData.socialSurvey.allQuestion7Answers.push(edu.socialEnvironment[2].percent)
-        queriedData.socialSurvey.allQuestion8Answers.push(edu.socialEnvironment[3].percent)
-
-        queriedData.professionalSurvey.allQuestion9Answers.push(edu.professionalEnvironment[0].percent)
-        queriedData.professionalSurvey.allQuestion10Answers.push(edu.professionalEnvironment[1].percent)
-        queriedData.professionalSurvey.allQuestion11Answers.push(edu.professionalEnvironment[2].percent)
-        queriedData.professionalSurvey.allQuestion12Answers.push(edu.professionalEnvironment[3].percent)
-    }
-    for (let i = 0; i < 4; i++) {
-        queriedData.jobSurvey.jobSurveyQuestions.push(educationData[0].reasonsForApplying[i])
-        queriedData.socialSurvey.socialSurveyQuestions.push(educationData[0].socialEnvironment[i])
-        queriedData.professionalSurvey.professionalSurveyQuestions.push(educationData[0].professionalEnvironment[i])
-    }
-
-    console.log(queriedData.allDropoutFirstYearPct);
-}
-
-// kvotient fordeling af køn alle udannelser - line chart
-// generel kønsfordeling
-// udannelses baggrund
-
-getChartData()
-
-function showCharts() {
+// show charts
+async function showCharts() {
     // salary chart
     salaryChart.data.datasets[0].data = queriedData.allSalaryAvg
     salaryChart.update()
@@ -1384,7 +1316,6 @@ function showCharts() {
     // wellbeing charts
     wellbeingDropoutChart.data.datasets[0].data = queriedData.allDropoutFirstYearPct
     wellbeingDropoutChart.update()
-
     wellbeingSurveryQ1.data.datasets[0].data = queriedData.socialSurvey.allQuestion5Answers
     wellbeingSurveryQ1.update()
     wellbeingSurveryQ2.data.datasets[0].data = queriedData.socialSurvey.allQuestion6Answers
@@ -1406,9 +1337,121 @@ function showCharts() {
     jobChart4.update()
     jobChart5.data.datasets[0].data = queriedData.jobSurvey.allQuestion4Answers
     jobChart5.update()
+    console.log("kører")
 }
 
-showCharts()
+
+async function getChartData() {
+
+
+    try {
+
+        //mongodb part
+        // TODO catch (use local EKdataset)
+        const result = await fetch('http://localhost:3000/Ekdata')
+        if (result.ok) {
+
+
+            let localResult = await result.json();
+            localResult = localResult[0];
+            queriedData.allKvoM = localResult.allKvoM
+            queriedData.allKvoF = localResult.allKvoF
+            queriedData.allPctM = localResult.allPctM
+            queriedData.allPctF = localResult.allPctF
+            queriedData.totalPctM = localResult.totalPctM
+            queriedData.totalPctF = localResult.totalPctF
+        } else {
+            console.warn("No results returned");
+        }
+
+        //mongodb end
+
+
+        console.log("trying to connect")
+        const response = await fetch('http://localhost:3000/thirdPartyData/');
+        if (!response.ok) {
+            console.log("didnt work")
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        console.log("worked")
+        const data = await response.json();
+
+        for (key in data) {
+            queriedData[key] = data[key];
+        }
+
+        showCharts()
+
+    } catch (error) {
+        console.log("local data")
+        const aggregator = new mingo.Aggregator(pipeline);
+
+        // TODO catch (use local EKdataset)
+        const result = aggregator.run(EKdataset);
+        if (result.length > 0) {
+            const localResult = result[0];
+            console.log("Calculation successful local:", localResult);
+            queriedData.allKvoM = localResult.allKvoM
+            queriedData.allKvoF = localResult.allKvoF
+            queriedData.allPctM = localResult.allPctM
+            queriedData.allPctF = localResult.allPctF
+            queriedData.totalPctM = localResult.totalPctM
+            queriedData.totalPctF = localResult.totalPctF
+        } else {
+            console.warn("No results returned");
+        }
+
+
+        // TODO  try fetch "/thirdPartyData"
+
+
+        // TODO catch (use local ThirdPartyData)
+        console.log(educationData[0]);
+
+        for (const edu of educationData) {
+            console.log(edu.startingSalary);
+
+            queriedData.allSalaryStart.push(edu.startingSalary)
+            queriedData.allSalaryAvg.push(edu.averageSalary)
+            queriedData.allSalaryHighest.push(edu.highestSalary)
+
+            queriedData.allUnemployedNewGradPct.push(edu.unemploymentNewGraduatePct)
+            queriedData.allDropoutFirstYearPct.push(edu.dropOutFirstYearPct)
+
+            queriedData.jobSurvey.allQuestion1Answers.push(edu.reasonsForApplying[0].percent)
+            queriedData.jobSurvey.allQuestion2Answers.push(edu.reasonsForApplying[1].percent)
+            queriedData.jobSurvey.allQuestion3Answers.push(edu.reasonsForApplying[2].percent)
+            queriedData.jobSurvey.allQuestion4Answers.push(edu.reasonsForApplying[3].percent)
+
+            queriedData.socialSurvey.allQuestion5Answers.push(edu.socialEnvironment[0].percent)
+            queriedData.socialSurvey.allQuestion6Answers.push(edu.socialEnvironment[1].percent)
+            queriedData.socialSurvey.allQuestion7Answers.push(edu.socialEnvironment[2].percent)
+            queriedData.socialSurvey.allQuestion8Answers.push(edu.socialEnvironment[3].percent)
+
+            queriedData.professionalSurvey.allQuestion9Answers.push(edu.professionalEnvironment[0].percent)
+            queriedData.professionalSurvey.allQuestion10Answers.push(edu.professionalEnvironment[1].percent)
+            queriedData.professionalSurvey.allQuestion11Answers.push(edu.professionalEnvironment[2].percent)
+            queriedData.professionalSurvey.allQuestion12Answers.push(edu.professionalEnvironment[3].percent)
+        }
+        for (let i = 0; i < 4; i++) {
+            queriedData.jobSurvey.jobSurveyQuestions.push(educationData[0].reasonsForApplying[i])
+            queriedData.socialSurvey.socialSurveyQuestions.push(educationData[0].socialEnvironment[i])
+            queriedData.professionalSurvey.professionalSurveyQuestions.push(educationData[0].professionalEnvironment[i])
+        }
+
+        console.log(queriedData.allDropoutFirstYearPct);
+        showCharts()
+    }
+
+}
+
+// kvotient fordeling af køn alle udannelser - line chart
+// generel kønsfordeling
+// udannelses baggrund
+getChartData()
+
+
+
 
 function updateSalaryChart(chartType) {
     if (chartType === 1) {
