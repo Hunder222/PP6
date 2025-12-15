@@ -1704,9 +1704,9 @@ menu.addEventListener("change", function () {
     if (menu.value === "gennemsnit") {
         updateSalaryChart(1);
     } else if (menu.value === "max") {
-        updateSalaryChart(2);
-    } else if (menu.value === "min") {
         updateSalaryChart(3);
+    } else if (menu.value === "min") {
+        updateSalaryChart(2);
     }
 });
 
