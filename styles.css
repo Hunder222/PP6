@@ -165,7 +165,7 @@ header {
         margin-bottom: 10vh;
 
         canvas {
-            max-width: 90   vw;
+            max-width: 90vw;
             width: 90vw;
             align-self: center;
             flex-shrink: 0;
