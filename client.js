@@ -107,6 +107,10 @@ let salaryChart = new Chart(salaryChartCanvas, {
         }]
     },
     options: {
+
+        responsive: true,
+        maintainAspectRatio: false,
+
         plugins: {
             title: {
                 display: true,
@@ -168,6 +172,9 @@ let genderBarChart1 = new Chart(genderChart1Canvas, {
         ]
     },
     options: {
+
+        responsive: true,
+        maintainAspectRatio: false,
         plugins: {
             title: {
                 display: true,
@@ -262,6 +269,8 @@ let genderBarChart2 = new Chart(genderChart3Canvas, {
         ]
     },
     options: {
+        responsive: true,
+        maintainAspectRatio: false,
         scales: {
             x: {
                 stacked: true,
@@ -345,6 +354,8 @@ let wellbeingDropoutChart = new Chart(wellbeingChart1Canvas, {
         }
     }],
     options: {
+        responsive: true,
+        maintainAspectRatio: false,
         label: {display: false},
         plugins: {
             legend: {display: false},
@@ -399,6 +410,11 @@ let wellbeingSurveryQ1 = new Chart(wellbeingChart2Canvas, {
         }]
     },
     options: {
+        responsive: true,
+        maintainAspectRatio: false,
+
+
+
         indexAxis: 'y',
         label: {display: false},
         plugins: {
@@ -486,6 +502,10 @@ let wellbeingSurveryQ2 = new Chart(wellbeingChart3Canvas, {
         }]
     },
     options: {
+        responsive: true,
+        maintainAspectRatio: false,
+
+
         indexAxis: 'y',
         label: {display: false},
         plugins: {
@@ -573,6 +593,11 @@ let wellbeingSurveryQ3 = new Chart(wellbeingChart4Canvas, {
         }]
     },
     options: {
+        responsive: true,
+        maintainAspectRatio: false,
+
+
+
         indexAxis: 'y',
         label: {display: false},
         plugins: {
@@ -660,6 +685,11 @@ let wellbeingSurveryQ4 = new Chart(wellbeingChart5Canvas, {
         }]
     },
     options: {
+        responsive: true,
+        maintainAspectRatio: false,
+
+
+
         indexAxis: 'y',
         label: {display: false},
         plugins: {
@@ -776,6 +806,11 @@ let jobUnemployChart = new Chart(jobUnemployChartCanvas, {
         }
     }],
     options: {
+
+
+        responsive: true,
+        maintainAspectRatio: false,
+
         label: {display: false},
         plugins: {
             legend: {display: false},
@@ -822,6 +857,8 @@ let jobSurveyQ1 = new Chart(jobSurveyQ1Canvas, {
         }]
     },
     options: {
+        responsive: true,
+        maintainAspectRatio: false,
         indexAxis: 'y',
         label: {display: false},
         plugins: {
@@ -875,6 +912,10 @@ let jobSurveyQ2 = new Chart(jobSurveyQ2Canvas, {
         }]
     },
     options: {
+        responsive: true,
+        maintainAspectRatio: false,
+
+
         indexAxis: 'y',
         label: {display: false},
         plugins: {
@@ -928,6 +969,9 @@ let jobSurveyQ3 = new Chart(jobSurveyQ3Canvas, {
         }]
     },
     options: {
+
+        responsive: true,
+        maintainAspectRatio: false,
         indexAxis: 'y',
         label: {display: false},
         plugins: {
@@ -981,6 +1025,11 @@ let jobSurveyQ4 = new Chart(jobSurveyQ4Canvas, {
         }]
     },
     options: {
+
+
+        responsive: true,
+        maintainAspectRatio: false,
+
         indexAxis: 'y',
         label: {display: false},
         plugins: {
@@ -1715,9 +1764,9 @@ menu.addEventListener("change", function () {
     if (menu.value === "gennemsnit") {
         updateSalaryChart(1);
     } else if (menu.value === "max") {
-        updateSalaryChart(2);
-    } else if (menu.value === "min") {
         updateSalaryChart(3);
+    } else if (menu.value === "min") {
+        updateSalaryChart(2);
     }
 });
 

@@ -166,7 +166,7 @@ header {
 
         canvas {
             max-width: 90vw;
-            width: 80vw;
+            width: 90vw;
             align-self: center;
             flex-shrink: 0;
 
@@ -325,14 +325,64 @@ button {
 
 
     }
+    #wellbeingMultisection1{
+
+        margin: -1vh;
+
+    }
 
     #beggeknapepr {
         width: 50vw !important;
     }
 
+            .mainCharts{
+               width: 86vw  !important;
+               height: 55vh!important;
+               padding: 0;
+               margin: 3vh;
+               max-width: 100vw;
 
 
 
+        }
+
+
+             #genderChart3{
+              width: 86vw  !important;
+              height: 55vh!important;    
+              padding: 0;                
+              margin: 3vh;               
+              max-width: 100vw;          
+
+
+
+             }
+
+                  #genderChart2{
+                   width: 86vw  !important;
+                   height: 55vh!important;
+                   padding: 0;
+                   margin: 3vh;
+                   max-width: 100vw;
+
+
+
+                  }
+              .surveyCharts{
+
+                    width: 86vw  !important;    
+                    height: 55vh!important;     
+                    padding: 0;                 
+                    margin: 0vh;
+                    max-width: 100vw;           
+
+              }
+         #leafletMap{
+            max-width: 100vw    !important; ;
+             width: 86vw   !important; ;
+             height: 20vh;
+
+         }
 
 
     #lønmenu {
@@ -367,19 +417,6 @@ button {
     border-radius: 8px;
     background-color: white;
     color: black;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
