@@ -26,11 +26,6 @@ const dropdowngen = document.querySelector("#dropdowngen")
 const dropdownmax = document.querySelector("#dropdownmax")
 const dropdownmin = document.querySelector("#dropdownmin")
 const salaryButton = document.querySelector('#salaryChartInfo')
-const genderButton = document.querySelector('#genderChartInfo')
-const duoButton = document.querySelector('#duoChartInfo')
-const wellBeingButton = document.querySelector('#wellbeingChartInfo')
-const wellBeingMultiButton = document.querySelector('#wellBeingMultiInfo')
-const jobButton = document.querySelector('#jobChartInfo')
 const jobMultiButton = document.querySelector('#jobMultiInfo')
 
 // object to store data for charts, from server db or local db
@@ -1508,26 +1503,6 @@ function updateSurveryCharts(surveyType) {
 
 salaryButton.addEventListener("click", function() {
         alert("Da ITAR er en ny uddannelse er der ikke tal på løn endnu. Vi har baseret vores tal på en af de mulige stillinger man kan få som færdiguddannet, navnligt IT-projektleder")
-})
-
-genderButton.addEventListener("click", function() {
-        alert("Mangler tekst")
-})
-
-duoButton.addEventListener("click", function() {
-    alert("Mangler tekst")
-})
-
-wellBeingButton.addEventListener("click", function() {
-    alert("Mangler tekst")
-})
-
-wellBeingMultiButton.addEventListener("click", function() {
-    alert("Mangler tekst")
-})
-
-jobButton.addEventListener("click", function() {
-    alert("Mangler tekst")
 })
 
 jobMultiButton.addEventListener("click", function() {
