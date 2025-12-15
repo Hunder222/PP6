@@ -1,4 +1,8 @@
 console.log(EKdataset); // local dataset from EKDatasetLocal.js imported via index.html
+console.log(educationData);
+console.log(otherData);
+
+
 
 ////// import and DOM //////
 const subSections = document.querySelectorAll('.subSections');
@@ -41,6 +45,8 @@ const queriedData = {
     allSalaryHighest: [],
     allUnemployedNewGradPct: [],
     allDropoutFirstYearPct: [],
+    avgBusinessAcademyDropoutPct: 0,
+    avgBusinessAcademyUnemploymentNewGradPct: 0,
     jobSurvey: {
         jobSurveyQuestions: [],
         allQuestion1Answers: [],
@@ -69,7 +75,7 @@ const queriedData = {
 
 // chart color
 const borderColor = 'rgba(255, 255, 255, 0.8)'
-const gridColor = 'rgba(255, 255, 255, 0.8)'
+const gridColor = 'rgba(255, 255, 255, 0.5)'
 const gridTextColor = 'rgba(255, 255, 255, 0.8)'
 const genderChartColorM = 'rgba(92, 122, 143, 0.9)'
 const genderChartColorF = 'rgba(253, 62, 103, 0.9)'
@@ -104,7 +110,7 @@ let salaryChart = new Chart(salaryChartCanvas, {
         plugins: {
             title: {
                 display: true,
-                text: ['Lønnen er høj for nye IT-uddannede'],
+                text: ['Høj løn for nye IT-uddannede'],
                 font: { size: 18 },
                 color: 'white'
             },
@@ -165,7 +171,7 @@ let genderBarChart1 = new Chart(genderChart1Canvas, {
         plugins: {
             title: {
                 display: true,
-                text: ['Kvinderne hæver barren med højt fagligt niveau på IT-uddannelserne:', 'Se niveauet for de optagne på IT-uddannelserne'],
+                text: ['Kvinderne hæver barren med højt fagligt niveau på IT-uddannelserne:'],
                 font: { size: 18 },
                 color: 'white'
             },
@@ -311,6 +317,33 @@ let wellbeingDropoutChart = new Chart(wellbeingChart1Canvas, {
             backgroundColor: chartPrimaryColor
         }]
     },
+    plugins: [{
+        // a line drawn vertically to show avg dropout pct
+        id: 'avgLine',
+        afterDatasetsDraw(chart) {
+            const { ctx, chartArea: { left, right }, scales: { y } } = chart;
+
+            const yPos = y.getPixelForValue(otherData.avgBusinessAcademyDropoutPct);
+
+            ctx.save();
+
+            // Draw a linee from edge to edge
+            ctx.beginPath();
+            ctx.lineWidth = 3;
+            ctx.strokeStyle = 'red';
+            ctx.setLineDash([6, 6]); // Dashed styling
+            ctx.moveTo(left, yPos);  // Start at very left axis
+            ctx.lineTo(right, yPos); // End at very right axis
+            ctx.stroke();
+
+            // 3. Draw Text
+            ctx.fillStyle = 'red';
+            ctx.font = 'bold 12px Arial';
+            ctx.fillText(`Gennemsnitlig frafald (Erhvervsakademi): ${otherData.avgBusinessAcademyDropoutPct}%`, left + 5, yPos - 8);
+
+            ctx.restore();
+        }
+    }],
     options: {
         label: {display: false},
         plugins: {
@@ -715,6 +748,33 @@ let jobUnemployChart = new Chart(jobUnemployChartCanvas, {
             backgroundColor: chartPrimaryColor
         }]
     },
+    plugins: [{
+        // a line drawn vertically to show avg unemployment pct
+        id: 'avgLine',
+        afterDatasetsDraw(chart) {
+            const { ctx, chartArea: { left, right }, scales: { y } } = chart;
+
+            const yPos = y.getPixelForValue(otherData.avgBusinessAcademyUnemploymentNewGradPct);
+
+            ctx.save();
+
+            // Draw a linee from edge to edge
+            ctx.beginPath();
+            ctx.lineWidth = 3;
+            ctx.strokeStyle = 'red';
+            ctx.setLineDash([6, 6]); // Dashed styling
+            ctx.moveTo(left, yPos);  // Start at very left axis
+            ctx.lineTo(right, yPos); // End at very right axis
+            ctx.stroke();
+
+            // 3. Draw Text
+            ctx.fillStyle = 'red';
+            ctx.font = 'bold 12px Arial';
+            ctx.fillText(`Gennemsnitlig arbejdsløshed (Erhvervsakademi): ${otherData.avgBusinessAcademyUnemploymentNewGradPct}%`, left + 5, yPos - 8);
+
+            ctx.restore();
+        }
+    }],
     options: {
         label: {display: false},
         plugins: {
