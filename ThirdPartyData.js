@@ -130,9 +130,9 @@ const educationData = [
     {
         "id": "ITAR",
         "name": "IT-Arkitektur",
-        "startingSalary": 45000,
-        "averageSalary": 67000,
-        "highestSalary": 70000,
+        "startingSalary": 40000,
+        "averageSalary": 47000,
+        "highestSalary": 55000,
         "reasonsForApplying": [
             {
                 "question": "Jeg søgte og blev ansat efter et stillingsopslag",
@@ -385,3 +385,8 @@ const educationData = [
 
 
 ]
+
+const otherData = {
+    avgBusinessAcademyDropoutPct: 20.6,
+    avgBusinessAcademyUnemploymentNewGradPct: 6.7
+}

@@ -12,10 +12,10 @@ const wellbeingChart3Canvas = document.querySelector('#wellbeingChart3')
 const wellbeingChart4Canvas = document.querySelector('#wellbeingChart4')
 const wellbeingChart5Canvas = document.querySelector('#wellbeingChart5')
 const jobUnemployChartCanvas = document.querySelector('#jobChart1')
-const jobChart2Canvas = document.querySelector('#jobChart2')
-const jobChart3Canvas = document.querySelector('#jobChart3')
-const jobChart4Canvas = document.querySelector('#jobChart4')
-const jobChart5Canvas = document.querySelector('#jobChart5')
+const jobSurveyQ1Canvas = document.querySelector('#jobChart2')
+const jobSurveyQ2Canvas = document.querySelector('#jobChart3')
+const jobSurveyQ3Canvas = document.querySelector('#jobChart4')
+const jobSurveyQ4Canvas = document.querySelector('#jobChart5')
 const btmSocial = document.querySelector("#kvotient")
 const btmFaglig = document.querySelector("#alder")
 const BtmJobstart = document.querySelector("#BtmJobstart")
@@ -76,7 +76,7 @@ const queriedData = {
 const borderColor = 'rgba(255, 255, 255, 0.8)'
 const gridColor = 'rgba(255, 255, 255, 0.8)'
 const gridTextColor = 'rgba(255, 255, 255, 0.8)'
-const genderChartColorM = 'rgba(73, 141, 186, 0.9)'
+const genderChartColorM = 'rgba(92, 122, 143, 0.9)'
 const genderChartColorF = 'rgba(253, 62, 103, 0.9)'
 const chartPrimaryColor = 'rgba(191, 248, 176, 0.9)'
 
@@ -90,13 +90,15 @@ const chartAllEduNames = [
     'Multimediedesigner',
     'Økonomi og IT'
 ]
+const chartAllEduNamesITARstar = chartAllEduNames.with(2, 'IT-Arkitektur*')
+const chartAllEduLabelsITARstar = chartAllEduLabels.with(2, 'ITAR*')
 
 // salary section
 
 let salaryChart = new Chart(salaryChartCanvas, {
-    type: 'bar', //skal jeg høre design team omkring
+    type: 'bar',
     data: {
-        labels: chartAllEduNames,
+        labels: chartAllEduNamesITARstar,
         datasets: [{
             label: [], //update chart
             data: [], //update chart
@@ -105,6 +107,12 @@ let salaryChart = new Chart(salaryChartCanvas, {
     },
     options: {
         plugins: {
+            title: {
+                display: true,
+                text: ['Lønnen er høj for nye IT-uddannede'],
+                font: { size: 18 },
+                color: 'white'
+            },
             legend: {display: false},
             tooltip: {
                 callbacks: {
@@ -139,27 +147,33 @@ let salaryChart = new Chart(salaryChartCanvas, {
 
 
 // gender section
-let genderLineChart = new Chart(genderChart1Canvas, {
-    type: 'line',
+let genderBarChart1 = new Chart(genderChart1Canvas, {
+    type: 'bar',
     data: {
         labels: chartAllEduNames, //navn på uddannelse
         datasets: [
             {
-                label: "Avg Kvotient Mænd",
+                label: "Adgangskvotient Mænd",
                 data: [],
-                borderColor: genderChartColorM,
-                borderWidth: 3
+                backgroundColor: genderChartColorM,
+                borderWidth: 1
             },
             {
-                label: "Avg Kvotient Kvinder",
+                label: "Adgangskvotient Kvinder",
                 data: [],
-                borderColor: genderChartColorF,
-                borderWidth: 4
+                backgroundColor: genderChartColorF,
+                borderWidth: 1
             }
         ]
     },
     options: {
         plugins: {
+            title: {
+                display: true,
+                text: ['Kvinderne hæver barren med højt fagligt niveau på IT-uddannelserne:', 'Se niveauet for de optagne på IT-uddannelserne'],
+                font: { size: 18 },
+                color: 'white'
+            },
             legend: {
                 labels: {
                     color: '#FFFFFF',
@@ -201,6 +215,12 @@ let genderPieChart = new Chart(genderChart2Canvas, {
     },
     options: {
         plugins: {
+            title: {
+                display: true,
+                text: ['Glem myten om herreklubben:', 'Kvinder er stærkt repræsenteret på IT-uddannelserne!'],
+                font: { size: 18 },
+                color: 'white'
+            },
             legend: {
                 labels: {
                     color: '#FFFFFF',
@@ -223,7 +243,7 @@ let genderPieChart = new Chart(genderChart2Canvas, {
     }
 })
 
-let genderBarChart = new Chart(genderChart3Canvas, {
+let genderBarChart2 = new Chart(genderChart3Canvas, {
     type: 'bar',
     data: {
         labels: chartAllEduNames,
@@ -256,6 +276,12 @@ let genderBarChart = new Chart(genderChart3Canvas, {
             }
         },
         plugins: {
+            title: {
+                display: true,
+                text: ['Har du modet? Vi har uddannelsen:', 'Vær med til at tegne fremtidens kønsfordeling'],
+                font: { size: 18 },
+                color: 'white'
+            },
             legend: {
                 labels: {
                     color: '#FFFFFF',
@@ -326,13 +352,21 @@ let wellbeingDropoutChart = new Chart(wellbeingChart1Canvas, {
     }
 })
 
+// Q3 and Q4 scales are updated by updateSurveyCharts()
+let wellbeingSurveyScales = {
+    Q1scale: ['Helt uenig', 'Uenig', 'Hverken eller', 'Enig', 'Helt enig'],
+    Q2scale: ['Helt uenig', 'Uenig', 'Hverken eller', 'Enig', 'Helt enig'],
+    Q3scale: ['Altid', 'Næsten altid', 'Hverken eller', 'Næsten aldrig', 'Aldrig'],
+    Q4scale: ['Altid', 'Næsten altid', 'Hverken eller', 'Næsten aldrig', 'Aldrig'],
+}
+
 let wellbeingSurveryQ1 = new Chart(wellbeingChart2Canvas, {
     type: 'bar',
     data: {
         labels: chartAllEduLabels,
         datasets: [{
             label: [],
-            data: [33, 66, 99],
+            data: [], // updated by updateSurveyCharts()
             backgroundColor: chartPrimaryColor
         }]
     },
@@ -343,9 +377,16 @@ let wellbeingSurveryQ1 = new Chart(wellbeingChart2Canvas, {
             legend: {display: false},
             title: {
                 display: true,
-                text: [' ', 'Der er et godt socialt miljø', ' '],
-                font: {size: 14},
+                text: '', // updated by updateSurveyCharts()
+                font: { size: 16 },
                 color: 'white'
+            },
+            subtitle: {
+                display: true,
+                text: ['', ''],
+                color: '#aaa',
+                font: { size: 12 },
+                padding: { bottom: 10 }
             },
             tooltip: {
                 callbacks: {
@@ -353,15 +394,15 @@ let wellbeingSurveryQ1 = new Chart(wellbeingChart2Canvas, {
                         const value = context.parsed.x
                         let valueToUse
                         if (value < 13) {
-                            valueToUse = 'Meget uenig'
+                            valueToUse = wellbeingSurveyScales.Q1scale[0]
                         } else if (value < 38) {
-                            valueToUse = 'Uenig'
+                            valueToUse = wellbeingSurveyScales.Q1scale[1]
                         } else if (value < 68) {
-                            valueToUse = 'Hverken eller'
+                            valueToUse = wellbeingSurveyScales.Q1scale[2]
                         } else if (value < 88) {
-                            valueToUse = 'Enig'
+                            valueToUse = wellbeingSurveyScales.Q1scale[3]
                         } else {
-                            valueToUse = 'Helt Enig'
+                            valueToUse = wellbeingSurveyScales.Q1scale[4]
                         }
                         return valueToUse
                     },
@@ -382,11 +423,11 @@ let wellbeingSurveryQ1 = new Chart(wellbeingChart2Canvas, {
                     color: gridTextColor,
                     stepSize: 25,
                     callback: function (value, index, ticks) {
-                        if (value === 0) return 'Helt uenig';
-                        if (value === 25) return 'Uenig';
-                        if (value === 50) return 'Hverken eller';
-                        if (value === 75) return 'Enig';
-                        if (value === 100) return 'Helt enig';
+                        if (value === 0) return wellbeingSurveyScales.Q1scale[0]
+                        else if (value === 25) return wellbeingSurveyScales.Q1scale[1]
+                        else if (value === 50) return wellbeingSurveyScales.Q1scale[2]
+                        else if (value === 75) return wellbeingSurveyScales.Q1scale[3]
+                        else if (value === 100) return wellbeingSurveyScales.Q1scale[4]
                         return value;
                     }
                 },
@@ -412,7 +453,7 @@ let wellbeingSurveryQ2 = new Chart(wellbeingChart3Canvas, {
         labels: chartAllEduLabels,
         datasets: [{
             label: [],
-            data: [33, 66, 99],
+            data: [], // updated by updateSurveyCharts()
             backgroundColor: chartPrimaryColor
         }]
     },
@@ -423,9 +464,16 @@ let wellbeingSurveryQ2 = new Chart(wellbeingChart3Canvas, {
             legend: {display: false},
             title: {
                 display: true,
-                text: [' ', 'Jeg føler mig generelt rigtig godt tilpas', 'på min uddannelse'],
-                font: {size: 14},
+                text: '', // updated by updateSurveyCharts()
+                font: { size: 16 },
                 color: 'white'
+            },
+            subtitle: {
+                display: true,
+                text: ['', 'Jeg føler mig generelt rigtig godt tilpas på min uddannelse'],
+                color: '#aaa',
+                font: { size: 12 },
+                padding: { bottom: 10 }
             },
             tooltip: {
                 callbacks: {
@@ -433,15 +481,15 @@ let wellbeingSurveryQ2 = new Chart(wellbeingChart3Canvas, {
                         const value = context.parsed.x
                         let valueToUse
                         if (value < 13) {
-                            valueToUse = 'Meget uenig'
+                            valueToUse = wellbeingSurveyScales.Q1scale[0]
                         } else if (value < 38) {
-                            valueToUse = 'Uenig'
+                            valueToUse = wellbeingSurveyScales.Q1scale[1]
                         } else if (value < 68) {
-                            valueToUse = 'Hverken eller'
+                            valueToUse = wellbeingSurveyScales.Q1scale[2]
                         } else if (value < 88) {
-                            valueToUse = 'Enig'
+                            valueToUse = wellbeingSurveyScales.Q1scale[3]
                         } else {
-                            valueToUse = 'Helt Enig'
+                            valueToUse = wellbeingSurveyScales.Q1scale[4]
                         }
                         return valueToUse
                     },
@@ -462,11 +510,11 @@ let wellbeingSurveryQ2 = new Chart(wellbeingChart3Canvas, {
                     color: gridTextColor,
                     stepSize: 25,
                     callback: function (value, index, ticks) {
-                        if (value === 0) return 'Helt uenig';
-                        if (value === 25) return 'Uenig';
-                        if (value === 50) return 'Hverken eller';
-                        if (value === 75) return 'Enig';
-                        if (value === 100) return 'Helt enig';
+                        if (value === 0) return wellbeingSurveyScales.Q2scale[0]
+                        else if (value === 25) return wellbeingSurveyScales.Q2scale[1]
+                        else if (value === 50) return wellbeingSurveyScales.Q2scale[2]
+                        else if (value === 75) return wellbeingSurveyScales.Q2scale[3]
+                        else if (value === 100) return wellbeingSurveyScales.Q2scale[4]
                         return value;
                     }
                 },
@@ -492,7 +540,7 @@ let wellbeingSurveryQ3 = new Chart(wellbeingChart4Canvas, {
         labels: chartAllEduLabels,
         datasets: [{
             label: [],
-            data: [33, 66, 99],
+            data: [], // updated by updateSurveyCharts()
             backgroundColor: chartPrimaryColor
         }]
     },
@@ -503,9 +551,16 @@ let wellbeingSurveryQ3 = new Chart(wellbeingChart4Canvas, {
             legend: {display: false},
             title: {
                 display: true,
-                text: [' ', 'Har du oplevet at føle dig ensom på studiet?', ' '],
-                font: {size: 14},
+                text: '',  // updated by updateSurveyCharts()
+                font: { size: 16 },
                 color: 'white'
+            },
+            subtitle: {
+                display: true,
+                text: ['', 'Har du oplevet at føle dig ensom på studiet?'],
+                color: '#aaa',
+                font: { size: 12 },
+                padding: { bottom: 10 }
             },
             tooltip: {
                 callbacks: {
@@ -513,15 +568,15 @@ let wellbeingSurveryQ3 = new Chart(wellbeingChart4Canvas, {
                         const value = context.parsed.x
                         let valueToUse
                         if (value < 13) {
-                            valueToUse = 'Altid'
+                            valueToUse = wellbeingSurveyScales.Q1scale[0]
                         } else if (value < 38) {
-                            valueToUse = 'Næsten altid'
+                            valueToUse = wellbeingSurveyScales.Q1scale[1]
                         } else if (value < 68) {
-                            valueToUse = 'Hverken eller'
+                            valueToUse = wellbeingSurveyScales.Q1scale[2]
                         } else if (value < 88) {
-                            valueToUse = 'Næsten aldrig'
+                            valueToUse = wellbeingSurveyScales.Q1scale[3]
                         } else {
-                            valueToUse = 'Aldrig'
+                            valueToUse = wellbeingSurveyScales.Q1scale[4]
                         }
                         return valueToUse
                     },
@@ -542,11 +597,11 @@ let wellbeingSurveryQ3 = new Chart(wellbeingChart4Canvas, {
                     color: gridTextColor,
                     stepSize: 25,
                     callback: function (value, index, ticks) {
-                        if (value === 0) return 'Altid';
-                        if (value === 25) return 'Næsten altid';
-                        if (value === 50) return 'Hverken eller';
-                        if (value === 75) return 'Næsten aldrig';
-                        if (value === 100) return 'Aldrig';
+                        if (value === 0) return wellbeingSurveyScales.Q2scale[0]
+                        else if (value === 25) return wellbeingSurveyScales.Q2scale[1]
+                        else if (value === 50) return wellbeingSurveyScales.Q2scale[2]
+                        else if (value === 75) return wellbeingSurveyScales.Q2scale[3]
+                        else if (value === 100) return wellbeingSurveyScales.Q2scale[4]
                         return value;
                     }
                 },
@@ -572,7 +627,7 @@ let wellbeingSurveryQ4 = new Chart(wellbeingChart5Canvas, {
         labels: chartAllEduLabels,
         datasets: [{
             label: [],
-            data: [33, 66, 99],
+            data: [], // updated by updateSurveyCharts()
             backgroundColor: chartPrimaryColor
         }]
     },
@@ -583,9 +638,16 @@ let wellbeingSurveryQ4 = new Chart(wellbeingChart5Canvas, {
             legend: {display: false},
             title: {
                 display: true,
-                text: [' ', 'Har du oplevet stærke stress-symptomer', 'i forbindelse med dit studie i dagligdagen?'],
-                font: {size: 14},
+                text: '', // updated by updateSurveyCharts()
+                font: { size: 16 },
                 color: 'white'
+            },
+            subtitle: {
+                display: true,
+                text: ['Har du oplevet stærke stress-symptomer', 'i forbindelse med dit studie i dagligdagen?'],
+                color: '#aaa',
+                font: { size: 12 },
+                padding: { bottom: 10 }
             },
             tooltip: {
                 callbacks: {
@@ -593,15 +655,15 @@ let wellbeingSurveryQ4 = new Chart(wellbeingChart5Canvas, {
                         const value = context.parsed.x
                         let valueToUse
                         if (value < 13) {
-                            valueToUse = 'Altid'
+                            valueToUse = wellbeingSurveyScales.Q1scale[0]
                         } else if (value < 38) {
-                            valueToUse = 'Næsten altid'
+                            valueToUse = wellbeingSurveyScales.Q1scale[1]
                         } else if (value < 68) {
-                            valueToUse = 'Hverken eller'
+                            valueToUse = wellbeingSurveyScales.Q1scale[2]
                         } else if (value < 88) {
-                            valueToUse = 'Næsten aldrig'
+                            valueToUse = wellbeingSurveyScales.Q1scale[3]
                         } else {
-                            valueToUse = 'Aldrig'
+                            valueToUse = wellbeingSurveyScales.Q1scale[4]
                         }
                         return valueToUse
                     },
@@ -622,11 +684,11 @@ let wellbeingSurveryQ4 = new Chart(wellbeingChart5Canvas, {
                     color: gridTextColor,
                     stepSize: 25,
                     callback: function (value, index, ticks) {
-                        if (value === 0) return 'Altid';
-                        if (value === 25) return 'Næsten altid';
-                        if (value === 50) return 'Hverken eller';
-                        if (value === 75) return 'Næsten aldrig';
-                        if (value === 100) return 'Aldrig';
+                        if (value === 0) return wellbeingSurveyScales.Q2scale[0]
+                        else if (value === 25) return wellbeingSurveyScales.Q2scale[1]
+                        else if (value === 50) return wellbeingSurveyScales.Q2scale[2]
+                        else if (value === 75) return wellbeingSurveyScales.Q2scale[3]
+                        else if (value === 100) return wellbeingSurveyScales.Q2scale[4]
                         return value;
                     }
                 },
@@ -651,10 +713,10 @@ let wellbeingSurveryQ4 = new Chart(wellbeingChart5Canvas, {
 let jobUnemployChart = new Chart(jobUnemployChartCanvas, {
     type: 'bar',
     data: {
-        labels: chartAllEduNames,
+        labels: chartAllEduNamesITARstar,
         datasets: [{
-            label: [], //løngrundlag (måske opdelt i køn)
-            data: [1, 3, 2],
+            label: [],
+            data: [],
             backgroundColor: chartPrimaryColor
         }]
     },
@@ -694,10 +756,10 @@ let jobUnemployChart = new Chart(jobUnemployChartCanvas, {
     }
 })
 
-let jobChart2 = new Chart(jobChart2Canvas, {
+let jobSurveyQ1 = new Chart(jobSurveyQ1Canvas, {
     type: 'bar',
     data: {
-        labels: chartAllEduLabels,
+        labels: chartAllEduLabelsITARstar,
         datasets: [{
             label: [],
             data: [33, 66, 99],
@@ -712,7 +774,7 @@ let jobChart2 = new Chart(jobChart2Canvas, {
             title: {
                 display: true,
                 text: [' ', 'Jeg søgte og blev ansat efter et stillingsopslag', ' '],
-                font: {size: 14},
+                font: {size: 16},
                 color: 'white'
             },
             tooltip: {
@@ -747,10 +809,10 @@ let jobChart2 = new Chart(jobChart2Canvas, {
     }
 })
 
-let jobChart3 = new Chart(jobChart3Canvas, {
+let jobSurveyQ2 = new Chart(jobSurveyQ2Canvas, {
     type: 'bar',
     data: {
-        labels: chartAllEduLabels,
+        labels: chartAllEduLabelsITARstar,
         datasets: [{
             label: [],
             data: [33, 66, 99],
@@ -764,8 +826,8 @@ let jobChart3 = new Chart(jobChart3Canvas, {
             legend: {display: false},
             title: {
                 display: true,
-                text: [' ', 'Jeg søgte og blev ansat efter et stillingsopslag', ' '],
-                font: {size: 14},
+                text: [' ', 'Jeg fik job gennem mit netværk', ' '],
+                font: { size: 16 },
                 color: 'white'
             },
             tooltip: {
@@ -800,10 +862,10 @@ let jobChart3 = new Chart(jobChart3Canvas, {
     }
 })
 
-let jobChart4 = new Chart(jobChart4Canvas, {
+let jobSurveyQ3 = new Chart(jobSurveyQ3Canvas, {
     type: 'bar',
     data: {
-        labels: chartAllEduLabels,
+        labels: chartAllEduLabelsITARstar,
         datasets: [{
             label: [],
             data: [33, 66, 99],
@@ -818,7 +880,7 @@ let jobChart4 = new Chart(jobChart4Canvas, {
             title: {
                 display: true,
                 text: ['Jeg fortsatte i job på den arbejdsplads,', 'hvor jeg skrev opgave / projekt / speciale,', 'eller var i praktik'],
-                font: {size: 14},
+                font: {size: 16},
                 color: 'white'
             },
             tooltip: {
@@ -853,10 +915,10 @@ let jobChart4 = new Chart(jobChart4Canvas, {
     }
 })
 
-let jobChart5 = new Chart(jobChart5Canvas, {
+let jobSurveyQ4 = new Chart(jobSurveyQ4Canvas, {
     type: 'bar',
     data: {
-        labels: chartAllEduLabels,
+        labels: chartAllEduLabelsITARstar,
         datasets: [{
             label: [],
             data: [33, 66, 99],
@@ -870,8 +932,8 @@ let jobChart5 = new Chart(jobChart5Canvas, {
             legend: {display: false},
             title: {
                 display: true,
-                text: [' ', 'Jeg fortsatte i job på den arbejdsplads', 'hvor jeg havde studiejob'],
-                font: {size: 14},
+                text: ['Jeg fortsatte i job på den arbejdsplads', 'hvor jeg havde studiejob', ''],
+                font: { size: 16 },
                 color: 'white'
             },
             tooltip: {
@@ -1302,27 +1364,100 @@ const pipeline = [
 ];
 
 
-// show charts
-async function showCharts() {
+function updateSalaryChart(chartType) {
+    if (chartType === 1) {
+        salaryChart.data.datasets[0].data = queriedData.allSalaryAvg
+    } else if (chartType === 2) {
+        salaryChart.data.datasets[0].data = queriedData.allSalaryStart
+    } else {
+        salaryChart.data.datasets[0].data = queriedData.allSalaryHighest
+    }
+    salaryChart.update()
+}
+
+// updateSalaryChart(1)  // show avg
+// updateSalaryChart(2)  // show start
+// updateSalaryChart(3)  // show highest
+
+
+function updateSurveryCharts(surveyType) {
+    if (surveyType === 1) {
+        wellbeingSurveyScales.Q3scale = ['Altid', 'Næsten altid', 'Hverken eller', 'Næsten aldrig', 'Aldrig']
+        wellbeingSurveyScales.Q4scale = ['Altid', 'Næsten altid', 'Hverken eller', 'Næsten aldrig', 'Aldrig']
+
+        wellbeingSurveryQ1.options.plugins.title.text = ['De studerende er enige: ', 'Et socialt studiemiljø i topklasse']
+        wellbeingSurveryQ1.options.plugins.subtitle.text[0] = ''
+        wellbeingSurveryQ1.options.plugins.subtitle.text[1] = queriedData.socialSurvey.socialSurveyQuestions[0]
+        wellbeingSurveryQ1.data.datasets[0].data = queriedData.socialSurvey.allQuestion5Answers
+        wellbeingSurveryQ1.update()
+
+        wellbeingSurveryQ2.options.plugins.title.text = ['Mere end bare en skole:', 'Langt de fleste føler sig godt tilpas på studiet']
+        wellbeingSurveryQ2.options.plugins.subtitle.text[0] = ''
+        wellbeingSurveryQ2.options.plugins.subtitle.text[1] = queriedData.socialSurvey.socialSurveyQuestions[1]
+        wellbeingSurveryQ2.data.datasets[0].data = queriedData.socialSurvey.allQuestion6Answers
+        wellbeingSurveryQ2.update()
+
+        wellbeingSurveryQ3.options.plugins.title.text = ['Ingen elever står alene:', 'Størstedelen oplever sjældent ensomhed']
+        wellbeingSurveryQ3.options.plugins.subtitle.text[0] = ''
+        wellbeingSurveryQ3.options.plugins.subtitle.text[1] = queriedData.socialSurvey.socialSurveyQuestions[2]
+        wellbeingSurveryQ3.data.datasets[0].data = queriedData.socialSurvey.allQuestion7Answers
+        wellbeingSurveryQ3.update()
+
+        wellbeingSurveryQ4.options.plugins.title.text = ['Plads til at være menneske:', 'Balance med lav grad af stress i hverdagen']
+        wellbeingSurveryQ4.options.plugins.subtitle.text = queriedData.socialSurvey.socialSurveyQuestions[3]
+        wellbeingSurveryQ4.data.datasets[0].data = queriedData.socialSurvey.allQuestion8Answers
+        wellbeingSurveryQ4.update()
+    } else {
+        wellbeingSurveyScales.Q3scale = ['Helt uenig', 'Uenig', 'Hverken eller', 'Enig', 'Helt enig']
+        wellbeingSurveyScales.Q4scale = ['Helt uenig', 'Uenig', 'Hverken eller', 'Enig', 'Helt enig']
+
+        wellbeingSurveryQ1.options.plugins.title.text = ['Faglighed der løfter dig:', 'Studerende vurderer fagmiljøet helt i top']
+        wellbeingSurveryQ1.options.plugins.subtitle.text[0] = ''
+        wellbeingSurveryQ1.options.plugins.subtitle.text[1] = queriedData.professionalSurvey.professionalSurveyQuestions[0]
+        wellbeingSurveryQ1.data.datasets[0].data = queriedData.professionalSurvey.allQuestion9Answers
+        wellbeingSurveryQ1.update()
+
+        wellbeingSurveryQ2.options.plugins.title.text = ['Samarbejde er en hjørnesten på studiet:', 'Vi skaber succesen sammen']
+        wellbeingSurveryQ2.options.plugins.subtitle.text = queriedData.professionalSurvey.professionalSurveyQuestions[1]
+        wellbeingSurveryQ2.data.datasets[0].data = queriedData.professionalSurvey.allQuestion10Answers
+        wellbeingSurveryQ2.update()
+
+        wellbeingSurveryQ3.options.plugins.title.text = ['Her står du aldrig alene med en svær opgave:', 'Vi lærer bedst, når vi vender med hinanden']
+        wellbeingSurveryQ3.options.plugins.subtitle.text = queriedData.professionalSurvey.professionalSurveyQuestions[2]
+        wellbeingSurveryQ3.data.datasets[0].data = queriedData.professionalSurvey.allQuestion11Answers
+        wellbeingSurveryQ3.update()
+
+        wellbeingSurveryQ4.options.plugins.title.text = ['Undervisning der virker:', 'det faglige udbytte af undervisningen er højt']
+        wellbeingSurveryQ4.options.plugins.subtitle.text[0] = ''
+        wellbeingSurveryQ4.options.plugins.subtitle.text[1] = queriedData.professionalSurvey.professionalSurveyQuestions[3]
+        wellbeingSurveryQ4.data.datasets[0].data = queriedData.professionalSurvey.allQuestion12Answers
+        wellbeingSurveryQ4.update()
+    }
+}
+
+
+
+function showCharts() {
     // salary chart
     salaryChart.data.datasets[0].data = queriedData.allSalaryAvg
     salaryChart.update()
 
     // gender charts
-    genderLineChart.data.datasets[0].data = queriedData.allKvoM
-    genderLineChart.data.datasets[1].data = queriedData.allKvoF
-    genderLineChart.update()
+    genderBarChart1.data.datasets[0].data = queriedData.allKvoM
+    genderBarChart1.data.datasets[1].data = queriedData.allKvoF
+    genderBarChart1.update()
 
     genderPieChart.data.datasets[0].data = [queriedData.totalPctM, queriedData.totalPctF]
     genderPieChart.update()
 
-    genderBarChart.data.datasets[0].data = queriedData.allPctM
-    genderBarChart.data.datasets[1].data = queriedData.allPctF
-    genderBarChart.update()
+    genderBarChart2.data.datasets[0].data = queriedData.allPctM
+    genderBarChart2.data.datasets[1].data = queriedData.allPctF
+    genderBarChart2.update()
 
     // wellbeing charts
     wellbeingDropoutChart.data.datasets[0].data = queriedData.allDropoutFirstYearPct
     wellbeingDropoutChart.update()
+
     wellbeingSurveryQ1.data.datasets[0].data = queriedData.socialSurvey.allQuestion5Answers
     wellbeingSurveryQ1.update()
     wellbeingSurveryQ2.data.datasets[0].data = queriedData.socialSurvey.allQuestion6Answers
@@ -1336,15 +1471,14 @@ async function showCharts() {
     jobUnemployChart.data.datasets[0].data = queriedData.allUnemployedNewGradPct
     jobUnemployChart.update()
 
-    jobChart2.data.datasets[0].data = queriedData.jobSurvey.allQuestion1Answers
-    jobChart2.update()
-    jobChart3.data.datasets[0].data = queriedData.jobSurvey.allQuestion2Answers
-    jobChart3.update()
-    jobChart4.data.datasets[0].data = queriedData.jobSurvey.allQuestion3Answers
-    jobChart4.update()
-    jobChart5.data.datasets[0].data = queriedData.jobSurvey.allQuestion4Answers
-    jobChart5.update()
-    console.log("kører")
+    jobSurveyQ1.data.datasets[0].data = queriedData.jobSurvey.allQuestion1Answers
+    jobSurveyQ1.update()
+    jobSurveyQ2.data.datasets[0].data = queriedData.jobSurvey.allQuestion2Answers
+    jobSurveyQ2.update()
+    jobSurveyQ3.data.datasets[0].data = queriedData.jobSurvey.allQuestion3Answers
+    jobSurveyQ3.update()
+    jobSurveyQ4.data.datasets[0].data = queriedData.jobSurvey.allQuestion4Answers
+    jobSurveyQ4.update()
 }
 
 
@@ -1388,6 +1522,8 @@ async function getChartData() {
         }
 
         showCharts()
+        updateSurveryCharts(1)  // show social survey
+        // updateSurveryCharts(2)  // show professional survey
 
     } catch (error) {
         console.log("local data")
@@ -1441,15 +1577,17 @@ async function getChartData() {
             queriedData.professionalSurvey.allQuestion12Answers.push(edu.professionalEnvironment[3].percent)
         }
         for (let i = 0; i < 4; i++) {
-            queriedData.jobSurvey.jobSurveyQuestions.push(educationData[0].reasonsForApplying[i])
-            queriedData.socialSurvey.socialSurveyQuestions.push(educationData[0].socialEnvironment[i])
-            queriedData.professionalSurvey.professionalSurveyQuestions.push(educationData[0].professionalEnvironment[i])
+            queriedData.jobSurvey.jobSurveyQuestions.push(educationData[0].reasonsForApplying[i].question)
+            queriedData.socialSurvey.socialSurveyQuestions.push(educationData[0].socialEnvironment[i].question)
+            queriedData.professionalSurvey.professionalSurveyQuestions.push(educationData[0].professionalEnvironment[i].question)
         }
 
-        console.log(queriedData.allDropoutFirstYearPct);
+        console.log(educationData[0].socialEnvironment[3].question);
+        
         showCharts()
+        updateSurveryCharts(1)  // show social survey
+        // updateSurveryCharts(2)  // show professional survey
     }
-
 }
 
 // kvotient fordeling af køn alle udannelser - line chart
@@ -1460,46 +1598,9 @@ getChartData()
 
 
 
-function updateSalaryChart(chartType) {
-    if (chartType === 1) {
-        salaryChart.data.datasets[0].data = queriedData.allSalaryAvg
-    } else if (chartType === 2) {
-        salaryChart.data.datasets[0].data = queriedData.allSalaryStart
-    } else {
-        salaryChart.data.datasets[0].data = queriedData.allSalaryHighest
-    }
-    salaryChart.update()
-}
-
-// updateSalaryChart(1)  // show avg
-// updateSalaryChart(2)  // show start
-// updateSalaryChart(3)  // show highest
 
 
-function updateSurveryCharts(surveyType) {
-    if (surveyType === 1) {
-        wellbeingSurveryQ1.data.datasets[0].data = queriedData.socialSurvey.allQuestion5Answers
-        wellbeingSurveryQ1.update()
-        wellbeingSurveryQ2.data.datasets[0].data = queriedData.socialSurvey.allQuestion6Answers
-        wellbeingSurveryQ2.update()
-        wellbeingSurveryQ3.data.datasets[0].data = queriedData.socialSurvey.allQuestion7Answers
-        wellbeingSurveryQ3.update()
-        wellbeingSurveryQ4.data.datasets[0].data = queriedData.socialSurvey.allQuestion8Answers
-        wellbeingSurveryQ4.update()
-    } else {
-        wellbeingSurveryQ1.data.datasets[0].data = queriedData.professionalSurvey.allQuestion9Answers
-        wellbeingSurveryQ1.update()
-        wellbeingSurveryQ2.data.datasets[0].data = queriedData.professionalSurvey.allQuestion10Answers
-        wellbeingSurveryQ2.update()
-        wellbeingSurveryQ3.data.datasets[0].data = queriedData.professionalSurvey.allQuestion11Answers
-        wellbeingSurveryQ3.update()
-        wellbeingSurveryQ4.data.datasets[0].data = queriedData.professionalSurvey.allQuestion12Answers
-        wellbeingSurveryQ4.update()
-    }
-}
 
-// updateSurveryCharts(1)  // show social survey
-// updateSurveryCharts(2)  // show professional survey
 
 
 ////// eventlisteners //////
