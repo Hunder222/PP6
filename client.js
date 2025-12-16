@@ -257,14 +257,14 @@ let genderBarChart2 = new Chart(genderChart3Canvas, {
         labels: chartAllEduNames,
         datasets: [
             {
-                label: ["Mænd"],
-                data: [], //updateChart
-                backgroundColor: genderChartColorM
-            },
-            {
                 label: ["Kvinder"],
                 data: [], //updateChart
                 backgroundColor: genderChartColorF
+            },
+            {
+                label: ["Mænd"],
+                data: [], //updateChart
+                backgroundColor: genderChartColorM
             }
         ]
     },
@@ -529,15 +529,15 @@ let wellbeingSurveryQ2 = new Chart(wellbeingChart3Canvas, {
                         const value = context.parsed.x
                         let valueToUse
                         if (value < 13) {
-                            valueToUse = wellbeingSurveyScales.Q1scale[0]
+                            valueToUse = wellbeingSurveyScales.Q2scale[0]
                         } else if (value < 38) {
-                            valueToUse = wellbeingSurveyScales.Q1scale[1]
+                            valueToUse = wellbeingSurveyScales.Q2scale[1]
                         } else if (value < 68) {
-                            valueToUse = wellbeingSurveyScales.Q1scale[2]
+                            valueToUse = wellbeingSurveyScales.Q2scale[2]
                         } else if (value < 88) {
-                            valueToUse = wellbeingSurveyScales.Q1scale[3]
+                            valueToUse = wellbeingSurveyScales.Q2scale[3]
                         } else {
-                            valueToUse = wellbeingSurveyScales.Q1scale[4]
+                            valueToUse = wellbeingSurveyScales.Q2scale[4]
                         }
                         return valueToUse
                     },
@@ -621,15 +621,15 @@ let wellbeingSurveryQ3 = new Chart(wellbeingChart4Canvas, {
                         const value = context.parsed.x
                         let valueToUse
                         if (value < 13) {
-                            valueToUse = wellbeingSurveyScales.Q1scale[0]
+                            valueToUse = wellbeingSurveyScales.Q3scale[0]
                         } else if (value < 38) {
-                            valueToUse = wellbeingSurveyScales.Q1scale[1]
+                            valueToUse = wellbeingSurveyScales.Q3scale[1]
                         } else if (value < 68) {
-                            valueToUse = wellbeingSurveyScales.Q1scale[2]
+                            valueToUse = wellbeingSurveyScales.Q3scale[2]
                         } else if (value < 88) {
-                            valueToUse = wellbeingSurveyScales.Q1scale[3]
+                            valueToUse = wellbeingSurveyScales.Q3scale[3]
                         } else {
-                            valueToUse = wellbeingSurveyScales.Q1scale[4]
+                            valueToUse = wellbeingSurveyScales.Q3scale[4]
                         }
                         return valueToUse
                     },
@@ -650,11 +650,11 @@ let wellbeingSurveryQ3 = new Chart(wellbeingChart4Canvas, {
                     color: gridTextColor,
                     stepSize: 25,
                     callback: function (value, index, ticks) {
-                        if (value === 0) return wellbeingSurveyScales.Q2scale[0]
-                        else if (value === 25) return wellbeingSurveyScales.Q2scale[1]
-                        else if (value === 50) return wellbeingSurveyScales.Q2scale[2]
-                        else if (value === 75) return wellbeingSurveyScales.Q2scale[3]
-                        else if (value === 100) return wellbeingSurveyScales.Q2scale[4]
+                        if (value === 0) return wellbeingSurveyScales.Q3scale[0]
+                        else if (value === 25) return wellbeingSurveyScales.Q3scale[1]
+                        else if (value === 50) return wellbeingSurveyScales.Q3scale[2]
+                        else if (value === 75) return wellbeingSurveyScales.Q3scale[3]
+                        else if (value === 100) return wellbeingSurveyScales.Q3scale[4]
                         return value;
                     }
                 },
@@ -713,15 +713,15 @@ let wellbeingSurveryQ4 = new Chart(wellbeingChart5Canvas, {
                         const value = context.parsed.x
                         let valueToUse
                         if (value < 13) {
-                            valueToUse = wellbeingSurveyScales.Q1scale[0]
+                            valueToUse = wellbeingSurveyScales.Q4scale[0]
                         } else if (value < 38) {
-                            valueToUse = wellbeingSurveyScales.Q1scale[1]
+                            valueToUse = wellbeingSurveyScales.Q4scale[1]
                         } else if (value < 68) {
-                            valueToUse = wellbeingSurveyScales.Q1scale[2]
+                            valueToUse = wellbeingSurveyScales.Q4scale[2]
                         } else if (value < 88) {
-                            valueToUse = wellbeingSurveyScales.Q1scale[3]
+                            valueToUse = wellbeingSurveyScales.Q4scale[3]
                         } else {
-                            valueToUse = wellbeingSurveyScales.Q1scale[4]
+                            valueToUse = wellbeingSurveyScales.Q4scale[4]
                         }
                         return valueToUse
                     },
@@ -742,11 +742,11 @@ let wellbeingSurveryQ4 = new Chart(wellbeingChart5Canvas, {
                     color: gridTextColor,
                     stepSize: 25,
                     callback: function (value, index, ticks) {
-                        if (value === 0) return wellbeingSurveyScales.Q2scale[0]
-                        else if (value === 25) return wellbeingSurveyScales.Q2scale[1]
-                        else if (value === 50) return wellbeingSurveyScales.Q2scale[2]
-                        else if (value === 75) return wellbeingSurveyScales.Q2scale[3]
-                        else if (value === 100) return wellbeingSurveyScales.Q2scale[4]
+                        if (value === 0) return wellbeingSurveyScales.Q4scale[0]
+                        else if (value === 25) return wellbeingSurveyScales.Q4scale[1]
+                        else if (value === 50) return wellbeingSurveyScales.Q4scale[2]
+                        else if (value === 75) return wellbeingSurveyScales.Q4scale[3]
+                        else if (value === 100) return wellbeingSurveyScales.Q4scale[4]
                         return value;
                     }
                 },
@@ -1554,8 +1554,8 @@ function showCharts() {
     genderPieChart.data.datasets[0].data = [queriedData.totalPctM, queriedData.totalPctF]
     genderPieChart.update()
 
-    genderBarChart2.data.datasets[0].data = queriedData.allPctM
-    genderBarChart2.data.datasets[1].data = queriedData.allPctF
+    genderBarChart2.data.datasets[0].data = queriedData.allPctF
+    genderBarChart2.data.datasets[1].data = queriedData.allPctM
     genderBarChart2.update()
 
     // wellbeing charts
