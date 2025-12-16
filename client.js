@@ -1610,7 +1610,14 @@ async function getChartData() {
         }
 
         //mongodb end
-
+        const otherDataResponse = await fetch('http://localhost:3000/otherData/');
+        if(!otherDataResponse.ok){
+            console.log("didnt work")
+            throw new Error(`HTTP error! status: ${otherDataResponse.status}`);
+        }
+        const otherData = await otherDataResponse.json();
+        queriedData.avgBusinessAcademyDropoutPct = otherData[0].avgBusinessAcademyDropoutPct;
+        queriedData.avgBusinessAcademyUnemploymentNewGradPct = otherData[0].avgBusinessAcademyUnemploymentNewGradPct;
 
         console.log("trying to connect")
         const response = await fetch('http://localhost:3000/thirdPartyData/');
@@ -1624,10 +1631,11 @@ async function getChartData() {
         for (key in data) {
             queriedData[key] = data[key];
         }
-
+        console.log(queriedData);  // TODO
         showCharts()
         updateSurveryCharts(1)  // show social survey
         // updateSurveryCharts(2)  // show professional survey
+
 
     } catch (error) {
         console.log("local data")

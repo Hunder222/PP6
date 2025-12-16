@@ -42,6 +42,8 @@ const query1 = "SELECT * from educations\n" +
     " using(survey_id)\n" +
     "order by id"
 
+const query2 = "SELECT * FROM other_data"
+
 // pipeline mongo
 const pipeline = [
     {
@@ -599,6 +601,16 @@ app.get('/thirdPartyData', async (req, res) => {
     }
 });
 
+
+app.get('/otherData', async (req, res) => {
+    try{
+        mysqlConnection.query(query2, (error, result) => {
+            res.send(result);
+        });
+    }catch(error){
+        console.log("Kunne ikke hente fra db, henter fra lokal fil");
+    };
+});
 /*start of new*/
 
 function formatSurveyData(data) {
