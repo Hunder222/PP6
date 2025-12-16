@@ -735,3 +735,13 @@ label {
     padding: 2vh;
 
 }
+  #wellbeingMultisection1{
+      justify-content: center;
+      padding-bottom:2vh ;
+      padding-right: 0;
+  }
+  #jobMultiSection1{
+      justify-content: center;
+      padding-bottom:2vh ;
+padding-right: 0;
+  }
