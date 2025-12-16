@@ -16,21 +16,25 @@
     <ul class="knapperne">
 
         <li>
-            <button ID="Btmløn">Løn</button>
+            <button ID="BtmKønsfordeling"> Kønsfordeling</button>
+
         </li>
 
         <li>
-            <button ID="BtmKønsfordeling"> Kønsfordeling</button>
+            <button ID="Btmtrivsel"> Trivsel</button>
+
         </li>
 
 
         <li>
             <button ID="BtmJobstart"> Jobstart</button>
+
         </li>
 
 
         <li>
-            <button ID="Btmtrivsel"> Trivsel</button>
+            <button ID="Btmløn">Løn</button>
+
         </li>
 
     </ul>
@@ -55,36 +59,6 @@
             hjælp fra os, kan få lidt ro i maven og virkelig overveje at tilmelde dig til en af vores uddannelser.
         </p>
     </header>
-
-    <section id="salarySection" class="mainSections">
-        <h2>Løn</h2>
-        <div class="dropdown">
-            <label for="lønmenu"> </label>
-            <select name="løn" id="lønmenu">
-                <option value="gennemsnit" id="dropdowngen"> Gennemsnit</option>
-                <option value="max" id="dropdownmax"> max</option>
-                <option value="min" id="dropdownmin"> min</option>
-            </select>
-        </div>
-
-
-        <section class="subSections">
-            <canvas id="salaryChart" class="mainCharts"></canvas>
-            <div>
-                <p class="sectionText">
-                    Et typisk stillet spørgsmål er "hvad får vi i løn?" Brug selectoren til at vise min, maks eller
-                    average!
-                </p>
-            </div>
-
-
-        </section>
-        <div class="infotext">
-            <button type="button" class="infoButton" id="salaryChartInfo">info</button>
-        </div>
-    </section>
-
-
     <section id="genderSection" class="mainSections">
         <h2>Kønsfordeling</h2>
 
@@ -111,6 +85,10 @@
 
         </div>
     </section>
+
+
+
+
 
 
     <section id="wellbeingSection" class="mainSections">
@@ -142,12 +120,14 @@
                 <label for="alder">Faglig</label>
             </div>
         </div>
+        <div id="boxchart2">
         <section id="wellbeingMultisection1" class="subSections">
-            <canvas id="wellbeingChart2" class="surveyCharts"></canvas>
-            <canvas id="wellbeingChart3" class="surveyCharts"></canvas>
-            <canvas id="wellbeingChart4" class="surveyCharts"></canvas>
-            <canvas id="wellbeingChart5" class="surveyCharts"></canvas>
+            <canvas id="wellbeingChart2" ></canvas>
+            <canvas id="wellbeingChart3"></canvas>
+            <canvas id="wellbeingChart4"></canvas>
+            <canvas id="wellbeingChart5"></canvas>
         </section>
+        </div>
         <div class="infotext">
 
         </div>
@@ -185,6 +165,35 @@
             <button type="button" class="infoButton" id="jobMultiInfo">info</button>
         </div>
     </section>
+
+    <section id="salarySection" class="mainSections">
+        <h2>Løn</h2>
+        <div class="dropdown">
+            <label for="lønmenu"> </label>
+            <select name="løn" id="lønmenu">
+                <option value="gennemsnit" id="dropdowngen"> Gennemsnit</option>
+                <option value="max" id="dropdownmax"> max</option>
+                <option value="min" id="dropdownmin"> min</option>
+            </select>
+        </div>
+
+
+        <section class="subSections">
+            <canvas id="salaryChart" class="mainCharts"></canvas>
+            <div>
+                <p class="sectionText">
+                    Et typisk stillet spørgsmål er "hvad får vi i løn?" Brug selectoren til at vise min, maks eller
+                    average!
+                </p>
+            </div>
+
+
+        </section>
+        <div class="infotext">
+            <button type="button" class="infoButton" id="salaryChartInfo">info</button>
+        </div>
+    </section>
+
 </main>
 
 <footer>
