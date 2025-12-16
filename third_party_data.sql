@@ -1,222 +1,166 @@
--- MySQL Workbench Forward Engineering
+-- MySQL dump 10.13  Distrib 8.0.43, for Win64 (x86_64)
+--
+-- Host: localhost    Database: third_party_data
+-- ------------------------------------------------------
+-- Server version	8.0.43
 
-SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
-SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
-SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
--- -----------------------------------------------------
--- Schema third_party_data
--- -----------------------------------------------------
+--
+-- Table structure for table `educations`
+--
 
-CREATE SCHEMA IF NOT EXISTS `third_party_data` DEFAULT CHARACTER SET utf8 ;
-USE `third_party_data` ;
+DROP TABLE IF EXISTS `educations`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `educations` (
+                              `id` varchar(5) NOT NULL,
+                              `name` varchar(45) DEFAULT NULL,
+                              `starting_salary` int DEFAULT NULL,
+                              `average_salary` int DEFAULT NULL,
+                              `highest_salary` int DEFAULT NULL,
+                              `unemployment_new_grad_pct` int DEFAULT NULL,
+                              `dropout_first_year_pct` int DEFAULT NULL,
+                              PRIMARY KEY (`id`),
+                              UNIQUE KEY `id_UNIQUE` (`id`),
+                              CONSTRAINT `chk_average_salary` CHECK ((`average_salary` > 0)),
+                              CONSTRAINT `chk_dropout` CHECK ((`dropout_first_year_pct` between 0 and 100)),
+                              CONSTRAINT `chk_highest_salary` CHECK ((`highest_salary` > 0)),
+                              CONSTRAINT `chk_starting_salary` CHECK ((`starting_salary` > 0)),
+                              CONSTRAINT `chk_unemployment` CHECK ((`unemployment_new_grad_pct` between 0 and 100))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+/*!40101 SET character_set_client = @saved_cs_client */;
 
--- -----------------------------------------------------
--- Table `third_party_data`.`educations`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `third_party_data`.`educations` (
-  `id` VARCHAR(5) NOT NULL,
-  `name` VARCHAR(45) NULL,
-  `starting_salary` INT NULL,
-  `average_salary` INT NULL,
-  `highest_salary` INT NULL,
-  `unemployment_new_grad_pct` INT NULL,
-  `dropout_first_year_pct` INT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE)
-ENGINE = InnoDB;
+--
+-- Dumping data for table `educations`
+--
 
+LOCK TABLES `educations` WRITE;
+/*!40000 ALTER TABLE `educations` DISABLE KEYS */;
+INSERT INTO `educations` VALUES ('CYBS','Cybersikkerhed',37600,42100,48000,2,17),('DATA','Datamatiker',31950,36300,43600,5,19),('ITAR','IT-Arkitektur',40000,47000,55000,NULL,21),('ITTE','IT-Teknolog',28000,34200,39300,5,24),('MEKO','Multimediedesigner',19400,26600,32800,8,15),('ØKIT','Økonomi_og_IT',30150,36050,41300,6,27);
+/*!40000 ALTER TABLE `educations` ENABLE KEYS */;
+UNLOCK TABLES;
 
--- -----------------------------------------------------
--- Table `third_party_data`.`survey`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `third_party_data`.`survey` (
-  `survey_id` INT NOT NULL AUTO_INCREMENT,
-  `survey_name` VARCHAR(150) NOT NULL,
-  PRIMARY KEY (`survey_id`))
-ENGINE = InnoDB;
+--
+-- Table structure for table `other_data`
+--
 
+DROP TABLE IF EXISTS `other_data`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `other_data` (
+                              `avgBusinessAcademyDropoutPct` float NOT NULL,
+                              `avgBusinessAcademyUnemploymentNewGradPct` float NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+/*!40101 SET character_set_client = @saved_cs_client */;
 
--- -----------------------------------------------------
--- Table `third_party_data`.`survey_questions`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `third_party_data`.`survey_questions` (
-  `question_id` INT NOT NULL AUTO_INCREMENT,
-  `survey_id` INT NOT NULL,
-  `question_text` VARCHAR(150) NOT NULL,
-  PRIMARY KEY (`question_id`),
-  INDEX `fk_survey_questions_survey1_idx` (`survey_id` ASC) VISIBLE,
-  CONSTRAINT `fk_survey_questions_survey1`
-    FOREIGN KEY (`survey_id`)
-    REFERENCES `third_party_data`.`survey` (`survey_id`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB;
+--
+-- Dumping data for table `other_data`
+--
 
+LOCK TABLES `other_data` WRITE;
+/*!40000 ALTER TABLE `other_data` DISABLE KEYS */;
+INSERT INTO `other_data` VALUES (20.6,6.7);
+/*!40000 ALTER TABLE `other_data` ENABLE KEYS */;
+UNLOCK TABLES;
 
--- -----------------------------------------------------
--- Table `third_party_data`.`survey_answers`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `third_party_data`.`survey_answers` (
-  `id` VARCHAR(5) NOT NULL,
-  `question_id` INT NOT NULL,
-  `answer_pct` INT NULL,
-  PRIMARY KEY (`id`, `question_id`),
-  INDEX `fk_educations_has_reasonsForApplying_reasonsForApplying1_idx` (`question_id` ASC) VISIBLE,
-  INDEX `fk_educations_has_reasonsForApplying_educations_idx` (`id` ASC) VISIBLE,
-  CONSTRAINT `fk_educations_has_reasonsForApplying_educations`
-    FOREIGN KEY (`id`)
-    REFERENCES `third_party_data`.`educations` (`id`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
-  CONSTRAINT `fk_educations_has_reasonsForApplying_reasonsForApplying1`
-    FOREIGN KEY (`question_id`)
-    REFERENCES `third_party_data`.`survey_questions` (`question_id`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB;
+--
+-- Table structure for table `survey`
+--
 
+DROP TABLE IF EXISTS `survey`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `survey` (
+                          `survey_id` int NOT NULL AUTO_INCREMENT,
+                          `survey_name` varchar(150) NOT NULL,
+                          PRIMARY KEY (`survey_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb3;
+/*!40101 SET character_set_client = @saved_cs_client */;
 
-SET SQL_MODE=@OLD_SQL_MODE;
-SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
-SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+--
+-- Dumping data for table `survey`
+--
 
+LOCK TABLES `survey` WRITE;
+/*!40000 ALTER TABLE `survey` DISABLE KEYS */;
+INSERT INTO `survey` VALUES (1,'jobSurvey'),(2,'socialSurvey'),(3,'professionalSurvey');
+/*!40000 ALTER TABLE `survey` ENABLE KEYS */;
+UNLOCK TABLES;
 
+--
+-- Table structure for table `survey_answers`
+--
 
+DROP TABLE IF EXISTS `survey_answers`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `survey_answers` (
+                                  `id` varchar(5) NOT NULL,
+                                  `question_id` int NOT NULL,
+                                  `answer_pct` int DEFAULT NULL,
+                                  PRIMARY KEY (`id`,`question_id`),
+                                  KEY `fk_educations_has_reasonsForApplying_reasonsForApplying1_idx` (`question_id`),
+                                  KEY `fk_educations_has_reasonsForApplying_educations_idx` (`id`),
+                                  CONSTRAINT `fk_educations_has_reasonsForApplying_educations` FOREIGN KEY (`id`) REFERENCES `educations` (`id`),
+                                  CONSTRAINT `fk_educations_has_reasonsForApplying_reasonsForApplying1` FOREIGN KEY (`question_id`) REFERENCES `survey_questions` (`question_id`),
+                                  CONSTRAINT `chk_answer_pct_range` CHECK ((`answer_pct` between 0 and 100))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+/*!40101 SET character_set_client = @saved_cs_client */;
 
+--
+-- Dumping data for table `survey_answers`
+--
 
+LOCK TABLES `survey_answers` WRITE;
+/*!40000 ALTER TABLE `survey_answers` DISABLE KEYS */;
+INSERT INTO `survey_answers` VALUES ('CYBS',1,30),('CYBS',2,17),('CYBS',3,17),('CYBS',4,17),('CYBS',5,69),('CYBS',6,78),('CYBS',7,81),('CYBS',8,70),('CYBS',9,79),('CYBS',10,86),('CYBS',11,84),('CYBS',12,79),('DATA',1,52),('DATA',2,20),('DATA',3,14),('DATA',4,7),('DATA',5,76),('DATA',6,81),('DATA',7,78),('DATA',8,76),('DATA',9,79),('DATA',10,82),('DATA',11,83),('DATA',12,77),('ITAR',1,NULL),('ITAR',2,NULL),('ITAR',3,NULL),('ITAR',4,NULL),('ITAR',5,79),('ITAR',6,81),('ITAR',7,82),('ITAR',8,77),('ITAR',9,81),('ITAR',10,85),('ITAR',11,85),('ITAR',12,76),('ITTE',1,39),('ITTE',2,22),('ITTE',3,22),('ITTE',4,17),('ITTE',5,79),('ITTE',6,78),('ITTE',7,81),('ITTE',8,71),('ITTE',9,78),('ITTE',10,83),('ITTE',11,84),('ITTE',12,71),('MEKO',1,25),('MEKO',2,23),('MEKO',3,23),('MEKO',4,15),('MEKO',5,78),('MEKO',6,84),('MEKO',7,76),('MEKO',8,69),('MEKO',9,82),('MEKO',10,84),('MEKO',11,85),('MEKO',12,80),('ØKIT',1,56),('ØKIT',2,17),('ØKIT',3,14),('ØKIT',4,6),('ØKIT',5,77),('ØKIT',6,79),('ØKIT',7,78),('ØKIT',8,74),('ØKIT',9,76),('ØKIT',10,84),('ØKIT',11,83),('ØKIT',12,74);
+/*!40000 ALTER TABLE `survey_answers` ENABLE KEYS */;
+UNLOCK TABLES;
 
+--
+-- Table structure for table `survey_questions`
+--
 
+DROP TABLE IF EXISTS `survey_questions`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `survey_questions` (
+                                    `question_id` int NOT NULL AUTO_INCREMENT,
+                                    `survey_id` int NOT NULL,
+                                    `question_text` varchar(150) NOT NULL,
+                                    PRIMARY KEY (`question_id`),
+                                    KEY `fk_survey_questions_survey1_idx` (`survey_id`),
+                                    CONSTRAINT `fk_survey_questions_survey1` FOREIGN KEY (`survey_id`) REFERENCES `survey` (`survey_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb3;
+/*!40101 SET character_set_client = @saved_cs_client */;
 
--- -----------------------------------------------------
--- Alter tables / constraints
--- -----------------------------------------------------
-ALTER TABLE `educations`
-  ADD CONSTRAINT `chk_starting_salary` CHECK (`starting_salary` > 0),
-  ADD CONSTRAINT `chk_average_salary` CHECK (`average_salary` > 0),
-  ADD CONSTRAINT `chk_highest_salary` CHECK (`highest_salary` > 0),
-  ADD CONSTRAINT `chk_unemployment` CHECK (`unemployment_new_grad_pct` BETWEEN 0 AND 100),
-  ADD CONSTRAINT `chk_dropout` CHECK (`dropout_first_year_pct` BETWEEN 0 AND 100);
+--
+-- Dumping data for table `survey_questions`
+--
 
-ALTER TABLE `survey_answers`
-  ADD CONSTRAINT `chk_answer_pct_range` CHECK (`answer_pct` BETWEEN 0 AND 100);
+LOCK TABLES `survey_questions` WRITE;
+/*!40000 ALTER TABLE `survey_questions` DISABLE KEYS */;
+INSERT INTO `survey_questions` VALUES (1,1,'Jeg søgte og blev ansat efter et stillingsopslag'),(2,1,'Jeg fik job gennem mit netværk'),(3,1,'Jeg fortsatte i job på den arbejdsplads, hvor jeg skrev opgave / projekt / speciale eller var i praktik'),(4,1,'Jeg fortsatte i job på den arbejdsplads, hvor jeg havde studiejob'),(5,2,'Der er et godt socialt miljø'),(6,2,'Jeg føler mig generelt rigtig godt tilpas på min uddannelse'),(7,2,'Har du oplevet at føle dig ensom på studiet?'),(8,2,'Har du oplevet stærke stress-symptomer i forbindelse med dit studie i dagligdagen?'),(9,3,'Der er et godt fagligt miljø'),(10,3,'Jeg har det generelt godt med at arbejde sammen med andre studerende'),(11,3,'Jeg forstår tingene bedre, når jeg har talt med mine medstuderende om dem'),(12,3,'Mit udbytte af undervisningen er højt');
+/*!40000 ALTER TABLE `survey_questions` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
-
-
-
-
--- -----------------------------------------------------
--- Insert data
--- -----------------------------------------------------
-
-INSERT INTO educations (id, name, starting_salary, average_salary, highest_salary, unemployment_new_grad_pct, dropout_first_year_pct) VALUES
-  ('CYBS', 'Cybersikkerhed', 37600, 42100, 48000, 2, 17),
-  ('DATA', 'Datamatiker', 31950, 36300, 43600, 5, 19),
-  ('ITAR', 'IT-Arkitektur', 45000, 67000, 70000, null, 21),
-  ('ITTE', 'IT-Teknolog', 28000, 34200, 39300, 5, 24),
-  ('MEKO', 'Multimediedesigner', 19400, 26600, 32800, 8, 15),
-  ('ØKIT', 'Økonomi_og_IT', 30150, 36050, 41300, 6, 27);
-
-
-INSERT INTO survey (survey_name) VALUES
-  ('Årsag til nuværende arbejdsplads'),
-  ('Trivsel på uddannelse socialt miljø'),
-  ('Trivsel på uddannelse fagligt miljø');
-
-
-INSERT INTO survey_questions (survey_id, question_text) VALUES
-  (1, 'Jeg søgte og blev ansat efter et stillingsopslag'),
-  (1, 'Jeg fik job gennem mit netværk'),
-  (1, 'Jeg fortsatte i job på den arbejdsplads, hvor jeg skrev opgave / projekt / speciale eller var i praktik'),
-  (1, 'Jeg fortsatte i job på den arbejdsplads, hvor jeg havde studiejob'),
-
-  (2, 'Der er et godt socialt miljø'),
-  (2, 'Jeg føler mig generelt rigtig godt tilpas på min uddannelse'),
-  (2, 'Har du oplevet at føle dig ensom på studiet?'),
-  (2, 'Har du oplevet stærke stress-symptomer i forbindelse med dit studie i dagligdagen?'),
-  
-  (3, 'Der er et godt fagligt miljø'),
-  (3, 'Jeg har det generelt godt med at arbejde sammen med andre studerende'),
-  (3, 'Jeg forstår tingene bedre, når jeg har talt med mine medstuderende om dem'),
-  (3, 'Mit udbytte af undervisningen er højt');
-
-
-INSERT INTO survey_answers (id, question_id, answer_pct) VALUES
-  ('CYBS', '1', '30'),
-  ('CYBS', '2', '17'),
-  ('CYBS', '3', '17'),
-  ('CYBS', '4', '17'),
-  ('CYBS', '5', '69.2'),
-  ('CYBS', '6', '78.2'),
-  ('CYBS', '7', '81'),
-  ('CYBS', '8', '70.4'),
-  ('CYBS', '9', '79'),
-  ('CYBS', '10', '85.8'),
-  ('CYBS', '11', '84.2'),
-  ('CYBS', '12', '79'),
-
-  ('DATA', '1', '52'),
-  ('DATA', '2', '20'),
-  ('DATA', '3', '14'),
-  ('DATA', '4', '7'),
-  ('DATA', '5', '76'),
-  ('DATA', '6', '81.4'),
-  ('DATA', '7', '77.8'),
-  ('DATA', '8', '75.6'),
-  ('DATA', '9', '79.2'),
-  ('DATA', '10', '82'),
-  ('DATA', '11', '83.2'),
-  ('DATA', '12', '77.2'),
-  
-  ('ITAR', '1', null),
-  ('ITAR', '2', null),
-  ('ITAR', '3', null),
-  ('ITAR', '4', null),
-  ('ITAR', '5', '79'),
-  ('ITAR', '6', '81'),
-  ('ITAR', '7', '81.6'),
-  ('ITAR', '8', '77.4'),
-  ('ITAR', '9', '81.4'),
-  ('ITAR', '10', '85.2'),
-  ('ITAR', '11', '84.6'),
-  ('ITAR', '12', '75.8'),
-
-  ('ITTE', '1', '39'),
-  ('ITTE', '2', '22'),
-  ('ITTE', '3', '22'),
-  ('ITTE', '4', '17'),
-  ('ITTE', '5', '79'),
-  ('ITTE', '6', '77.8'),
-  ('ITTE', '7', '81.2'),
-  ('ITTE', '8', '71.4'),
-  ('ITTE', '9', '77.8'),
-  ('ITTE', '10', '83.4'),
-  ('ITTE', '11', '84'),
-  ('ITTE', '12', '71.2'),
-
-  ('MEKO', '1', '25'),
-  ('MEKO', '2', '23'),
-  ('MEKO', '3', '23'),
-  ('MEKO', '4', '15'),
-  ('MEKO', '5', '77.8'),
-  ('MEKO', '6', '83.8'),
-  ('MEKO', '7', '76'),
-  ('MEKO', '8', '68.6'),
-  ('MEKO', '9', '82.2'),
-  ('MEKO', '10', '84'),
-  ('MEKO', '11', '85.4'),
-  ('MEKO', '12', '80.4'),
-
-  ('ØKIT', '1', '56'),
-  ('ØKIT', '2', '17'),
-  ('ØKIT', '3', '14'),
-  ('ØKIT', '4', '6'),
-  ('ØKIT', '5', '77.4'),
-  ('ØKIT', '6', '79.2'),
-  ('ØKIT', '7', '78.4'),
-  ('ØKIT', '8', '73.8'),
-  ('ØKIT', '9', '76.2'),
-  ('ØKIT', '10', '84.4'),
-  ('ØKIT', '11', '82.6'),
-  ('ØKIT', '12', '74.2');
+-- Dump completed on 2025-12-16  2:49:24
