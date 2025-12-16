@@ -332,7 +332,7 @@ let wellbeingDropoutChart = new Chart(wellbeingChart1Canvas, {
         afterDatasetsDraw(chart) {
             const { ctx, chartArea: { left, right }, scales: { y } } = chart;
 
-            const yPos = y.getPixelForValue(otherData.avgBusinessAcademyDropoutPct);
+            const yPos = y.getPixelForValue(queriedData.avgBusinessAcademyDropoutPct);
 
             ctx.save();
 
@@ -348,7 +348,7 @@ let wellbeingDropoutChart = new Chart(wellbeingChart1Canvas, {
             // 3. Draw Text
             ctx.fillStyle = 'red';
             ctx.font = 'bold 12px Arial';
-            ctx.fillText(`Gennemsnitlig frafald (Erhvervsakademi): ${otherData.avgBusinessAcademyDropoutPct}%`, left + 5, yPos - 8);
+            ctx.fillText(`Gennemsnitlig frafald (Erhvervsakademi): ${queriedData.avgBusinessAcademyDropoutPct}%`, left + 5, yPos - 8);
 
             ctx.restore();
         }
@@ -784,7 +784,7 @@ let jobUnemployChart = new Chart(jobUnemployChartCanvas, {
         afterDatasetsDraw(chart) {
             const { ctx, chartArea: { left, right }, scales: { y } } = chart;
 
-            const yPos = y.getPixelForValue(otherData.avgBusinessAcademyUnemploymentNewGradPct);
+            const yPos = y.getPixelForValue(queriedData.avgBusinessAcademyUnemploymentNewGradPct);
 
             ctx.save();
 
@@ -800,7 +800,7 @@ let jobUnemployChart = new Chart(jobUnemployChartCanvas, {
             // 3. Draw Text
             ctx.fillStyle = 'red';
             ctx.font = 'bold 12px Arial';
-            ctx.fillText(`Gennemsnitlig arbejdsløshed (Erhvervsakademi): ${otherData.avgBusinessAcademyUnemploymentNewGradPct}%`, left + 5, yPos - 8);
+            ctx.fillText(`Gennemsnitlig arbejdsløshed (Erhvervsakademi): ${queriedData.avgBusinessAcademyUnemploymentNewGradPct}%`, left + 5, yPos - 8);
 
             ctx.restore();
         }
@@ -1685,6 +1685,8 @@ async function getChartData() {
             queriedData.socialSurvey.socialSurveyQuestions.push(educationData[0].socialEnvironment[i].question)
             queriedData.professionalSurvey.professionalSurveyQuestions.push(educationData[0].professionalEnvironment[i].question)
         }
+        queriedData.avgBusinessAcademyDropoutPct = otherData.avgBusinessAcademyDropoutPct
+        queriedData.avgBusinessAcademyUnemploymentNewGradPct = otherData.avgBusinessAcademyUnemploymentNewGradPct
 
         console.log(educationData[0].socialEnvironment[3].question);
         
