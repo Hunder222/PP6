@@ -1631,7 +1631,7 @@ async function getChartData() {
         for (key in data) {
             queriedData[key] = data[key];
         }
-        console.log(queriedData);  // TODO
+
         showCharts()
         updateSurveryCharts(1)  // show social survey
         // updateSurveryCharts(2)  // show professional survey
