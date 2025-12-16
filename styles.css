@@ -474,6 +474,7 @@ button {
     overflow: hidden;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
     margin-left: 3vw;;
+    margin-top: 3vh;
 }
 
 
@@ -563,36 +564,100 @@ label {
 #jobChart2 {
 
 
-    
+    background-color: hsla(218, 28%, 15%, 90);
     max-width: 23vw;
-    max-height: 60vh;
+    max-height: 55vh;
     margin: 5vh 1vw 0 1vw;
-    padding: 2vh
+    padding: 2vh;
+    border-radius: 2vw;
+
 }
 
    #jobChart3 {
                                
-
+       background-color: hsla(218, 28%, 15%, 90);
        max-width: 23vw;        
-       max-height: 60vh;       
+       max-height: 55vh;
        margin: 5vh 1vw 0 1vw;  
-       padding: 2vh            
+       padding: 2vh;
+       border-radius: 2vw;
    }                           
 
  #jobChart4 {
-
+      background-color: hsla(218, 28%, 15%, 90);
      max-width: 23vw;
-     max-height: 60vh;
+     max-height: 55vh;
      margin: 5vh 1vw 0 1vw;
-     padding: 2vh
+     padding: 2vh;
+     border-radius: 2vw; 
  }
 
 
 
  #jobChart5 {
-
+    background-color: hsla(218, 28%, 15%, 90);
     max-width: 20vw;
-    max-height: 60vh;
+    max-height: 55vh;
     margin: 5vh 1vw 0 1vw;
-    padding: 1vh
+    padding: 1vh;
+     border-radius: 2vw; 
+}
+
+ #boxchart2{
+     background-color: hsla(218, 28%, 17%, 90);
+     border-radius: 2vw;
+     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+     margin: 3vh;
+
+ }
+
+
+
+  #wellbeingChart2 {
+      background-color: hsla(218, 28%, 15%, 90);
+      border-radius: 2vw;
+
+      max-width: 20vw;
+      max-height: 55vh;
+      margin: 5vh 1vw 0 1vw;
+      padding: 2vh;
+
+  }
+
+
+  #wellbeingChart3 {
+    background-color: hsla(218, 28%, 15%, 90);
+    border-radius: 2vw;
+
+    max-width: 23vw;
+    max-height: 55vh;
+    margin: 5vh 1vw 0 1vw;
+    padding: 2vh;
+
+}
+
+
+
+  #wellbeingChart4 {
+    background-color: hsla(218, 28%, 15%, 90);
+    border-radius: 2vw;
+
+    max-width: 23vw;
+    max-height: 55vh;
+    margin: 5vh 1vw 0 1vw;
+    padding: 2vh;
+}
+
+
+
+
+
+  #wellbeingChart5 {
+    background-color: hsla(218, 28%, 15%, 90);
+    border-radius: 2vw;
+    max-width: 23vw;
+    max-height: 55vh;
+    margin: 5vh 1vw 0 1vw;
+    padding: 2vh;
+
 }
